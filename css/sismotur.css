@@ -1,0 +1,31 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.smt-cotainer-body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.smt-menu{
+	background-color: rgba(0, 0, 0, 0.89);
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+
+.smt-banner{
+	height: 550px;
+	background-color: #3E8F3E;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.smt-content{
+	margin: 0px;
+}
+
+.smt-footer{
+	background-color: rgba(0, 0, 0, 0.89);
+	color: #FFFFFF;
+}
