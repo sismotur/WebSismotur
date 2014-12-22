@@ -33,6 +33,34 @@ function parallaxBanner(){
 	
 }
 
+function parallaxObjectives(){
+	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#objectives').height()}});
+	
+	var scene1 = new ScrollScene({triggerElement: "#obtectivesTrigger"})
+			.setTween(TweenMax.fromTo("#objectiveTitle", 1, {paddingTop: "10%"}, {paddingTop: "0%"}))
+			.addTo(controller);
+			
+	var scene2 = new ScrollScene({triggerElement: "#obtectivesTrigger"})
+			.setTween(TweenMax.fromTo("#objectiveContent", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
+			.addTo(controller);
+			
+	scene1.addIndicators();
+}
+
+function parallaxTecnologic(){
+	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#tecnologic').height()}});
+	
+	var scene1 = new ScrollScene({triggerElement: "#tecnologicTrigger"})
+			.setTween(TweenMax.fromTo("#tecnologicTitle", 1, {paddingTop: "10%"}, {paddingTop: "0%"}))
+			.addTo(controller);
+			
+	var scene2 = new ScrollScene({triggerElement: "#tecnologicTrigger"})
+			.setTween(TweenMax.fromTo("#tecnologicContent", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
+			.addTo(controller);
+			
+	scene1.addIndicators();
+}
+
 function opaqueMenu(){
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 0.1, duration: 0}});
 	
