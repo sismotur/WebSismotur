@@ -44,7 +44,7 @@ function parallaxObjectives(){
 			.setTween(TweenMax.fromTo("#objectiveContent", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
 			.addTo(controller);
 			
-	scene1.addIndicators();
+	//scene1.addIndicators();
 }
 
 function parallaxTecnologic(){
@@ -58,7 +58,7 @@ function parallaxTecnologic(){
 			.setTween(TweenMax.fromTo("#tecnologicContent", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
 			.addTo(controller);
 			
-	scene1.addIndicators();
+	//scene1.addIndicators();
 }
 
 function opaqueMenu(){
@@ -102,7 +102,7 @@ function stopTeam(){
 }
 
 function parallaxTeam(){
-	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 50/$(window).height(), duration: $('#team').height()}});
+	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#team').height()}});
 	
 	var scene1 = new ScrollScene({triggerElement: "#team"})
 			.setTween(TweenMax.fromTo("#team-tittle", 1, {paddingTop: "10%"}, {paddingTop: "0%"}))
@@ -117,7 +117,7 @@ function parallaxTeam(){
 			.addTo(controller);
 			
 	var scene4 = new ScrollScene({triggerElement: "#team"})
-			.setTween(TweenMax.fromTo("#row3", 1, {paddingTop: "50%"}, {paddingTop: "0%"}))
+			.setTween(TweenMax.fromTo("#row3", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
 			.addTo(controller);
 			
 	//scene1.addIndicators();
