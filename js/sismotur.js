@@ -65,7 +65,11 @@ function opaqueMenu(){
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 0.1, duration: 0}});
 	
 	var scene = new ScrollScene({triggerElement: "#menuTrigger"})
-			.setTween(TweenMax.to("#smt-menu", 0, {css:{backgroundColor: "rgba(0,36,168,1)"}}))
+			.setTween(TweenMax.to("#smt-menu", 0, {visibility: 'visible'}))
+			.addTo(controller);
+			
+	var scene2 = new ScrollScene({triggerElement: "#menuTrigger"})
+			.setTween(TweenMax.to(".menuRef", 0, {visibility: 'visible'}))
 			.addTo(controller);
 			
 	//scene.addIndicators();
