@@ -90,9 +90,9 @@ html, body{
 
 /* RESUME PROPERTIES */
 #resume{
-	height: 15vh;
+	/*height: 15vh;
 	/*width: 100vw;*/
-	margin: 0px;
+	margin: 0px;	
 	background-color: rgba(100, 100, 100, 0.2);
 	text-align: center;
 }
@@ -100,12 +100,27 @@ html, body{
 #resume h1{
 	font-family: PrimeRegular;
 	padding-top: 1vh;
+	padding-bottom: 1vh;
 }
 
 /* CONTENTS */
+.smt-content-title{	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.smt-content-title h1{
+	padding-top: 55px;
+	color: rgba(0,36,168,1);
+	font-family: PrimeRegular;
+	font-size: 55px;
+}
+
+
 .smt-content{
 	width: 90%;		
-	margin-top: 5%;
+	margin-top: 3%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -173,20 +188,6 @@ html, body{
 	position: relative;
 	z-index: -1;*/
 }
-
-.smt-content-title{	
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-}
-
-.smt-content-title h1{
-	padding-top: 50px;
-	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
-	font-size: 55px;
-}
-
 
 
 .smt-product{
