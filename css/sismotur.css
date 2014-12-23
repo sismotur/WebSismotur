@@ -29,6 +29,11 @@ html, body{
 	margin: 0px;
 }
 
+.smt-button-nav{
+	background-image: url("../img/menu.png");
+	background-size: cover;
+}
+
 /* MENU PROPERTIES */
 #smt-menu{
 	width: 100vw;
@@ -127,18 +132,27 @@ html, body{
 
 .smt-content-col{
 	text-align: center;
+	margin-bottom: 5%;
 }
 
 /* OBJECTIVES PROPERTIES */
 #objectives{
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
+	padding-top: 10%;
 }
 
 #objectiveContent{
 	width: 90%;	
 	margin-left: auto;
 	margin-right: auto;
+
+}
+
+#objectiveContent h1{
+	color: rgba(0,36,168,1);
+	font-family: PrimeRegular;
+	font-size: 55px;
 }
 
 .object-content{
@@ -148,12 +162,26 @@ html, body{
 
 #objectiveButton{
 	margin-top: 5%;
+	margin-bottom: 5%;
 	text-align: center;
+}
+
+.video{
+	text-align: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100vh;
+}
+
+.video iframe{
+	width: 80%;
+	height: 80vh;
 }
 
 /* TECNOLOGIC PROPERTIES */
 #tecnologic{
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
 }
 
@@ -166,16 +194,45 @@ html, body{
 	margin-top: 10%;
 }
 
+.img-interface{
+	text-align: center;
+}
+
+.img-interface img{
+	width: 90%;
+}
+
+.smt-content-product{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.smt-content-product h1{
+	color: rgba(0,36,168,1);
+	font-family: PrimeRegular;
+	font-size: 55px;
+	margin-bottom: 30%;
+}
+
+.smt-content-product p{
+	
+}
+
+.smt-content-product button{
+	margin-top: 40%;
+}
 /* INVENTRIP PROPERTIES */
 #inventrip{
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
+	padding-top: 4%;
 }
 
 /* SIGNING PROPERTIES */
 #signing{
-	height: 100vh;
+	min-height: 100vh;
 	width: 100%;
+	padding-top: 4%;
 }
 
 /* TRIGGERS PROPERTIES */
