@@ -11,10 +11,11 @@
 		<title>Sismotur SL</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/sismotur.css" rel="stylesheet">
-		   	
+		<link href="css/sismotur.css" rel="stylesheet">		   	
     	
     	<script src="js/jquery-1.11.1.js"></script>
+    	<script src="js/jquery.browser.js"></script>
+    	<script src="js/jquery.iframe-auto-height.js"></script>
     	<script src="js/lib/greensock/TweenMax.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
     	<script src="js/jquery.scrollmagic.js"></script>
@@ -26,23 +27,21 @@
 			$(document).ready(function($){
 				parallaxBanner();
 				opaqueMenu();
-				stopProducts();
-				showProductContents();
-				stopTeam();
+				parallaxObjectives();
+				parallaxTecnologic();
 				parallaxTeam();
 			});
     	</script>
 		
 	</head>
 
-	<body>
-		
+	<body>		
 		<div class="container-fluid smt-cotainer-body">			
 			<nav id="smt-menu" class="navbar" role="navigation">
   				<div class="container-fluid">
     				<!-- Brand and toggle get grouped for better mobile display -->
     				<div class="navbar-header">      
-      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      					<button type="button" class="navbar-toggle collapsed smt-button-nav" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         					<span class="sr-only">Toggle navigation</span>
         					<span class="icon-bar"></span>
         					<span class="icon-bar"></span>
@@ -55,46 +54,136 @@
     				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       					<ul class="nav navbar-nav navbar-right">
         					<!--<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>-->
-        					<li><a href="#product">Productos</a></li>
-        					<li><a href="#team">Equipo</a></li>
-        					<li><a href="#contact">Contacto</a></li>        					
+        					<li><a class="menuRef" href="#objectives">Objetivos</a></li>
+        					<li><a class="menuRef" href="#tecnologic">Tecnologias</a></li>
+        					<li><a class="menuRef" href="#inventrip">Inventrip</a></li>
+        					<li><a class="menuRef" href="#signing">Signing</a></li>
+        					<li><a class="menuRef" href="#team">Equipo</a></li>
+        					<li><a class="menuRef" href="#contact">Contacto</a></li>        					
       					</ul>
     				</div><!-- /.navbar-collapse -->
   				</div><!-- /.container-fluid -->
-			</nav>
+			</nav> 
 			<div id="parallaxTrigger">
-				<div id="smt-banner-par" class="smt-banner">				
+				<div id="smt-banner-par">				
 				</div>  
 				<div id="smt-banner-trans-par">				
 				</div>
-				<div id="smt-slogan-par" class="smt-centrar">
+				<div id="smt-slogan-par">
 					<h1>Consultoría en señalización e información turística</h1>
 				</div>			  
 			</div>
-			<div class="clear">				
-			</div>
 			<div id="menuTrigger">				
 			</div>
-			<div id="product">
-				<div class="row smt-content-title">
-					<h1>Productos</h1>
+			<div id="resume" class="row">
+				<h1>Servicios avanzados en la nube</h1>
+			</div>
+			<div id="obtectivesTrigger">				
+			</div>
+			
+			<div id="objectives" class="container-fluid">
+				
+<!--				<div id="objectiveTitle" class="row smt-content-title">
+					<h1>Objetivos</h1>
+	</div>-->
+				
+				<div id="objectiveContent" class="row smt-content">
+					<div id="obj1" class="col-md-4 smt-content-col">
+						<h1>Objetivo 1</h1>
+						<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>						
+					</div>
+					<div id="obj2" class="col-md-4 smt-content-col">
+						<h1>Objetivo 2</h1>
+						<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>						
+					</div>
+					<div id="obj3" class="col-md-4 smt-content-col">
+						<h1>Objetivo 3</h1>
+						<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>						
+					</div>
 				</div>
-				<div id="productsContent" class="row smt-content">
-				<div class="col-md-1"></div>
-				<div class="col-md-4 smt-product">
-					<h1>Inventrip</h1>
-					<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>
-					<button type="button">Probar</button>
+				<div id="objectiveButton">
+					<button>Más Info</button>
+				</div>				
+			</div>
+			<div class="row video">
+				<iframe src="//www.youtube.com/embed/lVLSAYLhMfg" frameborder="0" allowfullscreen>						
+				</iframe>
+			</div>
+			<div id="resume" class="row">
+				<div class="col-md-4">
+					<h1>Sistemas</h1>
 				</div>
-				<div class="col-md-2"></div>
-				<div class="col-md-4 smt-product">
-					<h1>Signing</h1>
-					<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>
-					<button type="button">Probar</button>
+				<div class="col-md-4">
+					<h1>Movilidad</h1>
 				</div>
+				<div class="col-md-4">
+					<h1>Turismo</h1>
 				</div>
 			</div>
-			<div id="team">
+			
+			<div id="tecnologicTrigger">				
+			</div>
+			
+			<div id="tecnologic" class="container-fluid">
+				<div id="tecnologicTitle" class="row smt-content-title">
+					<h1>Con las últimas tecnologías</h1>
+				</div>
+				
+				<div id="tecnologicContent" class="row smt-content">
+					<div class="col-md-3 smt-content-col">
+						<img class="logoTecno" src="img/nfc-logo-icon-0926023535.png"/>
+						<h1>NFC</h1>
+						<p>Explicar en un pequeño párrafo para que usamos esta tecnología</p>
+					</div>
+					<div class="col-md-3 smt-content-col">
+						<img class="logoTecno" src="img/QR.png"/>
+						<h1>BEACON</h1>
+						<p>Explicar en un pequeño párrafo para que usamos esta tecnología</p>
+					</div>
+					<div class="col-md-3 smt-content-col">
+						<img class="logoTecno" src="img/dron.png"/>
+						<h1>QR</h1>
+						<p>Explicar en un pequeño párrafo para que usamos esta tecnología</p>
+					</div>
+					<div class="col-md-3 smt-content-col">
+						<img class="logoTecno" src="img/beacon.png"/>
+						<h1>DRON</h1>
+						<p>Explicar en un pequeño párrafo para que usamos esta tecnología</p>
+					</div>
+				</div>
+			</div>
+			
+			<div id="inventripTrigger">				
+			</div>
+			<div id="inventrip" class="container-fluid">
+				
+				<div id="inventripContent" class="row smt-content">
+					<div class="col-md-4 smt-content-product">
+						<h1>Inventrip</h1>
+						<p>Explicaremos Signing</p>
+						<button>Ir a Signing</button>
+					</div>
+					<div class="col-md-8 img-interface">
+						<img src="img/inventrip-interfaz.png"/>
+					</div>					
+				</div>
+			</div>
+			<div id="signingTrigger">				
+			</div>
+			<div id="signing" class="container-fluid">				
+				<div id="signingContent" class="row smt-content">
+					<div class="col-md-8 img-interface">
+						<img src="img/singing-interfaz.png"/>
+					</div>
+					<div class="col-md-4 smt-content-product">
+						<h1>Signing</h1>
+						<p>Explicaremos Signing</p>
+						<button>Ir a Signing</button>
+					</div>
+				</div>
+			</div>
+
+<!--			<div id="team">
 				<div id="team-tittle" class="row smt-content-title">
 					<h1>Equipo</h1>
 				</div>
@@ -153,7 +242,7 @@
 				</div>
 				
 			</div>
-			
+-->			
 			<footer id="contact" class="smt-footer">
 				<div class="row smt-contact">
 					<div class="col-md-4 smt-dir">

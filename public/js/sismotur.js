@@ -33,11 +33,43 @@ function parallaxBanner(){
 	
 }
 
+function parallaxObjectives(){
+	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#objectives').height()}});
+	
+	var scene1 = new ScrollScene({triggerElement: "#obtectivesTrigger"})
+			.setTween(TweenMax.fromTo("#objectiveTitle", 1, {paddingTop: "10%"}, {paddingTop: "0%"}))
+			.addTo(controller);
+			
+	var scene2 = new ScrollScene({triggerElement: "#obtectivesTrigger"})
+			.setTween(TweenMax.fromTo("#objectiveContent", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
+			.addTo(controller);
+			
+	//scene1.addIndicators();
+}
+
+function parallaxTecnologic(){
+	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#tecnologic').height()}});
+	
+	var scene1 = new ScrollScene({triggerElement: "#tecnologicTrigger"})
+			.setTween(TweenMax.fromTo("#tecnologicTitle", 1, {paddingTop: "10%"}, {paddingTop: "0%"}))
+			.addTo(controller);
+			
+	var scene2 = new ScrollScene({triggerElement: "#tecnologicTrigger"})
+			.setTween(TweenMax.fromTo("#tecnologicContent", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
+			.addTo(controller);
+			
+	//scene1.addIndicators();
+}
+
 function opaqueMenu(){
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 0.1, duration: 0}});
 	
 	var scene = new ScrollScene({triggerElement: "#menuTrigger"})
-			.setTween(TweenMax.to("#smt-menu", 0, {css:{backgroundColor: "rgba(0,36,168,1)"}}))
+			.setTween(TweenMax.to("#smt-menu", 0, {visibility: 'visible'}))
+			.addTo(controller);
+			
+	var scene2 = new ScrollScene({triggerElement: "#menuTrigger"})
+			.setTween(TweenMax.to(".menuRef", 0, {visibility: 'visible'}))
 			.addTo(controller);
 			
 	//scene.addIndicators();
@@ -74,7 +106,7 @@ function stopTeam(){
 }
 
 function parallaxTeam(){
-	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 50/$(window).height(), duration: $('#team').height()}});
+	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#team').height()}});
 	
 	var scene1 = new ScrollScene({triggerElement: "#team"})
 			.setTween(TweenMax.fromTo("#team-tittle", 1, {paddingTop: "10%"}, {paddingTop: "0%"}))
@@ -89,7 +121,7 @@ function parallaxTeam(){
 			.addTo(controller);
 			
 	var scene4 = new ScrollScene({triggerElement: "#team"})
-			.setTween(TweenMax.fromTo("#row3", 1, {paddingTop: "50%"}, {paddingTop: "0%"}))
+			.setTween(TweenMax.fromTo("#row3", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
 			.addTo(controller);
 			
 	//scene1.addIndicators();
