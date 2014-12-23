@@ -1,0 +1,23 @@
+things not to forget for testing
+
+1) test the page in all modern browsers: IE, Safari, Mozilla, Chrome
+use browsercam.com, browserlab.adobe.com, browsershots.com, crossbrowsertesting.com
+nb: use positioniseverythong.net or quirksmode.org to catch CSS bugs
+
+2) test the page in PC, tablets, and smartphones
+
+3) define a test script for users to execute
+
+* * *
+
+To do:
+
+1) create website design
+2) add videos, images
+3) make a contact form function
+4) test the site
+5) test in close to production conditions
+
+
+
+

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Sismotur SL</title>
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/sismotur.css" rel="stylesheet">
+		   	
+    	
+    	<script src="js/jquery-1.11.1.js"></script>
+    	<script src="js/lib/greensock/TweenMax.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/jquery.scrollmagic.js"></script>
+    	<script src="js/jquery.scrollmagic.debug.js"></script>
+    	<script src="js/sismotur.js"></script>
+    	<script src="js/lib/greensock/TimelineMax.min.js"></script>
+    	
+    	<script>			
+			$(document).ready(function($){
+				parallaxBanner();
+				opaqueMenu();
+				stopProducts();
+				showProductContents();
+				stopTeam();
+				parallaxTeam();
+			});
+    	</script>
+		
+	</head>
+
+	<body>
+		
+		<div class="container-fluid smt-cotainer-body">			
+			<nav id="smt-menu" class="navbar" role="navigation">
+  				<div class="container-fluid">
+    				<!-- Brand and toggle get grouped for better mobile display -->
+    				<div class="navbar-header">      
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      					</button>
+      					<a class="navbar-brand" href="#">Sismotur S.L.</a>
+    				</div>
+
+    				<!-- Collect the nav links, forms, and other content for toggling -->
+    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      					<ul class="nav navbar-nav navbar-right">
+        					<!--<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>-->
+        					<li><a href="#product">Productos</a></li>
+        					<li><a href="#team">Equipo</a></li>
+        					<li><a href="#contact">Contacto</a></li>        					
+      					</ul>
+    				</div><!-- /.navbar-collapse -->
+  				</div><!-- /.container-fluid -->
+			</nav>
+			<div id="parallaxTrigger">
+				<div id="smt-banner-par" class="smt-banner">				
+				</div>  
+				<div id="smt-banner-trans-par">				
+				</div>
+				<div id="smt-slogan-par" class="smt-centrar">
+					<h1>Consultoría en señalización e información turística</h1>
+				</div>			  
+			</div>
+			<div class="clear">				
+			</div>
+			<div id="menuTrigger">				
+			</div>
+			<div id="product">
+				<div class="row smt-content-title">
+					<h1>Productos</h1>
+				</div>
+				<div id="productsContent" class="row smt-content">
+				<div class="col-md-1"></div>
+				<div class="col-md-4 smt-product">
+					<h1>Inventrip</h1>
+					<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>
+					<button type="button">Probar</button>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-4 smt-product">
+					<h1>Signing</h1>
+					<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>
+					<button type="button">Probar</button>
+				</div>
+				</div>
+			</div>
+			<div id="team">
+				<div id="team-tittle" class="row smt-content-title">
+					<h1>Equipo</h1>
+				</div>
+				<div id="row1" class="row row-team">					
+					<div class="col-md-4" class="content-image">	
+						<div id="image1" class="image">
+							
+						</div>				
+					</div>
+					<div class="col-md-4" class="content-image">	
+						<div id="image2" class="image">
+							
+						</div>				
+					</div>
+					<div class="col-md-4" class="content-image">	
+						<div id="image3" class="image">
+							
+						</div>				
+					</div>
+				</div>
+				
+				<div id="row2" class="row row-team">
+					<div class="col-md-4" class="content-image">	
+						<div id="image4" class="image">
+							
+						</div>				
+					</div>
+					<div class="col-md-4" class="content-image">	
+						<div id="image5" class="image">
+							
+						</div>				
+					</div>
+					<div class="col-md-4" class="content-image">	
+						<div id="image6" class="image">
+							
+						</div>				
+					</div>
+				</div>
+				
+				<div id="row3" class="row row-team">
+					<div class="col-md-4" class="content-image">	
+						<div id="image7" class="image">
+							
+						</div>				
+					</div>
+					<div class="col-md-4" class="content-image">	
+						<div id="image8" class="image">
+							
+						</div>				
+					</div>
+					<div class="col-md-4" class="content-image">	
+						<div id="image9" class="image">
+							
+						</div>				
+					</div>
+				</div>
+				
+			</div>
+			
+			<footer id="contact" class="smt-footer">
+				<div class="row smt-contact">
+					<div class="col-md-4 smt-dir">
+						<h3>ESPAÑA</h3>
+						<p>Madrid & Barcelona</p>
+						<p>+34 913238208</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>FRANCIA</h3>
+						<p>Annecy</p>
+						<p>+33(0)619203061</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>CROACIA</h3>
+						<p>Zagreb</p>
+						<p>+385.16187750</p>
+					</div>
+				</div>
+				<div class="row smt-socialNetwork">
+					<div id="btnLinkedin"></div>
+					<div id="btnTwitter"></div>
+					<div id="btnFacebook"></div>
+				</div>
+				<div class="row smt-button">
+					<button type="button">Contactar</button>
+				</div>
+				<div class="row stm-copyright">
+					<p>Copyright © 2012 SISMOTUR SL.</p>
+				</div>
+			</footer>
+		
+		</div>
+
+	</body>
+</html>
