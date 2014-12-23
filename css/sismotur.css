@@ -32,6 +32,8 @@ html, body{
 .smt-button-nav{
 	background-image: url("../img/menu.png");
 	background-size: cover;
+	margin-top: 3px;
+	margin-right: 0px;
 }
 
 /* MENU PROPERTIES */
