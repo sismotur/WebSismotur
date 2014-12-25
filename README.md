@@ -1,4 +1,4 @@
-Web Sismotur (dev)
+Web Sismotur (staging)
 ============================
 
 THANKS TO: Express JS Static Boilerplate
@@ -11,7 +11,7 @@ $ heroku login
 Assume you are working in the development branch in git
 We always push to master branch of heroku
 
-$ git push heroku development:master
+$ git push heroku staging:master
 
 Connect to URL: https://test-smt.herokuapp.com/
 or
