@@ -11,6 +11,8 @@ $ heroku login
 Assume you are working in the development branch in git
 We always push to master branch of heroku
 
+If new project...
+$ heroku create your_project_name
 $ git push heroku staging:master
 
 Connect to URL: https://test-smt.herokuapp.com/
