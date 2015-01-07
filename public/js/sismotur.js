@@ -22,7 +22,7 @@ function parallaxBanner(){
 			.addTo(controller);
 			
 	var scene3 = new ScrollScene({triggerElement: "#parallaxTrigger"})
-			.setTween(TweenMax.fromTo("#smt-slogan-par", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
+			.setTween(TweenMax.fromTo("#smt-slogan-par", 1, {paddingTop: "50vh"}, {paddingTop: "0vh"}))
 			.addTo(controller);
 			
 	var scene4 = new ScrollScene({triggerElement: "#parallaxTrigger"})
@@ -125,4 +125,8 @@ function parallaxTeam(){
 			.addTo(controller);
 			
 	//scene1.addIndicators();
+}
+
+function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 }

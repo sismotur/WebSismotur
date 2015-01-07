@@ -67,6 +67,7 @@ html, body{
 	/*width: 100vw;*/
 	background-image: url('../img/banner.jpg');
 	background-size: cover;
+	background-attachment: fixed;
 	/*padding-left: 15px;
 	padding-right: 15px;*/	
 }
@@ -173,7 +174,6 @@ html, body{
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	min-height: 100vh;
 }
 
 .video iframe{
