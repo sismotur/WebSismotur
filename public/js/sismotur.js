@@ -11,6 +11,7 @@ function loadScenes(){
 }
 
 function parallaxBanner(){
+	if (device.match(/Iphone/i)|| device.match(/Ipod/i)|| device.match(/Android/i)|| device.match(/J2ME/i)|| device.match(/BlackBerry/i)|| device.match(/iPhone|iPad|iPod/i)|| device.match(/Opera Mini/i)|| device.match(/IEMobile/i)|| device.match(/Mobile/i)|| device.match(/Windows Phone/i)|| device.match(/windows mobile/i)|| device.match(/windows ce/i)|| device.match(/webOS/i)|| device.match(/palm/i)|| device.match(/bada/i)|| device.match(/series60/i)|| device.match(/nokia/i)|| device.match(/symbian/i)|| device.match(/HTC/i)){}else{
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onLeave", duration: $('#smt-banner-par').height()}});
 	
 	var scene1 = new ScrollScene({triggerElement: "#parallaxTrigger"})
@@ -22,12 +23,12 @@ function parallaxBanner(){
 			.addTo(controller);
 			
 	var scene3 = new ScrollScene({triggerElement: "#parallaxTrigger"})
-			.setTween(TweenMax.fromTo("#smt-slogan-par", 1, {paddingTop: "50vh"}, {paddingTop: "0vh"}))
+			.setTween(TweenMax.fromTo("#smt-slogan-par", 1, {paddingTop: "35vh"}, {paddingTop: "0vh"}))
 			.addTo(controller);
 			
 	var scene4 = new ScrollScene({triggerElement: "#parallaxTrigger"})
 			.setTween(TweenMax.fromTo("#product", 1, {paddingTop: "50%"}, {paddingTop: "0%"}))
-			.addTo(controller);
+			.addTo(controller);}
 			
 	//scene1.addIndicators();
 	
