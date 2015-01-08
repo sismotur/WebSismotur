@@ -29,12 +29,7 @@ html, body{
 	margin: 0px;
 }
 
-.smt-button-nav{
-	background-image: url("../img/menu.png");
-	background-size: cover;
-	margin-top: 3px;
-	margin-right: 0px;
-}
+
 
 button{
 	width:180px;
@@ -84,7 +79,17 @@ button#b-contacto:hover{
 	color: #FFFFFF;
 }
 
-.menuRef{
+.menuRef{}
+
+.smt-button-nav{
+	background-image: url("../img/menu.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	margin-right: 0px;
 }
 
 /* BANNER PROPERTIES */
