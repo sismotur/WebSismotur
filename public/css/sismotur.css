@@ -234,13 +234,7 @@ a.smt-logo-nav{
 /*	margin-top: 10%;*/
 }
 
-.img-interface{
-	text-align: center;
-}
 
-.img-interface img{
-	width: 90%;
-}
 
 .smt-content-product{
 	text-align: center;
@@ -265,24 +259,47 @@ a.smt-logo-nav{
 /* SERVICE PROPERTIES */
 .smt-service{
 	width: 90%;		
-	margin-top: 3%;
+	margin-top: 60px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .smt-service-tittle{
 	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .smt-service-tittle h1{
 	font-family: PrimeRegular;
 	color: rgb(0,36,168);
+	font-size: 55px;
 }
 
 .smt-service-content{
 	text-align: center;
 	margin-left: 0px;
 	margin-right: 0px;
+}
+
+.smt-servic-content-text{
+	padding-top: 10%;
+	padding-right: 15px;
+	padding-right: 15px;
+}
+
+.smt-service-button{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.img-interface{
+	text-align: center;
+}
+
+.img-interface img{
+	width: 80%;
 }
 
 /* INVENTRIP PROPERTIES */
