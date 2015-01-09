@@ -56,6 +56,14 @@ button#b-contacto:hover{
 	color:rgb(100,100,100);
 }
 
+img#logomenu{
+	height:40px;
+	width:auto;
+	}
+
+a.smt-logo-nav{
+	padding:5px 5px;
+	}
 
 /* MENU PROPERTIES */
 #smt-menu{
