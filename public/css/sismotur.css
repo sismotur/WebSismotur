@@ -64,6 +64,9 @@ img#logomenu{
 a.smt-logo-nav{
 	padding:5px 5px;
 	}
+	
+img#signing{
+	width:70%; height:inherit;}
 
 /* MENU PROPERTIES */
 #smt-menu{
