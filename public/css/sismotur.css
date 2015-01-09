@@ -29,8 +29,6 @@ html, body{
 	margin: 0px;
 }
 
-
-
 button{
 	width:180px;
 	height:50px;
@@ -130,13 +128,15 @@ button#b-contacto:hover{
 }
 
 /* RESUME PROPERTIES */
-#resume{
+.resume{
 	margin: 0px;	
 	background-color: rgba(100, 100, 100, 0.2);
 	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
-#resume h1{
+.resume h1{
 	font-family: PrimeRegular;
 	padding-top: 1vh;
 	padding-bottom: 1vh;
@@ -223,7 +223,7 @@ button#b-contacto:hover{
 }
 
 #tecnologicContent{
-	margin-top: 10%;
+/*	margin-top: 10%;*/
 }
 
 .img-interface{
@@ -253,6 +253,30 @@ button#b-contacto:hover{
 .smt-content-product button{
 	margin-top: 40%;
 }
+
+/* SERVICE PROPERTIES */
+.smt-service{
+	width: 90%;		
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smt-service-tittle{
+	text-align: center;
+}
+
+.smt-service-tittle h1{
+	font-family: PrimeRegular;
+	color: rgb(0,36,168);
+}
+
+.smt-service-content{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 /* INVENTRIP PROPERTIES */
 #inventrip{
 	min-height: 100vh;

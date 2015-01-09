@@ -17,6 +17,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 	$scope.dronTittle = 'DRON';
 	$scope.invTittle = 'Inventrip';
 	$scope.sigTittle = 'Signing';
+	$scope.moreInfoShort = '+ INFO';
 	
 	switch(lang){
 		case "es":
@@ -47,7 +48,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.qrText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
 			$scope.dronText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
 			
-			$scope.invText = 'Texto explicativo de Invetrip';
+			$scope.invText = 'También es texto una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.';
 			$scope.btnInventrip = 'Ir a Invetrip';
 			
 			$scope.sigText = 'Texto explicativo de Signing';
