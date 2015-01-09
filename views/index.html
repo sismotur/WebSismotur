@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="smtApp" ng-controller="languagesController">
 	<head>
 		<meta charset="utf-8">
 
@@ -8,7 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Sismotur SL</title>
+		<title>Sismotur SL.</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/sismotur.css" rel="stylesheet">		   	
@@ -22,14 +22,18 @@
     	<script src="js/jquery.scrollmagic.debug.js"></script>
     	<script src="js/sismotur.js"></script>
     	<script src="js/lib/greensock/TimelineMax.min.js"></script>
+    	<script src="js/angular.js"></script>
+    	<script src="js/smt-angular.js"></script>
     	
     	<script>			
 			$(document).ready(function($){
-				parallaxBanner();
-				opaqueMenu();
-				parallaxObjectives();
-				parallaxTecnologic();
-				parallaxTeam();
+				if(!isMobile()){
+					parallaxBanner();
+					opaqueMenu();
+					parallaxObjectives();
+					parallaxTecnologic();
+					parallaxTeam();
+				}
 			});
     	</script>
 		
@@ -47,143 +51,175 @@
         					<span class="icon-bar"></span>
         					<span class="icon-bar"></span>
       					</button>
-      					<a class="navbar-brand" href="#">Sismotur S.L.</a>
+      					<a class="navbar-brand smt-logo-nav" href="#">
+                        <img id="logomenu" title="Sismotur" src="img/logomenu.png" />
+                        </a>
     				</div>
 
     				<!-- Collect the nav links, forms, and other content for toggling -->
     				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       					<ul class="nav navbar-nav navbar-right">
         					<!--<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>-->
-        					<li><a class="menuRef" href="#objectives">Objetivos</a></li>
-        					<li><a class="menuRef" href="#tecnologic">Tecnologias</a></li>
-        					<li><a class="menuRef" href="#inventrip">Inventrip</a></li>
-        					<li><a class="menuRef" href="#signing">Signing</a></li>
-        					<li><a class="menuRef" href="#team">Equipo</a></li>
-        					<li><a class="menuRef" href="#contact">Contacto</a></li>        					
+        					<li><a class="menuRef" href="#objectives">{{mnObjet}}</a></li>
+        					<li><a class="menuRef" href="#tecnologic">{{mnTecno}}</a></li>
+        					<li><a class="menuRef" href="#inventrip">{{mnInven}}</a></li>
+        					<li><a class="menuRef" href="#signing">{{mnSigni}}</a></li>
+        					<li><a class="menuRef" href="#team">{{mnTeam}}</a></li>
+        					<li><a class="menuRef" href="#contact">{{mnCont}}</a></li>        					
       					</ul>
     				</div><!-- /.navbar-collapse -->
   				</div><!-- /.container-fluid -->
-			</nav> 
+			</nav>
 			<div id="parallaxTrigger">
 				<div id="smt-banner-par">				
 				</div>  
 				<div id="smt-banner-trans-par">				
 				</div>
 				<div id="smt-slogan-par">
-					<h1>Consultoría en señalización e información turí</h1>
+                	<img id="logoPortada" title="" src="img/sismotur-logo-portada-uno.png" />
+					<h1 class="tittleBanner">{{tittle1}}</h1>
 				</div>			  
 			</div>
 			<div id="menuTrigger">				
 			</div>
-			<div id="resume" class="row">
-				<h1>Servicios avanzados en la nube</h1>
+			<div class="row resume">
+				<h1>{{resume1}}</h1>
 			</div>
 			<div id="obtectivesTrigger">				
 			</div>
 			
 			<div id="objectives" class="container-fluid">
-				
-<!--				<div id="objectiveTitle" class="row smt-content-title">
-					<h1>Objetivos</h1>
-	</div>-->
-				
 				<div id="objectiveContent" class="row smt-content">
 					<div id="obj1" class="col-md-4 smt-content-col">
-						<h1>Objetivo 1</h1>
-						<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>						
+						<h1>{{obj1Tittle}}</h1>
+						<p>{{obj1Text}}</p>						
 					</div>
 					<div id="obj2" class="col-md-4 smt-content-col">
-						<h1>Objetivo 2</h1>
-						<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>						
+						<h1>{{obj2Tittle}}</h1>
+						<p>{{obj2Text}}</p>							
 					</div>
 					<div id="obj3" class="col-md-4 smt-content-col">
-						<h1>Objetivo 3</h1>
-						<p>Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.</p>						
+						<h1>{{obj3Tittle}}</h1>
+						<p>{{obj3Text}}</p>							
 					</div>
 				</div>
-				<div id="objectiveButton">
-					<button>Más Info</button>
-				</div>				
+				<!--<div id="objectiveButton">
+					<button>{{btnMoreInfo}}</button>
+				</div>	-->			
 			</div>
-			<div class="row video">
-				<iframe src="//www.youtube.com/embed/lVLSAYLhMfg" frameborder="0" allowfullscreen>						
-				</iframe>
+			<!--<div class="row video">
+				<iframe src="//www.youtube.com/embed/lVLSAYLhMfg" frameborder="0" onload='javascript:resizeIframe(this);'>						
+				</iframe>-->
 			</div>
-			<div id="resume" class="row">
-				<div class="col-md-4">
-					<h1>Sistemas</h1>
-				</div>
-				<div class="col-md-4">
-					<h1>Movilidad</h1>
-				</div>
-				<div class="col-md-4">
-					<h1>Turismo</h1>
-				</div>
+			<div class="row resume">
+				<h1>{{resume1}}</h1>
 			</div>
 			
 			<div id="tecnologicTrigger">				
 			</div>
 			
 			<div id="tecnologic" class="container-fluid">
-				<div id="tecnologicTitle" class="row smt-content-title">
-					<h1>Con las últimas tecnologías</h1>
-				</div>
+				<!--<div id="tecnologicTitle" class="row smt-content-title">
+					<h1>{{tectTittle}}</h1>
+				</div>-->
 				
 				<div id="tecnologicContent" class="row smt-content">
-					<div class="col-md-3 smt-content-col">
-						<img class="logoTecno" src="img/nfc-logo-icon-0926023535.png"/>
-						<h1>NFC</h1>
-						<p>Explicar en un pequeño párrafo para que usamos esta tecnología</p>
+					<div class="col-md-4 smt-content-col">
+						<h1 class="titulo-tecnologia">{{nfcTittle}}</h1>
+						<p>{{nfcText}}</p>
+						<img class="logoTecno" src="img/logosenal.png"/>
+						<div id="objectiveButton">
+							<button>{{moreInfoShort}}</button>
+						</div>
 					</div>
-					<div class="col-md-3 smt-content-col">
-						<img class="logoTecno" src="img/QR.png"/>
-						<h1>BEACON</h1>
-						<p>Explicar en un pequeño párrafo para que usamos esta tecnología</p>
+					<div class="col-md-4 smt-content-col">
+						<h1 class="titulo-tecnologia">{{beaconTittle}}</h1>
+						<p>{{beaconText}}</p>
+						<img class="logoTecno" src="img/logonfc.png"/>
+						<div id="objectiveButton">
+							<button>{{moreInfoShort}}</button>
+						</div>
 					</div>
-					<div class="col-md-3 smt-content-col">
-						<img class="logoTecno" src="img/dron.png"/>
-						<h1>QR</h1>
-						<p>Explicar en un pequeño párrafo para que usamos esta tecnología</p>
-					</div>
-					<div class="col-md-3 smt-content-col">
-						<img class="logoTecno" src="img/beacon.png"/>
-						<h1>DRON</h1>
-						<p>Explicar en un pequeño párrafo para que usamos esta tecnología</p>
+					<div class="col-md-4 smt-content-col">
+						<h1 class="titulo-tecnologia">{{qrTittle}}</h1>
+						<p>{{qrText}}</p>
+						<img class="logoTecno" src="img/logobeacon.png"/>	
+						<div id="objectiveButton">
+							<button>{{moreInfoShort}}</button>
+						</div>					
 					</div>
 				</div>
-			</div>
-			
-			<div id="inventripTrigger">				
-			</div>
-			<div id="inventrip" class="container-fluid">
-				
-				<div id="inventripContent" class="row smt-content">
-					<div class="col-md-4 smt-content-product">
-						<h1>Inventrip</h1>
-						<p>Explicaremos Signing</p>
-						<button>Ir a Signing</button>
+				<div id="tecnologicContent" class="row smt-content">
+					<div class="col-md-2">						
 					</div>
-					<div class="col-md-8 img-interface">
-						<img src="img/inventrip-interfaz.png"/>
-					</div>					
-				</div>
-			</div>
-			<div id="signingTrigger">				
-			</div>
-			<div id="signing" class="container-fluid">				
-				<div id="signingContent" class="row smt-content">
-					<div class="col-md-8 img-interface">
-						<img src="img/singing-interfaz.png"/>
+					<div class="col-md-4 smt-content-col">
+						<h1 class="titulo-tecnologia">{{dronTittle}}</h1>
+						<p>{{dronText}}</p>
+						<img class="logoTecno" src="img/logoqr.png"/>	
+						<div id="objectiveButton">
+							<button>{{moreInfoShort}}</button>
+						</div>					
 					</div>
-					<div class="col-md-4 smt-content-product">
-						<h1>Signing</h1>
-						<p>Explicaremos Signing</p>
-						<button>Ir a Signing</button>
+					<div class="col-md-4 smt-content-col">
+						<h1 class="titulo-tecnologia">{{dronTittle}}</h1>
+						<p>{{dronText}}</p>
+						<img class="logoTecno" src="img/logodron.png"/>	
+						<div id="objectiveButton">
+							<button>{{moreInfoShort}}</button>
+						</div>					
 					</div>
 				</div>
 			</div>
 
-<!--			<div id="team">
+			<div class="row resume">
+				<h1>{{resume1}}</h1>
+			</div>
+			
+
+			<div id="inventrip" class="continer-fluid smt-service">
+				<div class="row smt-service-tittle">
+					<div class="col-md-4">
+						<h1>{{invTittle}}</h1>
+					</div>
+				</div>
+				<div class="row smt-service-content">
+					<div class="col-md-8 col-md-push-4 img-interface">
+						<img src="img/inventrip-interfaz.png"/>
+					</div>
+					<div class="col-md-3 col-md-offset-1 col-md-pull-8">
+						<p class="smt-servic-content-text">{{invText}}</p>
+					</div>					
+				</div>
+				<div class="row smt-service-button">
+					<div class="col-md-4">
+						<button>{{btnInventrip}}</button>
+					</div>
+				</div>
+			</div>
+
+			<div id="signing" class="continer-fluid smt-service">
+				<div class="row smt-service-tittle">
+					<div class="col-md-4 col-md-offset-8">
+						<h1>{{sigTittle}}</h1>
+					</div>
+				</div>
+				<div class="row smt-service-content">
+					<div class="col-md-8 img-interface">
+						<img id="signing-img" src="img/signing-interfaz.png"/>
+					</div>
+					<div class="col-md-4">
+						<p class="smt-servic-content-text">{{sigText}}</p>
+					</div>					
+				</div>
+				<div class="row smt-service-button">
+					<div class="col-md-4 col-md-offset-8">
+						<button>{{btnSigning}}</button>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="team">
 				<div id="team-tittle" class="row smt-content-title">
 					<h1>Equipo</h1>
 				</div>
@@ -242,23 +278,23 @@
 				</div>
 				
 			</div>
--->			
+
 			<footer id="contact" class="smt-footer">
 				<div class="row smt-contact">
 					<div class="col-md-4 smt-dir">
-						<h3>ESPAÑA</h3>
-						<p>Madrid & Barcelona</p>
-						<p>+34 913238208</p>
+						<h3>{{cntSpain}}</h3>
+						<p>{{cntSpain2}}</p>
+						<p>{{cntSpainPhone}}</p>
 					</div>
 					<div class="col-md-4 smt-dir">
-						<h3>FRANCIA</h3>
-						<p>Annecy</p>
-						<p>+33(0)619203061</p>
+						<h3>{{cntFrance}}</h3>
+						<p>{{cntFrance2}}</p>
+						<p>{{cntFrancePhone}}</p>
 					</div>
 					<div class="col-md-4 smt-dir">
-						<h3>CROACIA</h3>
-						<p>Zagreb</p>
-						<p>+385.16187750</p>
+						<h3>{{cntCroatia}}</h3>
+						<p>{{cntCroatia2}}</p>
+						<p>{{cntCroatiaPhone}}</p>
 					</div>
 				</div>
 				<div class="row smt-socialNetwork">
@@ -267,14 +303,12 @@
 					<div id="btnFacebook"></div>
 				</div>
 				<div class="row smt-button">
-					<button type="button">Contactar</button>
+					<button id="b-contacto" type="button">{{btnContact}}</button>
 				</div>
 				<div class="row stm-copyright">
-					<p>Copyright © 2012 SISMOTUR SL.</p>
+					<p>{{copyright}}</p>
 				</div>
-			</footer>
-		
+			</footer>		
 		</div>
-
 	</body>
 </html>

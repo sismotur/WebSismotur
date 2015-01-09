@@ -1,6 +1,30 @@
 /**
  * @author Sismotur
  */
+
+ function isMobile(){
+ 	var device = navigator.userAgent;
+
+ 	return device.match(/Iphone/i) || 
+ 			device.match(/Ipod/i)|| 
+ 			device.match(/Android/i)|| 
+ 			device.match(/J2ME/i)|| 
+ 			device.match(/BlackBerry/i)|| 
+ 			device.match(/iPhone|iPad|iPod/i)|| 
+ 			device.match(/Opera Mini/i)|| 
+ 			device.match(/IEMobile/i)|| 
+ 			device.match(/Mobile/i)|| 
+ 			device.match(/Windows Phone/i)|| 
+ 			device.match(/windows mobile/i)|| 
+ 			device.match(/windows ce/i)|| 
+ 			device.match(/webOS/i)|| 
+ 			device.match(/palm/i)|| 
+ 			device.match(/bada/i)||
+ 			device.match(/series60/i)|| 
+ 			device.match(/nokia/i)|| 
+ 			device.match(/symbian/i)|| 
+ 			device.match(/HTC/i);
+ }
     		
 function loadScenes(){	
 	scene = new ScrollScene({triggerElement: "#trigger1"})
@@ -22,13 +46,12 @@ function parallaxBanner(){
 			.addTo(controller);
 			
 	var scene3 = new ScrollScene({triggerElement: "#parallaxTrigger"})
-			.setTween(TweenMax.fromTo("#smt-slogan-par", 1, {paddingTop: "25%"}, {paddingTop: "0%"}))
+			.setTween(TweenMax.fromTo("#smt-slogan-par", 1, {paddingTop: "25vh"}, {paddingTop: "0vh"}))
 			.addTo(controller);
 			
 	var scene4 = new ScrollScene({triggerElement: "#parallaxTrigger"})
 			.setTween(TweenMax.fromTo("#product", 1, {paddingTop: "50%"}, {paddingTop: "0%"}))
-			.addTo(controller);
-			
+			.addTo(controller);			
 	//scene1.addIndicators();
 	
 }
@@ -65,11 +88,11 @@ function opaqueMenu(){
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 0.1, duration: 0}});
 	
 	var scene = new ScrollScene({triggerElement: "#menuTrigger"})
-			.setTween(TweenMax.to("#smt-menu", 0, {visibility: 'visible'}))
+			.setTween(TweenMax.fromTo("#smt-menu", 0, {visibility: 'hidden'},{visibility: 'visible'}))
 			.addTo(controller);
 			
 	var scene2 = new ScrollScene({triggerElement: "#menuTrigger"})
-			.setTween(TweenMax.to(".menuRef", 0, {visibility: 'visible'}))
+			.setTween(TweenMax.fromTo(".menuRef", 0, {visibility: 'hidden'},{visibility: 'visible'}))
 			.addTo(controller);
 			
 	//scene.addIndicators();
@@ -125,4 +148,8 @@ function parallaxTeam(){
 			.addTo(controller);
 			
 	//scene1.addIndicators();
+}
+
+function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 }
