@@ -1,3 +1,6 @@
+*{font-family:'OpenSans';}
+
+
 @font-face{
 	font-family: 'PrimeLight';
 	src: url('../fonts/Prime_Light.otf') format('opentype');
@@ -7,6 +10,10 @@
 	font-family: 'PrimeRegular';
 	src: url('../fonts/Prime_Regular.otf') format('opentype');
 }
+
+@font-face{
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSansLight.ttf') format('opentype');}
 
 html, body{
 	margin: 0px;
@@ -260,6 +267,10 @@ a.smt-logo-nav{
 .smt-content-product button{
 	margin-top: 40%;
 }
+
+h1.titulo-tecnologia{
+	font-family:'PrimeRegular';
+	}
 
 /* SERVICE PROPERTIES */
 .smt-service{
