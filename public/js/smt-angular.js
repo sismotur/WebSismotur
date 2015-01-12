@@ -11,13 +11,14 @@ myApp.controller('languagesController', ['$scope', function($scope){
 	// Put common attributes
 	$scope.mnInven = 'Inventrip';
 	$scope.mnSigni = 'Signing';
+	$scope.senalizacionTittle = 'Señalización';
 	$scope.nfcTittle = 'NFC';
-	$scope.beaconTittle = 'BEACON';
+	$scope.beaconTittle = 'Beacon';
 	$scope.qrTittle = 'QR';
-	$scope.dronTittle = 'DRON';
+	$scope.dronTittle = 'DronTrip';
 	$scope.invTittle = 'Inventrip';
 	$scope.sigTittle = 'Signing';
-	$scope.moreInfoShort = '+ INFO';
+	$scope.moreInfoShort = 'MÁS INFO';
 	
 	switch(lang){
 		case "es":
@@ -43,10 +44,11 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.btnMoreInfo = 'Más Información';
 			
 			$scope.tecTittle = 'Con las últimas tecnologías';
-			$scope.nfcText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
-			$scope.beaconText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
-			$scope.qrText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
-			$scope.dronText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
+			$scope.senalizacionText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
+			$scope.nfcText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
+			$scope.beaconText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
+			$scope.qrText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
+			$scope.dronText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
 			
 			$scope.invText = 'También es texto una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.';
 			$scope.btnInventrip = 'Ir a Invetrip';

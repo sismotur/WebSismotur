@@ -36,6 +36,8 @@ html, body{
 	margin: 0px;
 }
 
+p.texto-obj{padding-left:20%; padding-right:20%; font-size:14px;}
+
 button{
 	width:180px;
 	height:50px;
@@ -76,6 +78,10 @@ a.smt-logo-nav{
 #signing-img{
 	width:70%; 
 }
+
+h2{font-family:'PrimeRegular'; color:rgb(0,36,168); font-size:40px;}
+
+p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
 /* MENU PROPERTIES */
 #smt-menu{
@@ -187,6 +193,8 @@ a.smt-logo-nav{
 	text-align: center;
 	margin-bottom: 5%;
 }
+
+
 
 /* OBJECTIVES PROPERTIES */
 #objectives{
@@ -361,7 +369,7 @@ h1.titulo-tecnologia{
 
 #team{
 	width: 100%;
-	height: 700px;
+	min-height: 100vh;
 	background-color: rgba(100, 100, 100, 0.4);
 	margin-top: 25px;
 	text-align: center;
