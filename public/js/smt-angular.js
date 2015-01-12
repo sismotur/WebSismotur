@@ -51,10 +51,10 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.dronText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
 			
 			$scope.invText = 'También es texto una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.';
-			$scope.btnInventrip = 'Ir a Invetrip';
+			$scope.btnInventrip = 'Ir a Inventrip';
 			
-			$scope.sigText = 'Texto explicativo de Signing';
-			$scope.btnSigning = 'Ir a Signig';
+			$scope.sigText = 'También es texto una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.';
+			$scope.btnSigning = 'Ir a Signing';
 			
 			$scope.cntSpain = 'España';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
