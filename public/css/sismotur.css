@@ -102,7 +102,10 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 	background-color: rgb(100, 100, 100);
 	color: #FFFFFF;
 }
-
+.smt-return-nav{
+	padding:5px 5px;
+	right: 0px;
+}
 /* MENU PROPERTIES (deprecated)*/
 #smt-menu{
 	width: 100vw;
