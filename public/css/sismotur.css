@@ -83,7 +83,27 @@ h2{font-family:'PrimeRegular'; color:rgb(0,36,168); font-size:40px;}
 
 p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
-/* MENU PROPERTIES */
+/* MENU PROPERTIES 2*/
+.smt-menu{
+	width: 100vw;
+	background-color: rgb(0,36,168);
+	position: fixed;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	padding-right: 5px; 
+}
+
+.smt-menu a{
+	color: #FFFFFF;
+	font-family: PrimeRegular;
+}
+
+.smt-menu a:hover{
+	background-color: rgb(100, 100, 100);
+	color: #FFFFFF;
+}
+
+/* MENU PROPERTIES (deprecated)*/
 #smt-menu{
 	width: 100vw;
 	z-index: 3;
@@ -308,8 +328,8 @@ h1.titulo-tecnologia{
 
 .smt-servic-content-text{
 	padding-top: 10%;
-	padding-right: 15px;
-	padding-right: 15px;
+	padding-right: 10%;
+	padding-right: 10%;
 }
 
 .smt-service-button{
