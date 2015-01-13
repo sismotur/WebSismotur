@@ -389,6 +389,8 @@ h1.titulo-tecnologia{
 .smt-item{
 }
 
+li.btn-slider{background-color:rgb(0,36,168);}
+
 /*REVISAR PORQUE ALGUNOS NO SE USAN*/
 #product{
 	width: 100%;
