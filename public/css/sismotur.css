@@ -431,6 +431,8 @@ h1.titulo-tecnologia{
 	text-align: center;
 	padding-left: 15%;
 	padding-right: 15%;
+	margin-right: -0px;
+	margin-left: -0px;
 }
 
 .content-image{
