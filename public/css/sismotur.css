@@ -85,7 +85,8 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 	position: fixed;
 	border-radius: 0px;
 	margin-bottom: 0px;
-	padding-right: 5px; 
+	padding-right: 5px;
+	z-index:2; 
 }
 
 .smt-menu a{
@@ -112,6 +113,10 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 	height: 30px;
 	width: auto;
 	padding-top: 10px;
+}
+
+.smt-logo-return a:hover{
+	background-color: #646464;
 }
 
 /* MENU PROPERTIES (deprecated)*/
@@ -372,24 +377,22 @@ h1.titulo-tecnologia{
 
 /* TECNOLOGIES PROPERTIES*/
 .smt-tecno-content{
-	background-color: #646464;
-	width: 100%;
 	padding-left: 0px;
 	padding-right: 0px;
+	height: 100vh;
 }
 
 .smt-carousel{
-	position: absolute;
-	z-index: -1;
-	width: 100%;
+	/*padding-top: 52px;*/
 	height: 100vh;
-	padding-top: 52px;
 }
 
 .smt-item{
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	height: inherit;
 }
-
-li.btn-slider{background-color:rgb(0,36,168);}
 
 /*REVISAR PORQUE ALGUNOS NO SE USAN*/
 #product{

@@ -11,19 +11,47 @@
 		<title>Sismotur SL - Tecnología</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/sismotur.css" rel="stylesheet">		   	
-    	
+		<link href="css/sismotur.css" rel="stylesheet">	
+
+		<!-- Important Owl stylesheet -->
+    	<link rel="stylesheet" href="css/owl.carousel.css">
+     
+    	<!-- Default Theme -->
+    	<link rel="stylesheet" href="css/owl.theme.css">
+             	
     	<script src="js/jquery-1.11.1.js"></script>
+    	<script src="js/angular.js"></script>
+
     	<script src="js/jquery.browser.js"></script>
-    	<script src="js/jquery.iframe-auto-height.js"></script>
     	<script src="js/lib/greensock/TweenMax.min.js"></script>
+    	<script src="js/lib/greensock/TimelineMax.min.js"></script>    	
     	<script src="js/bootstrap.min.js"></script>
     	<script src="js/jquery.scrollmagic.js"></script>
     	<script src="js/jquery.scrollmagic.debug.js"></script>
-    	<script src="js/sismotur.js"></script>
-    	<script src="js/lib/greensock/TimelineMax.min.js"></script>
-    	<script src="js/angular.js"></script>
+    	<script src="js/owl.carousel.js"></script>	
+
+    	<script src="js/sismotur.js"></script>    	    	
     	<script src="js/smt-angular.js"></script>
+
+		<script type="text/javascript">
+
+    		$(document).ready(function() {
+     
+    			$("#owl-demo").owlCarousel({     
+    				navigation : true, // Show next and prev buttons
+					navigationText: [
+      					"<i class='icon-chevron-left icon-white'><</i>",
+      					"<i class='icon-chevron-right icon-white'>></i>"
+      				],
+    				slideSpeed : 300,
+    				paginationSpeed : 400,
+    				singleItem:true,
+    			});
+     
+    		});
+
+		</script>
+
 	</head>
 	<body>		
 		<div class="container-fluid smt-tecno-content">
@@ -37,47 +65,29 @@
             	</a>
 			</nav>
 
-			<div id="carousel-example-generic" class="carousel slide smt-carousel" data-ride="carousel">
-  
-  			<!-- Indicators -->
-  			<ol class="carousel-indicators">
-    			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  			</ol>
+			<!-- Add slider -->
+			
 
-  			<!-- Wrapper for slides -->
-  			<div class="carousel-inner" role="listbox">
-    			<div class="item active smt-item">
-      				<img src="img/signing-interfaz.png" alt="...">
-      				<div class="carousel-caption">
-        				<p>Hola</p>
-      				</div>
+    		<div id="owl-demo" class="owl-carousel smt-carousel">     
+    			<div class="item smt-item">
+    				
+    					<p>Hola, esto es la primera pestaña.</p>
+    				
     			</div>
     			<div class="item smt-item">
-      				<img src="..." alt="...">
-      				<div class="carousel-caption">
-        				<p>Adios</p>
-      				</div>
+    				
+    					<p>Hola, esto es la primera pestaña.</p>
+    				
     			</div>
     			<div class="item smt-item">
-      				<img src="..." alt="...">
-      				<div class="carousel-caption">
-        				<p>Mas tarde</p>
-      				</div>
-    			</div>
-     		 </div>
+    				
+    					<p>Hola, esto es la primera pestaña.</p>
+    				
+    			</div>    
+    		</div>
 
-  			<!-- Controls -->
-  			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    			<span class="sr-only">Previous</span>
-  			</a>
-  			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    			<span class="sr-only">Next</span>
-  			</a>
-		</div>
+
+			
 		</div>
 	</body>
 </html>
