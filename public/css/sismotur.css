@@ -85,7 +85,8 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 	position: fixed;
 	border-radius: 0px;
 	margin-bottom: 0px;
-	padding-right: 5px; 
+	padding-right: 5px;
+	z-index:2; 
 }
 
 .smt-menu a{
@@ -112,6 +113,10 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 	height: 30px;
 	width: auto;
 	padding-top: 10px;
+}
+
+.smt-logo-return a:hover{
+	background-color: #646464;
 }
 
 /* MENU PROPERTIES (deprecated)*/
@@ -306,7 +311,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
 h1.titulo-tecnologia{
 	font-family:'PrimeRegular';
-	}
+}
 
 /* SERVICE PROPERTIES */
 .smt-service{
@@ -372,24 +377,37 @@ h1.titulo-tecnologia{
 
 /* TECNOLOGIES PROPERTIES*/
 .smt-tecno-content{
-	background-color: #646464;
-	width: 100%;
 	padding-left: 0px;
 	padding-right: 0px;
+	height: 100vh;
 }
 
 .smt-carousel{
-	position: absolute;
-	z-index: -1;
-	width: 100%;
+	/*padding-top: 52px;*/
 	height: 100vh;
-	padding-top: 52px;
 }
 
 .smt-item{
+	/*background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-attachment: fixed;*/
+	height: inherit;
+	padding: 52px 52px;
 }
 
-li.btn-slider{background-color:rgb(0,36,168);}
+.smt-item-content{
+	height: inherit;
+	padding-top: 5%;
+}
+
+.smt-item-content p{
+	/*color: #FFFFFF;*/
+}
+
+.smt-item-button{
+	height: inherit;
+	text-align: center;
+}
 
 /*REVISAR PORQUE ALGUNOS NO SE USAN*/
 #product{
@@ -478,7 +496,7 @@ li.btn-slider{background-color:rgb(0,36,168);}
 }
 
 .smt-socialNetwork{
-	width: 150px;
+	width: 205px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
@@ -505,7 +523,7 @@ li.btn-slider{background-color:rgb(0,36,168);}
 }
 
 #btnLinkedin{
-	background-image: url("../img/linkedin.png");
+	background-image: url("../img/logolinkedin.png");
 	height: 40px;
 	width: 40px;
 	margin-right: 15px;
@@ -518,7 +536,7 @@ li.btn-slider{background-color:rgb(0,36,168);}
 }
 
 #btnTwitter{
-	background-image: url("../img/twitter.png");
+	background-image: url("../img/logotwitter.png");
 	height: 40px;
 	width: 40px;
 	margin-right: 15px;
@@ -530,15 +548,28 @@ li.btn-slider{background-color:rgb(0,36,168);}
 	background-position: 0px -40px;
 }
 
-#btnFacebook{
-	background-image: url("../img/facebook.png");
+#btnYoutube{
+	background-image: url("../img/logoyoutube.png");
+	height: 40px;
+	width: 40px;
+	margin-right: 15px;
+	position: relative;
+	float: left;
+}
+
+#btnYoutube:hover{
+	background-position: 0px -40px;
+}
+
+#btnGitHub{
+	background-image: url("../img/logogithub.png");
 	height: 40px;
 	width: 40px;
 	position: relative;
 	float: left;
 }
 
-#btnFacebook:hover{
+#btnGitHub:hover{
 	background-position: 0px -40px;
 }
 
