@@ -1,19 +1,14 @@
-*{font-family:'OpenSans';}
 
 
-@font-face{
-	font-family: 'PrimeLight';
-	src: url('../fonts/Prime_Light.otf') format('opentype');
-}
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
-@font-face{
-	font-family: 'PrimeRegular';
-	src: url('../fonts/Prime_Regular.otf') format('opentype');
-}
+@import url(http://fonts.googleapis.com/css?family=Exo:300);
 
-@font-face{
-	font-family: 'OpenSans';
-	src: url('../fonts/OpenSansLight.ttf') format('opentype');}
+
+*{font-family: 'Open Sans', sans-serif;}
+*{margin:0px; padding:0px;}
+
 
 html, body{
 	margin: 0px;
@@ -47,8 +42,8 @@ button{
 	border-style:solid;
 	text-transform:uppercase;
 	letter-spacing:1px;
-	font-family:'PrimeRegular';
-	padding-top:7px;
+	font-family: 'Exo', sans-serif;
+	
 }
 
 button:hover{
@@ -74,7 +69,7 @@ a.smt-logo-nav{
 	width:70%; 
 }
 
-h2{font-family:'PrimeRegular'; color:rgb(0,36,168); font-size:40px;}
+h2{font-family: 'Monda', sans-serif; color:rgb(0,36,168); font-size:40px;}
 
 p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
@@ -91,7 +86,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
 .smt-menu a{
 	color: #FFFFFF;
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 }
 
 .smt-nav-bar li a:hover{
@@ -131,7 +126,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
 #smt-menu a{
 	color: #FFFFFF;
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 }
 
 .menuRef{}
@@ -180,7 +175,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 	position: absolute;
 	top: 0px;
 	z-index: 2;
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	color: #FFFFFF;		
 }
 
@@ -198,7 +193,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 }
 
 .resume h1{
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	padding-top: 1vh;
 	padding-bottom: 1vh;
 }
@@ -213,7 +208,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 .smt-content-title h1{
 	padding-top: 55px;
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	font-size: 55px;
 }
 
@@ -245,7 +240,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
 #objectiveContent h1{
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	font-size: 55px;
 }
 
@@ -296,7 +291,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
 .smt-content-product h1{
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	font-size: 55px;
 	margin-bottom: 30%;
 }
@@ -310,7 +305,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 }
 
 h1.titulo-tecnologia{
-	font-family:'PrimeRegular';
+	font-family: 'Monda', sans-serif;
 }
 
 /* SERVICE PROPERTIES */
@@ -328,7 +323,7 @@ h1.titulo-tecnologia{
 }
 
 .smt-service-tittle h1{
-	font-family: PrimeRegular;
+font-family: 'Monda', sans-serif;
 	color: rgb(0,36,168);
 	font-size: 55px;
 }
@@ -425,11 +420,11 @@ h1.titulo-tecnologia{
 
 .smt-product h1{
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 }
 
 .smt-product p{
-	font-family: PrimeLight;
+	font-family: 'Monda', sans-serif;
 	letter-spacing: 1px;
 }
 
@@ -443,7 +438,7 @@ h1.titulo-tecnologia{
 
 #team h1{
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	margin-bottom: 3%;
 }
 
@@ -477,7 +472,7 @@ h1.titulo-tecnologia{
 }
 
 .smt-contact{
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	width: 80%;
 	padding-top: 25px;
 	margin-left: auto;
@@ -486,7 +481,7 @@ h1.titulo-tecnologia{
 }
 
 .smt-contact p{
-	font-family: PrimeLight;
+	font-family: 'Monda', sans-serif;
 	letter-spacing: 1px;
 	margin: 0px;
 }
@@ -504,7 +499,7 @@ h1.titulo-tecnologia{
 }
 
 .smt-button{
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	width: 80%;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -515,7 +510,7 @@ h1.titulo-tecnologia{
 
 .stm-copyright{
 	width: 100%;
-	font-family: PrimeLight;	
+	font-family: 'Monda', sans-serif;
 	letter-spacing: 1px;
 	text-align: center;
 	margin-left: auto;
