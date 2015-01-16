@@ -54,6 +54,7 @@ button:hover{
 button#b-contacto{
 	border-color:#ffffff;
 	color:#ffffff;
+	font-size: 15px;
 }
 
 button#b-contacto:hover{
@@ -186,7 +187,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 /* RESUME PROPERTIES */
 .resume{
 	margin: 0px;	
-	background-image:url(../img/fondomapa-uno.png);
+	background-image: url('../img/fondomapa-uno.png');
 	background-size:cover;
 	text-align: center;
 	padding-left: 5%;
