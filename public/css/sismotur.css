@@ -186,7 +186,8 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 /* RESUME PROPERTIES */
 .resume{
 	margin: 0px;	
-	background-color: rgba(100, 100, 100, 0.2);
+	background-image:url(../img/fondomapa-uno.png);
+	background-size:cover;
 	text-align: center;
 	padding-left: 5%;
 	padding-right: 5%;
@@ -194,8 +195,8 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
 .resume h1{
 	font-family: 'Monda', sans-serif;
-	padding-top: 1vh;
-	padding-bottom: 1vh;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
 }
 
 /* CONTENTS */

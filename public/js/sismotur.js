@@ -84,6 +84,17 @@ function parallaxTecnologic(){
 	//scene1.addIndicators();
 }
 
+function parallaxSection(){
+	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#resume-trigger').height()}});
+	
+	var scene = new ScrollScene({triggerElement: "#resume-trigger"})
+			.setTween(TweenMax.fromTo("#resume-one", 1, {css:{'background-position':"0px 0px"}},{css:{'background-position':"0px -150px"}}))
+			.addTo(controller);
+			
+	scene.addIndicators();
+}
+
+
 function opaqueMenu(){
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 0.1, duration: 0}});
 	
