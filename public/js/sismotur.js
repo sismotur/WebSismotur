@@ -85,10 +85,10 @@ function parallaxTecnologic(){
 }
 
 function parallaxSection(){
-	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#resume-trigger').height()}});
+	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#resume-one-trigger').height()}});
 	
-	var scene = new ScrollScene({triggerElement: "#resume-trigger"})
-			.setTween(TweenMax.fromTo("#resume-one", 1, {css:{'background-position':"0px 0px"}},{css:{'background-position':"0px -150px"}}))
+	var scene = new ScrollScene({triggerElement: "#resume-one-trigger"})
+			.setTween(TweenMax.fromTo("#resume-one", 10, {css:{'background-position':"0px 0px"}},{css:{'background-position':"0px -250px"}}))
 			.addTo(controller);
 			
 	scene.addIndicators();

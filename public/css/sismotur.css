@@ -196,8 +196,8 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 
 .resume h1{
 	font-family: 'Monda', sans-serif;
-	padding-top: 5vh;
-	padding-bottom: 5vh;
+	padding-top: 10vh;
+	padding-bottom: 10vh;
 }
 
 /* CONTENTS */
@@ -520,20 +520,22 @@ font-family: 'Monda', sans-serif;
 }
 
 #btnLinkedin{
-	background-image: url("../img/logolinkedin.png");
+	background-image: url("../img/logo-linkedin.png");
 	height: 40px;
 	width: 40px;
 	margin-right: 15px;
 	position: relative;
 	float: left;
+	
 }
 
 #btnLinkedin:hover{
-	background-position: 0px -40px;
+	background-color:rgb(0,36,168);
+	border-radius:40px;
 }
 
 #btnTwitter{
-	background-image: url("../img/logotwitter.png");
+	background-image: url("../img/logo-twitter.png");
 	height: 40px;
 	width: 40px;
 	margin-right: 15px;
@@ -542,11 +544,12 @@ font-family: 'Monda', sans-serif;
 }
 
 #btnTwitter:hover{
-	background-position: 0px -40px;
+	background-color:rgb(0,36,168);
+	border-radius:40px;
 }
 
 #btnYoutube{
-	background-image: url("../img/logoyoutube.png");
+	background-image: url("../img/logo-youtube.png");
 	height: 40px;
 	width: 40px;
 	margin-right: 15px;
@@ -555,11 +558,12 @@ font-family: 'Monda', sans-serif;
 }
 
 #btnYoutube:hover{
-	background-position: 0px -40px;
+	background-color:rgb(0,36,168);
+	border-radius:40px;
 }
 
 #btnGitHub{
-	background-image: url("../img/logogithub.png");
+	background-image: url("../img/logo-github.png");
 	height: 40px;
 	width: 40px;
 	position: relative;
@@ -567,7 +571,18 @@ font-family: 'Monda', sans-serif;
 }
 
 #btnGitHub:hover{
-	background-position: 0px -40px;
+	background-color:rgb(0,36,168);
+	border-radius:40px;
+}
+
+div.input-group{
+	width:550px;
+	height:110px;}
+	
+
+button#b-contacto{
+	position:absolute;
+	bottom:0px;
 }
 
 @media (max-width: 768px) {
