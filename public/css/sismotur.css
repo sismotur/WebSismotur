@@ -150,7 +150,7 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 /* BANNER PROPERTIES */
 #smt-banner-par{
 	height: 100vh;
-	background-image: url('../img/banner.jpg');
+	background-image: url('../img/banner.png');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -575,15 +575,9 @@ font-family: 'Monda', sans-serif;
 	border-radius:40px;
 }
 
-div.input-group{
-	width:550px;
-	height:110px;}
-	
+button#b-contacto{text-align:center;}
 
-button#b-contacto{
-	position:absolute;
-	bottom:0px;
-}
+div.input-group{width:100%;}
 
 @media (max-width: 768px) {
 	.tittleBanner{
