@@ -10,8 +10,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 	
 	// Put common attributes
 	$scope.mnInven = 'Inventrip';
-	$scope.mnSigni = 'Signing';
-	$scope.senalizacionTittle = 'Señalización';
+	$scope.mnSigni = 'Signing';	
 	$scope.nfcTittle = 'NFC';
 	$scope.beaconTittle = 'Beacon';
 	$scope.qrTittle = 'QR';
@@ -22,39 +21,40 @@ myApp.controller('languagesController', ['$scope', function($scope){
 	
 	switch(lang){
 		case "es":
-			$scope.tittle1 = 'Consultoría en señalización e información turística';
+			$scope.tittle1 = 'Trabajamos para promocionar y desarrollar destinos turisticos inteligentes';
 			
 			$scope.mnObjet = 'Objetivos';
-			$scope.mnTecno = 'Tecnologías';
+			$scope.mnTecno = 'Sistemas/Tecnologías';
 			$scope.mnTeam = 'Equipo';
 			$scope.mnCont = 'Contacto';
 			
-			$scope.resume1 = 'Servicios avanzados en la nube';
+			$scope.resume1 = 'Atendemos las necesidades de cada cliente';
 			
-			$scope.obj1Tittle = 'Objetivo 1';
-			$scope.obj1Text = 'Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.';
-			$scope.obj1Resume = 'Sistemas';
-			$scope.obj2Tittle = 'Objetivo 2';
-			$scope.obj2Text = 'Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.';
-			$scope.obj2Resume = 'Movilidad';
-			$scope.obj3Tittle = 'Objetivo 3';
-			$scope.obj3Text = 'Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.';
-			$scope.obj3Resume = 'Turismo';
+			$scope.obj1Tittle = 'Promocionar Destinos Turísticos';
+			$scope.obj1Text = 'Con la implantación de sistemas avanzados de señalización e información turisticas.';
+			//$scope.obj1Resume = 'Sistemas';
+			$scope.obj2Tittle = 'Dotar de Tecnología a Servicios Turísticos';
+			$scope.obj2Text = 'Para mejorar la promoción y comercialización de sus productos y servicios.';
+			//$scope.obj2Resume = 'Movilidad';
+			$scope.obj3Tittle = 'Mejorar la Experiencia Turística del Viajero';
+			$scope.obj3Text = 'Facilitándoles la planificación y seguimiento de su viaje con el servicio Inventrip.';
+			//$scope.obj3Resume = 'Turismo';
 			
 			$scope.btnMoreInfo = 'Más Información';
+
+			$scope.senalizacionTittle = 'Señalización';
 			
-			$scope.tecTittle = 'Con las últimas tecnologías';
-			$scope.senalizacionText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
-			$scope.nfcText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
-			$scope.beaconText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
-			$scope.qrText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
-			$scope.dronText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id condimentum velit. Nullam quis euismod velit, vel scelerisque erat. Morbi at tincidunt elit. Aenean ut posuere diam, quis lobortis sem. Fusce malesuada ligula risus, eu porta justo venenatis convallis.';
+			$scope.tecTittle = 'Implantación de Destinos Turísticos Inteligentes';
+			$scope.senalizacionText = 'Implanta un sistema de señalización para facilitar el guiado a los turistas y mejorar la calidad de imagen del entrono.';
+			$scope.nfcText = 'Entrega tarjetas NFC para personalizar la experiencia turística de tu cliente en el destino.';
+			$scope.beaconText = 'Despliega la nueva tecnología beacons para dar información contextualizada al turista u ofrecerle productos y servicios.';
+			$scope.qrText = 'Comparte un viaje turístico a través de códigos QR.';
+			$scope.dronText = 'Utiliza vuelos turísticos con Drones para viralizar la promoción de destinos y servicios turísticos.';
 			
-			$scope.invText = 'También es texto una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.';
-			$scope.btnInventrip = 'Ir a Inventrip';
-			
-			$scope.sigText = 'También es texto una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.';
-			$scope.btnSigning = 'Ir a Signing';
+			$scope.servTittle = 'Implantación de servicios avanzados en la nube';
+			$scope.invText = 'Inventar viajes: esa es la visión. Proporcionar al usuario una plataforma tecnología con la que pueda crear su plan de viaje (por días, ciudades, temas, etc.) y navegando por el mapa pueda ir añadiendo los recursos y servicios que quiera visitar.';
+			$scope.btnInventrip = 'Ir a Inventrip';			
+			$scope.sigText = 'Signing es un servicio web especializado para la planificación y gestión de la señalización territorial y urbana. Desarrollado en el marco de un Plan Avanza de I+D del Ministerio de Industria, Turismo y Comercio, es utilizado por más de 20 administraciones públicas.';
 			
 			$scope.cntSpain = 'España';
 			$scope.cntSpain2 = 'Madrid & Barcelona';

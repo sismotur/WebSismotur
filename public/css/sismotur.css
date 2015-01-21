@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
-
 @import url(http://fonts.googleapis.com/css?family=Exo:300);
 
 
@@ -41,7 +40,6 @@ button{
 	text-transform:uppercase;
 	letter-spacing:1px;
 	font-family: 'Exo', sans-serif;
-	
 }
 
 button:hover{
@@ -182,6 +180,11 @@ p.texto-tecnol{ padding-left:10%; padding-right:10%;}
 	width: 60%;
 }
 
+.tittleBanner{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 /* RESUME PROPERTIES */
 .resume{
 	margin: 0px;	
@@ -219,6 +222,10 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 	margin-top: 3%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.smt-content-text{
+	height: 100%;
 }
 
 .smt-content-col{
@@ -308,6 +315,10 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 
 h1.titulo-tecnologia{
 	font-family: 'Monda', sans-serif;
+}
+
+.smt-qrbutton{
+	margin-top: 20px;
 }
 
 /* SERVICE PROPERTIES */
