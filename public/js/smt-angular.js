@@ -67,6 +67,18 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.cntCroatia = 'Croacia';
 			$scope.cntCroatia2 = 'Zagreb';
 			$scope.cntCroatiaPhone = '+385.16187750';
+
+			$scope.cntAustria = 'Austria';
+			$scope.cntAustria2 = 'Innsbruk';
+			$scope.cntAustriaPhone = '+';
+
+			$scope.cntSuiza = 'Suiza';
+			$scope.cntSuiza2 = 'Lussanne';
+			$scope.cntSuizaPhone = '+';
+
+			$scope.cntPortugal = 'Portugal';
+			$scope.cntPortugal2 = '';
+			$scope.cntPortugalPhone = '+34 629415915';
 			
 			$scope.btnContact = 'Contactar';
 			

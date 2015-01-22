@@ -563,9 +563,19 @@ height:100%;}
 	text-align: center;
 }
 
+.smt-form{
+	font-family: 'Monda', sans-serif;
+	width: 80%;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .stm-copyright{
 	width: 100%;
 	font-family: 'Monda', sans-serif;
+	padding-top: 50px;
 	letter-spacing: 1px;
 	text-align: center;
 	margin-left: auto;

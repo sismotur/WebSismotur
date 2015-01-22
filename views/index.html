@@ -313,6 +313,23 @@
 						<p>{{cntCroatiaPhone}}</p>
 					</div>
 				</div>
+				<div class="row smt-contact">
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntAustria}}</h3>
+						<p>{{cntAustria2}}</p>
+						<p>{{cntAustriaPhone}}</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntSuiza}}</h3>
+						<p>{{cntSuiza2}}</p>
+						<p>{{cntSuizaPhone}}</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntPortugal}}</h3>
+						<p>{{cntPortugal2}}</p>
+						<p>{{cntPortugalPhone}}</p>
+					</div>
+				</div>
 				<div class="row smt-socialNetwork">
 					<div id="btnLinkedin" onclick="window.open('https://www.linkedin.com/company/sismotur')"></div>
 					<div id="btnTwitter" onclick="window.open('https://twitter.com/sismotur')"></div>
@@ -323,18 +340,23 @@
 					<button id="b-contacto" type="button">{{btnContact}}</button>
 				</div>-->
 
-				<div class="row smt-button">
+				<!--<div class="row smt-form">
   					<div class="col-md-6 col-md-offset-3">
     					<div class="input-group">
       						<input type="text" class="form-control" placeholder="escribe aquí tu e-mail">
     					</div><!-- /input-group -->
-  					</div><!-- /.col-lg-6 -->
-				</div><!-- /.row -->
+  					<!--</div><!-- /.col-lg-6 -->
+				<!--</div><!-- /.row -->
                 
-                <div class="row smt-button">
+               <!-- <div class="row smt-form">
                  <div class="col-md-6 col-md-offset-3">
-                    <button id="b-contacto" type="button">{{btnContact}}</button>
+                    
                     </div>
+                </div>-->
+                <div class="row smt-form">
+                	<div class="col-md-6 col-md-offset-3">
+                		<button id="b-contacto" type="button" onclick="win = window.open('mailto:aramos@sismotur.com', 'emailWindow'); win.close();">{{btnContact}}</button>
+                	</div>
                 </div>
 				<div class="row stm-copyright">
 					<p>{{copyright}}</p>
