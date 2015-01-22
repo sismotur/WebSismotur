@@ -20,6 +20,10 @@ router.get('/tecnologia.html', function(req, res, next){
 	res.render('tecnologia.html');
 });
 
+router.get('/tecnoExample.html', function(req, res, next){
+	res.render('tecnoExample.html');
+});
+
 app.use('/', router);
 
 app.listen(port);

@@ -164,3 +164,11 @@ function parallaxTeam(){
 function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 }
+
+function nextPage(){
+
+}
+
+function prevPage(){
+	
+}
