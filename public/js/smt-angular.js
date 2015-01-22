@@ -70,7 +70,31 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			
 			$scope.btnContact = 'Contactar';
 			
-			$scope.copyright = 'Copyright © 2012 SISMOTUR SL.';
+			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
+
+			// Página NFC
+			$scope.NFCtext1 = 'Tarjetas NFC entregadas durante la premiere de la obra de Teatro móvil en Croacia.';
+			$scope.NFCbutton1 = 'Más Info';
+
+			$scope.NFCtext2 = 'Presentación de las Tarjetas NFC por Palencia Turismo durante la pasada Feria de Turismo Interior, INTUR.';
+			$scope.NFCbutton2 = 'Más Info';
+
+			// Página Señalización
+			$scope.Sentext1 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
+			$scope.Senbutton1 = 'Más Info';
+
+			$scope.Sentext2 = 'Participación de Sismotur en la presentación de la Consejera y Director General de Turismo de Castilla y León del programa de mejora de la señalización turistica de Castilla y León.';
+			$scope.Senbutton2 = 'Más Info';
+
+			$scope.Sentext3 = 'Implantación integral de todos los equipamentos de señalización territorial y urbana para la Ruta Ribera del Duero.';
+			$scope.Senbutton3 = 'Más Info';
+
+			// Página QR
+			$scope.QRtext1 = 'FS+MM: Dejar preparado un viaje con pocos recursos pero con contenidos.';
+			$scope.QRbutton1 = 'Más Info';
+
+			$scope.QRtext2 = 'Prensentación a la prensa del plan de señalización e información.';
+			$scope.QRbutton2 = 'Más Info';
 			break;
 		case "ca":
 			$scope.tittle1 = 'Consultoria en senyalització i informació turística';

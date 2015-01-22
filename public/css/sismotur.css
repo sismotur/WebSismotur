@@ -16,7 +16,7 @@ html, body{
 	clear: both;
 }
 
-.smt-centrar{
+.centrar{
 	width: 100vw;
 	margin-left: auto;
 	margin-right: auto;
@@ -395,17 +395,29 @@ font-family: 'Monda', sans-serif;
 	height: 100vh;
 }
 
-.smt-item{
-	/*background-image: url('../img/banner.jpg');
-	background-size: cover;
-	background-attachment: fixed;*/
+.smt-item{	
 	height: inherit;
-	padding: 52px 52px;
+	padding: 52px 0px;
+}
+
+.smt-content-item-img{
+	height: 50vh;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.smt-content-item-text{
+	padding-top: 7vh;
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 
 .smt-item-content{
 	height: inherit;
-	padding-top: 5%;
 }
 
 .smt-item-content p{
@@ -415,6 +427,14 @@ font-family: 'Monda', sans-serif;
 .smt-item-button{
 	height: inherit;
 	text-align: center;
+}
+
+.smt-item-text{
+	padding-top: 2vh;
+}
+
+.smt-item-button{
+	padding-top: 2vh;
 }
 
 /*REVISAR PORQUE ALGUNOS NO SE USAN*/

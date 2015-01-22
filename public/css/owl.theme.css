@@ -4,7 +4,7 @@
 */
 
 .owl-theme .owl-controls{
-	margin-top: -30px;
+	margin-top: -40vh;
 	text-align: center;
 }
 
@@ -34,7 +34,7 @@
 
 .owl-theme .owl-controls .owl-buttons .owl-prev{
   left: 0%;
-  top: 50%; 
+  top: 30%; 
   background-image:url(../img/button-left.png);
   background-size:cover;
   -webkit-background-size:cover;
@@ -46,7 +46,7 @@
  
 .owl-theme .owl-controls .owl-buttons .owl-next{
   right: 0%;
-  top: 50%;
+  top: 30%;
   background-image:url(../img/button-right.png);
   background-size:cover;
   -webkit-background-size:cover;
