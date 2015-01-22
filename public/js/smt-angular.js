@@ -31,7 +31,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.resume1 = 'Atendemos las necesidades de cada cliente';
 			
 			$scope.obj1Tittle = 'Promocionar Destinos Turísticos';
-			$scope.obj1Text = 'Con la implantación de sistemas avanzados de señalización e información turisticas.';
+			$scope.obj1Text = 'Con la implantación de sistemas avanzados de señalización e información turistica.';
 			//$scope.obj1Resume = 'Sistemas';
 			$scope.obj2Tittle = 'Dotar de Tecnología a Servicios Turísticos';
 			$scope.obj2Text = 'Para mejorar la promoción y comercialización de sus productos y servicios.';
