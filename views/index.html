@@ -35,9 +35,9 @@
 				if(!isMobile()){
 					parallaxBanner();
 					opaqueMenu();
-					parallaxObjectives();
-					parallaxTecnologic();
-					parallaxTeam();
+					//parallaxObjectives();
+					//parallaxTecnologic();
+					//parallaxTeam();
 					parallaxSection();
 				}
 			});
@@ -137,7 +137,7 @@
                         <p class="texto-tecnol">{{dronText}}</p>
 						<div id="objectiveButton">
                         <br />
-							<button>{{moreInfoShort}}</button>
+							<button onclick="window.open('drontrip.html')">{{moreInfoShort}}</button>
 						</div>						
 					</div>
 					<div class="col-md-4 smt-content-col">
@@ -146,7 +146,7 @@
                         <p class="texto-tecnol">{{nfcText}}</p>
 						<div id="objectiveButton">
                         <br />
-							<button>{{moreInfoShort}}</button>
+							<button onclick="window.open('nfc.html')">{{moreInfoShort}}</button>
 						</div>
 					</div>
 					<div class="col-md-4 smt-content-col">
@@ -155,7 +155,7 @@
                         <p class="texto-tecnol">{{senalizacionText}}</p>
 						<div id="objectiveButton">
                         <br />
-							<button onclick="window.open('tecnologia.html')">{{moreInfoShort}}</button>
+							<button onclick="window.open('senalizacion.html')">{{moreInfoShort}}</button>
 						</div>												
 					</div>
 				</div>
@@ -168,7 +168,7 @@
                         <p class="texto-tecnol">{{qrText}}</p>
 						<div id="objectiveButton">
                         <br />
-							<button class="smt-qrbutton">{{moreInfoShort}}</button>
+							<button onclick="window.open('qr.html')" class="smt-qrbutton">{{moreInfoShort}}</button>
 						</div>					
 					</div>
 					<div class="col-md-4 smt-content-col">
@@ -177,7 +177,7 @@
                         <p class="texto-tecnol">{{beaconText}}</p>
 						<div id="objectiveButton">
                         <br />
-							<button>{{moreInfoShort}}</button>
+							<button onclick="window.open('beacon.html')">{{moreInfoShort}}</button>
 						</div>			
 					</div>
 				</div>
