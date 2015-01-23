@@ -85,7 +85,8 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
 			// Página DronTrip
-			$scope.DronTripbutton1 = 'Ver Viaje';
+			$scope.DronTriptext1 = '¡Te invitamos a volar por la provincia de Palencia!';
+			$scope.DronTripbutton1 = 'Ver Video';
 
 			// Página NFC
 			$scope.NFCtext1 = 'Tarjetas NFC entregadas durante la premiere de la obra de Teatro móvil en Croacia.';
