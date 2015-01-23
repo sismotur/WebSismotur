@@ -145,8 +145,12 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.cntPortugalPhone = '+34 629.415.915';
 			
 			$scope.btnContact = 'Contactar';
-			
 			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
+
+
+			// *********************
+			// SUBSECCION TECNOLOGIA
+			// *********************
 
 			// Página DronTrip
 			$scope.DronTriptext1 = '¡Te invitamos a volar por la provincia de Palencia!';
@@ -154,34 +158,32 @@ myApp.controller('languagesController', ['$scope', function($scope){
 
 			// Página NFC
 			$scope.NFCtitle1 = 'Implant teatro Croacia';
-			$scope.NFCtext1 = 'Tarjetas NFC entregadas durante la premiere de la obra de Teatro móvil en Croacia.';
-			$scope.NFCbutton1 = 'Donde ver la obra';
+			$scope.NFCtext1 = 'Tarjetas NFC entregadas durante la premiere de la obra de teatro "Mobitel" en Zagreb. Las tarjetas contienen el programa de la representación de la obra durante 2015 en Croacia';
+			$scope.NFCbutton1 = 'Ver programa';
 
 			$scope.NFCtitle2 = 'Tarjetas NFC Palencia Turismo'
-			$scope.NFCtext2 = 'Presentación de las Tarjetas NFC por Palencia Turismo durante la pasada Feria de Turismo Interior, INTUR.';
+			$scope.NFCtext2 = 'Palencia Turismo presentó inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
 			$scope.NFCbutton2 = 'Descubre el viaje';
 
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
+
 			$scope.Sentitle1 = 'Barcelona';
 			$scope.Sentext1 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
-			$scope.Senbutton1 = 'Más Info';
 
 			$scope.Sentitle2 = 'Castilla y León';
-			$scope.Sentext2 = 'Participación de Sismotur en la presentación de la Consejera y Director General de Turismo de Castilla y León del programa de mejora de la señalización turistica de Castilla y León.';
-			$scope.Senbutton2 = 'Más Info';
+			$scope.Sentext2 = 'La Consejera y el Director General de Turismo de Castilla y León, conjuntamente con Sismotur, presentaron en la pasada edición de INTUR el programa de mejora de la señalización turística de la región.';
 
 			$scope.Sentitle3 = 'Ribera del Duero';
 			$scope.Sentext3 = 'Implantación integral de todos los equipamentos de señalización territorial y urbana para la Ruta Ribera del Duero.';
-			$scope.Senbutton3 = 'Más Info';
 
 			// Página QR
-			$scope.QRtitle1 = 'Normandia/Bretaña'
-			$scope.QRtext1 = '¡Descubre un viaje por la Bretaña escaneando este código QR!';
-			$scope.QRbutton1 = 'Más Info';
+			$scope.QRtitle1 = 'Normandía y Bretaña'
+			$scope.QRtext1 = '¡Descubre un viaje por Normandía y Bretaña escaneando este código QR!';
+			$scope.QRbutton1 = 'Descubre el viaje';
 
 			$scope.QRtitle2 = 'Barcelona';
-			$scope.QRtext2 = 'Prensentación a la prensa del plan de señalización e información.';
+			$scope.QRtext2 = 'Sismotur redactó en 2012 el primer plan de señalización e información turística de la ciudad de Barcelona para el distrito de Horta-Guinardó.';
 			$scope.QRbutton2 = 'Más Info';
 
 			// Página Beacon
