@@ -432,7 +432,6 @@ font-family: 'Monda', sans-serif;
 }
 
 .smt-item-button{
-	height: inherit;
 	text-align: center;
 }
 
@@ -449,8 +448,7 @@ height:100%;}
 	padding-top: 2vh;
 }
 
-<<<<<<< HEAD
-=======
+
 .smt-item-bottom{
 	position: absolute;
 	bottom: 20vh;
@@ -460,7 +458,18 @@ height:100%;}
 #btnDronTrip1{
 	bottom: 0px;
 }
->>>>>>>  Added new changes
+
+/*************************************************************************/
+/*	PAGINA DE DRONTRIP */
+.smt-drontrip-title{
+	padding-top: 52px;
+}
+
+.smt-drontrip-content p{
+	padding-top: 25px;
+}
+
+/*************************************************************************/
 
 /*REVISAR PORQUE ALGUNOS NO SE USAN*/
 #product{

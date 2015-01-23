@@ -8,7 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Sismotur SL - Drontrip</title>
+		<title>Sismotur SL - NFC</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/sismotur.css" rel="stylesheet">	
@@ -55,6 +55,7 @@
 	</head>
 	<body>		
 		<div class="container-fluid smt-tecno-content">
+
 			<nav class="navbar smt-menu" role="navigation">
 				<a id="smt-logo-menu" class="navbar-brand smt-logo-nav">
                 	<img class="smt-logo-menu" title="Sismotur" src="img/logomenu.png" />
@@ -63,24 +64,37 @@
                 	<img class="smt-logo-return" title="Sismotur" src="img/boton-volver.png" />
             	</a>
 			</nav>
-
-			<div id="fondo-drontrip" class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4 smt-drontrip-title">
-                        <h2>DronTrip</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 smt-drontrip-content">
-                        <p>
-                          	¡Te invitamos a volar por la provincia de Palencia!
-                        </p>
-                    </div>  
-                    <div class="col-md-4">
-                    	 <button id="btnDronTrip1" onclick="window.open('https://www.youtube.com/watch?v=wS6si4eHHFY')">Ver Video</button>
-                    </div>                             
-                </div>             
-            </div>
+			<div id="carousel-example-generic" class="carousel slide smt-carousel" data-ride="carousel">
+  
+      		<div id="owl-demo" class="owl-carousel smt-carousel">     
+    			<div id="dronTrip1" class="item smt-item"> 
+    				<div class="smt-item-content">   
+    					<div class="row smt-content-item-img">   						
+    					</div>
+    					<div class="row smt-content-item-text">
+    						<div class="col-md-6 col-md-offset-3 smt-item-text">
+    							<h2>Un título</h2>
+    							<p>{{NFCtext1}}</p>
+    						</div>
+    						<div class="col-md-6 col-md-offset-3 smt-item-button">
+    							<button>{{NFCbutton1}}</button>
+    						</div>
+    					</div>
+    				</div>								
+    			</div>   
+    			<div id="dronTrip1" class="item smt-item">  
+    				<div class="row smt-content-item-img">   						
+    					</div>
+    					<div class="row smt-content-item-text">
+    						<div class="col-md-6 col-md-offset-3 smt-item-text">
+    							<p>{{NFCtext2}}</p>
+    						</div>
+    						<div class="col-md-6 col-md-offset-3 smt-item-button">
+    							<button>{{NFCbutton2}}</button>
+    						</div>
+    					</div>  								
+    			</div> 
+    		</div>
 		</div>
 	</body>
 </html>
