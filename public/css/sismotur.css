@@ -409,9 +409,6 @@ font-family: 'Monda', sans-serif;
 
 .smt-content-item-img{
 	height: 50vh;
-	background-image: url('../img/banner.jpg');
-	background-size: cover;
-	background-attachment: fixed;
 	margin-right: 0px;
 	margin-left: 0px;
 }
@@ -449,6 +446,18 @@ height:100%;}
 	padding-top: 2vh;
 }
 
+<<<<<<< HEAD
+=======
+.smt-item-bottom{
+	position: absolute;
+	bottom: 20vh;
+	width: 100%;
+}
+
+#btnDronTrip1{
+	bottom: 0px;
+}
+>>>>>>>  Added new changes
 
 /*REVISAR PORQUE ALGUNOS NO SE USAN*/
 #product{
@@ -619,6 +628,14 @@ height:100%;}
 	border-radius:40px;
 }
 
+#drontip-img1{
+	height: 100%;
+	padding-bottom: 0px !important;
+	background-image: url('../img/drontripEscenario.JPG');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 button#b-contacto{text-align:center;}
 
 div.input-group{width:100%;}
@@ -628,3 +645,4 @@ div.input-group{width:100%;}
 		font-size: 25px;
 	}
 }
+
