@@ -70,7 +70,10 @@ a.smt-logo-nav{
 
 h2{font-family: 'Monda', sans-serif; color:rgb(0,36,168); font-size:36px;}
 
-p.texto-tecnol{ padding-left:10%; padding-right:10%;}
+p.texto-tecnol{ 
+	height: 80px;
+	padding-left:10%; 
+	padding-right:10%;}
 
 /* MENU PROPERTIES 2*/
 .smt-menu{

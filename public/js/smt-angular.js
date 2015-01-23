@@ -95,6 +95,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.NFCbutton2 = 'Más Info';
 
 			// Página Señalización
+			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
 			$scope.Sentext1 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
 			$scope.Senbutton1 = 'Más Info';
 
