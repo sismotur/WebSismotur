@@ -89,20 +89,25 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.DronTripbutton1 = 'Ver Video';
 
 			// Página NFC
+			$scope.NFCtitle1 = 'Implant teatro Croacia';
 			$scope.NFCtext1 = 'Tarjetas NFC entregadas durante la premiere de la obra de Teatro móvil en Croacia.';
-			$scope.NFCbutton1 = 'Más Info';
+			$scope.NFCbutton1 = 'Donde ver la obra';
 
+			$scope.NFCtitle2 = 'Tarjetas NFC Palencia Turismo'
 			$scope.NFCtext2 = 'Presentación de las Tarjetas NFC por Palencia Turismo durante la pasada Feria de Turismo Interior, INTUR.';
-			$scope.NFCbutton2 = 'Más Info';
+			$scope.NFCbutton2 = 'Descubre el viaje';
 
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
+			$scope.Sentitle1 = 'Barcelona';
 			$scope.Sentext1 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
 			$scope.Senbutton1 = 'Más Info';
 
+			$scope.Sentitle2 = 'Castilla y León';
 			$scope.Sentext2 = 'Participación de Sismotur en la presentación de la Consejera y Director General de Turismo de Castilla y León del programa de mejora de la señalización turistica de Castilla y León.';
 			$scope.Senbutton2 = 'Más Info';
 
+			$scope.Sentitle3 = 'Ribera del Duero';
 			$scope.Sentext3 = 'Implantación integral de todos los equipamentos de señalización territorial y urbana para la Ruta Ribera del Duero.';
 			$scope.Senbutton3 = 'Más Info';
 

@@ -102,3 +102,34 @@ i{display:none;}
 	min-height: 150px;
 	background: url(AjaxLoader.gif) no-repeat center center
 }
+
+@media (max-width: 768px) {
+	.owl-theme .owl-controls{
+	margin-top: -60vh;
+	text-align: center;
+	}
+
+	.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: 0%;
+  top: 20%; 
+  background-image:url(../img/button-left.png);
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -ms-background-size:cover;
+  -o-background-size:cover;
+  -khtml-background-size:cover;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right: 0%;
+  top: 20%;
+  background-image:url(../img/button-right.png);
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -ms-background-size:cover;
+  -o-background-size:cover;
+  -khtml-background-size:cover;
+}
+}

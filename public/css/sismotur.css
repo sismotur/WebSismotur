@@ -441,9 +441,12 @@ background-size:cover; -webkit-background-size:cover; -moz-background-size:cover
 height:100%;}
 
 .smt-item-text{
-	padding-top: 2vh;
+	padding-top: 0px;
 }
 
+.smt-item-text h2{
+	margin-top: 0px;
+}
 .smt-item-button{
 	padding-top: 2vh;
 }
@@ -470,6 +473,52 @@ height:100%;}
 }
 
 /*************************************************************************/
+/* PAGINA DE NFC */
+#smt-nfc-palencia-img{
+	background-image:url(../img/InventripPalencia.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* PAGINA DE SEÑALIZACIÓN */
+#smt-sen-img1{
+	background-image:url(../img/InventripPalencia.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-sen-img2{
+	background-image:url(../img/senCastillaLeon.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-sen-img3{
+	background-image:url(../img/InventripPalencia.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
 
 /*REVISAR PORQUE ALGUNOS NO SE USAN*/
 #product{
@@ -665,6 +714,12 @@ div.input-group{width:100%;}
 @media (max-width: 768px) {
 	.tittleBanner{
 		font-size: 25px;
+	}
+
+	.smt-content-item-img{
+		height: 30vh;
+		margin-right: 0px;
+		margin-left: 0px;
 	}
 }
 
