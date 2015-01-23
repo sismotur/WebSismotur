@@ -6,7 +6,7 @@ var myApp = angular.module('smtApp',[]);
 
 myApp.controller('languagesController', ['$scope', function($scope){
 	var lang = navigator.language.substr(0,2);
-	//alert(lang);
+	// alert(lang);
 	
 	// ******************
 	// COMMON ATTRIBUTES
@@ -30,7 +30,10 @@ myApp.controller('languagesController', ['$scope', function($scope){
 	// Browser language selector
 	switch(lang){
 
-		// SPANISH
+		// ***********************************************************************************************
+		// **************************************** SPANISH **********************************************
+		// ***********************************************************************************************
+
 		case "es":
 			// ******************
 			// TITULO WEB
@@ -138,7 +141,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.cntAustriaPhone = '+43 699.111.43611';
 
 			$scope.cntSuiza = 'Suiza';
-			$scope.cntSuiza2 = 'Lussanne';
+			$scope.cntSuiza2 = 'Lausanne';
 			$scope.cntSuizaPhone = '+41.76.393.72.52';
 
 			$scope.cntPortugal = 'Portugal';
@@ -212,33 +215,225 @@ myApp.controller('languagesController', ['$scope', function($scope){
 
 			break;
 
-		// CATALAN
+		
+		// ***********************************************************************************************
+		// **************************************** CATALAN **********************************************
+		// ***********************************************************************************************
+
 		case "ca":
 			$scope.tittle1 = 'Consultoria en senyalització i informació turística';
 			break;
 
-		// GERMAN
+
+		// ***********************************************************************************************
+		// **************************************** GERMAN ***********************************************
+		// ***********************************************************************************************
 		case "de":
 			$scope.tittle1 = 'Lo mismo pero en croata';
 			break;
 
-		// FRENCH
+		
+		// ***********************************************************************************************
+		// **************************************** FRENCH ***********************************************
+		// ***********************************************************************************************
 		case "fr":
 			$scope.tittle1 = 'Consultant en signalisation et information touristique';
 			break;
 
-		// CROATIAN
+
+		// ***********************************************************************************************
+		// **************************************** CROATIAN *********************************************
+		// ***********************************************************************************************
 		case "hr":
 			$scope.tittle1 = 'Lo mismo pero en croata';
 			break;
 
-		// ENGLISH
+		// ***********************************************************************************************
+		// **************************************** ENGLISH **********************************************
+		// ***********************************************************************************************
 		default:
-			$scope.tittle1 = '(en) Consulting signage and tourist information';
+			// ******************
+			// WEB TITLE
+			// ******************
+			$scope.tittle1 = 'We work to promote and develop smart tourism destinations';
+
+			
+			// ******************
+			// MENU
+			// ******************
 			$scope.mnObjet = 'Objectives';
-			$scope.mnTecno = 'Tecnologies';
-			$scope.mnTeam = 'Team';
+			$scope.mnTecno = 'Technologies';
+			$scope.mnTeam = 'Staff';
 			$scope.mnCont = 'Contact';
+			
+			// ****************
+			// GREY SEPARATOR 1
+			// ****************
+			$scope.resume1 = 'We meet the needs of each client';
+			
+			// ******************
+			// OBJETIVOS
+			// ******************
+
+			$scope.obj1Tittle = 'Tourism destination';
+			$scope.obj1Text = 'Increase the amount of tourists who visit your destination and improve their welcome by integrating advanced offline systems (signage) with digital online systems, using the best technologies.';
+
+
+			//$scope.obj1Resume = 'Sistemas';
+
+			$scope.obj2Tittle = 'Tourism Services';
+			$scope.obj2Text = 'Enhance your online sales channel offering information, products and tailored services to your clients through the inventrip platform. Promote your brand by sharing tourism videos shot with drones in the social networks';
+			
+			//$scope.obj2Resume = 'Movilidad';
+			
+			$scope.obj3Tittle = 'Travellers';
+			$scope.obj3Text = 'Travellers will discover the charm of tourism destinations and the proposals of touristic services and activities therein. They will plan their trip easily, consult it during their stay and share it with family members and friends';
+
+
+			//$scope.obj3Resume = 'Turismo';
+			
+			// REVISAR
+			$scope.btnMoreInfo = 'Discover a practical example of success';
+
+			// ******************
+			// GREY SEPARATOR 2
+			// ******************
+			$scope.tecTittle = 'We put at your disposal the best technologies';
+
+			// ******************
+			// TECNOLOGIAS
+			// ******************
+
+			// DronTrip
+			$scope.dronText = 'Use tourism videos shot with drones to promote and viralize your destination and touristic services across social networks.';
+			
+			// NFC
+			$scope.nfcText = 'Provide to your clients with NFC cards (contactless) to personalize their experience in your touristic destination.';
+			
+			// Signal
+			$scope.senalizacionTittle = 'Signage';
+			$scope.senalizacionText = 'Implement a signage system to facilitate tourist guiding and improve the perceived quality of your destination.';
+
+			// QR
+			$scope.qrText = 'Share a touristic trip through QR codes.';
+			
+			// Beacons
+			$scope.beaconText = 'Despliega la nueva tecnología beacons para dar información contextualizada al turista y ofrecerle productos y servicios personalizados en su teléfono móvil.';
+			$scope.beaconText = 'Deploy the new beacon technology to give tourists contextualized information and offer them tailored products and services in their smartphone.';
+			
+			
+			// ******************
+			// GREY SEPARATOR 3
+			// ******************
+			$scope.servTittle = 'We implement advanced cloud computing services';
+
+			// ******************
+			// TECNOLOGIAS
+			// ******************
+
+			// Inventrip
+			$scope.invTextA = 'To invent trips: this is the vision';
+			$scope.invTextB = 'We provide you with a technological platform that enable your travellers to create their own trip plan (organized by days, cities, topics, etc.), and by navigating on the map adding the places they want to visit and the services they want to hire.';
+
+			$scope.btnInventrip = 'Go to Inventrip';			
+
+			// Signing 
+			$scope.sigText = 'Signing is a cloud computing web service specialized on the planification and management of territorial and urban signage systems which is used by more than 30 public administrations. It was developed in 2009 and benefited of the support of a R&D funding plan from the State of Spain';
+	
+			$scope.btnSigning = 'More information';
+
+			// ******************
+			// CONTACTO
+			// ******************
+			$scope.cntSpain = 'Spain';
+			$scope.cntSpain2 = 'Madrid & Barcelona';
+			$scope.cntSpainPhone = '+34 913.238.208';
+			
+			$scope.cntFrance = 'France';
+			$scope.cntFrance2 = 'Annecy';
+			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
+			
+			$scope.cntCroatia = 'Croatia';
+			$scope.cntCroatia2 = 'Zagreb';
+			$scope.cntCroatiaPhone = '+385.16187750';
+
+			$scope.cntAustria = 'Austria';
+			$scope.cntAustria2 = 'Innsbruk';
+			$scope.cntAustriaPhone = '+43 699.111.43611';
+
+			$scope.cntSuiza = 'Switzerland';
+			$scope.cntSuiza2 = 'Lausanne';
+			$scope.cntSuizaPhone = '+41.76.393.72.52';
+
+			$scope.cntPortugal = 'Portugal';
+			$scope.cntPortugal2 = '';
+			$scope.cntPortugalPhone = '+34 629.415.915';
+			
+			$scope.btnContact = 'Contact us';
+			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
+
+
+			// *********************
+			// SUBSECCION TECNOLOGIA
+			// *********************
+
+			// Página DronTrip
+			$scope.DronTriptext1 = '¡Te invitamos a volar por la provincia de Palencia!';
+			$scope.DronTripbutton1 = 'Ver Video';
+
+			// Página NFC
+			$scope.NFCtitle1 = 'Implant teatro Croacia';
+			$scope.NFCtext1 = 'Tarjetas NFC entregadas durante la premiere de la obra de teatro "Mobitel" en Zagreb. Las tarjetas contienen el programa de la representación de la obra durante 2015 en Croacia';
+			$scope.NFCbutton1 = 'Ver programa';
+
+			$scope.NFCtitle2 = 'Tarjetas NFC Palencia Turismo'
+			$scope.NFCtext2 = 'Palencia Turismo presentó inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
+			$scope.NFCbutton2 = 'Descubre el viaje';
+
+			// Página Señalización
+			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
+
+			$scope.Sentitle1 = 'Barcelona';
+			$scope.Sentext1 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
+
+			$scope.Sentitle2 = 'Castilla y León';
+			$scope.Sentext2 = 'La Consejera y el Director General de Turismo de Castilla y León, conjuntamente con Sismotur, presentaron en la pasada edición de INTUR el programa de mejora de la señalización turística de la región.';
+
+			$scope.Sentitle3 = 'Ribera del Duero';
+			$scope.Sentext3 = 'Implantación integral de todos los equipamentos de señalización territorial y urbana para la Ruta Ribera del Duero.';
+
+			// Página QR
+			$scope.QRtitle1 = 'Normandía y Bretaña'
+			$scope.QRtext1 = '¡Descubre un viaje por Normandía y Bretaña escaneando este código QR!';
+			$scope.QRbutton1 = 'Descubre el viaje';
+
+			$scope.QRtitle2 = 'Barcelona';
+			$scope.QRtext2 = 'Sismotur redactó en 2012 el primer plan de señalización e información turística de la ciudad de Barcelona para el distrito de Horta-Guinardó.';
+			$scope.QRbutton2 = 'Más Info';
+
+			// Página Beacon
+			$scope.Beacontitle1 = 'Beacon'
+			$scope.Beacontext1 = 'Propuesta de la tecnología beacons a la provincia de Palencia.';
+
+			// *********************
+			// STAFF
+			// *********************
+
+			$scope.StaffCEO = 'Co-founder - CEO';
+			$scope.StaffCOO = 'Co-founder - COO';
+			$scope.StaffCMO = 'Partner - CMO';
+			$scope.StaffCTO = 'Partner - CTO';
+			$scope.StaffCLO = 'Partner - CLO';
+			$scope.StaffHeadDev = 'Head of Software Development';
+			$scope.StaffArtificialInt = 'Artificial Intelligence';
+			$scope.StaffDesign = 'Design & Communication';
+			$scope.AssociateBcn = 'Technician Barcelona';
+			$scope.AssociateProjects = 'Project Manager';
+			$scope.StaffCoordinatorCroatia = 'Coordinator Croacia';
+			$scope.StaffCoordinatorAustria = 'Coordinator Austria';
+			$scope.StaffCoordinatorSwitzerland = 'Coordinator Suiza';
+			$scope.StaffCoordinatorPortugal = 'Coordinator Portugal';
+
 			break;
 	}
 	
