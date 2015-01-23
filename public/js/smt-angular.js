@@ -112,9 +112,11 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.Senbutton3 = 'Más Info';
 
 			// Página QR
-			$scope.QRtext1 = 'FS+MM: Dejar preparado un viaje con pocos recursos pero con contenidos.';
+			$scope.QRtitle1 = 'Normandia/Bretaña'
+			$scope.QRtext1 = '¡Descubre un viaje por la Bretaña escaneando este código QR!';
 			$scope.QRbutton1 = 'Más Info';
 
+			$scope.QRtitle2 = 'Barcelona';
 			$scope.QRtext2 = 'Prensentación a la prensa del plan de señalización e información.';
 			$scope.QRbutton2 = 'Más Info';
 			break;

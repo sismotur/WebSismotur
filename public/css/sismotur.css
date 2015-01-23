@@ -488,7 +488,7 @@ height:100%;}
 /*************************************************************************/
 /* PAGINA DE SEÑALIZACIÓN */
 #smt-sen-img1{
-	background-image:url(../img/InventripPalencia.jpg);
+	background-image:url(../img/qrbarcelona.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
@@ -511,6 +511,30 @@ height:100%;}
 
 #smt-sen-img3{
 	background-image:url(../img/InventripPalencia.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* PAGINA DE QR */
+#smt-qr-img1{
+	background-image:url(../img/qrbarcelona.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-qr-img2{
+	background-image:url(../img/qrbarcelona.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
