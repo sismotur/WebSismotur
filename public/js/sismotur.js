@@ -84,6 +84,17 @@ function parallaxTecnologic(){
 	//scene1.addIndicators();
 }
 
+function parallaxSection(){
+	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onEnter", duration: $('#resume-one-trigger').height()}});
+	
+	var scene = new ScrollScene({triggerElement: "#resume-one-trigger"})
+			.setTween(TweenMax.fromTo("#resume-one", 10, {css:{'background-position':"0px 0px"}},{css:{'background-position':"0px -250px"}}))
+			.addTo(controller);
+			
+	scene.addIndicators();
+}
+
+
 function opaqueMenu(){
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 0.1, duration: 0}});
 	
@@ -152,4 +163,12 @@ function parallaxTeam(){
 
 function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+}
+
+function nextPage(){
+
+}
+
+function prevPage(){
+	
 }

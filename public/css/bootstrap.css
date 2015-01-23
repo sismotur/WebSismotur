@@ -5983,7 +5983,7 @@ button.close {
   text-indent: -999px;
   cursor: pointer;
   background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(0, 0, 0, 0);
   border: 1px solid #fff;
   border-radius: 10px;
 }
@@ -5991,7 +5991,7 @@ button.close {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #fff;
+  background-color: rgb(0,36,168) ;
 }
 .carousel-caption {
   position: absolute;

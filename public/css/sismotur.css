@@ -1,19 +1,11 @@
-*{font-family:'OpenSans';}
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Exo:300);
 
 
-@font-face{
-	font-family: 'PrimeLight';
-	src: url('../fonts/Prime_Light.otf') format('opentype');
-}
+*{font-family: 'Open Sans', sans-serif;}
+*{margin:0px; padding:0px;}
 
-@font-face{
-	font-family: 'PrimeRegular';
-	src: url('../fonts/Prime_Regular.otf') format('opentype');
-}
-
-@font-face{
-	font-family: 'OpenSans';
-	src: url('../fonts/OpenSansLight.ttf') format('opentype');}
 
 html, body{
 	margin: 0px;
@@ -24,7 +16,7 @@ html, body{
 	clear: both;
 }
 
-.smt-centrar{
+.centrar{
 	width: 100vw;
 	margin-left: auto;
 	margin-right: auto;
@@ -36,6 +28,10 @@ html, body{
 	margin: 0px;
 }
 
+a#boton-bajar{display:block; width:60px; height:60px; position:relative; left:50%; margin-left:-30px; background-color:red;}
+
+p.texto-obj{padding-left:10%; padding-right:10%; font-size:20px;}
+
 button{
 	width:180px;
 	height:50px;
@@ -45,8 +41,7 @@ button{
 	border-style:solid;
 	text-transform:uppercase;
 	letter-spacing:1px;
-	font-family:'PrimeRegular';
-	padding-top:7px;
+	font-family: 'Exo', sans-serif;
 }
 
 button:hover{
@@ -57,17 +52,13 @@ button:hover{
 button#b-contacto{
 	border-color:#ffffff;
 	color:#ffffff;
+	font-size: 15px;
 }
 
 button#b-contacto:hover{
 	background-color:#ffffff;
 	color:rgb(100,100,100);
 }
-
-img#logomenu{
-	height:40px;
-	width:auto;
-	}
 
 a.smt-logo-nav{
 	padding:5px 5px;
@@ -77,7 +68,55 @@ a.smt-logo-nav{
 	width:70%; 
 }
 
-/* MENU PROPERTIES */
+h2{font-family: 'Monda', sans-serif; color:rgb(0,36,168); font-size:36px;}
+
+p.texto-tecnol{ 
+	height: 80px;
+	padding-left:10%; 
+	padding-right:10%;}
+
+/* MENU PROPERTIES 2*/
+.smt-menu{
+	width: 100vw;
+	background-color: rgb(0,36,168);
+	position: fixed;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	padding-right: 5px;
+	z-index:2; 
+}
+
+.smt-menu a{
+	color: #FFFFFF;
+	font-family: 'Monda', sans-serif;
+}
+
+.smt-nav-bar li a:hover{
+	background-color: #646464;
+	color: #FFFFFF;
+}
+
+.smt-return-nav{
+	padding:5px 5px;
+	float: right;
+}
+
+.smt-logo-menu{
+	height:40px;
+	width:auto;
+}
+
+.smt-logo-return {
+	height: 30px;
+	width: auto;
+	padding-top: 10px;
+}
+
+.smt-logo-return a:hover{
+	background-color: #646464;
+}
+
+/* MENU PROPERTIES (deprecated)*/
 #smt-menu{
 	width: 100vw;
 	z-index: 3;
@@ -89,12 +128,7 @@ a.smt-logo-nav{
 
 #smt-menu a{
 	color: #FFFFFF;
-	font-family: PrimeRegular;
-}
-
-#smt-menu a:hover{
-	background-color: rgb(100, 100, 100);
-	color: #FFFFFF;
+	font-family: 'Monda', sans-serif;
 }
 
 .menuRef{}
@@ -110,10 +144,14 @@ a.smt-logo-nav{
 	margin-right: 0px;
 }
 
+.smt-logo-nav :hover{
+	background-color: rgb(0,36,168);
+}
+
 /* BANNER PROPERTIES */
 #smt-banner-par{
 	height: 100vh;
-	background-image: url('../img/banner.jpg');
+	background-image: url('../img/banner.png');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -139,7 +177,7 @@ a.smt-logo-nav{
 	position: absolute;
 	top: 0px;
 	z-index: 2;
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	color: #FFFFFF;		
 }
 
@@ -147,20 +185,33 @@ a.smt-logo-nav{
 	width: 60%;
 }
 
+.tittleBanner{
+	width:60%;
+	text-align:center;
+	margin:0 auto;
+	opacity:0.8;
+}
+
 /* RESUME PROPERTIES */
 .resume{
 	margin: 0px;	
-	background-color: rgba(100, 100, 100, 0.2);
+	background-image: url('../img/fondomapa-uno.png');
+	background-size:cover;
 	text-align: center;
 	padding-left: 5%;
 	padding-right: 5%;
 }
 
 .resume h1{
-	font-family: PrimeRegular;
-	padding-top: 1vh;
-	padding-bottom: 1vh;
+	font-family: 'Monda', sans-serif;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	color:rgb(0,36,168);
+	text-transform:uppercase;
+	font-size:28px;
 }
+
+div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 
 /* CONTENTS */
 .smt-content-title{	
@@ -172,7 +223,7 @@ a.smt-logo-nav{
 .smt-content-title h1{
 	padding-top: 55px;
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	font-size: 55px;
 }
 
@@ -181,6 +232,10 @@ a.smt-logo-nav{
 	margin-top: 3%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.smt-content-text{
+	height: 100%;
 }
 
 .smt-content-col{
@@ -204,7 +259,7 @@ a.smt-logo-nav{
 
 #objectiveContent h1{
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	font-size: 55px;
 }
 
@@ -255,7 +310,7 @@ a.smt-logo-nav{
 
 .smt-content-product h1{
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	font-size: 55px;
 	margin-bottom: 30%;
 }
@@ -269,8 +324,12 @@ a.smt-logo-nav{
 }
 
 h1.titulo-tecnologia{
-	font-family:'PrimeRegular';
-	}
+	font-family: 'Monda', sans-serif;
+}
+
+.smt-qrbutton{
+	margin-top: 20px;
+}
 
 /* SERVICE PROPERTIES */
 .smt-service{
@@ -287,7 +346,7 @@ h1.titulo-tecnologia{
 }
 
 .smt-service-tittle h1{
-	font-family: PrimeRegular;
+font-family: 'Monda', sans-serif;
 	color: rgb(0,36,168);
 	font-size: 55px;
 }
@@ -300,8 +359,8 @@ h1.titulo-tecnologia{
 
 .smt-servic-content-text{
 	padding-top: 10%;
-	padding-right: 15px;
-	padding-right: 15px;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 .smt-service-button{
@@ -334,6 +393,156 @@ h1.titulo-tecnologia{
 
 /* TRIGGERS PROPERTIES */
 
+/* TECNOLOGIES PROPERTIES*/
+.smt-tecno-content{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 100vh;
+}
+
+.smt-carousel{
+	/*padding-top: 52px;*/
+	height: 100vh;
+}
+
+.smt-item{	
+	height: inherit;
+	padding: 52px 0px;
+}
+
+.smt-content-item-img{
+	height: 50vh;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.smt-content-item-text{
+	padding-top: 7vh;
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.smt-item-content{
+	height: inherit;
+}
+
+.smt-item-content p{
+	/*color: #FFFFFF;*/
+}
+
+.smt-item-button{
+	text-align: center;
+}
+
+
+div#fondo-drontrip{background-image:url(../img/fondo-drontrip.png);
+background-size:cover; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; -ms-background-size:cover; -khtml-background-size:cover;
+height:100%;}
+
+.smt-item-text{
+	padding-top: 0px;
+}
+
+.smt-item-text h2{
+	margin-top: 0px;
+}
+.smt-item-button{
+	padding-top: 2vh;
+}
+
+
+.smt-item-bottom{
+	position: absolute;
+	bottom: 20vh;
+	width: 100%;
+}
+
+#btnDronTrip1{
+	bottom: 0px;
+}
+
+/*************************************************************************/
+/*	PAGINA DE DRONTRIP */
+.smt-drontrip-title{
+	padding-top: 52px;
+}
+
+.smt-drontrip-content p{
+	padding-top: 25px;
+}
+
+/*************************************************************************/
+/* PAGINA DE NFC */
+#smt-nfc-palencia-img{
+	background-image:url(../img/InventripPalencia.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* PAGINA DE SEÑALIZACIÓN */
+#smt-sen-img1{
+	background-image:url(../img/barcelonasen.png);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-sen-img2{
+	background-image:url(../img/senCastillaLeon.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-sen-img3{
+	background-image:url(../img/senRibera.png);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* PAGINA DE QR */
+#smt-qr-img1{
+	background-image:url(../img/qrbarcelona.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-qr-img2{
+	background-image:url(../img/qrbarcelona.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
 
 /*REVISAR PORQUE ALGUNOS NO SE USAN*/
 #product{
@@ -351,17 +560,17 @@ h1.titulo-tecnologia{
 
 .smt-product h1{
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 }
 
 .smt-product p{
-	font-family: PrimeLight;
+	font-family: 'Monda', sans-serif;
 	letter-spacing: 1px;
 }
 
 #team{
 	width: 100%;
-	height: 700px;
+	min-height: 100vh;
 	background-color: rgba(100, 100, 100, 0.4);
 	margin-top: 25px;
 	text-align: center;
@@ -369,29 +578,124 @@ h1.titulo-tecnologia{
 
 #team h1{
 	color: rgba(0,36,168,1);
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	margin-bottom: 3%;
 }
 
 .row-team{
 	text-align: center;
+	padding-top: 10px;
 	padding-left: 15%;
 	padding-right: 15%;
+	margin-right: -0px;
+	margin-left: -0px;
+}
+
+.row-team-3{
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-right: -0px;
+	margin-left: -0px;
+}
+
+.col-md-pre-team{
+	width: 12%;
 }
 
 .content-image{
 	text-align: center;
 }
 
+.content-image-data{
+	margin-bottom: 0px;
+}
+
 .image{
 	height: 150px;
 	width: 150px;
 	border-radius: 100%;
-	background-image: url('../img/perfil1.jpg');
-	background-size: cover;
+	/*background-image: url('../img/perfil1.jpg');
+	background-size: cover;*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 3%;
+}
+
+#image1{
+	background-image: url('../img/ar.png');
+	background-size: cover;
+}
+
+#image2{
+	background-image: url('../img/mm.png');
+	background-size: cover;
+}
+
+#image3{
+	background-image: url('../img/jj.png');
+	background-size: cover;
+}
+
+#image4{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image5{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image6{
+	background-image: url('../img/jjuan.png');
+	background-size: cover;
+}
+
+#image7{
+	background-image: url('../img/jluis.png');
+	background-size: cover;
+}
+
+#image8{
+	background-image: url('../img/mp.png');
+	background-size: cover;
+}
+
+#image9{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image10{
+	background-image: url('../img/ad.png');
+	background-size: cover;
+}
+
+#image11{
+	background-image: url('../img/jb.png');
+	background-size: cover;
+}
+
+#image12{
+	background-image: url('../img/siluetam.png');
+	background-size: cover;
+}
+
+#image13{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image14{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image15{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
 }
 
 .smt-footer{
@@ -401,7 +705,7 @@ h1.titulo-tecnologia{
 }
 
 .smt-contact{
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	width: 80%;
 	padding-top: 25px;
 	margin-left: auto;
@@ -410,7 +714,7 @@ h1.titulo-tecnologia{
 }
 
 .smt-contact p{
-	font-family: PrimeLight;
+	font-family: 'Monda', sans-serif;
 	letter-spacing: 1px;
 	margin: 0px;
 }
@@ -420,7 +724,7 @@ h1.titulo-tecnologia{
 }
 
 .smt-socialNetwork{
-	width: 150px;
+	width: 205px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 50px;
@@ -428,7 +732,7 @@ h1.titulo-tecnologia{
 }
 
 .smt-button{
-	font-family: PrimeRegular;
+	font-family: 'Monda', sans-serif;
 	width: 80%;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -437,9 +741,19 @@ h1.titulo-tecnologia{
 	text-align: center;
 }
 
+.smt-form{
+	font-family: 'Monda', sans-serif;
+	width: 80%;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .stm-copyright{
 	width: 100%;
-	font-family: PrimeLight;	
+	font-family: 'Monda', sans-serif;
+	padding-top: 50px;
 	letter-spacing: 1px;
 	text-align: center;
 	margin-left: auto;
@@ -447,20 +761,22 @@ h1.titulo-tecnologia{
 }
 
 #btnLinkedin{
-	background-image: url("../img/linkedin.png");
+	background-image: url("../img/logo-linkedin.png");
 	height: 40px;
 	width: 40px;
 	margin-right: 15px;
 	position: relative;
 	float: left;
+	
 }
 
 #btnLinkedin:hover{
-	background-position: 0px -40px;
+	background-color:rgb(0,36,168);
+	border-radius:40px;
 }
 
 #btnTwitter{
-	background-image: url("../img/twitter.png");
+	background-image: url("../img/logo-twitter.png");
 	height: 40px;
 	width: 40px;
 	margin-right: 15px;
@@ -469,23 +785,58 @@ h1.titulo-tecnologia{
 }
 
 #btnTwitter:hover{
-	background-position: 0px -40px;
+	background-color:rgb(0,36,168);
+	border-radius:40px;
 }
 
-#btnFacebook{
-	background-image: url("../img/facebook.png");
+#btnYoutube{
+	background-image: url("../img/logo-youtube.png");
+	height: 40px;
+	width: 40px;
+	margin-right: 15px;
+	position: relative;
+	float: left;
+}
+
+#btnYoutube:hover{
+	background-color:rgb(0,36,168);
+	border-radius:40px;
+}
+
+#btnGitHub{
+	background-image: url("../img/logo-github.png");
 	height: 40px;
 	width: 40px;
 	position: relative;
 	float: left;
 }
 
-#btnFacebook:hover{
-	background-position: 0px -40px;
+#btnGitHub:hover{
+	background-color:rgb(0,36,168);
+	border-radius:40px;
 }
+
+#drontip-img1{
+	height: 100%;
+	padding-bottom: 0px !important;
+	background-image: url('../img/drontripEscenario.JPG');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+button#b-contacto{text-align:center;}
+
+div.input-group{width:100%;}
 
 @media (max-width: 768px) {
 	.tittleBanner{
 		font-size: 25px;
 	}
+
+	.smt-content-item-img{
+		height: 30vh;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
 }
+

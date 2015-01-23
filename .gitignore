@@ -1,3 +1,6 @@
 .project
 *.log
 *.out
+content
+*.sublime-project
+*.sublime-workspace

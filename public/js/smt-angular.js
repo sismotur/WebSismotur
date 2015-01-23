@@ -10,49 +10,51 @@ myApp.controller('languagesController', ['$scope', function($scope){
 	
 	// Put common attributes
 	$scope.mnInven = 'Inventrip';
-	$scope.mnSigni = 'Signing';
+	$scope.mnSigni = 'Signing';	
 	$scope.nfcTittle = 'NFC';
-	$scope.beaconTittle = 'BEACON';
+	$scope.beaconTittle = 'Beacon';
 	$scope.qrTittle = 'QR';
-	$scope.dronTittle = 'DRON';
+	$scope.dronTittle = 'DronTrip';
 	$scope.invTittle = 'Inventrip';
 	$scope.sigTittle = 'Signing';
-	$scope.moreInfoShort = '+ INFO';
+	$scope.moreInfoShort = 'MÁS INFO';
 	
 	switch(lang){
 		case "es":
-			$scope.tittle1 = 'Consultoría en señalización e información turística';
+			$scope.tittle1 = 'Trabajamos para promocionar y desarrollar destinos turisticos inteligentes';
 			
 			$scope.mnObjet = 'Objetivos';
-			$scope.mnTecno = 'Tecnologías';
+			$scope.mnTecno = 'Sistemas/Tecnologías';
 			$scope.mnTeam = 'Equipo';
 			$scope.mnCont = 'Contacto';
 			
-			$scope.resume1 = 'Servicios avanzados en la nube';
+			$scope.resume1 = 'Atendemos las necesidades de cada cliente';
 			
-			$scope.obj1Tittle = 'Objetivo 1';
-			$scope.obj1Text = 'Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.';
-			$scope.obj1Resume = 'Sistemas';
-			$scope.obj2Tittle = 'Objetivo 2';
-			$scope.obj2Text = 'Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.';
-			$scope.obj2Resume = 'Movilidad';
-			$scope.obj3Tittle = 'Objetivo 3';
-			$scope.obj3Text = 'Aquí iria un texto descriptivo del producto Note: As with images and other media, check the license of the font you wish to use before implementing it. Many fonts are not yet licensed for this kind of use on the web.';
-			$scope.obj3Resume = 'Turismo';
+			$scope.obj1Tittle = 'Promocionar Destinos Turísticos';
+			$scope.obj1Text = 'Con la implantación de sistemas avanzados de señalización e información turistica.';
+			//$scope.obj1Resume = 'Sistemas';
+			$scope.obj2Tittle = 'Dotar de Tecnología a Servicios Turísticos';
+			$scope.obj2Text = 'Para mejorar la promoción y comercialización de sus productos y servicios.';
+			//$scope.obj2Resume = 'Movilidad';
+			$scope.obj3Tittle = 'Mejorar la Experiencia Turística del Viajero';
+			$scope.obj3Text = 'Facilitándoles la planificación y seguimiento de su viaje con el servicio Inventrip.';
+			//$scope.obj3Resume = 'Turismo';
 			
 			$scope.btnMoreInfo = 'Más Información';
+
+			$scope.senalizacionTittle = 'Señalización';
 			
-			$scope.tecTittle = 'Con las últimas tecnologías';
-			$scope.nfcText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
-			$scope.beaconText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
-			$scope.qrText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
-			$scope.dronText = 'Explicar en un pequeño párrafo para que usamos esta tecnología';
+			$scope.tecTittle = 'Implantación de Destinos Turísticos Inteligentes';
+			$scope.senalizacionText = 'Implanta un sistema de señalización para facilitar el guiado a los turistas y mejorar la calidad de imagen del entrono.';
+			$scope.nfcText = 'Entrega tarjetas NFC para personalizar la experiencia turística de tu cliente en el destino.';
+			$scope.beaconText = 'Despliega la nueva tecnología beacons para dar información contextualizada al turista u ofrecerle productos y servicios.';
+			$scope.qrText = 'Comparte un viaje turístico a través de códigos QR.';
+			$scope.dronText = 'Utiliza vuelos turísticos con Drones para viralizar la promoción de destinos y servicios turísticos.';
 			
-			$scope.invText = 'También es texto una composición de caracteres imprimibles (con grafema) generados por un algoritmo de cifrado que, aunque no tienen sentido para cualquier persona, sí puede ser descifrado por su destinatario original. En otras palabras, un texto es un entramado de signos con una intención comunicativa que adquiere sentido en determinado contexto.';
-			$scope.btnInventrip = 'Ir a Invetrip';
-			
-			$scope.sigText = 'Texto explicativo de Signing';
-			$scope.btnSigning = 'Ir a Signig';
+			$scope.servTittle = 'Implantación de servicios avanzados en la nube';
+			$scope.invText = 'Inventar viajes: esa es la visión. Proporcionar al usuario una plataforma tecnología con la que pueda crear su plan de viaje (por días, ciudades, temas, etc.) y navegando por el mapa pueda ir añadiendo los recursos y servicios que quiera visitar.';
+			$scope.btnInventrip = 'Ir a Inventrip';			
+			$scope.sigText = 'Signing es un servicio web especializado para la planificación y gestión de la señalización territorial y urbana. Desarrollado en el marco de un Plan Avanza de I+D del Ministerio de Industria, Turismo y Comercio, es utilizado por más de 20 administraciones públicas.';
 			
 			$scope.cntSpain = 'España';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
@@ -65,10 +67,62 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.cntCroatia = 'Croacia';
 			$scope.cntCroatia2 = 'Zagreb';
 			$scope.cntCroatiaPhone = '+385.16187750';
+
+			$scope.cntAustria = 'Austria';
+			$scope.cntAustria2 = 'Innsbruk';
+			$scope.cntAustriaPhone = '+';
+
+			$scope.cntSuiza = 'Suiza';
+			$scope.cntSuiza2 = 'Lussanne';
+			$scope.cntSuizaPhone = '+';
+
+			$scope.cntPortugal = 'Portugal';
+			$scope.cntPortugal2 = '';
+			$scope.cntPortugalPhone = '+34 629415915';
 			
 			$scope.btnContact = 'Contactar';
 			
-			$scope.copyright = 'Copyright © 2012 SISMOTUR SL.';
+			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
+
+			// Página DronTrip
+			$scope.DronTriptext1 = '¡Te invitamos a volar por la provincia de Palencia!';
+			$scope.DronTripbutton1 = 'Ver Video';
+
+			// Página NFC
+			$scope.NFCtitle1 = 'Implant teatro Croacia';
+			$scope.NFCtext1 = 'Tarjetas NFC entregadas durante la premiere de la obra de Teatro móvil en Croacia.';
+			$scope.NFCbutton1 = 'Donde ver la obra';
+
+			$scope.NFCtitle2 = 'Tarjetas NFC Palencia Turismo'
+			$scope.NFCtext2 = 'Presentación de las Tarjetas NFC por Palencia Turismo durante la pasada Feria de Turismo Interior, INTUR.';
+			$scope.NFCbutton2 = 'Descubre el viaje';
+
+			// Página Señalización
+			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
+			$scope.Sentitle1 = 'Barcelona';
+			$scope.Sentext1 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
+			$scope.Senbutton1 = 'Más Info';
+
+			$scope.Sentitle2 = 'Castilla y León';
+			$scope.Sentext2 = 'Participación de Sismotur en la presentación de la Consejera y Director General de Turismo de Castilla y León del programa de mejora de la señalización turistica de Castilla y León.';
+			$scope.Senbutton2 = 'Más Info';
+
+			$scope.Sentitle3 = 'Ribera del Duero';
+			$scope.Sentext3 = 'Implantación integral de todos los equipamentos de señalización territorial y urbana para la Ruta Ribera del Duero.';
+			$scope.Senbutton3 = 'Más Info';
+
+			// Página QR
+			$scope.QRtitle1 = 'Normandia/Bretaña'
+			$scope.QRtext1 = '¡Descubre un viaje por la Bretaña escaneando este código QR!';
+			$scope.QRbutton1 = 'Más Info';
+
+			$scope.QRtitle2 = 'Barcelona';
+			$scope.QRtext2 = 'Prensentación a la prensa del plan de señalización e información.';
+			$scope.QRbutton2 = 'Más Info';
+
+			// Página Beacon
+			$scope.Beacontitle1 = 'Beacon'
+			$scope.Beacontext1 = 'Propuesta de la tecnología beacons a la provincia de Palencia.';
 			break;
 		case "ca":
 			$scope.tittle1 = 'Consultoria en senyalització i informació turística';

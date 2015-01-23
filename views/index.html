@@ -11,7 +11,7 @@
 		<title>Sismotur SL.</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/sismotur.css" rel="stylesheet">		   	
+		<link href="css/sismotur.css" rel="stylesheet">	
     	
     	<script src="js/jquery-1.11.1.js"></script>
     	<script src="js/jquery.browser.js"></script>
@@ -24,19 +24,24 @@
     	<script src="js/lib/greensock/TimelineMax.min.js"></script>
     	<script src="js/angular.js"></script>
     	<script src="js/smt-angular.js"></script>
+        
+ 
+ <script type="text/javascript" src="http://www.essentialsapps.com/js/jquery-1.4.4.min.js" defer></script>
+ <script type="text/javascript" src="http://www.essentialsapps.com/js/jquery.scrollTo-1.4.2.min.js" defer></script>     
+ <script type="text/javascript" src="http://www.essentialsapps.com/js/scrollto.min.js" defer></script>
     	
     	<script>			
 			$(document).ready(function($){
 				if(!isMobile()){
 					parallaxBanner();
 					opaqueMenu();
-					parallaxObjectives();
-					parallaxTecnologic();
-					parallaxTeam();
+					//parallaxObjectives();
+					//parallaxTecnologic();
+					//parallaxTeam();
+					parallaxSection();
 				}
 			});
-    	</script>
-		
+    	</script>		
 	</head>
 
 	<body>		
@@ -52,20 +57,20 @@
         					<span class="icon-bar"></span>
       					</button>
       					<a class="navbar-brand smt-logo-nav" href="#">
-                        <img id="logomenu" title="Sismotur" src="img/logomenu.png" />
+                        	<img class="smt-logo-menu" title="Sismotur" src="img/logomenu.png" />
                         </a>
     				</div>
 
     				<!-- Collect the nav links, forms, and other content for toggling -->
     				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      					<ul class="nav navbar-nav navbar-right">
+      					<ul class="nav navbar-nav navbar-right smt-nav-bar">
         					<!--<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>-->
-        					<li><a class="menuRef" href="#objectives">{{mnObjet}}</a></li>
-        					<li><a class="menuRef" href="#tecnologic">{{mnTecno}}</a></li>
-        					<li><a class="menuRef" href="#inventrip">{{mnInven}}</a></li>
-        					<li><a class="menuRef" href="#signing">{{mnSigni}}</a></li>
-        					<li><a class="menuRef" href="#team">{{mnTeam}}</a></li>
-        					<li><a class="menuRef" href="#contact">{{mnCont}}</a></li>        					
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#objectives',1000)">{{mnObjet}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#tecnologic',1000)">{{mnTecno}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#inventrip',1000)">{{mnInven}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#signing',1000)">{{mnSigni}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#team',1000)">{{mnTeam}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#contact',1000)">{{mnCont}}</a></li>        					
       					</ul>
     				</div><!-- /.navbar-collapse -->
   				</div><!-- /.container-fluid -->
@@ -82,7 +87,7 @@
 			</div>
 			<div id="menuTrigger">				
 			</div>
-			<div class="row resume">
+			<div class="row resume" id="first">
 				<h1>{{resume1}}</h1>
 			</div>
 			<div id="obtectivesTrigger">				
@@ -91,16 +96,16 @@
 			<div id="objectives" class="container-fluid">
 				<div id="objectiveContent" class="row smt-content">
 					<div id="obj1" class="col-md-4 smt-content-col">
-						<h1>{{obj1Tittle}}</h1>
-						<p>{{obj1Text}}</p>						
+						<h2>{{obj1Tittle}}</h2>
+						<p class="texto-obj">{{obj1Text}}</p>					
 					</div>
 					<div id="obj2" class="col-md-4 smt-content-col">
-						<h1>{{obj2Tittle}}</h1>
-						<p>{{obj2Text}}</p>							
+						<h2>{{obj2Tittle}}</h2>
+						<p class="texto-obj">{{obj2Text}}</p>						
 					</div>
 					<div id="obj3" class="col-md-4 smt-content-col">
-						<h1>{{obj3Tittle}}</h1>
-						<p>{{obj3Text}}</p>							
+						<h2>{{obj3Tittle}}</h2>
+						<p class="texto-obj">{{obj3Text}}</p>						
 					</div>
 				</div>
 				<!--<div id="objectiveButton">
@@ -111,8 +116,10 @@
 				<iframe src="//www.youtube.com/embed/lVLSAYLhMfg" frameborder="0" onload='javascript:resizeIframe(this);'>						
 				</iframe>-->
 			</div>
-			<div class="row resume">
-				<h1>{{resume1}}</h1>
+            
+            <div id="resume-one-trigger" >
+			<div id="resume-one" class="row resume">
+				<h1>{{tecTittle}}</h1>
 			</div>
 			
 			<div id="tecnologicTrigger">				
@@ -125,95 +132,104 @@
 				
 				<div id="tecnologicContent" class="row smt-content">
 					<div class="col-md-4 smt-content-col">
-						<h1 class="titulo-tecnologia">{{nfcTittle}}</h1>
-						<p>{{nfcText}}</p>
-						<img class="logoTecno" src="img/logosenal.png"/>
+						<img class="logoTecno" src="img/logodron.png"/>	
+                        <h2>{{dronTittle}}</h2>
+                        <p class="texto-tecnol">{{dronText}}</p>
 						<div id="objectiveButton">
-							<button>{{moreInfoShort}}</button>
-						</div>
+                        <br />
+							<button onclick="window.open('drontrip.html')">{{moreInfoShort}}</button>
+						</div>						
 					</div>
 					<div class="col-md-4 smt-content-col">
-						<h1 class="titulo-tecnologia">{{beaconTittle}}</h1>
-						<p>{{beaconText}}</p>
 						<img class="logoTecno" src="img/logonfc.png"/>
+                        <h2>{{nfcTittle}}</h2>
+                        <p class="texto-tecnol">{{nfcText}}</p>
 						<div id="objectiveButton">
-							<button>{{moreInfoShort}}</button>
+                        <br />
+
+							<button onclick="window.open('NFC.html')">{{moreInfoShort}}</button>
+
 						</div>
 					</div>
 					<div class="col-md-4 smt-content-col">
-						<h1 class="titulo-tecnologia">{{qrTittle}}</h1>
-						<p>{{qrText}}</p>
-						<img class="logoTecno" src="img/logobeacon.png"/>	
+						<img class="logoTecno" src="img/logosenal.png"/>
+                        <h2>{{senalizacionTittle}}</h2>
+                        <p class="texto-tecnol">{{senalizacionText}}</p>
 						<div id="objectiveButton">
-							<button>{{moreInfoShort}}</button>
-						</div>					
+                        <br />
+							<button onclick="window.open('senalizacion.html')">{{moreInfoShort}}</button>
+						</div>												
 					</div>
 				</div>
 				<div id="tecnologicContent" class="row smt-content">
 					<div class="col-md-2">						
 					</div>
 					<div class="col-md-4 smt-content-col">
-						<h1 class="titulo-tecnologia">{{dronTittle}}</h1>
-						<p>{{dronText}}</p>
-						<img class="logoTecno" src="img/logoqr.png"/>	
+						<img class="logoTecno" src="img/logoqr.png"/>
+                        <h2>{{qrTittle}}</h2>
+                        <p class="texto-tecnol">{{qrText}}</p>
 						<div id="objectiveButton">
-							<button>{{moreInfoShort}}</button>
+                        <br />
+
+							<button onclick="window.open('QR.html')">{{moreInfoShort}}</button>
+
 						</div>					
 					</div>
 					<div class="col-md-4 smt-content-col">
-						<h1 class="titulo-tecnologia">{{dronTittle}}</h1>
-						<p>{{dronText}}</p>
-						<img class="logoTecno" src="img/logodron.png"/>	
+						<img class="logoTecno" src="img/logobeacon.png"/>
+                        <h2>{{beaconTittle}}</h2>
+                        <p class="texto-tecnol">{{beaconText}}</p>
 						<div id="objectiveButton">
-							<button>{{moreInfoShort}}</button>
-						</div>					
+                        <br />
+							<button onclick="window.open('beacon.html')">{{moreInfoShort}}</button>
+						</div>			
 					</div>
 				</div>
 			</div>
+			</div>
 
 			<div class="row resume">
-				<h1>{{resume1}}</h1>
+				<h1>{{servTittle}}</h1>
 			</div>
 			
-
 			<div id="inventrip" class="continer-fluid smt-service">
 				<div class="row smt-service-tittle">
-					<div class="col-md-4">
-						<h1>{{invTittle}}</h1>
+					<div class="col-md-3 col-md-offset-1">
+						<h2>{{invTittle}}</h2>
 					</div>
 				</div>
 				<div class="row smt-service-content">
 					<div class="col-md-8 col-md-push-4 img-interface">
 						<img src="img/inventrip-interfaz.png"/>
 					</div>
-					<div class="col-md-3 col-md-offset-1 col-md-pull-8">
+					<div class="col-md-3 col-md-offset-1 col-md-pull-8 smt-content-text">
 						<p class="smt-servic-content-text">{{invText}}</p>
 					</div>					
 				</div>
 				<div class="row smt-service-button">
-					<div class="col-md-4">
-						<button>{{btnInventrip}}</button>
+					<div class="col-md-3 col-md-offset-1">
+						<button onclick="window.open('http://www.inventrip.com')">{{btnInventrip}}</button>
 					</div>
 				</div>
 			</div>
 
 			<div id="signing" class="continer-fluid smt-service">
 				<div class="row smt-service-tittle">
-					<div class="col-md-4 col-md-offset-8">
-						<h1>{{sigTittle}}</h1>
+					<div class="col-md-3 col-md-offset-8">
+						<h2>{{sigTittle}}</h1>
 					</div>
 				</div>
 				<div class="row smt-service-content">
 					<div class="col-md-8 img-interface">
 						<img id="signing-img" src="img/signing-interfaz.png"/>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-3 smt-content-text">
 						<p class="smt-servic-content-text">{{sigText}}</p>
 					</div>					
 				</div>
 				<div class="row smt-service-button">
-					<div class="col-md-4 col-md-offset-8">
-						<button>{{btnSigning}}</button>
+					<div class="col-md-3 col-md-offset-8">
+						<button onclick="window.open('http://sismotur.net/signing')">{{btnMoreInfo}}</button>
 					</div>
 				</div>
 			</div>
@@ -224,56 +240,126 @@
 					<h1>Equipo</h1>
 				</div>
 				<div id="row1" class="row row-team">					
-					<div class="col-md-4" class="content-image">	
+					<div class="col-md-3 col-md-offset-3" class="content-image">	
 						<div id="image1" class="image">
 							
-						</div>				
+						</div>	
+						<p class="content-image-data"><strong>Augusto Ramos</strong></p>			
+						<p>Cofundador - CEO</p>
 					</div>
-					<div class="col-md-4" class="content-image">	
+					<div class="col-md-3" class="content-image">	
 						<div id="image2" class="image">
 							
-						</div>				
-					</div>
-					<div class="col-md-4" class="content-image">	
-						<div id="image3" class="image">
-							
-						</div>				
+						</div>	
+						<p class="content-image-data"><strong>Manuel Mariscal</strong></p>			
+						<p>Cofundador - COO</p>				
 					</div>
 				</div>
 				
-				<div id="row2" class="row row-team">
-					<div class="col-md-4" class="content-image">	
+				<div id="row2" class="row row-team-3">
+					<div class="col-md-1 col-md-pre-team">
+						
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image3" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Julio José Julián</strong></p>			
+						<p>Socio - CMO</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
 						<div id="image4" class="image">
 							
-						</div>				
+						</div>	
+						<p class="content-image-data"><strong>Felipe Santi</strong></p>			
+						<p>Socio - CTO</p>					
 					</div>
-					<div class="col-md-4" class="content-image">	
+					<div class="col-md-3" class="content-image">	
 						<div id="image5" class="image">
 							
-						</div>				
+						</div>	
+						<p class="content-image-data"><strong>Alberto Jabonero</strong></p>			
+						<p>Socio - CLO</p>					
 					</div>
-					<div class="col-md-4" class="content-image">	
-						<div id="image6" class="image">
-							
-						</div>				
-					</div>
+					
 				</div>
 				
 				<div id="row3" class="row row-team">
-					<div class="col-md-4" class="content-image">	
+					<div class="col-md-3" class="content-image">	
+						<div id="image6" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Jose Juan</strong></p>			
+						<p>Jefe Dpto. Desarrollo</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
 						<div id="image7" class="image">
 							
-						</div>				
+						</div>	
+						<p class="content-image-data"><strong>Jose Luis Jorro</strong></p>			
+						<p>Inteligencia Artificial</p>				
 					</div>
-					<div class="col-md-4" class="content-image">	
+					<div class="col-md-3" class="content-image">	
 						<div id="image8" class="image">
 							
-						</div>				
+						</div>	
+						<p class="content-image-data"><strong>Mario Pavón</strong></p>			
+						<p>Diseño & Comunicación</p>				
 					</div>
-					<div class="col-md-4" class="content-image">	
+					<div class="col-md-3" class="content-image">	
 						<div id="image9" class="image">
 							
-						</div>				
+						</div>	
+						<p class="content-image-data"><strong>Roser Soler</strong></p>			
+						<p>Técnico Barcelona</p>				
+					</div>
+				</div>
+
+				<div id="row4" class="row row-team">					
+					<div class="col-md-3 col-md-offset-3" class="content-image">	
+						<div id="image10" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Arantxa Díaz</strong></p>			
+						<p>Jefe Proyectos</p>
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image11" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Javier Becerra</strong></p>			
+						<p>Jefe Proyectos</p>				
+					</div>
+				</div>
+
+				<div id="row5" class="row row-team">
+					<div class="col-md-3" class="content-image">	
+						<div id="image12" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Natalija Bajs</strong></p>			
+						<p>Coordinador Croacia</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image13" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Andrés Santi</strong></p>			
+						<p>Coordinador Austria</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image14" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Manuel Capel</strong></p>			
+						<p>Coordinador Suiza</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image15" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Daniel Gordo</strong></p>			
+						<p>Coordinador Portugal</p>				
 					</div>
 				</div>
 				
@@ -297,14 +383,51 @@
 						<p>{{cntCroatiaPhone}}</p>
 					</div>
 				</div>
+				<div class="row smt-contact">
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntAustria}}</h3>
+						<p>{{cntAustria2}}</p>
+						<p>{{cntAustriaPhone}}</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntSuiza}}</h3>
+						<p>{{cntSuiza2}}</p>
+						<p>{{cntSuizaPhone}}</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntPortugal}}</h3>
+						<p>{{cntPortugal2}}</p>
+						<p>{{cntPortugalPhone}}</p>
+					</div>
+				</div>
 				<div class="row smt-socialNetwork">
-					<div id="btnLinkedin"></div>
-					<div id="btnTwitter"></div>
-					<div id="btnFacebook"></div>
+					<div id="btnLinkedin" onclick="window.open('https://www.linkedin.com/company/sismotur')"></div>
+					<div id="btnTwitter" onclick="window.open('https://twitter.com/sismotur')"></div>
+					<div id="btnYoutube" onclick="window.open('https://www.youtube.com/user/Inventrip')"></div>
+					<div id="btnGitHub" onclick="window.open('https://github.com/sismotur')"></div>
 				</div>
-				<div class="row smt-button">
+				<!--<div class="row smt-button">
 					<button id="b-contacto" type="button">{{btnContact}}</button>
-				</div>
+				</div>-->
+
+				<!--<div class="row smt-form">
+  					<div class="col-md-6 col-md-offset-3">
+    					<div class="input-group">
+      						<input type="text" class="form-control" placeholder="escribe aquí tu e-mail">
+    					</div><!-- /input-group -->
+  					<!--</div><!-- /.col-lg-6 -->
+				<!--</div><!-- /.row -->
+                
+               <!-- <div class="row smt-form">
+                 <div class="col-md-6 col-md-offset-3">
+                    
+                    </div>
+                </div>-->
+                <div class="row smt-form">
+                	<div class="col-md-6 col-md-offset-3">
+                		<button id="b-contacto" type="button" onclick="win = window.open('mailto:aramos@sismotur.com', 'emailWindow'); win.close();">{{btnContact}}</button>
+                	</div>
+                </div>
 				<div class="row stm-copyright">
 					<p>{{copyright}}</p>
 				</div>
