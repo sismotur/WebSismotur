@@ -108,7 +108,8 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			// ******************
 
 			// Inventrip
-			$scope.invText = 'Inventar viajes: esa es la visión. Te proporcionamos una plataforma tecnológica con la que tus viajeros podrán crear su plan de viaje (por días, ciudades, temas, etc.) y navegando por el mapa podrán ir añadiendo los recursos que quieran visitar y servicios que deseen contratar.';
+			$scope.invTextA = 'Inventar viajes: esa es la visión';
+			$scope.invTextB = 'Te proporcionamos una plataforma tecnológica con la que tus viajeros podrán crear su plan de viaje (por días, ciudades, temas, etc.) y navegando por el mapa podrán ir añadiendo los recursos que quieran visitar y servicios que deseen contratar.';
 
 			$scope.btnInventrip = 'Ir a Inventrip';			
 
@@ -189,6 +190,26 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			// Página Beacon
 			$scope.Beacontitle1 = 'Beacon'
 			$scope.Beacontext1 = 'Propuesta de la tecnología beacons a la provincia de Palencia.';
+
+			// *********************
+			// STAFF
+			// *********************
+
+			$scope.StaffCEO = 'Cofundador - CEO';
+			$scope.StaffCOO = 'Cofundador - COO';
+			$scope.StaffCMO = 'Socio - CMO';
+			$scope.StaffCTO = 'Socio - CTO';
+			$scope.StaffCLO = 'Socio - CLO';
+			$scope.StaffHeadDev = 'Jefe Dpto. Desarrollo';
+			$scope.StaffArtificialInt = 'Inteligencia Artificial';
+			$scope.StaffDesign = 'Diseño & Comunicación';
+			$scope.AssociateBcn = 'Técnico Barcelona';
+			$scope.AssociateProjects = 'Jefe Proyectos';
+			$scope.StaffCoordinatorCroatia = 'Coordinador Croacia';
+			$scope.StaffCoordinatorAustria = 'Coordinador Austria';
+			$scope.StaffCoordinatorSwitzerland = 'Coordinador Suiza';
+			$scope.StaffCoordinatorPortugal = 'Coordinador Portugal';
+
 			break;
 
 		// CATALAN

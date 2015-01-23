@@ -13,9 +13,12 @@ We always push to master branch of heroku
 
 $ git push heroku development:master
 
-Connect to URL: https://test-smt.herokuapp.com/
+Connect to URL: https://smt-test.herokuapp.com/
 or
 $ heroku open
+
+To reset the Heroku project, run 
+$ heroku repo:reset -a smt-test
 
 
 ==================================================
