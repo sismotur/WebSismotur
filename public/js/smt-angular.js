@@ -119,6 +119,10 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.QRtitle2 = 'Barcelona';
 			$scope.QRtext2 = 'Prensentación a la prensa del plan de señalización e información.';
 			$scope.QRbutton2 = 'Más Info';
+
+			// Página Beacon
+			$scope.Beacontitle1 = 'Beacon'
+			$scope.Beacontext1 = 'Propuesta de la tecnología beacons a la provincia de Palencia.';
 			break;
 		case "ca":
 			$scope.tittle1 = 'Consultoria en senyalització i informació turística';

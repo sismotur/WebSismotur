@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="smtApp" ng-controller="languagesController">
 	<head>
 		<meta charset="utf-8">
 
@@ -8,7 +8,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Sismotur SL - Tecnología</title>
+		<title>Sismotur SL - Beacon</title>
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/sismotur.css" rel="stylesheet">	
@@ -66,62 +66,23 @@
 			</nav>
 			<div id="carousel-example-generic" class="carousel slide smt-carousel" data-ride="carousel">
   
-  			<!-- Indicators -->
-  			<ol class="carousel-indicators">
-    			<li class="btn-slider" data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    			<li class="btn-slider" data-target="#carousel-example-generic" data-slide-to="1"></li>
-    			<li class="btn-slider" data-target="#carousel-example-generic" data-slide-to="2"></li>
-  			</ol>
-
-    		<div id="owl-demo" class="owl-carousel smt-carousel">     
-    			<div class="item smt-item">
-    				
-    					<div class="container-fluid smt-item-content">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <h2>Beacon<h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <p>
-                                       San Lorenzo del Escorial
-                                    </p>
-                                    
-                                    
-                                </div>
-                                <div class="col-md-5 col-md-offset-1">
-                                    <p>
-                                    Propuesta de la tecnología iBeacons al ayuntamiento de San Lorenzo del Escorial.
-                                    </p>
-                                    
-                                    <p>
-                                    	
-                                    </p>
-                                </div>
-                            </div> 
-                            <div class="row smt-item-button">
-                                <div class="col-md-4 col-md-offset-7 smt-item-button-down">
-                                    <button>{{moreInfoShort}}</button>
-                                </div>
-                            </div>              
-                        </div>
-    				
-    			</div>
-    			<div class="item smt-item">
-    				
-    					<p></p>
-    				
-    			</div>
-    			<div class="item smt-item">
-    				
-    					<p></p>
-    				
-    			</div>    
+      		<div id="owl-demo" class="owl-carousel smt-carousel">     
+    			<div id="dronTrip1" class="item smt-item"> 
+    				<div class="smt-item-content">   
+    					<div id="smt-qr-img1" class="row smt-content-item-img">   						
+    					</div>
+    					<div class="row smt-content-item-text">
+    						<div class="col-md-6 col-md-offset-3 smt-item-text">
+    							<h2>{{Beacontitle1}}</h2>
+    							<p>{{Beacontext1}}</p>
+    						</div>
+    						<!--<div class="col-md-6 col-md-offset-3 smt-item-button">
+    							<!--<button onclick="window.open('http://inventrip.com/movil/220')">{{QRbutton1}}</button>
+    						</div>-->
+    					</div>
+    				</div>								
+    			</div>   
     		</div>
-
-
-			
 		</div>
 	</body>
 </html>
