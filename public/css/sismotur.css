@@ -584,25 +584,118 @@ height:100%;}
 
 .row-team{
 	text-align: center;
+	padding-top: 10px;
 	padding-left: 15%;
 	padding-right: 15%;
 	margin-right: -0px;
 	margin-left: -0px;
 }
 
+.row-team-3{
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-right: -0px;
+	margin-left: -0px;
+}
+
+.col-md-pre-team{
+	width: 12%;
+}
+
 .content-image{
 	text-align: center;
+}
+
+.content-image-data{
+	margin-bottom: 0px;
 }
 
 .image{
 	height: 150px;
 	width: 150px;
 	border-radius: 100%;
-	background-image: url('../img/perfil1.jpg');
-	background-size: cover;
+	/*background-image: url('../img/perfil1.jpg');
+	background-size: cover;*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 3%;
+}
+
+#image1{
+	background-image: url('../img/ar.png');
+	background-size: cover;
+}
+
+#image2{
+	background-image: url('../img/mm.png');
+	background-size: cover;
+}
+
+#image3{
+	background-image: url('../img/jj.png');
+	background-size: cover;
+}
+
+#image4{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image5{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image6{
+	background-image: url('../img/jjuan.png');
+	background-size: cover;
+}
+
+#image7{
+	background-image: url('../img/jluis.png');
+	background-size: cover;
+}
+
+#image8{
+	background-image: url('../img/mp.png');
+	background-size: cover;
+}
+
+#image9{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image10{
+	background-image: url('../img/ad.png');
+	background-size: cover;
+}
+
+#image11{
+	background-image: url('../img/jb.png');
+	background-size: cover;
+}
+
+#image12{
+	background-image: url('../img/siluetam.png');
+	background-size: cover;
+}
+
+#image13{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image14{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
+}
+
+#image15{
+	background-image: url('../img/siluetah.png');
+	background-size: cover;
 }
 
 .smt-footer{
