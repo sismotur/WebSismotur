@@ -69,7 +69,7 @@
     				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       					<ul class="nav navbar-nav navbar-right smt-nav-bar">
         					<!--<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>-->
-        					<li onclick="onClickMenu()"><a class="menuRef" href="javascript:$.scrollTo('#objectives',1000)">{{mnObjet}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#objectives',1000)">{{mnObjet}}</a></li>
         					<li><a class="menuRef" href="javascript:$.scrollTo('#tecnologic',1000)">{{mnTecno}}</a></li>
         					<li><a class="menuRef" href="javascript:$.scrollTo('#inventrip',1000)">{{mnInven}}</a></li>
         					<li><a class="menuRef" href="javascript:$.scrollTo('#signing',1000)">{{mnSigni}}</a></li>
@@ -87,7 +87,7 @@
 				<div id="smt-slogan-par">
                 	<img id="logoPortada" title="" src="img/sismotur-logo-portada-uno.png" />
 					<h1 class="tittleBanner">{{tittle1}}</h1>
-					<img onclick="javascript:$.scrollTo('#objectives',1000)" src="img/button-left.png"></img>
+					<div id="btnBajar" onclick="javascript:$.scrollTo('#objectives',1000)"></div>
 				</div>			  
 			</div>
 			<div id="menuTrigger">				
@@ -114,7 +114,7 @@
 					</div>
 				</div>
 				<div id="objectiveButton">
-					<button>{{btnMoreInfo}}</button>
+					<button id="btn-large">{{btnMoreInfo}}</button>
 				</div>
 			</div>
 			<!--<div class="row video">
@@ -209,7 +209,7 @@
 				</div>
 				<div class="row smt-service-content">
 					<div class="col-md-8 col-md-push-4 img-interface">
-						<img src="img/inventrip-interfaz.png"/>
+						<img src="img/inventrip-interfaz.jpg"/>
 					</div>
 					<div class="col-md-3 col-md-offset-1 col-md-pull-8 smt-content-text">
 						<p class="smt-servic-content-text"><strong>{{invTextA}}</strong></p>
@@ -235,7 +235,7 @@
 				</div>
 				<div class="row smt-service-content">
 					<div class="col-md-8 img-interface">
-						<img id="signing-img" src="img/signing-interfaz.png"/>
+						<img id="signing-img" src="img/signing-interfaz.jpg"/>
 					</div>
 					<div class="col-md-3 smt-content-text">
 						<p class="smt-servic-content-text">{{sigText}}</p>

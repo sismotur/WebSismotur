@@ -1,4 +1,4 @@
-import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Exo:300);
 
@@ -6,10 +6,13 @@ import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 *{font-family: 'Open Sans', sans-serif;}
 *{margin:0px; padding:0px;}
 
-
 html, body{
 	margin: 0px;
 	padding: 0px;
+}
+
+p {
+	font-size: 16px;
 }
 
 .clear{
@@ -30,7 +33,7 @@ html, body{
 
 a#boton-bajar{display:block; width:60px; height:60px; position:relative; left:50%; margin-left:-30px; background-color:red;}
 
-p.texto-obj{padding-left:10%; padding-right:10%; font-size:20px;}
+p.texto-obj{padding-left:10%; padding-right:10%; font-size:16px;}
 
 button{
 	width:180px;
@@ -60,6 +63,10 @@ button#b-contacto:hover{
 	color:rgb(100,100,100);
 }
 
+#btn-large{
+	width:330px;
+}
+
 a.smt-logo-nav{
 	padding:5px 5px;
 	}
@@ -71,7 +78,8 @@ a.smt-logo-nav{
 h2{font-family: 'Monda', sans-serif; color:rgb(0,36,168); font-size:36px;}
 
 p.texto-tecnol{ 
-	height: 110px;
+	height: 130px;
+	font-size: 16px;
 	padding-left:10%; 
 	padding-right:10%;}
 
@@ -151,7 +159,7 @@ p.texto-tecnol{
 /* BANNER PROPERTIES */
 #smt-banner-par{
 	height: 100vh;
-	background-image: url('../img/banner.png');
+	background-image: url('../img/banner.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -195,7 +203,7 @@ p.texto-tecnol{
 /* RESUME PROPERTIES */
 .resume{
 	margin: 0px;	
-	background-image: url('../img/fondomapa-uno.png');
+	background-image: url('../img/fondomapa-uno.jpg');
 	background-size:cover;
 	text-align: center;
 	padding-left: 5%;
@@ -212,6 +220,23 @@ p.texto-tecnol{
 }
 
 div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
+
+#btnBajar{
+	background-image: url("../img/boton-bajar.png");
+	height: 60px;
+	width: 60px;
+	margin-right: 15px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	/*position: relative;
+	float: left;*/
+	
+}
+
+#btnBajar:hover{
+	background-position: 0px -60px;
+}
 
 /* CONTENTS */
 .smt-content-title{	
@@ -480,10 +505,10 @@ div#fondo-drontrip{
 }
 
 #smt-dron-img1{
-	background-image:url(../img/drontripEscenario.JPG);
+	background-image:url(../img/drontripEscenario.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
-	-moz-background-size:cover; 
+	-moz-background-size:cover;
 	-o-background-size:cover; 
 	-ms-background-size:cover; 
 	-khtml-background-size:cover;
@@ -492,6 +517,17 @@ div#fondo-drontrip{
 
 /*************************************************************************/
 /* PAGINA DE NFC */
+#smt-nfc-croacia-img{
+	background-image:url(../img/nfc-croacia.jpg);
+	background-size:cover; 
+	background-position: 0px -130px;
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+}
+
 #smt-nfc-palencia-img{
 	background-image:url(../img/InventripPalencia.jpg);
 	background-size:cover; 
@@ -506,7 +542,7 @@ div#fondo-drontrip{
 /*************************************************************************/
 /* PAGINA DE SEÑALIZACIÓN */
 #smt-sen-img1{
-	background-image:url(../img/barcelonasen.png);
+	background-image:url(../img/barcelonasen.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
@@ -528,7 +564,7 @@ div#fondo-drontrip{
 }
 
 #smt-sen-img3{
-	background-image:url(../img/senRibera.png);
+	background-image:url(../img/senRibera.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
@@ -541,7 +577,7 @@ div#fondo-drontrip{
 /*************************************************************************/
 /* PAGINA DE QR */
 #smt-qr-img1{
-	background-image:url(../img/qrbarcelona.jpg);
+	background-image:url(../img/normandia-dos.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
@@ -856,5 +892,20 @@ div.input-group{width:100%;}
 		margin-right: 0px;
 		margin-left: 0px;
 	}
+
+	#btn-large{
+		width:220px;
+	}
+
+	#smt-nfc-croacia-img{
+	background-image:url(../img/nfc-croacia.jpg);
+	background-size:cover; 
+	background-position: center;
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+}
 }
 
