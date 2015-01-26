@@ -584,7 +584,7 @@ div#fondo-drontrip{
 	-o-background-size:cover; 
 	-ms-background-size:cover; 
 	-khtml-background-size:cover;
-	background-position: center;
+	background-position: center -320px;
 }
 
 #smt-qr-img2{
@@ -906,6 +906,17 @@ div.input-group{width:100%;}
 	-o-background-size:cover; 
 	-ms-background-size:cover; 
 	-khtml-background-size:cover;
+	}
+
+	#smt-qr-img1{
+	background-image:url(../img/normandia-dos.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center center;
 }
 }
 
