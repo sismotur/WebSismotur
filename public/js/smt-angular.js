@@ -63,12 +63,12 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			//$scope.obj1Resume = 'Sistemas';
 
 			$scope.obj2Tittle = 'Servicios Turísticos';
-			$scope.obj2Text = 'Potencia tu canal de ventas on-line ofreciendo información, productos y servicios personalizados a tus clientes a través de la plataforma inventrip. Promociona tu imagen de marca con la difusión por las redes sociales de vídeos turísticos realizados con drones.';
+			$scope.obj2Text = 'Potencia tu canal de ventas on-line ofreciendo información, productos y servicios personalizados a tus clientes a través de la plataforma Inventrip. Promociona tu imagen de marca con la difusión por las redes sociales de vídeos turísticos realizados con drones.';
 			
 			//$scope.obj2Resume = 'Movilidad';
 			
 			$scope.obj3Tittle = 'Viajeros';
-			$scope.obj3Text = 'Los turistas podrán conocer gratuitamente con la plataforma inventrip los encantos de los destinos y las propuestas de servicios y actividades turísticos. Podrán fácilmente planificar su viaje, consultarlo durante su estancia y compartirlo con amigos y familiares.';
+			$scope.obj3Text = 'Los turistas podrán conocer gratuitamente con la plataforma Inventrip los encantos de los destinos y las propuestas de servicios y actividades turísticos. Podrán fácilmente planificar su viaje, consultarlo durante su estancia y compartirlo con amigos y familiares.';
 
 			//$scope.obj3Resume = 'Turismo';
 			
@@ -166,7 +166,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.NFCbutton1 = 'Ver programa';
 
 			$scope.NFCtitle2 = 'Tarjetas NFC Palencia Turismo'
-			$scope.NFCtext2 = 'Palencia Turismo presentó inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
+			$scope.NFCtext2 = 'Palencia Turismo presentó Inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
 			$scope.NFCbutton2 = 'Descubre el viaje';
 
 			// Página Señalización
@@ -215,11 +215,11 @@ myApp.controller('languagesController', ['$scope', function($scope){
 
 			break;
 
-		
+/*		
 		// ***********************************************************************************************
 		// **************************************** CATALAN **********************************************
 		// ***********************************************************************************************
-/*
+
 		case "ca":
 			$scope.tittle1 = 'Consultoria en senyalització i informació turística';
 			break;
@@ -275,19 +275,19 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			// OBJETIVOS
 			// ******************
 
-			$scope.obj1Tittle = 'Tourism destination';
-			$scope.obj1Text = 'Increase the amount of tourists who visit your destination and improve their welcome by integrating advanced offline systems (signage) with digital online systems, using the best technologies.';
+			$scope.obj1Tittle = 'Tourism Destinations'; // revisar touristic
+			$scope.obj1Text = 'Increase the amount of tourists who visit your destination and improve their welcome by integrating advanced offline systems (tourist signs) with digital online systems, using the best technologies.';
 
 
 			//$scope.obj1Resume = 'Sistemas';
 
 			$scope.obj2Tittle = 'Tourism Services';
-			$scope.obj2Text = 'Enhance your online sales channel offering information, products and tailored services to your clients through the inventrip platform. Promote your brand by sharing tourism videos shot with drones in the social networks';
+			$scope.obj2Text = 'Enhance your online sales channel offering information, products and tailored services to your clients through the Inventrip platform. Promote your brand by sharing tourism videos shot with drones in the social networks.';
 			
 			//$scope.obj2Resume = 'Movilidad';
 			
 			$scope.obj3Tittle = 'Travellers';
-			$scope.obj3Text = 'Travellers will discover the charm of tourism destinations and the proposals of touristic services and activities therein. They will plan their trip easily, consult it during their stay and share it with family members and friends';
+			$scope.obj3Text = 'Travellers will discover the charm of tourism destinations and the proposals of touristic services and activities therein. They will plan their trip easily, consult it during their stay and share it with family members and friends.';
 
 
 			//$scope.obj3Resume = 'Turismo';
@@ -311,14 +311,13 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.nfcText = 'Provide to your clients with NFC cards (contactless) to personalize their experience in your touristic destination.';
 			
 			// Signal
-			$scope.senalizacionTittle = 'Signage';
-			$scope.senalizacionText = 'Implement a signage system to facilitate tourist guiding and improve the perceived quality of your destination.';
+			$scope.senalizacionTittle = 'Traffic Signs'; // revisar
+			$scope.senalizacionText = 'Implement a traffic sign system to facilitate tourist guiding and improve the perceived quality of your destination.';
 
 			// QR
 			$scope.qrText = 'Share a touristic trip through QR codes.';
 			
 			// Beacons
-			$scope.beaconText = 'Despliega la nueva tecnología beacons para dar información contextualizada al turista y ofrecerle productos y servicios personalizados en su teléfono móvil.';
 			$scope.beaconText = 'Deploy the new beacon technology to give tourists contextualized information and offer them tailored products and services in their smartphone.';
 			
 			
@@ -333,7 +332,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 
 			// Inventrip
 			$scope.invTextA = 'To invent trips: this is the vision';
-			$scope.invTextB = 'We provide you with a technological platform that enable your travellers to create their own trip plan (organized by days, cities, topics, etc.), and by navigating on the map adding the places they want to visit and the services they want to hire.';
+			$scope.invTextB = 'We provide you with a technological platform that enable your travellers to create their own trip plans (organized by days, cities, topics, etc.), and by navigating on the map add the places they want to visit and the services they want to hire.';
 
 			$scope.btnInventrip = 'Go to Inventrip';			
 
@@ -378,42 +377,42 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			// *********************
 
 			// Página DronTrip
-			$scope.DronTriptext1 = '¡Te invitamos a volar por la provincia de Palencia!';
-			$scope.DronTripbutton1 = 'Ver Video';
+			$scope.DronTriptext1 = 'We invite you to flight over the province of Palencia, Spain!';
+			$scope.DronTripbutton1 = 'Watch Video';
 
 			// Página NFC
-			$scope.NFCtitle1 = 'Implant teatro Croacia';
-			$scope.NFCtext1 = 'Tarjetas NFC entregadas durante la premiere de la obra de teatro "Mobitel" en Zagreb. Las tarjetas contienen el programa de la representación de la obra durante 2015 en Croacia';
-			$scope.NFCbutton1 = 'Ver programa';
+			$scope.NFCtitle1 = 'Inventrip promotes theatre in Croacia';
+			$scope.NFCtext1 = 'NFC cards handed out during the premiere of the theatre piece "Mobitel" in Zagreb. The 2015 agenda of the representation of the piece in Croacia is contained in the card.';
+			$scope.NFCbutton1 = 'See the program';
 
-			$scope.NFCtitle2 = 'Tarjetas NFC Palencia Turismo'
-			$scope.NFCtext2 = 'Palencia Turismo presentó inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
-			$scope.NFCbutton2 = 'Descubre el viaje';
+			$scope.NFCtitle2 = 'NFC cards for Palencia Turism'
+			$scope.NFCtext2 = 'Palencia Turism presented Inventrip to the press during the last spanish fair of interior tourism (INTUR).';
+			$scope.NFCbutton2 = 'Discover the trip';
 
 			// Página Señalización
-			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
+			$scope.SenyalizacionTitle = 'Sismotur SL - Signage'
 
 			$scope.Sentitle1 = 'Barcelona';
-			$scope.Sentext1 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
+			$scope.Sentext1 = 'Design of the new pedestrian touristic signage carried out by Sismotur for the city of Barcelona';
 
 			$scope.Sentitle2 = 'Castilla y León';
-			$scope.Sentext2 = 'La Consejera y el Director General de Turismo de Castilla y León, conjuntamente con Sismotur, presentaron en la pasada edición de INTUR el programa de mejora de la señalización turística de la región.';
+			$scope.Sentext2 = 'The Counsellor and the General Director of Tourism of the spanish region of Castilla y León, together with Sismotur, presented during the last edition of INTUR (spanish fair of interior tourism) the program for the improvement of the regional signage.'; // revisar cargos
 
 			$scope.Sentitle3 = 'Ribera del Duero';
-			$scope.Sentext3 = 'Implantación integral de todos los equipamentos de señalización territorial y urbana para la Ruta Ribera del Duero.';
+			$scope.Sentext3 = 'Integral implementation of all the territorial and urban signage equipments for the Ruta Ribera del Duero.'; // revisar traducción ruta
 
 			// Página QR
-			$scope.QRtitle1 = 'Normandía y Bretaña'
-			$scope.QRtext1 = '¡Descubre un viaje por Normandía y Bretaña escaneando este código QR!';
-			$scope.QRbutton1 = 'Descubre el viaje';
+			$scope.QRtitle1 = 'Normandy and Brittany' // revisar lugares
+			$scope.QRtext1 = 'Discover a trip to Normandy and Brittany scanning this QR code!';
+			$scope.QRbutton1 = 'Discover the trip';
 
 			$scope.QRtitle2 = 'Barcelona';
-			$scope.QRtext2 = 'Sismotur redactó en 2012 el primer plan de señalización e información turística de la ciudad de Barcelona para el distrito de Horta-Guinardó.';
-			$scope.QRbutton2 = 'Más Info';
+			$scope.QRtext2 = 'Sismotur drafted in 2012 the first signage and touristic informatino plan of the city of Barcelona for the district of Horta-Guinardó.';
+			$scope.QRbutton2 = 'More info'; // revisar "more info"
 
 			// Página Beacon
 			$scope.Beacontitle1 = 'Beacon'
-			$scope.Beacontext1 = 'Propuesta de la tecnología beacons a la provincia de Palencia.';
+			$scope.Beacontext1 = 'Proposal of beacons technology implementation to the province of Palencia, Spain.';
 
 			// *********************
 			// STAFF

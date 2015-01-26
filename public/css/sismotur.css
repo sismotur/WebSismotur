@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Exo:300);
 
@@ -477,6 +477,17 @@ div#fondo-drontrip{
 
 .smt-drontrip-content p{
 	padding-top: 25px;
+}
+
+#smt-dron-img1{
+	background-image:url(../img/drontripEscenario.JPG);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
 }
 
 /*************************************************************************/

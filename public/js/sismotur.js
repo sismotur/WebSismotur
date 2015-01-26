@@ -185,3 +185,8 @@ function videoYotube(){
 
 	window.open(video);
 }
+
+function onClickMenu(){
+	alert("He hecho un onclik");
+	$('.nav-collapse').collapse('hide');
+}
