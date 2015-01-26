@@ -71,7 +71,7 @@ a.smt-logo-nav{
 h2{font-family: 'Monda', sans-serif; color:rgb(0,36,168); font-size:36px;}
 
 p.texto-tecnol{ 
-	height: 80px;
+	height: 110px;
 	padding-left:10%; 
 	padding-right:10%;}
 
@@ -436,9 +436,16 @@ font-family: 'Monda', sans-serif;
 }
 
 
-div#fondo-drontrip{background-image:url(../img/fondo-drontrip.png);
-background-size:cover; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; -ms-background-size:cover; -khtml-background-size:cover;
-height:100%;}
+div#fondo-drontrip{
+	background-image:url(../img/fondo-drontrip.png);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	height:100%;
+}
 
 .smt-item-text{
 	padding-top: 0px;
