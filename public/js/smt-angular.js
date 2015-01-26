@@ -67,7 +67,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			
 			//$scope.obj2Resume = 'Movilidad';
 			
-			$scope.obj3Tittle = 'Viajeros';
+			$scope.obj3Tittle = 'Inventar Viajes';
 			$scope.obj3Text = 'Los turistas podrán conocer gratuitamente con la plataforma Inventrip los encantos de los destinos y las propuestas de servicios y actividades turísticos. Podrán fácilmente planificar su viaje, consultarlo durante su estancia y compartirlo con amigos y familiares.';
 
 			//$scope.obj3Resume = 'Turismo';

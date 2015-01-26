@@ -33,7 +33,7 @@ p {
 
 a#boton-bajar{display:block; width:60px; height:60px; position:relative; left:50%; margin-left:-30px; background-color:red;}
 
-p.texto-obj{padding-left:10%; padding-right:10%; font-size:16px;}
+p.texto-obj{font-size:16px;}
 
 button{
 	width:180px;
@@ -223,8 +223,10 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 
 #btnBajar{
 	background-image: url("../img/boton-bajar.png");
+	background-color: rgb(0,36,168);
 	height: 60px;
 	width: 60px;
+	border-radius: 60px;
 	margin-right: 15px;
 	margin-top: 10px;
 	margin-right: auto;
@@ -235,7 +237,7 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 }
 
 #btnBajar:hover{
-	background-position: 0px -60px;
+	background-color: rgb(100,100,100);
 }
 
 /* CONTENTS */
@@ -266,6 +268,13 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 .smt-content-col{
 	text-align: center;
 	margin-bottom: 5%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.separador{
+	color: rgb(0,36,168);
+	border-color: rgb(0,36,168);
 }
 
 /* OBJECTIVES PROPERTIES */
@@ -598,6 +607,19 @@ div#fondo-drontrip{
 	background-position: center;
 }
 
+/*************************************************************************/
+/* PAGINA DE SEÑALIZACIÓN */
+#smt-banner-img1{
+	background-image:url(../img/Palencia2.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
 /*REVISAR PORQUE ALGUNOS NO SE USAN*/
 #product{
 	width: 100%;
@@ -628,6 +650,7 @@ div#fondo-drontrip{
 	background-color: rgba(100, 100, 100, 0.4);
 	margin-top: 25px;
 	text-align: center;
+	padding-bottom: 50px;
 }
 
 #team h1{
@@ -909,14 +932,24 @@ div.input-group{width:100%;}
 	}
 
 	#smt-qr-img1{
-	background-image:url(../img/normandia-dos.jpg);
+		background-size:cover; 
+		-webkit-background-size:cover; 
+		-moz-background-size:cover; 
+		-o-background-size:cover; 
+		-ms-background-size:cover; 
+		-khtml-background-size:cover;
+		background-position: center center;
+	}
+
+	#smt-banner-img1{
+	background-image:url(../img/Palencia.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
 	-o-background-size:cover; 
 	-ms-background-size:cover; 
 	-khtml-background-size:cover;
-	background-position: center center;
+	background-position: center;
 }
 }
 
