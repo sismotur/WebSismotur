@@ -9,6 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Sismotur SL.</title>
+		<link rel="shortcut icon" href="img/favicon.png">
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/sismotur.css" rel="stylesheet">	
@@ -17,7 +18,7 @@
     	<script src="js/jquery.browser.js"></script>
     	<script src="js/jquery.iframe-auto-height.js"></script>
     	<script src="js/lib/greensock/TweenMax.min.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/bootstrap.js"></script>
     	<script src="js/jquery.scrollmagic.js"></script>
     	<script src="js/jquery.scrollmagic.debug.js"></script>
     	<script src="js/sismotur.js"></script>
@@ -30,7 +31,7 @@
  <script type="text/javascript" src="http://www.essentialsapps.com/js/jquery.scrollTo-1.4.2.min.js" defer></script>     
  <script type="text/javascript" src="http://www.essentialsapps.com/js/scrollto.min.js" defer></script>
     	
-    	<script>			
+    	<script>	
 			$(document).ready(function($){
 				if(!isMobile()){
 					parallaxBanner();
@@ -39,8 +40,12 @@
 					//parallaxTecnologic();
 					//parallaxTeam();
 					parallaxSection();
+
+					$(".navbar-nav li a").click(function(event) {
+						$(".navbar-collapse").collapse('hide');
+					});
 				}
-			});
+			});		
     	</script>		
 	</head>
 
@@ -70,7 +75,7 @@
         					<li><a class="menuRef" href="javascript:$.scrollTo('#inventrip',1000)">{{mnInven}}</a></li>
         					<li><a class="menuRef" href="javascript:$.scrollTo('#signing',1000)">{{mnSigni}}</a></li>
         					<li><a class="menuRef" href="javascript:$.scrollTo('#team',1000)">{{mnTeam}}</a></li>
-        					<li><a class="menuRef" href="javascript:$.scrollTo('#contact',1000)">{{mnCont}}</a></li>        					
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#contact',1000)">{{mnCont}}</a></li>			
       					</ul>
     				</div><!-- /.navbar-collapse -->
   				</div><!-- /.container-fluid -->
@@ -83,6 +88,7 @@
 				<div id="smt-slogan-par">
                 	<img id="logoPortada" title="" src="img/sismotur-logo-portada-uno.png" />
 					<h1 class="tittleBanner">{{tittle1}}</h1>
+					<div id="btnBajar" onclick="javascript:$.scrollTo('#first',1000)"></div>
 				</div>			  
 			</div>
 			<div id="menuTrigger">				
@@ -97,20 +103,23 @@
 				<div id="objectiveContent" class="row smt-content">
 					<div id="obj1" class="col-md-4 smt-content-col">
 						<h2>{{obj1Tittle}}</h2>
+						<hr class="separador"/>
 						<p class="texto-obj">{{obj1Text}}</p>					
 					</div>
 					<div id="obj2" class="col-md-4 smt-content-col">
 						<h2>{{obj2Tittle}}</h2>
+						<hr class="separador"/>
 						<p class="texto-obj">{{obj2Text}}</p>						
 					</div>
 					<div id="obj3" class="col-md-4 smt-content-col">
 						<h2>{{obj3Tittle}}</h2>
+						<hr class="separador" />
 						<p class="texto-obj">{{obj3Text}}</p>						
 					</div>
 				</div>
-				<!--<div id="objectiveButton">
-					<button>{{btnMoreInfo}}</button>
-				</div>	-->			
+				<div id="objectiveButton">
+					<button id="btn-large" onclick="window.open('https://www.youtube.com/watch?v=A_DzRaJbtvM')">{{btnMoreInfo}}</button>
+				</div>
 			</div>
 			<!--<div class="row video">
 				<iframe src="//www.youtube.com/embed/lVLSAYLhMfg" frameborder="0" onload='javascript:resizeIframe(this);'>						
@@ -191,6 +200,10 @@
 			<div class="row resume">
 				<h1>{{servTittle}}</h1>
 			</div>
+
+			<!-- ****************
+			**** INVENTRIP ******
+			******************-->
 			
 			<div id="inventrip" class="continer-fluid smt-service">
 				<div class="row smt-service-tittle">
@@ -200,18 +213,23 @@
 				</div>
 				<div class="row smt-service-content">
 					<div class="col-md-8 col-md-push-4 img-interface">
-						<img src="img/inventrip-interfaz.png"/>
+						<img src="img/inventrip-interfaz.jpg"/>
 					</div>
 					<div class="col-md-3 col-md-offset-1 col-md-pull-8 smt-content-text">
-						<p class="smt-servic-content-text">{{invText}}</p>
+						<p class="smt-servic-content-text"><strong>{{invTextA}}</strong></p>
+						<p class="smt-servic-content-text">{{invTextB}}</p>
 					</div>					
 				</div>
 				<div class="row smt-service-button">
 					<div class="col-md-3 col-md-offset-1">
-						<button onclick="window.open('http://www.inventrip.com')">{{btnInventrip}}</button>
+						<button onclick="window.open('http://inventrip.com/diputaciondepalencia/')">{{btnInventrip}}</button>
 					</div>
 				</div>
 			</div>
+
+			<!-- ****************
+			***** SIGNING *******
+			******************-->
 
 			<div id="signing" class="continer-fluid smt-service">
 				<div class="row smt-service-tittle">
@@ -221,7 +239,7 @@
 				</div>
 				<div class="row smt-service-content">
 					<div class="col-md-8 img-interface">
-						<img id="signing-img" src="img/signing-interfaz.png"/>
+						<img id="signing-img" src="img/signing-interfaz.jpg"/>
 					</div>
 					<div class="col-md-3 smt-content-text">
 						<p class="smt-servic-content-text">{{sigText}}</p>
@@ -229,156 +247,137 @@
 				</div>
 				<div class="row smt-service-button">
 					<div class="col-md-3 col-md-offset-8">
-						<button onclick="window.open('http://sismotur.net/signing')">{{btnMoreInfo}}</button>
+						<button onclick="window.open('http://sismotur.net/barcelona/')">{{btnSigning}}</button>
 					</div>
 				</div>
 			</div>
-
+			
+			<!-- ****************
+			******** TEAM *******
+			******************-->
 
 			<div id="team">
 				<div id="team-tittle" class="row smt-content-title">
-					<h1>Equipo</h1>
+					<h1>{{btnTitleTeam}}</h1>
 				</div>
-				<div id="row1" class="row row-team">					
-					<div class="col-md-3 col-md-offset-3" class="content-image">	
-						<div id="image1" class="image">
-							
-						</div>	
+
+				<div id="row1" class="row row-team">
+					<div class="col-md-3" class="content-image">	
+						<div id="image1" class="image"></div>	
 						<p class="content-image-data"><strong>Augusto Ramos</strong></p>			
-						<p>Cofundador - CEO</p>
+						<p>{{StaffCEO}}</p>				
 					</div>
 					<div class="col-md-3" class="content-image">	
-						<div id="image2" class="image">
-							
-						</div>	
+						<div id="image2" class="image"></div>	
 						<p class="content-image-data"><strong>Manuel Mariscal</strong></p>			
-						<p>Cofundador - COO</p>				
-					</div>
-				</div>
-				
-				<div id="row2" class="row row-team-3">
-					<div class="col-md-1 col-md-pre-team">
-						
+						<p>{{StaffCOO}}</p>					
 					</div>
 					<div class="col-md-3" class="content-image">	
-						<div id="image3" class="image">
-							
-						</div>	
+						<div id="image3" class="image"></div>	
 						<p class="content-image-data"><strong>Julio José Julián</strong></p>			
-						<p>Socio - CMO</p>				
+						<p>{{StaffCMO}}</p>			
 					</div>
 					<div class="col-md-3" class="content-image">	
-						<div id="image4" class="image">
-							
-						</div>	
+						<div id="image4" class="image"></div>	
 						<p class="content-image-data"><strong>Felipe Santi</strong></p>			
-						<p>Socio - CTO</p>					
+						<p>{{StaffCTO}}</p>				
+					</div>
+				</div>
+
+				<div id="row2" class="row row-team">
+					<div class="col-md-3" class="content-image">	
+						<div id="image5" class="image"></div>	
+						<p class="content-image-data"><strong>Alberto Jabonero</strong></p>			
+						<p>{{StaffCLO}}</p>					
 					</div>
 					<div class="col-md-3" class="content-image">	
-						<div id="image5" class="image">
-							
-						</div>	
-						<p class="content-image-data"><strong>Alberto Jabonero</strong></p>			
-						<p>Socio - CLO</p>					
+						<div id="image6" class="image"></div>	
+						<p class="content-image-data"><strong>Jose Juan Sánchez</strong></p>			
+						<p>{{StaffHeadDev}}</p>			
 					</div>
-					
+					<div class="col-md-3" class="content-image">	
+						<div id="image7" class="image"></div>	
+						<p class="content-image-data"><strong>Jose Luis Jorro</strong></p>			
+						<p>{{StaffArtificialInt}}</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image8" class="image"></div>	
+						<p class="content-image-data"><strong>Mario Pavón</strong></p>			
+						<p>{{StaffDesign}}</p>					
+					</div>
 				</div>
-				
+
 				<div id="row3" class="row row-team">
 					<div class="col-md-3" class="content-image">	
-						<div id="image6" class="image">
-							
-						</div>	
-						<p class="content-image-data"><strong>Jose Juan</strong></p>			
-						<p>Jefe Dpto. Desarrollo</p>				
-					</div>
-					<div class="col-md-3" class="content-image">	
-						<div id="image7" class="image">
-							
-						</div>	
-						<p class="content-image-data"><strong>Jose Luis Jorro</strong></p>			
-						<p>Inteligencia Artificial</p>				
-					</div>
-					<div class="col-md-3" class="content-image">	
-						<div id="image8" class="image">
-							
-						</div>	
-						<p class="content-image-data"><strong>Mario Pavón</strong></p>			
-						<p>Diseño & Comunicación</p>				
-					</div>
-					<div class="col-md-3" class="content-image">	
-						<div id="image9" class="image">
-							
-						</div>	
+						<div id="image9" class="image"></div>	
 						<p class="content-image-data"><strong>Roser Soler</strong></p>			
-						<p>Técnico Barcelona</p>				
+						<p>{{AssociateBcn}}</p>					
 					</div>
-				</div>
-
-				<div id="row4" class="row row-team">					
-					<div class="col-md-3 col-md-offset-3" class="content-image">	
-						<div id="image10" class="image">
-							
-						</div>	
+					<div class="col-md-3" class="content-image">	
+						<div id="image10" class="image"></div>	
 						<p class="content-image-data"><strong>Arantxa Díaz</strong></p>			
-						<p>Jefe Proyectos</p>
+						<p>{{AssociateProjects}}</p>			
 					</div>
 					<div class="col-md-3" class="content-image">	
-						<div id="image11" class="image">
-							
-						</div>	
+						<div id="image11" class="image"></div>	
 						<p class="content-image-data"><strong>Javier Becerra</strong></p>			
-						<p>Jefe Proyectos</p>				
+						<p>{{AssociateProjects}}</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image12" class="image"></div>	
+						<p class="content-image-data"><strong>Natalija Bajs</strong></p>			
+						<p>{{StaffCoordinatorCroatia}}</p>				
 					</div>
 				</div>
 
-				<div id="row5" class="row row-team">
-					<div class="col-md-3" class="content-image">	
-						<div id="image12" class="image">
-							
-						</div>	
-						<p class="content-image-data"><strong>Natalija Bajs</strong></p>			
-						<p>Coordinador Croacia</p>				
-					</div>
+				<div id="row4" class="row row-team-3">
+					<div class="col-md-1 col-md-pre-team"></div>
 					<div class="col-md-3" class="content-image">	
 						<div id="image13" class="image">
 							
 						</div>	
 						<p class="content-image-data"><strong>Andrés Santi</strong></p>			
-						<p>Coordinador Austria</p>				
+						<p>{{StaffCoordinatorAustria}}</p>				
 					</div>
 					<div class="col-md-3" class="content-image">	
 						<div id="image14" class="image">
 							
 						</div>	
 						<p class="content-image-data"><strong>Manuel Capel</strong></p>			
-						<p>Coordinador Suiza</p>				
+						<p>{{StaffCoordinatorSwitzerland}}</p>					
 					</div>
 					<div class="col-md-3" class="content-image">	
 						<div id="image15" class="image">
 							
 						</div>	
 						<p class="content-image-data"><strong>Daniel Gordo</strong></p>			
-						<p>Coordinador Portugal</p>				
+						<p>{{StaffCoordinatorPortugal}}</p>					
 					</div>
-				</div>
-				
+					
+				</div>				
 			</div>
+
+			<!-- ****************
+			****** FOOTER *******
+			******************-->
 
 			<footer id="contact" class="smt-footer">
 				<div class="row smt-contact">
 					<div class="col-md-4 smt-dir">
 						<h3>{{cntSpain}}</h3>
+						<hr>
 						<p>{{cntSpain2}}</p>
 						<p>{{cntSpainPhone}}</p>
 					</div>
 					<div class="col-md-4 smt-dir">
 						<h3>{{cntFrance}}</h3>
+						<hr>
 						<p>{{cntFrance2}}</p>
 						<p>{{cntFrancePhone}}</p>
 					</div>
 					<div class="col-md-4 smt-dir">
 						<h3>{{cntCroatia}}</h3>
+						<hr>
 						<p>{{cntCroatia2}}</p>
 						<p>{{cntCroatiaPhone}}</p>
 					</div>
@@ -386,16 +385,19 @@
 				<div class="row smt-contact">
 					<div class="col-md-4 smt-dir">
 						<h3>{{cntAustria}}</h3>
+						<hr>
 						<p>{{cntAustria2}}</p>
 						<p>{{cntAustriaPhone}}</p>
 					</div>
 					<div class="col-md-4 smt-dir">
 						<h3>{{cntSuiza}}</h3>
+						<hr>
 						<p>{{cntSuiza2}}</p>
 						<p>{{cntSuizaPhone}}</p>
 					</div>
 					<div class="col-md-4 smt-dir">
 						<h3>{{cntPortugal}}</h3>
+						<hr>
 						<p>{{cntPortugal2}}</p>
 						<p>{{cntPortugalPhone}}</p>
 					</div>
@@ -406,28 +408,35 @@
 					<div id="btnYoutube" onclick="window.open('https://www.youtube.com/user/Inventrip')"></div>
 					<div id="btnGitHub" onclick="window.open('https://github.com/sismotur')"></div>
 				</div>
-				<!--<div class="row smt-button">
-					<button id="b-contacto" type="button">{{btnContact}}</button>
-				</div>-->
-
-				<!--<div class="row smt-form">
-  					<div class="col-md-6 col-md-offset-3">
-    					<div class="input-group">
-      						<input type="text" class="form-control" placeholder="escribe aquí tu e-mail">
-    					</div><!-- /input-group -->
-  					<!--</div><!-- /.col-lg-6 -->
-				<!--</div><!-- /.row -->
-                
-               <!-- <div class="row smt-form">
-                 <div class="col-md-6 col-md-offset-3">
-                    
-                    </div>
-                </div>-->
                 <div class="row smt-form">
-                	<div class="col-md-6 col-md-offset-3">
-                		<button id="b-contacto" type="button" onclick="win = window.open('mailto:aramos@sismotur.com', 'emailWindow'); win.close();">{{btnContact}}</button>
+                	<div class="col-md-6 col-md-offset-3 language">
+                		<!--<button id="b-contacto" type="button" onclick="win = window.open('mailto:aramos@sismotur.com', 'emailWindow'); win.close();">{{btnContact}}</button>-->
+                		<a href="mailto:inventrip@sismotur.com">inventrip@sismotur.com</a>
                 	</div>
                 </div>
+                <div class="row stm-lang">
+					<h3>{{idiomas}}</h3>
+				</div>
+				<div class="row lang-row">
+					<div class="col-md-3 language">
+						<a ng-click="changeLang('es')"><strong>Castellano</strong></a>
+					</div>
+					<div class="col-md-3 language">
+						<a ng-click="changeLang('ca')"><strong>Català</strong></a>
+					</div>
+					<div class="col-md-3 language">
+						<a ng-click="changeLang('en')"><strong>English</strong></a>
+					</div>
+					<!--<div class="col-md-2 language">
+						<a ng-click="changeLang('fr')"><strong>Français</strong></a>
+					</div>-->
+					<div class="col-md-3 language">
+						<a ng-click="changeLang('de')"><strong>Deutsch</strong></a>
+					</div>
+					<!--<div class="col-md-2 language">
+						<a ng-click="changeLang('hr')"><strong>Hrvatski</strong></a>
+					</div>-->
+				</div>
 				<div class="row stm-copyright">
 					<p>{{copyright}}</p>
 				</div>

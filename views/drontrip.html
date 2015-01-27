@@ -9,6 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>Sismotur SL - Drontrip</title>
+		<link rel="shortcut icon" href="img/favicon.png">
 
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/sismotur.css" rel="stylesheet">	
@@ -54,7 +55,7 @@
 
 	</head>
 	<body>		
-		<div class="container-fluid smt-tecno-content">
+		<!--<div class="container-fluid smt-tecno-content">
 			<nav class="navbar smt-menu" role="navigation">
 				<a id="smt-logo-menu" class="navbar-brand smt-logo-nav">
                 	<img class="smt-logo-menu" title="Sismotur" src="img/logomenu.png" />
@@ -77,10 +78,38 @@
                         </p>
                     </div>  
                     <div class="col-md-4">
-                    	 <button id="btnDronTrip1" onclick="window.open('https://www.youtube.com/watch?v=wS6si4eHHFY')">{{DronTripbutton1}}</button>
+                    	 <button id="btnDronTrip1" onclick="videoYotube()">{{DronTripbutton1}}</button>
                     </div>                             
                 </div>             
             </div>
+		</div>-->
+		<div class="container-fluid smt-tecno-content">
+
+			<nav class="navbar smt-menu" role="navigation">
+				<a id="smt-logo-menu" class="navbar-brand smt-logo-nav">
+                	<img class="smt-logo-menu" title="Sismotur" src="img/logomenu.png" />
+            	</a>
+            	<a class="navbar-brand smt-return-nav" onclick="window.close()">
+                	<img class="smt-logo-return" title="Sismotur" src="img/boton-volver.png" />
+            	</a>
+			</nav>
+			<div id="carousel-example-generic" class="carousel slide smt-carousel" data-ride="carousel">
+  
+      		<div id="owl-demo" class="owl-carousel smt-carousel">     
+    			<div id="dronTrip1" class="item smt-item"> 
+    				<div class="smt-item-content">   
+    					<div id="smt-dron-img1" class="row smt-content-item-img">   						
+    					</div>
+    					<div class="row smt-content-item-text">
+    						<div class="col-md-6 col-md-offset-3 smt-item-text">
+    							<h2>DronTrip</h2>
+    							<p>{{DronTriptext1}}</p>
+    							<button id="btnDronTrip1" onclick="videoYotube()">{{DronTripbutton1}}</button>
+    						</div>
+    					</div>
+    				</div>								
+    			</div>   
+    		</div>
 		</div>
 	</body>
 </html>

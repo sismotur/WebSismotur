@@ -91,7 +91,7 @@ function parallaxSection(){
 			.setTween(TweenMax.fromTo("#resume-one", 10, {css:{'background-position':"0px 0px"}},{css:{'background-position':"0px -250px"}}))
 			.addTo(controller);
 			
-	scene.addIndicators();
+	//scene.addIndicators();
 }
 
 
@@ -165,10 +165,23 @@ function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
 }
 
-function nextPage(){
+function videoYotube(){
+	var lang = navigator.language.substr(0,2);
+	var video = "";
+	switch(lang){
+		case "es":
+			video = "http://www.youtube.com/watch?v=wS6si4eHHFY";
+			break;
+		case "fr":
+			video = "http://www.youtube.com/watch?v=17mVOIXYg6w";
+			break;
+		case "hr":
+			video = "http://www.youtube.com/watch?v=-PzUrNnvaFw";
+			break;
+		default:
+			video = "http://www.youtube.com/watch?v=ZRj6tiAsNlA";
+			break;
+	}
 
-}
-
-function prevPage(){
-	
+	window.open(video);
 }

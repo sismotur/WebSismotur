@@ -6,10 +6,13 @@
 *{font-family: 'Open Sans', sans-serif;}
 *{margin:0px; padding:0px;}
 
-
 html, body{
 	margin: 0px;
 	padding: 0px;
+}
+
+p {
+	font-size: 16px;
 }
 
 .clear{
@@ -30,7 +33,7 @@ html, body{
 
 a#boton-bajar{display:block; width:60px; height:60px; position:relative; left:50%; margin-left:-30px; background-color:red;}
 
-p.texto-obj{padding-left:10%; padding-right:10%; font-size:20px;}
+p.texto-obj{font-size:16px;}
 
 button{
 	width:180px;
@@ -60,6 +63,10 @@ button#b-contacto:hover{
 	color:rgb(100,100,100);
 }
 
+#btn-large{
+	width:330px;
+}
+
 a.smt-logo-nav{
 	padding:5px 5px;
 	}
@@ -71,7 +78,8 @@ a.smt-logo-nav{
 h2{font-family: 'Monda', sans-serif; color:rgb(0,36,168); font-size:36px;}
 
 p.texto-tecnol{ 
-	height: 80px;
+	height: 130px;
+	font-size: 16px;
 	padding-left:10%; 
 	padding-right:10%;}
 
@@ -151,7 +159,7 @@ p.texto-tecnol{
 /* BANNER PROPERTIES */
 #smt-banner-par{
 	height: 100vh;
-	background-image: url('../img/banner.png');
+	background-image: url('../img/banner.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -195,7 +203,7 @@ p.texto-tecnol{
 /* RESUME PROPERTIES */
 .resume{
 	margin: 0px;	
-	background-image: url('../img/fondomapa-uno.png');
+	background-image: url('../img/fondomapa-uno.jpg');
 	background-size:cover;
 	text-align: center;
 	padding-left: 5%;
@@ -212,6 +220,25 @@ p.texto-tecnol{
 }
 
 div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
+
+#btnBajar{
+	background-image: url("../img/boton-bajar.png");
+	background-color: rgb(0,36,168);
+	height: 60px;
+	width: 60px;
+	border-radius: 60px;
+	margin-right: 15px;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	/*position: relative;
+	float: left;*/
+	
+}
+
+#btnBajar:hover{
+	background-color: rgb(100,100,100);
+}
 
 /* CONTENTS */
 .smt-content-title{	
@@ -241,6 +268,17 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 .smt-content-col{
 	text-align: center;
 	margin-bottom: 5%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.smt-content-col h2{
+	height: 78px;
+}
+
+.separador{
+	color: rgb(0,36,168);
+	border-color: rgb(0,36,168);
 }
 
 /* OBJECTIVES PROPERTIES */
@@ -290,6 +328,7 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 #tecnologic{
 	min-height: 100vh;
 	width: 100%;
+	padding-top: 50px;
 }
 
 .logoTecno{
@@ -436,9 +475,16 @@ font-family: 'Monda', sans-serif;
 }
 
 
-div#fondo-drontrip{background-image:url(../img/fondo-drontrip.png);
-background-size:cover; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; -ms-background-size:cover; -khtml-background-size:cover;
-height:100%;}
+div#fondo-drontrip{
+	background-image:url(../img/fondo-drontrip.png);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	height:100%;
+}
 
 .smt-item-text{
 	padding-top: 0px;
@@ -472,8 +518,30 @@ height:100%;}
 	padding-top: 25px;
 }
 
+#smt-dron-img1{
+	background-image:url(../img/drontripEscenario.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover;
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
 /*************************************************************************/
 /* PAGINA DE NFC */
+#smt-nfc-croacia-img{
+	background-image:url(../img/nfc-croacia.jpg);
+	background-size:cover; 
+	background-position: 0px -130px;
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+}
+
 #smt-nfc-palencia-img{
 	background-image:url(../img/InventripPalencia.jpg);
 	background-size:cover; 
@@ -488,7 +556,7 @@ height:100%;}
 /*************************************************************************/
 /* PAGINA DE SEÑALIZACIÓN */
 #smt-sen-img1{
-	background-image:url(../img/barcelonasen.png);
+	background-image:url(../img/barcelonasen.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
@@ -510,7 +578,7 @@ height:100%;}
 }
 
 #smt-sen-img3{
-	background-image:url(../img/senRibera.png);
+	background-image:url(../img/senRibera.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
@@ -523,6 +591,17 @@ height:100%;}
 /*************************************************************************/
 /* PAGINA DE QR */
 #smt-qr-img1{
+	background-image:url(../img/normandia-dos.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center -320px;
+}
+
+#smt-qr-img2{
 	background-image:url(../img/qrbarcelona.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
@@ -533,8 +612,10 @@ height:100%;}
 	background-position: center;
 }
 
-#smt-qr-img2{
-	background-image:url(../img/qrbarcelona.jpg);
+/*************************************************************************/
+/* PAGINA DE SEÑALIZACIÓN */
+#smt-banner-img1{
+	background-image:url(../img/Palencia2.jpg);
 	background-size:cover; 
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
@@ -574,6 +655,7 @@ height:100%;}
 	background-color: rgba(100, 100, 100, 0.4);
 	margin-top: 25px;
 	text-align: center;
+	padding-bottom: 50px;
 }
 
 #team h1{
@@ -624,77 +706,77 @@ height:100%;}
 }
 
 #image1{
-	background-image: url('../img/ar.png');
+	background-image: url('../img/staff/ar.png');
 	background-size: cover;
 }
 
 #image2{
-	background-image: url('../img/mm.png');
+	background-image: url('../img/staff/mm.png');
 	background-size: cover;
 }
 
 #image3{
-	background-image: url('../img/jj.png');
+	background-image: url('../img/staff/jj.png');
 	background-size: cover;
 }
 
 #image4{
-	background-image: url('../img/siluetah.png');
+	background-image: url('../img/staff/fs.png');
 	background-size: cover;
 }
 
 #image5{
-	background-image: url('../img/siluetah.png');
+	background-image: url('../img/staff/aj.png');
 	background-size: cover;
 }
 
 #image6{
-	background-image: url('../img/jjuan.png');
+	background-image: url('../img/staff/jjuan.png');
 	background-size: cover;
 }
 
 #image7{
-	background-image: url('../img/jluis.png');
+	background-image: url('../img/staff/jluis.png');
 	background-size: cover;
 }
 
 #image8{
-	background-image: url('../img/mp.png');
+	background-image: url('../img/staff/mp.png');
 	background-size: cover;
 }
 
 #image9{
-	background-image: url('../img/siluetah.png');
+	background-image: url('../img/staff/rs.png');
 	background-size: cover;
 }
 
 #image10{
-	background-image: url('../img/ad.png');
+	background-image: url('../img/staff/ad.png');
 	background-size: cover;
 }
 
 #image11{
-	background-image: url('../img/jb.png');
+	background-image: url('../img/staff/jb.png');
 	background-size: cover;
 }
 
 #image12{
-	background-image: url('../img/siluetam.png');
+	background-image: url('../img/staff/siluetam.png');
 	background-size: cover;
 }
 
 #image13{
-	background-image: url('../img/siluetah.png');
+	background-image: url('../img/staff/as.png');
 	background-size: cover;
 }
 
 #image14{
-	background-image: url('../img/siluetah.png');
+	background-image: url('../img/staff/siluetah.png');
 	background-size: cover;
 }
 
 #image15{
-	background-image: url('../img/siluetah.png');
+	background-image: url('../img/staff/siluetah.png');
 	background-size: cover;
 }
 
@@ -721,6 +803,17 @@ height:100%;}
 
 .smt-dir{
 	padding-top: 25px;
+	text-align: center;
+}
+
+.smt-dir hr{
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smt-stop{
+	padding-top: 50px;
 }
 
 .smt-socialNetwork{
@@ -824,6 +917,37 @@ height:100%;}
 	background-attachment: fixed;
 }
 
+.stm-lang{
+	width: 100%;
+	font-family: 'Monda', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lang-row{
+	padding-left: 35%;
+	padding-right: 35%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.language{
+	text-align: center;
+}
+
+.language a{
+	color: #FFFFFF;
+}
+
+.language a:hover{
+	text-decoration: none;
+	color: rgb(0,36,168);
+}
+
 button#b-contacto{text-align:center;}
 
 div.input-group{width:100%;}
@@ -838,5 +962,41 @@ div.input-group{width:100%;}
 		margin-right: 0px;
 		margin-left: 0px;
 	}
+
+	#btn-large{
+		width:220px;
+	}
+
+	#smt-nfc-croacia-img{
+	background-image:url(../img/nfc-croacia.jpg);
+	background-size:cover; 
+	background-position: center;
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	}
+
+	#smt-qr-img1{
+		background-size:cover; 
+		-webkit-background-size:cover; 
+		-moz-background-size:cover; 
+		-o-background-size:cover; 
+		-ms-background-size:cover; 
+		-khtml-background-size:cover;
+		background-position: center center;
+	}
+
+	#smt-banner-img1{
+	background-image:url(../img/Palencia.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
 }
 

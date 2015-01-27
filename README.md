@@ -15,9 +15,12 @@ If new project...
 $ heroku create your_project_name
 $ git push heroku staging:master
 
-Connect to URL: https://test-smt.herokuapp.com/
+Connect to URL: https://smt-test.herokuapp.com/
 or
 $ heroku open
+
+To reset the Heroku project, run 
+$ heroku repo:reset -a smt-test
 
 
 ==================================================
