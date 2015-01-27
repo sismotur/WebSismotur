@@ -272,6 +272,10 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 	padding-right: 15px;
 }
 
+.smt-content-col h2{
+	height: 78px;
+}
+
 .separador{
 	color: rgb(0,36,168);
 	border-color: rgb(0,36,168);
@@ -925,8 +929,8 @@ div#fondo-drontrip{
 }
 
 .lang-row{
-	padding-left: 15%;
-	padding-right: 15%;
+	padding-left: 35%;
+	padding-right: 35%;
 	margin-right: 0px;
 	margin-left: 0px;
 }
