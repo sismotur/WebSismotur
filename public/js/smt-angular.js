@@ -1185,6 +1185,8 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			$scope.StaffCoordinatorPortugal = 'Coordinador Portugal';
 
 			$scope.idiomas = 'Idiomes';
+
+			$scope.moreInfoShort = 'MÉS INFO';
 			break;
 
 
