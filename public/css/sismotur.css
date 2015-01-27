@@ -901,6 +901,37 @@ div#fondo-drontrip{
 	background-attachment: fixed;
 }
 
+.stm-lang{
+	width: 100%;
+	font-family: 'Monda', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lang-row{
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.language{
+	text-align: center;
+}
+
+.language a{
+	color: #FFFFFF;
+}
+
+.language a:hover{
+	text-decoration: none;
+	color: rgb(0,36,168);
+}
+
 button#b-contacto{text-align:center;}
 
 div.input-group{width:100%;}
