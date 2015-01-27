@@ -228,7 +228,7 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 	width: 60px;
 	border-radius: 60px;
 	margin-right: 15px;
-	margin-top: 10px;
+	margin-top: 70px;
 	margin-right: auto;
 	margin-left: auto;
 	/*position: relative;
@@ -798,6 +798,17 @@ div#fondo-drontrip{
 
 .smt-dir{
 	padding-top: 25px;
+	text-align: center;
+}
+
+.smt-dir hr{
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smt-stop{
+	padding-top: 50px;
 }
 
 .smt-socialNetwork{
