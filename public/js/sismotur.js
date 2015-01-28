@@ -166,7 +166,13 @@ function resizeIframe(obj) {
 }
 
 function videoYotube(){
-	var lang = navigator.language.substr(0,2);
+	var lang;
+	if(document.cookie=="")
+		lang = navigator.language.substr(0,2);
+	else{
+		lang = document.cookie.substr(5,6);
+	}
+
 	var video = "";
 	switch(lang){
 		case "es":
@@ -177,6 +183,9 @@ function videoYotube(){
 			break;
 		case "hr":
 			video = "http://www.youtube.com/watch?v=-PzUrNnvaFw";
+			break;
+		case "de":
+			video = "https://www.youtube.com/watch?v=z0Z9BQOlR4k";
 			break;
 		default:
 			video = "http://www.youtube.com/watch?v=ZRj6tiAsNlA";

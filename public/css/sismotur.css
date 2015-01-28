@@ -285,7 +285,7 @@ div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
 #objectives{
 	min-height: 100vh;
 	width: 100%;
-	padding-top: 10%;
+	padding-top: 5%;
 }
 
 #objectiveContent{
@@ -998,5 +998,13 @@ div.input-group{width:100%;}
 	-khtml-background-size:cover;
 	background-position: center;
 }
+
+	#qr-info{
+		height: 50px;
+	}
+
+	#btnBajar{
+		visibility: hidden;
+	}
 }
 

@@ -420,7 +420,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			// OBJETIVOS
 			// ******************
 
-			$scope.obj1Tittle = 'Tourismusdestinationen';
+			$scope.obj1Tittle = 'Tourismus Destinationen';
 			$scope.obj1Text = 'Erhöhen Sie die Anzahl von Touristen, die Ihre Tourismusregion besuchen und verbessern Sie deren Empfang durch die Integration moderner offline Systeme (touristische Beschilderung) mit digitalen online Systemen, unter der Verwendung der besten Technologie.';
 
 			//$scope.obj1Resume = 'Sistemas';
@@ -1216,7 +1216,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 			// OBJETIVOS
 			// ******************
 
-			$scope.obj1Tittle = 'Tourismusdestinationen';
+			$scope.obj1Tittle = 'Tourismus Destinationen';
 			$scope.obj1Text = 'Erhöhen Sie die Anzahl von Touristen, die Ihre Tourismusregion besuchen und verbessern Sie deren Empfang durch die Integration moderner offline Systeme (touristische Beschilderung) mit digitalen online Systemen, unter der Verwendung der besten Technologie.';
 
 			//$scope.obj1Resume = 'Sistemas';
