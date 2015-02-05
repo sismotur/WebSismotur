@@ -226,7 +226,7 @@ function loadLanguage($scope){
 			$scope.StaffHeadDev = 'Jefe Dpto. Desarrollo';
 			$scope.StaffArtificialInt = 'Inteligencia Artificial';
 			$scope.StaffDesign = 'Diseño & Comunicación';
-			$scope.AssociateBcn = 'Técnico Barcelona';
+			$scope.AssociateBcn = 'Coordinador Barcelona';
 			$scope.AssociateProjects = 'Jefe Proyectos';
 			$scope.StaffCoordinatorCroatia = 'Coordinador Croacia';
 			$scope.StaffCoordinatorAustria = 'Coordinador Austria';
@@ -415,7 +415,7 @@ function loadLanguage($scope){
 			$scope.StaffHeadDev = 'Cap Dpt. Desenvolupament';
 			$scope.StaffArtificialInt = 'Inteligència Artificial';
 			$scope.StaffDesign = 'Disseny & Comunicació';
-			$scope.AssociateBcn = 'Tècnic Barcelona';
+			$scope.AssociateBcn = 'Coordinador Barcelona';
 			$scope.AssociateProjects = 'Cap Projectes';
 			$scope.StaffCoordinatorCroatia = 'Coordinador Croàcia';
 			$scope.StaffCoordinatorAustria = 'Coordinador Àustria';
@@ -603,7 +603,7 @@ function loadLanguage($scope){
 			$scope.StaffHeadDev = 'Leiter der Softwareentwicklung';
 			$scope.StaffArtificialInt = 'Künstliche Intelligenz';
 			$scope.StaffDesign = 'Design & Kommunikation';
-			$scope.AssociateBcn = 'Techniker Barcelona';
+			$scope.AssociateBcn = 'Koordinator Barcelona';
 			$scope.AssociateProjects = 'Projektmanager';
 			$scope.StaffCoordinatorCroatia = 'Koordinator Kroatien';
 			$scope.StaffCoordinatorAustria = 'Koordinator Österreich';
@@ -793,13 +793,14 @@ function loadLanguage($scope){
 			$scope.StaffHeadDev = 'Resp. Développement Informatique';
 			$scope.StaffArtificialInt = 'Intelligence Artificielle';
 			$scope.StaffDesign = 'Design & Communication';
-			$scope.AssociateBcn = 'Chef de projets';
+			$scope.AssociateBcn = 'Coordinateur Barcelona';
 			$scope.AssociateProjects = 'Chef de projets';
 			$scope.StaffCoordinatorCroatia = 'Coordinateur Croatie';
 			$scope.StaffCoordinatorAustria = 'Coordinateur Autriche';
 			$scope.StaffCoordinatorSwitzerland = 'Coordinateur Suisse';
 			$scope.StaffCoordinatorPortugal = 'Coordinateur Portugal';
 
+			$scope.idiomas = 'Langues';
 			$scope.moreInfoShort = "Plus d'info";
 
 			break;
@@ -992,7 +993,7 @@ function loadLanguage($scope){
 			$scope.StaffHeadDev = 'Head of Software Development';
 			$scope.StaffArtificialInt = 'Artificial Intelligence';
 			$scope.StaffDesign = 'Design & Communication';
-			$scope.AssociateBcn = 'Technician Barcelona';
+			$scope.AssociateBcn = 'Coordinator Barcelona';
 			$scope.AssociateProjects = 'Project Manager';
 			$scope.StaffCoordinatorCroatia = 'Coordinator Croacia';
 			$scope.StaffCoordinatorAustria = 'Coordinator Austria';
