@@ -4,3 +4,4 @@
 content
 *.sublime-project
 *.sublime-workspace
+._*
