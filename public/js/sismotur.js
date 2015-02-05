@@ -194,3 +194,99 @@ function videoYotube(){
 
 	window.open(video);
 }
+
+function casoExito(){
+	var lang;
+	if(document.cookie=="")
+		lang = navigator.language.substr(0,2);
+	else{
+		lang = document.cookie.substr(5,6);
+	}
+
+	var video = "";
+	switch(lang){
+		case "es":
+			video = "http://www.youtube.com/watch?v=A_DzRaJbtvM";
+			break;
+		case "fr":
+			video = "http://www.youtube.com/watch?v=QLQwePHyc08";
+			break;
+		/*case "hr":
+			video = "http://www.youtube.com/watch?v=-PzUrNnvaFw";
+			break;*/
+		case "de":
+			video = "http://www.youtube.com/watch?v=Y7eKWSXKJcY";
+			break;
+		default:
+			video = "http://www.youtube.com/watch?v=RZTPCdGVrgw";
+			break;
+	}
+
+	window.open(video);
+}
+
+function inventrip(){
+	var lang;
+	if(document.cookie=="")
+		lang = navigator.language.substr(0,2);
+	else{
+		lang = document.cookie.substr(5,6);
+	}
+
+	var video = "";
+	switch(lang){
+		case "es":
+			video = "http://www.inventrip.com?lang=es";
+			break;
+		case "fr":
+			video = "http://www.inventrip.com?lang=fr";
+			break;
+		case "hr":
+			video = "http://www.inventrip.com?lang=hr";
+			break;
+		case "ca":
+			video = "http://www.inventrip.com?lang=ca";
+			break;
+		/*case "de":
+			video = "http://www.inventrip.com?lang=de";
+			break;*/
+		default:
+			video = "http://www.inventrip.com?lang=en";
+			break;
+	}
+
+	window.open(video);
+}
+
+function nfcPalencia(){
+	var lang;
+	if(document.cookie=="")
+		lang = navigator.language.substr(0,2);
+	else{
+		lang = document.cookie.substr(5,6);
+	}
+
+	var video = "";
+	switch(lang){
+		case "es":
+			video = "http://www.inventrip.com/diputaciondepalencia?lang=es";
+			break;
+		case "fr":
+			video = "http://www.inventrip.com/diputaciondepalencia?lang=fr";
+			break;
+		case "hr":
+			video = "http://www.inventrip.com/diputaciondepalencia?lang=hr";
+			break;
+		case "ca":
+			video = "http://www.inventrip.com/diputaciondepalencia?lang=ca";
+			break;
+		/*case "de":
+			video = "http://www.inventrip.com/diputaciondepalencia?lang=de";
+			break;*/
+		default:
+			video = "http://www.inventrip.com/diputaciondepalencia?lang=en";
+			break;
+	}
+
+	window.open(video);
+}

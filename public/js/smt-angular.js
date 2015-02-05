@@ -614,15 +614,197 @@ function loadLanguage($scope){
 			$scope.moreInfoShort = 'MEHR INFO';
 			break;
 
-		/*
 		// ***********************************************************************************************
 		// **************************************** FRENCH ***********************************************
 		// ***********************************************************************************************
-		case "fr":
-			$scope.tittle1 = 'Consultant en signalisation et information touristique';
+			case "fr":
+
+
+			// ******************
+			// TITRE SITE WEB
+			// ******************
+			$scope.tittle1 = 'Nous travaillons pour promouvoir et développer des destinations touristiques intelligentes';
+			
+			// ******************
+			// MENU
+			// ******************
+			$scope.mnObjet = 'Objectives';
+			$scope.mnTecno = 'Technologies';
+			$scope.mnTeam = 'Staff';
+			$scope.mnCont = 'Contact';
+			
+			// ******************
+			// BARRE GRISE 1
+			// ******************
+			$scope.resume1 = 'Nous répondons aux besoins de chaque client';
+			
+			// ******************
+			// OBJECTIVES
+			// ******************
+
+			$scope.obj1Tittle = 'Destinations Touristiques';
+			$scope.obj1Text = 'Augmentez le nombre de touristes qui visitent votre territoire et améliorez leur accueil en intégrant des systèmes avancés offline/physiques (signalisation) avec des systèmes online/numériques, en utilisant les meilleures technologies.';
+
+			//$scope.obj1Resume = 'Sistemas';
+
+			$scope.obj2Tittle = 'Services Touristiques';
+			$scope.obj2Text = "Développez votre canal de ventes online en offrant de l'information, des produits et des services personnalisés à vos clients à travers de la plateforme Inventrip. Améliorez la visibilité de votre image de marque avec la diffusion dans les réseaux sociaux de vidéos touristiques faites avec des drones.";
+			
+			//$scope.obj2Resume = 'Movilidad';
+			
+			$scope.obj3Tittle = 'Inventer des voyages';
+			$scope.obj3Text = 'Les touristes pourront connaître gratuitement avec la plateforme Inventrip les charmes des destinations et le propositions de services et activités touristiques. Ils pourront facilement planifier leurs voyages, les consulter pendant leur séjour, et les partager avec leurs amis et familiers.';
+
+
+			//$scope.obj3Resume = 'Turismo';
+			
+			// REVISAR
+			$scope.btnMoreInfo = 'Voulez-vous découvrir un cas de réussite ?';
+
+			// ******************
+			// BARRE GRISE 2
+			// ******************
+			$scope.tecTittle = 'Nous mettons à votre disposition les meilleures technologies';
+
+			// ******************
+			// TECHNOLOGIES
+			// ******************
+
+			// DronTrip
+			$scope.dronText = 'Utilisez des vols touristiques enregistrés avec des drones pour viraliser dans les réseaux sociaux la promotion des destinations et services touristiques.';
+			
+			// NFC
+			$scope.nfcText = 'Donnez à vos clients des cartes NFC (contactless) pour personnaliser leur expérience touristique dans la destination.';
+			
+			// Signalisation
+			$scope.senalizacionTittle = 'Signalisation';
+			$scope.senalizacionText = "Implantez un système de signalisation pour faciliter le guidage des touristes et améliorer la qualité de l'image de la destination.";
+
+			// QR
+			$scope.qrText = 'Partagez un voyage touristique avec des codes QR.';
+			
+			// Beacons - revisar
+			$scope.beaconText = "Déployez la nouvelle technologie beacons pour donner de l'information contextualisée au touriste et lui offrir des produits et services personnalisés dans son téléphone portable."; 
+			
+			// ******************
+			// BARRE GRISE 3
+			// ******************
+			$scope.servTittle = 'Nous implantons des services avancés dans le nouage';
+
+			// ******************
+			// PLATEFORMES
+			// ******************
+
+			// Inventrip
+			$scope.invTextA = 'Inventer des voyages : ceci est notre vision';
+			$scope.invTextB = "Nous vous fournissons une plateforme technologique avec laquelle vos voyageurs pourront créer leur plan de voyage (par journées, villes, thématiques...) et, en navigant sur une carte, pourront ajouter les endroits qu'ils voudront visiter et les services qu'ils voudront contracter.";
+
+
+			$scope.btnInventrip = 'Allez à Inventrip';			
+
+			// Signing 
+			$scope.sigText = "Signing est un service web spécialisé dans la planification et gestion de la signalisation territoriale et urbaine qui est utilisé par plus de 30 administrations publiques. Il a été développé en 2009 dans le cadre d'un plan national de recherche et développement de l'état espagnol";
+			
+			$scope.btnSigning = "Plus d'information";
+
+			// ******************
+			// NOUS CONTACTER
+			// ******************
+			$scope.cntSpain = 'Espagne';
+			$scope.cntSpain2 = 'Madrid & Barcelona';
+			$scope.cntSpainPhone = '+34 913.238.208';
+			
+			$scope.cntFrance = 'France';
+			$scope.cntFrance2 = 'Annecy';
+			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
+			
+			$scope.cntCroatia = 'Croatie';
+			$scope.cntCroatia2 = 'Zagreb';
+			$scope.cntCroatiaPhone = '+385.16187750';
+
+			$scope.cntAustria = 'Autriche';
+			$scope.cntAustria2 = 'Innsbruck';
+			$scope.cntAustriaPhone = '+43 699.111.43611';
+
+			$scope.cntSuiza = 'Suisse';
+			$scope.cntSuiza2 = 'Lausanne';
+			$scope.cntSuizaPhone = '+41.76.393.72.52';
+
+			$scope.cntPortugal = 'Portugal';
+			$scope.cntPortugal2 = '';
+			$scope.cntPortugalPhone = '+34 629.415.915';
+			
+			$scope.btnContact = 'Contacter';
+			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
+
+
+			// *********************
+			// SUBSECTION TECHNOLOGIE
+			// *********************
+
+			// Página DronTrip
+			$scope.DronTriptext1 = 'Nous vous invitons à voler dans la province de Palencia !';
+			$scope.DronTripbutton1 = 'Regarder la vidéo';
+
+			// Página NFC
+			$scope.NFCtitle1 = 'Implant théâtre Croatie';
+			$scope.NFCtext1 = 'Cartes NFC offertes après la première de la pièce de théâtre "Mobitel" à Zagreb. Les cartes contiennent le programme de la représentation de la pièce pendant 2015 en Croatie.';
+			$scope.NFCbutton1 = 'Voir programme';
+
+			$scope.NFCtitle2 = 'Cartes NFC Palencia Tourisme';
+			$scope.NFCtext2 = "L'Office de Tourisme de Palencia (Espagne) a présenté Inventrip à la presse au cours du dernier salon de tourisme d'intérieur espagnol (INTUR) et a distribué des cartes NFC avec un voyage dans la province de Palencia.";
+			
+			$scope.NFCbutton2 = 'Découvrez le voyage';
+
+			// Página Señalización
+			$scope.SenyalizacionTitle = 'Sismotur SL - Signalisation'
+
+			$scope.Sentitle1 = 'Barcelone';
+			$scope.Sentext1 = 'Design de la nouvelle signalisation touristique piétonne mené par Sismotur pour la ville de Barcelone.';
+
+			$scope.Sentitle2 = 'Castille et Leon';
+			$scope.Sentext2 = "La Conseillère et le Directeur Général de Tourisme de Castille et Leon, avec Sismotur, ont présenté pendant la dernière édition du salon de tourisme intérieur INTUR le programme d'amélioration de la signalisation touristique de la région.";
+
+			$scope.Sentitle3 = 'AOC Ribera del Duero';
+			$scope.Sentext3 = "Implémentation intégrale de l'ensemble des équipements de signalisation territoriale et urbaine pour la Route Ribera del Duero.";
+
+			// Página QR
+			$scope.QRtitle1 = 'Normandie et Bretagne'
+			$scope.QRtext1 = 'Découvrez un voyage en Normandie et Bretagne avec ce code QR !';
+			$scope.QRbutton1 = 'Découvrez le voyage';
+
+			$scope.QRtitle2 = 'Barcelone';
+			$scope.QRtext2 = "Sismotur a rédigé en 2012 le premier plan de signalisation et information touristique de la ville de Barcelone pour l'arrondissement d'Horta-Guinardó.";
+			$scope.QRbutton2 = "Plus d'Info";
+
+			// Página Beacon
+			$scope.Beacontitle1 = 'Beacon'
+			$scope.Beacontext1 = 'Proposition de la technologie beacons au département de Palencia.';
+
+			// *********************
+			// STAFF
+			// *********************
+
+			$scope.StaffCEO = 'Cofondateur - CEO';
+			$scope.StaffCOO = 'Cofondateur - COO';
+			$scope.StaffCMO = 'Partenaire - CMO';
+			$scope.StaffCTO = 'Partenaire - CTO';
+			$scope.StaffCLO = 'Partenaire - CLO';
+			$scope.StaffHeadDev = 'Resp. Développement Informatique';
+			$scope.StaffArtificialInt = 'Intelligence Artificielle';
+			$scope.StaffDesign = 'Design & Communication';
+			$scope.AssociateBcn = 'Chef de projets';
+			$scope.AssociateProjects = 'Chef de projets';
+			$scope.StaffCoordinatorCroatia = 'Coordinateur Croatie';
+			$scope.StaffCoordinatorAustria = 'Coordinateur Autriche';
+			$scope.StaffCoordinatorSwitzerland = 'Coordinateur Suisse';
+			$scope.StaffCoordinatorPortugal = 'Coordinateur Portugal';
+
+			$scope.moreInfoShort = "Plus d'info";
+
 			break;
 
-
+/*
 		// ***********************************************************************************************
 		// **************************************** CROATIAN *********************************************
 		// ***********************************************************************************************
