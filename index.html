@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="smtApp" ng-controller="languagesController">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Sismotur SL.</title>
+		<link rel="shortcut icon" href="img/favicon.png">
+
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/sismotur.css" rel="stylesheet">	
+    	
+    	<script src="js/jquery-1.11.1.js"></script>
+    	<script src="js/jquery.browser.js"></script>
+    	<script src="js/jquery.iframe-auto-height.js"></script>
+    	<script src="js/lib/greensock/TweenMax.min.js"></script>
+    	<script src="js/bootstrap.js"></script>
+    	<script src="js/jquery.scrollmagic.js"></script>
+    	<script src="js/jquery.scrollmagic.debug.js"></script>
+    	<script src="js/sismotur.js"></script>
+    	<script src="js/lib/greensock/TimelineMax.min.js"></script>
+    	<script src="js/angular.js"></script>
+    	<script src="js/smt-angular.js"></script>
+        
+ 
+ <script type="text/javascript" src="http://www.essentialsapps.com/js/jquery-1.4.4.min.js" defer></script>
+ <script type="text/javascript" src="http://www.essentialsapps.com/js/jquery.scrollTo-1.4.2.min.js" defer></script>     
+ <script type="text/javascript" src="http://www.essentialsapps.com/js/scrollto.min.js" defer></script>
+    	
+    	<script>	
+			$(document).ready(function($){
+				if(!isMobile()){
+					parallaxBanner();
+					opaqueMenu();
+					//parallaxObjectives();
+					//parallaxTecnologic();
+					//parallaxTeam();
+					parallaxSection();
+
+					$(".navbar-nav li a").click(function(event) {
+						$(".navbar-collapse").collapse('hide');
+					});
+				}
+			});		
+    	</script>		
+	</head>
+
+	<body>		
+		<div class="container-fluid smt-cotainer-body">			
+			<nav id="smt-menu" class="navbar" role="navigation">
+  				<div class="container-fluid">
+    				<!-- Brand and toggle get grouped for better mobile display -->
+    				<div class="navbar-header">      
+      					<button type="button" class="navbar-toggle collapsed smt-button-nav" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        					<span class="sr-only">Toggle navigation</span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+      					</button>
+      					<a class="navbar-brand smt-logo-nav" href="#">
+                        	<img class="smt-logo-menu" title="Sismotur" src="img/logomenu.png" />
+                        </a>
+    				</div>
+
+    				<!-- Collect the nav links, forms, and other content for toggling -->
+    				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      					<ul class="nav navbar-nav navbar-right smt-nav-bar">
+        					<!--<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>-->
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#objectives',1000)">{{mnObjet}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#tecnologic',1000)">{{mnTecno}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#inventrip',1000)">{{mnInven}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#signing',1000)">{{mnSigni}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#team',1000)">{{mnTeam}}</a></li>
+        					<li><a class="menuRef" href="javascript:$.scrollTo('#contact',1000)">{{mnCont}}</a></li>			
+      					</ul>
+    				</div><!-- /.navbar-collapse -->
+  				</div><!-- /.container-fluid -->
+			</nav>
+			<div id="parallaxTrigger">
+				<div id="smt-banner-par">				
+				</div>  
+				<div id="smt-banner-trans-par">				
+				</div>
+				<div id="smt-slogan-par">
+                	<img id="logoPortada" title="" src="img/sismotur-logo-portada-uno.png" />
+					<h1 class="tittleBanner">{{tittle1}}</h1>
+					<div id="btnBajar" onclick="javascript:$.scrollTo('#first',1000)"></div>
+				</div>			  
+			</div>
+			<div id="menuTrigger">				
+			</div>
+			<div class="row resume" id="first">
+				<h1>{{resume1}}</h1>
+			</div>
+			<div id="obtectivesTrigger">				
+			</div>
+			
+			<div id="objectives" class="container-fluid">
+				<div id="objectiveContent" class="row smt-content">
+					<div id="obj1" class="col-md-4 smt-content-col">
+						<h2>{{obj1Tittle}}</h2>
+						<hr class="separador"/>
+						<p class="texto-obj">{{obj1Text}}</p>					
+					</div>
+					<div id="obj2" class="col-md-4 smt-content-col">
+						<h2>{{obj2Tittle}}</h2>
+						<hr class="separador"/>
+						<p class="texto-obj">{{obj2Text}}</p>						
+					</div>
+					<div id="obj3" class="col-md-4 smt-content-col">
+						<h2>{{obj3Tittle}}</h2>
+						<hr class="separador" />
+						<p class="texto-obj">{{obj3Text}}</p>						
+					</div>
+				</div>
+				<div id="objectiveButton">
+					<button id="btn-large" onclick="casoExito()">{{btnMoreInfo}}</button>
+				</div>
+			</div>
+			<!--<div class="row video">
+				<iframe src="//www.youtube.com/embed/lVLSAYLhMfg" frameborder="0" onload='javascript:resizeIframe(this);'>						
+				</iframe>-->
+			</div>
+            
+            <div id="resume-one-trigger" >
+			<div id="resume-one" class="row resume">
+				<h1>{{tecTittle}}</h1>
+			</div>
+			
+			<div id="tecnologicTrigger">				
+			</div>
+			
+			<div id="tecnologic" class="container-fluid">
+				<!--<div id="tecnologicTitle" class="row smt-content-title">
+					<h1>{{tectTittle}}</h1>
+				</div>-->
+				
+				<div id="tecnologicContent" class="row smt-content">
+					<div class="col-md-4 smt-content-col">
+						<img class="logoTecno" src="img/logodron.png"/>	
+                        <h2>{{dronTittle}}</h2>
+                        <p class="texto-tecnol">{{dronText}}</p>
+						<div id="objectiveButton">
+                        <br />
+							<button onclick="window.open('drontrip.html')">{{moreInfoShort}}</button>
+						</div>						
+					</div>
+					<div class="col-md-4 smt-content-col">
+						<img class="logoTecno" src="img/logonfc.png"/>
+                        <h2>{{nfcTittle}}</h2>
+                        <p class="texto-tecnol">{{nfcText}}</p>
+						<div id="objectiveButton">
+                        <br />
+
+							<button onclick="window.open('NFC.html')">{{moreInfoShort}}</button>
+
+						</div>
+					</div>
+					<div class="col-md-4 smt-content-col">
+						<img class="logoTecno" src="img/logosenal.png"/>
+                        <h2>{{senalizacionTittle}}</h2>
+                        <p class="texto-tecnol">{{senalizacionText}}</p>
+						<div id="objectiveButton">
+                        <br />
+							<button onclick="window.open('senalizacion.html')">{{moreInfoShort}}</button>
+						</div>												
+					</div>
+				</div>
+				<div id="tecnologicContent" class="row smt-content">
+					<div class="col-md-2">						
+					</div>
+					<div class="col-md-4 smt-content-col">
+						<img class="logoTecno" src="img/logoqr.png"/>
+                        <h2>{{qrTittle}}</h2>
+                        <p id="qr-info" class="texto-tecnol">{{qrText}}</p>
+						<div id="objectiveButton">
+                        <br />
+
+							<button onclick="window.open('QR.html')">{{moreInfoShort}}</button>
+
+						</div>					
+					</div>
+					<div class="col-md-4 smt-content-col">
+						<img class="logoTecno" src="img/logobeacon.png"/>
+                        <h2>{{beaconTittle}}</h2>
+                        <p class="texto-tecnol">{{beaconText}}</p>
+						<div id="objectiveButton">
+                        <br />
+							<button onclick="window.open('beacon.html')">{{moreInfoShort}}</button>
+						</div>			
+					</div>
+				</div>
+			</div>
+			</div>
+
+			<div class="row resume">
+				<h1>{{servTittle}}</h1>
+			</div>
+
+			<!-- ****************
+			**** INVENTRIP ******
+			******************-->
+			
+			<div id="inventrip" class="continer-fluid smt-service">
+				<div class="row smt-service-tittle">
+					<div class="col-md-3 col-md-offset-1">
+						<h2>{{invTittle}}</h2>
+					</div>
+				</div>
+				<div class="row smt-service-content">
+					<div class="col-md-8 col-md-push-4 img-interface">
+						<img src="img/inventrip-interfaz.jpg"/>
+					</div>
+					<div class="col-md-3 col-md-offset-1 col-md-pull-8 smt-content-text">
+						<p class="smt-servic-content-text"><strong>{{invTextA}}</strong></p>
+						<p class="smt-servic-content-text">{{invTextB}}</p>
+					</div>					
+				</div>
+				<div class="row smt-service-button">
+					<div class="col-md-3 col-md-offset-1">
+						<button onclick="window.open('http://inventrip.com/diputaciondepalencia/')">{{btnInventrip}}</button>
+					</div>
+				</div>
+			</div>
+
+			<!-- ****************
+			***** SIGNING *******
+			******************-->
+
+			<div id="signing" class="continer-fluid smt-service">
+				<div class="row smt-service-tittle">
+					<div class="col-md-3 col-md-offset-8">
+						<h2>{{sigTittle}}</h1>
+					</div>
+				</div>
+				<div class="row smt-service-content">
+					<div class="col-md-8 img-interface">
+						<img id="signing-img" src="img/signing-interfaz.jpg"/>
+					</div>
+					<div class="col-md-3 smt-content-text">
+						<p class="smt-servic-content-text">{{sigText}}</p>
+					</div>					
+				</div>
+				<div class="row smt-service-button">
+					<div class="col-md-3 col-md-offset-8">
+						<button onclick="window.open('http://sismotur.net/barcelona/')">{{btnSigning}}</button>
+					</div>
+				</div>
+			</div>
+			
+			<!-- ****************
+			******** TEAM *******
+			******************-->
+
+			<div id="team">
+				<div id="team-tittle" class="row smt-content-title">
+					<h1>{{btnTitleTeam}}</h1>
+				</div>
+
+				<div id="row1" class="row row-team">
+					<div class="col-md-3" class="content-image">	
+						<div id="image1" class="image"></div>	
+						<p class="content-image-data"><strong>Augusto Ramos</strong></p>			
+						<p>{{StaffCEO}}</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image2" class="image"></div>	
+						<p class="content-image-data"><strong>Manuel Mariscal</strong></p>			
+						<p>{{StaffCOO}}</p>					
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image3" class="image"></div>	
+						<p class="content-image-data"><strong>Julio José Julián</strong></p>			
+						<p>{{StaffCMO}}</p>			
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image4" class="image"></div>	
+						<p class="content-image-data"><strong>Felipe Santi</strong></p>			
+						<p>{{StaffCTO}}</p>				
+					</div>
+				</div>
+
+				<div id="row2" class="row row-team">
+					<div class="col-md-3" class="content-image">	
+						<div id="image5" class="image"></div>	
+						<p class="content-image-data"><strong>Alberto Jabonero</strong></p>			
+						<p>{{StaffCLO}}</p>					
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image6" class="image"></div>	
+						<p class="content-image-data"><strong>Jose Juan Sánchez</strong></p>			
+						<p>{{StaffHeadDev}}</p>			
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image7" class="image"></div>	
+						<p class="content-image-data"><strong>Jose Luis Jorro</strong></p>			
+						<p>{{StaffArtificialInt}}</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image8" class="image"></div>	
+						<p class="content-image-data"><strong>Mario Pavón</strong></p>			
+						<p>{{StaffDesign}}</p>					
+					</div>
+				</div>
+
+				<div id="row3" class="row row-team">					
+					<div class="col-md-3" class="content-image">	
+						<div id="image10" class="image"></div>	
+						<p class="content-image-data"><strong>Arancha Díaz</strong></p>			
+						<p>{{AssociateProjects}}</p>			
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image11" class="image"></div>	
+						<p class="content-image-data"><strong>Javier Becerra</strong></p>			
+						<p>{{AssociateProjects}}</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image9" class="image"></div>	
+						<p class="content-image-data"><strong>Roser Soler</strong></p>			
+						<p>{{AssociateBcn}}</p>					
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image12" class="image"></div>	
+						<p class="content-image-data"><strong>Natalija Bajs</strong></p>			
+						<p>{{StaffCoordinatorCroatia}}</p>				
+					</div>
+				</div>
+
+				<div id="row4" class="row row-team-3">
+					<div class="col-md-1 col-md-pre-team"></div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image13" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Andrés Santi</strong></p>			
+						<p>{{StaffCoordinatorAustria}}</p>				
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image14" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Manuel Capel</strong></p>			
+						<p>{{StaffCoordinatorSwitzerland}}</p>					
+					</div>
+					<div class="col-md-3" class="content-image">	
+						<div id="image15" class="image">
+							
+						</div>	
+						<p class="content-image-data"><strong>Daniel Gordo</strong></p>			
+						<p>{{StaffCoordinatorPortugal}}</p>					
+					</div>
+					
+				</div>				
+			</div>
+
+			<!-- ****************
+			****** FOOTER *******
+			******************-->
+
+			<footer id="contact" class="smt-footer">
+				<div class="row smt-contact">
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntSpain}}</h3>
+						<hr>
+						<p>{{cntSpain2}}</p>
+						<p>{{cntSpainPhone}}</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntFrance}}</h3>
+						<hr>
+						<p>{{cntFrance2}}</p>
+						<p>{{cntFrancePhone}}</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntCroatia}}</h3>
+						<hr>
+						<p>{{cntCroatia2}}</p>
+						<p>{{cntCroatiaPhone}}</p>
+					</div>
+				</div>
+				<div class="row smt-contact">
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntAustria}}</h3>
+						<hr>
+						<p>{{cntAustria2}}</p>
+						<p>{{cntAustriaPhone}}</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntSuiza}}</h3>
+						<hr>
+						<p>{{cntSuiza2}}</p>
+						<p>{{cntSuizaPhone}}</p>
+					</div>
+					<div class="col-md-4 smt-dir">
+						<h3>{{cntPortugal}}</h3>
+						<hr>
+						<p>{{cntPortugal2}}</p>
+						<p>{{cntPortugalPhone}}</p>
+					</div>
+				</div>
+				<div class="row smt-socialNetwork">
+					<div id="btnLinkedin" onclick="window.open('https://www.linkedin.com/company/sismotur')"></div>
+					<div id="btnTwitter" onclick="window.open('https://twitter.com/sismotur')"></div>
+					<div id="btnYoutube" onclick="window.open('https://www.youtube.com/user/Inventrip')"></div>
+					<div id="btnGitHub" onclick="window.open('https://github.com/sismotur')"></div>
+				</div>
+                <div class="row smt-form">
+                	<div class="col-md-6 col-md-offset-3 language">
+                		<!--<button id="b-contacto" type="button" onclick="win = window.open('mailto:aramos@sismotur.com', 'emailWindow'); win.close();">{{btnContact}}</button>-->
+                		<a href="mailto:inventrip@sismotur.com">inventrip@sismotur.com</a>
+                	</div>
+                </div>
+                <div class="row stm-lang">
+					<h3>{{idiomas}}</h3>
+				</div>
+				<div class="row lang-row">
+					<div class="col-md-3 language">
+						<a ng-click="changeLang('es')"><strong>Castellano</strong></a>
+					</div>
+					<div class="col-md-2 language">
+						<a ng-click="changeLang('ca')"><strong>Català</strong></a>
+					</div>
+					<div class="col-md-2 language">
+						<a ng-click="changeLang('en')"><strong>English</strong></a>
+					</div>
+					<div class="col-md-2 language">
+						<a ng-click="changeLang('fr')"><strong>Français</strong></a>
+					</div>
+					<div class="col-md-2 language">
+						<a ng-click="changeLang('de')"><strong>Deutsch</strong></a>
+					</div>
+					<!--<div class="col-md-2 language">
+						<a ng-click="changeLang('hr')"><strong>Hrvatski</strong></a>
+					</div>-->
+				</div>
+				<div class="row stm-copyright">
+					<p>{{copyright}}</p>
+				</div>
+			</footer>		
+		</div>
+	</body>
+</html>

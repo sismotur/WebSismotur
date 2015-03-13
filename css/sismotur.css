@@ -1,0 +1,1010 @@
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Exo:300);
+
+
+*{font-family: 'Open Sans', sans-serif;}
+*{margin:0px; padding:0px;}
+
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.clear{
+	clear: both;
+}
+
+.centrar{
+	width: 100vw;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+}
+
+.smt-cotainer-body{
+	padding: 0px;
+	margin: 0px;
+}
+
+a#boton-bajar{display:block; width:60px; height:60px; position:relative; left:50%; margin-left:-30px; background-color:red;}
+
+p.texto-obj{font-size:16px;}
+
+button{
+	width:180px;
+	height:50px;
+	background-color:transparent;
+	color:rgb(0,36,168);
+	border-color:rgb(0,36,168);
+	border-style:solid;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	font-family: 'Exo', sans-serif;
+}
+
+button:hover{
+	background-color:rgb(0,36,168);
+	color:#ffffff;
+}
+
+button#b-contacto{
+	border-color:#ffffff;
+	color:#ffffff;
+	font-size: 15px;
+}
+
+button#b-contacto:hover{
+	background-color:#ffffff;
+	color:rgb(100,100,100);
+}
+
+#btn-large{
+	width:330px;
+}
+
+a.smt-logo-nav{
+	padding:5px 5px;
+	}
+	
+#signing-img{
+	width:70%; 
+}
+
+h2{font-family: 'Monda', sans-serif; color:rgb(0,36,168); font-size:36px;}
+
+p.texto-tecnol{ 
+	height: 130px;
+	font-size: 16px;
+	padding-left:10%; 
+	padding-right:10%;}
+
+/* MENU PROPERTIES 2*/
+.smt-menu{
+	width: 100vw;
+	background-color: rgb(0,36,168);
+	position: fixed;
+	border-radius: 0px;
+	margin-bottom: 0px;
+	padding-right: 5px;
+	z-index:2; 
+}
+
+.smt-menu a{
+	color: #FFFFFF;
+	font-family: 'Monda', sans-serif;
+}
+
+.smt-nav-bar li a:hover{
+	background-color: #646464;
+	color: #FFFFFF;
+}
+
+.smt-return-nav{
+	padding:5px 5px;
+	float: right;
+}
+
+.smt-logo-menu{
+	height:40px;
+	width:auto;
+}
+
+.smt-logo-return {
+	height: 30px;
+	width: auto;
+	padding-top: 10px;
+}
+
+.smt-logo-return a:hover{
+	background-color: #646464;
+}
+
+/* MENU PROPERTIES (deprecated)*/
+#smt-menu{
+	width: 100vw;
+	z-index: 3;
+	background-color: rgb(0,36,168);
+	position: fixed;
+	border-radius: 0px;
+	margin-bottom: 0px; 
+}
+
+#smt-menu a{
+	color: #FFFFFF;
+	font-family: 'Monda', sans-serif;
+}
+
+.menuRef{}
+
+.smt-button-nav{
+	background-image: url("../img/menu.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+
+.smt-logo-nav :hover{
+	background-color: rgb(0,36,168);
+}
+
+/* BANNER PROPERTIES */
+#smt-banner-par{
+	height: 100vh;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#smt-banner-trans-par{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	z-index: 1;
+	background-color: rgb(0,36,168);
+	opacity: 0.2;
+    filter: alpha(opacity=20);
+}
+
+#smt-slogan-par{
+	height: 100vh;
+	width: 100%;
+	padding-top:25vh;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;	
+	position: absolute;
+	top: 0px;
+	z-index: 2;
+	font-family: 'Monda', sans-serif;
+	color: #FFFFFF;		
+}
+
+#logoPortada{
+	width: 60%;
+}
+
+.tittleBanner{
+	width:60%;
+	text-align:center;
+	margin:0 auto;
+	opacity:0.8;
+}
+
+/* RESUME PROPERTIES */
+.resume{
+	margin: 0px;	
+	background-image: url('../img/fondomapa-uno.jpg');
+	background-size:cover;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.resume h1{
+	font-family: 'Monda', sans-serif;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+	color:rgb(0,36,168);
+	text-transform:uppercase;
+	font-size:28px;
+}
+
+div.resume#first{background-image:none; background-color:rgba(100,100,100,0.4);}
+
+#btnBajar{
+	background-image: url("../img/boton-bajar.png");
+	background-color: rgb(0,36,168);
+	height: 60px;
+	width: 60px;
+	border-radius: 60px;
+	margin-right: 15px;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	/*position: relative;
+	float: left;*/
+	
+}
+
+#btnBajar:hover{
+	background-color: rgb(100,100,100);
+}
+
+/* CONTENTS */
+.smt-content-title{	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.smt-content-title h1{
+	padding-top: 55px;
+	color: rgba(0,36,168,1);
+	font-family: 'Monda', sans-serif;
+	font-size: 55px;
+}
+
+.smt-content{
+	width: 90%;		
+	margin-top: 3%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smt-content-text{
+	height: 100%;
+}
+
+.smt-content-col{
+	text-align: center;
+	margin-bottom: 5%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.smt-content-col h2{
+	height: 78px;
+}
+
+.separador{
+	color: rgb(0,36,168);
+	border-color: rgb(0,36,168);
+}
+
+/* OBJECTIVES PROPERTIES */
+#objectives{
+	min-height: 100vh;
+	width: 100%;
+	padding-top: 5%;
+}
+
+#objectiveContent{
+	width: 90%;	
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#objectiveContent h1{
+	color: rgba(0,36,168,1);
+	font-family: 'Monda', sans-serif;
+	font-size: 55px;
+}
+
+.object-content{
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+#objectiveButton{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.video{
+	text-align: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.video iframe{
+	width: 80%;
+	height: 80vh;
+}
+
+/* TECNOLOGIC PROPERTIES */
+#tecnologic{
+	min-height: 100vh;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.logoTecno{
+	width: 150px;
+	text-align: center;
+}
+
+#tecnologicContent{
+/*	margin-top: 10%;*/
+}
+
+
+
+.smt-content-product{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.smt-content-product h1{
+	color: rgba(0,36,168,1);
+	font-family: 'Monda', sans-serif;
+	font-size: 55px;
+	margin-bottom: 30%;
+}
+
+.smt-content-product p{
+	
+}
+
+.smt-content-product button{
+	margin-top: 40%;
+}
+
+h1.titulo-tecnologia{
+	font-family: 'Monda', sans-serif;
+}
+
+.smt-qrbutton{
+	margin-top: 20px;
+}
+
+/* SERVICE PROPERTIES */
+.smt-service{
+	width: 90%;		
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smt-service-tittle{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.smt-service-tittle h1{
+font-family: 'Monda', sans-serif;
+	color: rgb(0,36,168);
+	font-size: 55px;
+}
+
+.smt-service-content{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.smt-servic-content-text{
+	padding-top: 10%;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.smt-service-button{
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.img-interface{
+	text-align: center;
+}
+
+.img-interface img{
+	width: 80%;
+}
+
+/* INVENTRIP PROPERTIES */
+#inventrip{
+	min-height: 100vh;
+	width: 100%;
+	padding-top: 4%;
+}
+
+/* SIGNING PROPERTIES */
+#signing{
+	min-height: 100vh;
+	width: 100%;
+	padding-top: 4%;
+}
+
+/* TRIGGERS PROPERTIES */
+
+/* TECNOLOGIES PROPERTIES*/
+.smt-tecno-content{
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 150vh;
+}
+
+.smt-carousel{
+	/*padding-top: 52px;*/
+	height: 100vh;
+}
+
+.smt-item{	
+	height: inherit;
+	padding: 52px 0px;
+}
+
+.smt-content-item-img{
+	height: 80vh;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.smt-content-item-text{
+	padding-top: 7vh;
+	text-align: center;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.smt-item-content{
+	height: inherit;
+}
+
+.smt-item-content p{
+	/*color: #FFFFFF;*/
+}
+
+.smt-item-button{
+	text-align: center;
+}
+
+
+div#fondo-drontrip{
+	background-image:url(../img/fondo-drontrip.png);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	height:100%;
+}
+
+.smt-item-text{
+	padding-top: 0px;
+}
+
+.smt-item-text h2{
+	margin-top: 0px;
+}
+.smt-item-button{
+	padding-top: 2vh;
+}
+
+
+.smt-item-bottom{
+	position: absolute;
+	bottom: 20vh;
+	width: 100%;
+}
+
+#btnDronTrip1{
+	bottom: 0px;
+}
+
+/*************************************************************************/
+/*	PAGINA DE DRONTRIP */
+.smt-drontrip-title{
+	padding-top: 52px;
+}
+
+.smt-drontrip-content p{
+	padding-top: 25px;
+}
+
+#smt-dron-img1{
+	background-image:url(../img/drontripEscenario.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover;
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* PAGINA DE NFC */
+#smt-nfc-croacia-img{
+	background-image:url(../img/nfc-croacia.jpg);
+	background-size:cover; 
+	background-position: 0px -130px;
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+}
+
+#smt-nfc-palencia-img{
+	background-image:url(../img/InventripPalencia.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* PAGINA DE SEÑALIZACIÓN */
+#smt-sen-img1{
+	background-image:url(../img/barcelonasen.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-sen-img2{
+	background-image:url(../img/senCastillaLeon.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-sen-img3{
+	background-image:url(../img/senRibera.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* PAGINA DE QR */
+#smt-qr-img1{
+	background-image:url(../img/normandia-dos.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center -320px;
+}
+
+#smt-qr-img2{
+	background-image:url(../img/qrbarcelona.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* PAGINA DE SEÑALIZACIÓN */
+#smt-banner-img1{
+	background-image:url(../img/Palencia2.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*REVISAR PORQUE ALGUNOS NO SE USAN*/
+#product{
+	width: 100%;
+	/*top: 700px;
+	position: relative;
+	z-index: -1;*/
+}
+
+
+.smt-product{
+	text-align: center;
+	margin-top: 25px;
+}
+
+.smt-product h1{
+	color: rgba(0,36,168,1);
+	font-family: 'Monda', sans-serif;
+}
+
+.smt-product p{
+	font-family: 'Monda', sans-serif;
+	letter-spacing: 1px;
+}
+
+#team{
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgba(100, 100, 100, 0.4);
+	margin-top: 25px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#team h1{
+	color: rgba(0,36,168,1);
+	font-family: 'Monda', sans-serif;
+	margin-bottom: 3%;
+}
+
+.row-team{
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-right: -0px;
+	margin-left: -0px;
+}
+
+.row-team-3{
+	text-align: center;
+	padding-top: 10px;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-right: -0px;
+	margin-left: -0px;
+}
+
+.col-md-pre-team{
+	width: 12%;
+}
+
+.content-image{
+	text-align: center;
+}
+
+.content-image-data{
+	margin-bottom: 0px;
+}
+
+.image{
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	/*background-image: url('../img/perfil1.jpg');
+	background-size: cover;*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+}
+
+#image1{
+	background-image: url('../img/staff/ar.png');
+	background-size: cover;
+}
+
+#image2{
+	background-image: url('../img/staff/mm.png');
+	background-size: cover;
+}
+
+#image3{
+	background-image: url('../img/staff/jj.png');
+	background-size: cover;
+}
+
+#image4{
+	background-image: url('../img/staff/fs.png');
+	background-size: cover;
+}
+
+#image5{
+	background-image: url('../img/staff/aj.png');
+	background-size: cover;
+}
+
+#image6{
+	background-image: url('../img/staff/jjuan.png');
+	background-size: cover;
+}
+
+#image7{
+	background-image: url('../img/staff/jluis.png');
+	background-size: cover;
+}
+
+#image8{
+	background-image: url('../img/staff/mp.png');
+	background-size: cover;
+}
+
+#image9{
+	background-image: url('../img/staff/rs.png');
+	background-size: cover;
+}
+
+#image10{
+	background-image: url('../img/staff/ad.png');
+	background-size: cover;
+}
+
+#image11{
+	background-image: url('../img/staff/jb.png');
+	background-size: cover;
+}
+
+#image12{
+	background-image: url('../img/staff/nb.png');
+	background-size: cover;
+}
+
+#image13{
+	background-image: url('../img/staff/as.png');
+	background-size: cover;
+}
+
+#image14{
+	background-image: url('../img/staff/mc.png');
+	background-size: cover;
+}
+
+#image15{
+	background-image: url('../img/staff/dg.png');
+	background-size: cover;
+}
+
+.smt-footer{
+	width: 100%;
+	background-color: rgba(100, 100, 100, 1);
+	color: #FFFFFF;
+}
+
+.smt-contact{
+	font-family: 'Monda', sans-serif;
+	width: 80%;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.smt-contact p{
+	font-family: 'Monda', sans-serif;
+	letter-spacing: 1px;
+	margin: 0px;
+}
+
+.smt-dir{
+	padding-top: 25px;
+	text-align: center;
+}
+
+.smt-dir hr{
+	width: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smt-stop{
+	padding-top: 50px;
+}
+
+.smt-socialNetwork{
+	width: 205px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.smt-button{
+	font-family: 'Monda', sans-serif;
+	width: 80%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.smt-form{
+	font-family: 'Monda', sans-serif;
+	width: 80%;
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.stm-copyright{
+	width: 100%;
+	font-family: 'Monda', sans-serif;
+	padding-top: 50px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#btnLinkedin{
+	background-image: url("../img/logo-linkedin.png");
+	height: 40px;
+	width: 40px;
+	margin-right: 15px;
+	position: relative;
+	float: left;
+	
+}
+
+#btnLinkedin:hover{
+	background-color:rgb(0,36,168);
+	border-radius:40px;
+}
+
+#btnTwitter{
+	background-image: url("../img/logo-twitter.png");
+	height: 40px;
+	width: 40px;
+	margin-right: 15px;
+	position: relative;
+	float: left;
+}
+
+#btnTwitter:hover{
+	background-color:rgb(0,36,168);
+	border-radius:40px;
+}
+
+#btnYoutube{
+	background-image: url("../img/logo-youtube.png");
+	height: 40px;
+	width: 40px;
+	margin-right: 15px;
+	position: relative;
+	float: left;
+}
+
+#btnYoutube:hover{
+	background-color:rgb(0,36,168);
+	border-radius:40px;
+}
+
+#btnGitHub{
+	background-image: url("../img/logo-github.png");
+	height: 40px;
+	width: 40px;
+	position: relative;
+	float: left;
+}
+
+#btnGitHub:hover{
+	background-color:rgb(0,36,168);
+	border-radius:40px;
+}
+
+#drontip-img1{
+	height: 100%;
+	padding-bottom: 0px !important;
+	background-image: url('../img/drontripEscenario.JPG');
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.stm-lang{
+	width: 100%;
+	font-family: 'Monda', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lang-row{
+	padding-left: 35%;
+	padding-right: 35%;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.language{
+	text-align: center;
+}
+
+.language a{
+	color: #FFFFFF;
+}
+
+.language a:hover{
+	text-decoration: none;
+	color: rgb(0,36,168);
+}
+
+button#b-contacto{text-align:center;}
+
+div.input-group{width:100%;}
+
+@media (max-width: 768px) {
+	.tittleBanner{
+		font-size: 25px;
+	}
+
+	.smt-content-item-img{
+		height: 30vh;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	#btn-large{
+		width:220px;
+	}
+
+	#smt-nfc-croacia-img{
+	background-image:url(../img/nfc-croacia.jpg);
+	background-size:cover; 
+	background-position: center;
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	}
+
+	#smt-qr-img1{
+		background-size:cover; 
+		-webkit-background-size:cover; 
+		-moz-background-size:cover; 
+		-o-background-size:cover; 
+		-ms-background-size:cover; 
+		-khtml-background-size:cover;
+		background-position: center center;
+	}
+
+	#smt-banner-img1{
+	background-image:url(../img/Palencia.jpg);
+	background-size:cover; 
+	-webkit-background-size:cover; 
+	-moz-background-size:cover; 
+	-o-background-size:cover; 
+	-ms-background-size:cover; 
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+	#qr-info{
+		height: 50px;
+	}
+
+	#btnBajar{
+		visibility: hidden;
+	}
+}
+
