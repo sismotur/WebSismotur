@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Monda:400,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Exo:300);
+
+*{font-family: 'Open Sans', sans-serif;}
+*{margin:0px; padding:0px;}
+
+
+header{position:fixed; width:100%; height:60px; background-color:rgb(0,36,168); z-index:3;}
+	
+	img#logo{position:absolute; left:10px; top:5px;}
+	
+	nav#menu{position:absolute; right:20px;}
+	
+		ul#lista-menu{position:relative; list-style-type:none; float:left; height:60px; width:auto;}
+			
+			ul#lista-menu li{position:relative; float:left; padding-left:20px; height:40px; 
+							padding-top:20px; color:#ffffff; font-family:'Exo'; padding-right:20px;}
+						
+			ul#lista-menu li:hover{background-color:rgb(100,100,100);}
+			
+			ul#lista-menu li#lista-idiomas{position:relative; width:40px; margin-left:60px; font-family:'Open Sans';}
+			
+				ul#menu-idiomas{width:60px; position:relative; right:20px; height:auto; list-style-type:none; display:none; background-color:rgb(0,36,168); 
+								margin-top:17px;}
+				
+				li#lista-idiomas:hover > ul#menu-idiomas{display:block;}
+				
+					ul#menu-idiomas li{width:60px; background-color:rgb(0,36,168); font-size:14px; font-family:'Open Sans'; padding-bottom:10px; height:20px; }
+			
+	img#flechita{position:absolute; right:15px; width:20px; height:30px; bottom:15px;}
+			
+			
+	
+div.seccion{width:100%; height:100vh ;position:relative;}
+	
+div.separador{width:100%; height:140px; background-image:url(img/mapafondotres.jpg); position:relative; background-attachment:fixed; background-size:cover; opacity:0.8;
+			text-align:center; padding-top:60px; font-family:'Monda'; font-size:36px; color:rgb(0,36,168); font-weight:500; line-height:1.1;}
+
+	div.separador#s-uno{height:105px; background-color:rgb(100,100,100); background-image:none; padding-top:45px; color:#ffffff; font-weight:300px;}
+					
+	
+	
+div.seccion#portada{background-image:url(img/banner.jpg); background-size:cover;}
+		
+	div#logo-eslogan{position:absolute; width:50%; height:auto; left:50%; margin-left:-25%; margin-top:10%;}
+		
+			img#logo-portada{position:relative; width:100%; height:auto;}
+			
+			p#eslogan{position:relative; width:100%; height:auto; font-size:36px; color:#ffffff; 
+					  font-family:'Monda'; text-align:center; font-weight:500; opacity:0.8; line-height:1.1;}
+				
+			button#bajar{position:relative; width:80px; height:80px; left:50%; margin-left:-40px; border-style:solid;
+						border-radius:80px; margin-top:20px; background-color:rgb(0,36,168); background-image:url(img/boton-bajar.png); 
+						background-position:center; background-repeat:no-repeat; border-width:3px; border-color:#ffffff;}
+			
+			button#bajar:hover{background-color:rgb(100,100,100); margin-top:30px;}
+				
+				
+
+div.seccion#objetivos{}		
+	
+	div.contenedor{position:relative; width:100%; height:45%; top:10%;}
+		
+		div.obj{position:relative; float:left; margin-left:10%; width:20%;
+				height:auto;}
+				
+			p.titulo{color:rgb(0,36,168); font-size:36px; font-family:'Monda'; text-align:center; height:120px; width:100%; line-height:1.1; }
+			p.texto{font-size:16px; font-family:'Open Sans'; text-align:center; }
+			hr{height:1px; color:rgb(0,36,168);}
+			
+		div#caso-exito{position:relative; margin-top:12%; width:80%; height:100px; left:50%; margin-left:-40%;}
+		p#ribera-duero{text-align:center; width:100%; color:rgb(100,100,100); font-size:36px; font-weight:500; font-family:'Monda'; line-height:1.1;}
+		button#btn-ribera{position: relative; text-align:center; width:40%; height:50px; left:50%; margin-left:-20%; margin-top:30px;
+						background-color:transparent; border-style:solid; border-color:rgb(0,36,168);border-width:1px;color:rgb(0,36,168); 
+						font-family:'Exo'; font-size:16px;}
+		button#btn-ribera:hover{background-color:rgb(0,36,168); color:#ffffff;}
+		
+		
+div.seccion#tecnologias{height:180vh;}
+	
+	div.tecnol{position:relative; float:left; margin-left:10%; margin-top:10%; width:20%; height:500px;}
+		
+			div.tecnol#qr{margin-left:25%;}
+		
+		img.img-tecnol{position:relative; width:50%; height:auto; left:50%; margin-left:-25%;}	
+		
+		p.texto.t-tecno{height:200px;}
+			
+		button.mas-info{position:relative; width:80%; height:50px; background-color:transparent; border-style:solid; border-color:rgb(0,36,168);
+			border-width:1px; text-align:center; left:50%; margin-left:-40%; margin-top:5px; color:rgb(0,36,168); font-family:'Exo'; font-size:16px;}
+			
+		button.mas-info:hover{background-color:rgb(0,36,168); color:#ffffff;}
+			
+
+
+div.seccion#inventrip{}
+
+	div.contenido#cont-inventrip{position:absolute; top:220px; width:20%; height:auto; right:10%;}
+
+	p.titulo#tit-inventrip{position:absolute; width:20%; height:auto; right:10%; top:150px; text-align:center;}
+	
+	img#img-inventrip{position:absolute; width:50%; height:auto; left:10%; top:180px;}
+	
+	
+	button.ver-mas{position:relative; width:80%; margin-top:60px; height:50px; background-color:transparent;
+						border-style:solid; border-color:rgb(0,36,168); border-width:1px; text-align:center; left:50%;
+						margin-left:-40%; color:rgb(0,36,168); font-family:'Exo'; font-size:16px;}
+						
+	button.ver-mas:hover{background-color:rgb(0,36,168); color:#ffffff;}
+
+
+
+div.seccion#signing{}
+
+	div.contenido#cont-signing{position:absolute; top:220px; width:20%; height:auto; left:10%;}
+	
+	p.titulo#tit-signing{position:absolute; width:20%; height:auto; left:10%; top:150px; text-align:center;}
+	
+	img#img-signing{position:absolute; width:45%; height:auto; right:10%; top:180px;}
+	
+	
+
+div.seccion#staff{background-color:rgb(150,150,150); height:150vh;}
+
+	div#contenedor-staff{position:absolute; width:80%; height:auto; top:10%; left:50%; margin-left:-40%;}
+	
+	div.content-staff{position:relative; float:left; width:15%; height:200px; margin-left:5%; margin-right:5%; margin-top:5%;}
+	
+		div.content-staff#andres{margin-left:17%;}
+	
+	img.foto-staff{position:relative; width:150px; height:150px; border-radius:100%; top:0px; left:50%; margin-left:-75px;}
+	
+	p.titulo#equipo{padding-top:50px;}
+	
+	p.nombre{width:100%; text-align:center; margin-top:10px;}
+	
+	p.puesto{width:100%; text-align:center; font-size:12px;}
+	
+	
+	
+div.seccion#contacto{background-color:rgb(100,100,100); position:relative;}
+	
+	div.contacto-content{position:relative; width:90%; left:5%; padding-top:10%; height:100px;}
+	
+	div.texto-contacto{position:relative; float:left; width:20%; margin-left:10%; height:100px;}
+	
+	p.pais{text-align:center; color:#ffffff; font-size:20px; font-family:'Monda';}
+	
+	p.telefono{text-align:center; color:#ffffff; font-family:'Open Sans';}
+	
+	hr.sep-idioma{position:relative; size:1px; width:50%; left:50%; margin-left:-25%; background-color:#ffffff;}
+	
+	
+

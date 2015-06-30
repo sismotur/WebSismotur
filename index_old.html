@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Sismotur S.L.</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+
+
+<link rel="shortcut icon" href="img/favicon.png"/>
+<link rel="stylesheet" href="sismotur.css" />
+<link rel="stylesheet" href="responsive.css" />
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <script src="js/jquery-1.11.1.js"></script>
+    	<script src="js/jquery.browser.js"></script>
+    	<script src="js/jquery.iframe-auto-height.js"></script>
+    	<script src="js/lib/greensock/TweenMax.min.js"></script>
+    	<script src="js/bootstrap.js"></script>
+    	<script src="js/jquery.scrollmagic.js"></script>
+    	<script src="js/jquery.scrollmagic.debug.js"></script>
+    	<script src="js/sismotur.js"></script>
+    	<script src="js/lib/greensock/TimelineMax.min.js"></script>
+    	<script src="js/angular.js"></script>
+    	<script src="js/smt-angular.js"></script>
+        
+        <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+        
+</head>
+
+
+
+<body>
+
+<header>
+
+	<img id="logo" src="img/logomenu.png" title="Sismotur" alt="Sismotur"/> 
+    
+	<nav id="menu">
+    	<ul id="lista-menu">
+        	<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#objetivos',1000)">{{mnObjet}}</a></li>
+            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#tecnologias',1000)">Tecnologias</a></li>
+            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#inventrip',1000)">Inventrip</a></li>
+            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#signing',1000)">Signing</a></li>
+            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#staff',1000)">Staff</a></li>
+            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#contacto',1000)">Contacto</a></li>
+            
+            <li id="lista-idiomas"> ES <img id="flechita" src="img/flechita.png" /> 
+            	<ul id="menu-idiomas">
+        			<li>Catalá</li>
+            		<li>Español</li>
+        			<li>English</li>
+            		<li>French</li>
+            		<li>Deutsch</li>
+        		</ul>
+            </li>
+            
+        </ul>
+    </nav>
+    
+
+    
+</header>
+
+
+<div class="seccion" id="portada">
+
+	<div id="logo-eslogan">
+		<img id="logo-portada" src="img/sismotur-logo-portada.png" title="Sismotur S.L." alt="Sismotur S.L." />
+    	<p id="eslogan">Trabajamos para desarrollar y promocionar destinos turísticos inteligentes</p>
+    	<button id="bajar" onclick="javascript:$.scrollTo('div.seccion#objetivos',1000)"></button>
+	</div>
+
+</div>
+
+
+<div class="separador" id="s-uno">Atendemos las necesidades de cada cliente</div>
+
+
+<div class="seccion" id="objetivos">
+
+	<div class="contenedor">
+    
+		<div class="obj" id="obj-uno">
+    		<p class="titulo">Destinos Turísticos</p>
+        	<hr/>
+            <br/> 
+        	<p class="texto">Aumenta el número de turistas que visitan tu territorio y mejora su acogida en el destino mediante la integración de sistemas avanzados offline/físicos (señalización) con sistemas on-line/digitales, utilizando las mejores tecnologías.</p>
+    	</div>
+    
+   		<div class="obj" id="obj-dos">
+    		<p class="titulo">Servicios Turísticos</p>
+        	<hr/> 
+            <br/> 
+        	<p class="texto">Potencia tu canal de ventas on-line ofreciendo información, productos y servicios personalizados a tus clientes a través de la plataforma Inventrip. Promociona tu imagen de marca con la difusión por las redes sociales de vídeos turísticos realizados con drones.</p>
+    	</div>
+    
+    	<div class="obj" id="obj-tres">
+    		<p class="titulo">Inventar Viajes</p>
+        	<hr/> 
+            <br/> 
+        	<p class="texto">Los turistas podrán conocer gratuitamente con la plataforma Inventrip los encantos de los destinos y las propuestas de servicios y actividades turísticos. Podrán fácilmente planificar su viaje, consultarlo durante su estancia y compartirlo con amigos y familiares.</p>
+    	</div> 
+     </div>
+     
+     	<div id="caso-exito">
+        	<p id="ribera-duero">¿Quieres descubrir un caso de éxito?</p>
+        	<button id="btn-ribera">HAZ CLIK AQUÍ</button>
+     	</div>
+     	    
+</div>
+
+
+<div class="separador" id="s-dos">Ponemos a tu disposición las mejores tecnologías</div>
+
+
+<div class="seccion" id="tecnologias">
+
+
+	<div class="tecnol" id="drontrip">
+    	<img class="img-tecnol" src="img/logodron.png" title="DronTrip" alt="DronTrip" />
+    	<p class="titulo-tecnol">DronTrip</p>
+        <p class="texto t-tecno">Utiliza vuelos turísticos con Drones para viralizar por las redes sociales la promoción de destinos y servicios turísticos.</p>
+        <button class="mas-info" onclick="window.open('drontrip.html')">MÁS INFO</button>
+    </div>
+    
+    <div class="tecnol" id="nfc">
+    	<img class="img-tecnol"  src="img/logonfc.png" title="NFC" alt="NFC" />
+    	<p class="titulo-tecnol">NFC</p>
+        <p class="texto t-tecno">Entrega a tus clientes tarjetas NFC (contactless) para personalizar su experiencia turística en el destino.</p>
+        <button class="mas-info" onclick="window.open('nfc.html')">MÁS INFO</button>
+    </div>
+    
+    <div class="tecnol" id="senalizacion">
+    	<img class="img-tecnol" src="img/logosenal.png" title="Señalización" alt="Señalización" />
+    	<p class="titulo-tecnol">Señalización</p>
+        <p class="texto t-tecno">Implanta un sistema de señalización para facilitar el guiado a los turistas y mejorar la calidad de imagen del destino.</p>
+        <button class="mas-info" onclick="window.open('senalizacion.html')">MÁS INFO</button>
+    </div>
+
+    <div class="tecnol" id="qr">
+    	<img class="img-tecnol" src="img/logoqr.png" title="QR" alt="QR" />
+    	<p class="titulo-tecnol">QR</p>
+        <p class="texto t-tecno">Comparte un viaje turístico a través de códigos QR.</p>
+        <button class="mas-info" onclick="window.open('qr.html')">MÁS INFO</button>
+    </div>
+    
+    <div class="tecnol" id="beacons">
+    	<img class="img-tecnol" src="img/logobeacon.png" title="Beacon" alt="Beacon" />
+    	<p class="titulo-tecnol">Beacon</p>
+        <p class="texto t-tecno">Despliega la nueva tecnología beacons para dar información contextualizada al turista y ofrecerle productos y servicios personalizados en su teléfono móvil.</p>
+        <button class="mas-info" onclick="window.open('beacon.html')">MÁS INFO</button>
+    </div>
+
+</div>
+
+
+<div class="separador" id="s-tres">Implantamos servicios avanzados en la nube</div>
+
+
+<div class="seccion" id="inventrip">
+	<p class="titulo" id="tit-inventrip">Inventrip</p>
+    <img id="img-inventrip" src="img/inventrip-interfaz.png" title="Inventrip" alt="Inventrip" />
+    
+    <div class="contenido" id="cont-inventrip">
+    <p id="eslogan-inventrip">Inventar viajes: esa es la visión</p>
+    <p class="texto" id="text-inventrip">Te proporcionamos una plataforma tecnológica con la que tus viajeros podrán crear su plan de viaje (por días, ciudades, temas, etc.) y 			navegando por el mapa podrán ir añadiendo los recursos que quieran visitar y servicios que deseen contratar.</p>
+    <button class="ver-mas" onclick="window.open('http://inventrip.com/diputaciondepalencia/')" >VER MÁS</button>
+    </div>
+    
+</div>
+
+
+<div class="seccion" id="signing">
+	<p class="titulo" id="tit-signing">Signing</p>
+    <img id="img-signing" src="img/signing-interfaz.png" title="Signing" alt="Signing" />
+    
+    <div class="contenido" id="cont-signing">
+    <p class="texto" id="text-signing">Signing es un servicio web especializado para la planificación y gestión de la señalización territorial y urbana utilizado por más de 30 administraciones públicas. Fue desarrollado en 2009 en el marco de un Plan Avanza de I+D del Ministerio de Industria, Turismo y Comercio.</p>
+    <button class="ver-mas" onclick="window.open('http://sismotur.net/barcelona/')">VER MÁS</button>
+    </div>
+    
+</div>
+
+
+<div class="seccion" id="staff">
+
+<p class="titulo" id="equipo">Staff</p>
+
+	<div id="contenedor-staff">
+    
+    	<div class="content-staff" id="c-augusto"></div>
+        <div class="content-staff" id="c-manolo"></div>
+        <div class="content-staff" id="c-julio"></div>
+        <div class="content-staff" id="c-felipe"></div>
+        <div class="content-staff" id="c-alberto"></div>
+        <div class="content-staff" id="c-josejuan"></div>
+        <div class="content-staff" id="c-jorro"></div>
+        <div class="content-staff" id="c-mario"></div>
+        <div class="content-staff" id="c-arantxa"></div>
+        <div class="content-staff" id="c-becerra"></div>
+        <div class="content-staff" id="c-natalija"></div>
+        <div class="content-staff" id="c-andres"></div>
+        <div class="content-staff" id="c-capel"></div>
+        <div class="content-staff" id="c-daniel"></div>
+    
+    </div>
+
+</div>
+
+<div class="seccion" id="contacto">
+
+	<div id="sec-contacto">
+    
+    	<a id="contactanos" href="mailto:inventrip@sismotur.com" title="contacto" alt="contacto">CONTÁCTANOS</a>
+        
+        <div id="rrss">
+        
+        	<a id="linkedin" href="" title="Linkedin" alt="" ></a>
+        	<a id="twitter" href="" title="Twitter" alt="" ></a>
+        	<a id="youtube" href="" title="Youtube" alt="" ></a>
+       	 	<a id="github" href="" title="Github" alt="" ></a>
+        
+        </div>
+    
+    </div>
+
+	<table id="lista-contacto">
+    	
+ 		<tr>
+        	<td class="lista-pais">
+        	<p class="pais">ESPAÑA</p>
+            <hr class="barra-pais" />
+        	<p class="telefono">Madrid & Barcelona<br/>+34 913 238 208</p>
+			</td>
+        
+  			<td class="lista-pais">
+        	<p class="pais">FRANCIA</p>
+            <hr class="barra-pais" />
+        	<p class="telefono">Annecy<br/>+33 (0) 619 203 061</p>
+			</td>
+        
+			<td class="lista-pais">
+        	<p class="pais">CROACIA</p>
+            <hr class="barra-pais" />
+        	<p class="telefono">Zagreb<br/>+38 516 187 750</p>
+			</td>
+        
+        	<td class="lista-pais">
+        	<p class="pais">AUSTRIA</p>
+            <hr class="barra-pais" />
+        	<p class="telefono">Innsbruck<br/>+43 699 111 436 11</p>
+  			</td>
+        
+  			<td class="lista-pais">
+        	<p class="pais">SUIZA</p>
+            <hr class="barra-pais" />
+        	<p class="telefono">Lausanne<br/>+41 76 393 72 52</p>
+ 			</td>
+       </tr>
+
+    
+    </table>
+    
+    <p id="copyright">Copyright © 2015 SISMOTUR SL.</p>
+
+</div>
+
+
+
+
+</body>
+</html>
+
+

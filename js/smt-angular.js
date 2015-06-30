@@ -5,7 +5,6 @@
 var myApp = angular.module('smtApp',[]);
 
 myApp.controller('languagesController', ['$scope', function($scope){
-
 	if(document.cookie=="")
 		$scope.lang = navigator.language.substr(0,2);
 	else{
@@ -15,18 +14,21 @@ myApp.controller('languagesController', ['$scope', function($scope){
 	loadLanguage($scope);
 
 	$scope.changeLang = function(lang){
-		document.cookie = "lang="+lang;
+		var d = new Date();
+    	d.setTime(d.getTime() + (1*24*60*60*1000));
+    	var expires = "expires="+d.toUTCString();
+		document.cookie = "lang="+lang + ";" + expires;
 		loadLanguage($scope);
 	}	
 }]);
 
 function loadLanguage($scope){
-
 	if(document.cookie=="")
 		$scope.lang = navigator.language.substr(0,2);
 	else{
 		$scope.lang = document.cookie.substr(5,6);
 	}
+
 
 	// ******************
 	// COMMON ATTRIBUTES
@@ -58,7 +60,7 @@ function loadLanguage($scope){
 			// ******************
 			// TITULO WEB
 			// ******************
-			$scope.tittle1 = 'Trabajamos para promocionar y desarrollar destinos turísticos inteligentes';
+			$scope.tittle1 = 'Trabajamos para promocionar y desarrollar destinos turisticos inteligentes';
 			
 			// ******************
 			// MENU
@@ -67,6 +69,7 @@ function loadLanguage($scope){
 			$scope.mnTecno = 'Tecnologías';
 			$scope.mnTeam = 'Staff';
 			$scope.mnCont = 'Contacto';
+			$scope.mnIdioma = 'ES';
 			
 			// ******************
 			// SEPARADOR GRIS 1
@@ -94,6 +97,7 @@ function loadLanguage($scope){
 			
 			// REVISAR
 			$scope.btnMoreInfo = '¿Quieres descubrir un caso de éxito?';
+			$scope.btnClick = 'HAZ CLICK AQUÍ';
 
 			// ******************
 			// SEPARADOR GRIS 2
@@ -235,6 +239,8 @@ function loadLanguage($scope){
 
 			$scope.idiomas = 'Idiomas';
 			$scope.moreInfoShort = 'MÁS INFO';
+			
+			$scope.btnContact = 'CONTÁCTANOS';
 
 			break;
 
@@ -256,6 +262,7 @@ function loadLanguage($scope){
 			$scope.mnTecno = 'Tecnologies';
 			$scope.mnTeam = 'Staff';
 			$scope.mnCont = 'Contacte';
+			$scope.mnIdioma = 'CA';
 			
 			// ******************
 			// SEPARADOR GRIS 1
@@ -283,6 +290,7 @@ function loadLanguage($scope){
 			
 			// REVISAR
 			$scope.btnMoreInfo = 'Vol descubrir un cas d\'èxit?';
+			$scope.btnClick = 'FES CLICK AQUÍ';
 
 			// ******************
 			// SEPARADOR GRIS 2
@@ -425,6 +433,9 @@ function loadLanguage($scope){
 			$scope.idiomas = 'Idiomes';
 
 			$scope.moreInfoShort = 'MÉS INFO';
+			
+			$scope.btnContact = 'CONTACTA\'NS';
+			
 			break;
 
 
@@ -445,6 +456,7 @@ function loadLanguage($scope){
 			$scope.mnTeam = 'Team';
 			$scope.btnTitleTeam = 'Das Team';
 			$scope.mnCont = 'Kontakt';
+			$scope.mnIdioma = 'DE';
 			
 			// ******************
 			// SEPARADOR GRIS 1
@@ -472,6 +484,7 @@ function loadLanguage($scope){
 			
 			// REVISAR
 			$scope.btnMoreInfo = 'Wollen Sie einen Erfolgsfall kennenlernen?';
+			$scope.btnClick = 'KLICKEN SIE HIER';
 
 			// ******************
 			// SEPARADOR GRIS 2
@@ -613,14 +626,15 @@ function loadLanguage($scope){
 
 			$scope.idiomas = 'Sprachen';
 			$scope.moreInfoShort = 'MEHR INFO';
+			
+			$scope.btnContact = 'KONTAKTIEREN SIE UNS';
+			
 			break;
 
 		// ***********************************************************************************************
 		// **************************************** FRENCH ***********************************************
 		// ***********************************************************************************************
 			case "fr":
-
-			$scope.moreInfoShort = 'PLUS D\'INFO';
 
 			// ******************
 			// TITRE SITE WEB
@@ -630,10 +644,11 @@ function loadLanguage($scope){
 			// ******************
 			// MENU
 			// ******************
-			$scope.mnObjet = 'Objectifs';
+			$scope.mnObjet = 'Objectives';
 			$scope.mnTecno = 'Technologies';
 			$scope.mnTeam = 'Staff';
 			$scope.mnCont = 'Contact';
+			$scope.mnIdioma = 'FR';
 			
 			// ******************
 			// BARRE GRISE 1
@@ -655,13 +670,15 @@ function loadLanguage($scope){
 			//$scope.obj2Resume = 'Movilidad';
 			
 			$scope.obj3Tittle = 'Inventer des voyages';
-			$scope.obj3Text = 'Les touristes pourront connaître gratuitement avec la plateforme Inventrip les charmes des destinations et les propositions de services et activités touristiques. Ils pourront facilement planifier leurs voyages, les consulter pendant leur séjour, et les partager avec leurs amis et familiers.';
+			$scope.obj3Text = 'Les touristes pourront connaître gratuitement avec la plateforme Inventrip les charmes des destinations et le propositions de services et activités touristiques. Ils pourront facilement planifier leurs voyages, les consulter pendant leur séjour, et les partager avec leurs amis et familiers.';
 
 
 			//$scope.obj3Resume = 'Turismo';
 			
 			// REVISAR
 			$scope.btnMoreInfo = 'Voulez-vous découvrir un cas de réussite ?';
+			$scope.btnClick = 'CLIQUEZ ICI';
+			
 
 			// ******************
 			// BARRE GRISE 2
@@ -691,7 +708,7 @@ function loadLanguage($scope){
 			// ******************
 			// BARRE GRISE 3
 			// ******************
-			$scope.servTittle = 'Nous implantons des services avancés dans le nuage';
+			$scope.servTittle = 'Nous implantons des services avancés dans le nouage';
 
 			// ******************
 			// PLATEFORMES
@@ -748,8 +765,8 @@ function loadLanguage($scope){
 			$scope.DronTripbutton1 = 'Regarder la vidéo';
 
 			// Página NFC
-			$scope.NFCtitle1 = 'Inventrip soutient le théâtre en Croatie';
-			$scope.NFCtext1 = 'Cartes NFC offertes après la première de la pièce de théâtre "Mobitel" à Zagreb. Les cartes contiennent le programme de la représentation de la pièce durant 2015 en Croatie.';
+			$scope.NFCtitle1 = 'Implant théâtre Croatie';
+			$scope.NFCtext1 = 'Cartes NFC offertes après la première de la pièce de théâtre "Mobitel" à Zagreb. Les cartes contiennent le programme de la représentation de la pièce pendant 2015 en Croatie.';
 			$scope.NFCbutton1 = 'Voir programme';
 
 			$scope.NFCtitle2 = 'Cartes NFC Palencia Tourisme';
@@ -800,17 +817,204 @@ function loadLanguage($scope){
 			$scope.StaffCoordinatorAustria = 'Coordinateur Autriche';
 			$scope.StaffCoordinatorSwitzerland = 'Coordinateur Suisse';
 			$scope.StaffCoordinatorPortugal = 'Coordinateur Portugal';
+			
+			$scope.btnContact = 'CONTACTEZ NOUS';
 
 			break;
 
-/*
+
 		// ***********************************************************************************************
 		// **************************************** CROATIAN *********************************************
 		// ***********************************************************************************************
 		case "hr":
-			$scope.tittle1 = 'Lo mismo pero en croata';
+			// ******************
+			// TITULO WEB
+			// ******************
+			$scope.tittle1 = 'Radimo na promociji i razvoju pametnih turističkih destinacija';
+			
+			// ******************
+			// MENU
+			// ******************
+			$scope.mnObjet = 'Ciljevi';
+			$scope.mnTecno = 'Tehnologije';
+			$scope.mnTeam = 'Zaposlenici';
+			$scope.mnCont = 'Kontakt';
+			$scope.mnIdioma = 'HR';
+			
+			// ******************
+			// SEPARADOR GRIS 1
+			// ******************
+			$scope.resume1 = 'Ispunjavamo potrebe svakog klijenta';
+			
+			// ******************
+			// OBJETIVOS
+			// ******************
+
+			$scope.obj1Tittle = 'Turističke destinacije';
+			$scope.obj1Text = 'Povećajte broj turista koji posjećuju vašu destinaciju i poboljšajte kvalitetu njihovog boravka upotrebom naprednih integriranih offline sustava (turistička signalizacija) i digitalnih online sustava koji objedinjuju najbolje dostupne tehnologije.';
+
+			//$scope.obj1Resume = 'Sustavi';
+
+			$scope.obj2Tittle = 'Turističke usluge';
+			$scope.obj2Text = 'Putem platforme Inventrip svojim klijentima ponudite informacije, individualizirane proizvode i usluge te na taj način povećajte prodaju putem Interneta. Promovirajte svoj brend na različitim društvenim mrežama putem turističkih promidžbenih video spotova snimanih bespilotnim letjelicama.';
+			
+			//$scope.obj2Resume = 'Kreiranje putovanja';
+			
+			$scope.obj3Tittle = 'Kreiranje putovanja';
+			$scope.obj3Text = 'Turisti će koristeći besplatnu aplikaciju Inventrip otkriti atrakcije vaše turističke destinacije, te dostupne turističke usluge i aktivnosti. Planiranje putovanja i informiranje tijekom boravka u destinaciji postat će jednostavan zadatak, a plan putovanja će se moći podijeliti s članovima obitelji i prijateljima.';
+
+			//$scope.obj3Resume = 'Turizam';
+			
+			// REVISAR
+			$scope.btnMoreInfo = 'Saznajte više o praktičnom primjeru uspjeha';
+			$scope.btnClick = 'KLIKNITE OVDJE';
+			
+
+			// ******************
+			// SEPARADOR GRIS 2
+			// ******************
+			$scope.tecTittle = 'Stavljamo vam na raspolaganje najbolje tehnologije';
+
+			// ******************
+			// TECNOLOGIAS
+			// ******************
+
+			// DronTrip
+			$scope.dronText = 'Koristite panoramske turističke video spotove za promidžbu vaše destinacije i turističkih usluga na Internetu i na različitim društvenim mrežama.';
+			
+			// NFC
+			$scope.nfcText = 'Svojim klijentima uručite beskontaktne NFC kartice kako biste im omogućili individualizirano iskustvo boravka u vašoj turističkoj destinaciji.';
+			
+			// Signal
+			$scope.senalizacionTittle = 'Signalizacija';
+			$scope.senalizacionText = 'Uvedite sustav turističke signalizacije kako biste turistima pojednostavili snalaženje te time poboljšajte kvalitetu vaše destinacije.';
+
+			// QR
+			$scope.qrText = 'Podijelite turistička putovanja putem QR kodova.';
+			
+			// Beacons
+			$scope.beaconText = 'Koristite novu beacon tehnologiju za pružanje kontekstualiziranih informacija i individualiziranih proizvoda i usluga turistima, a sve to putem njihovih pametnih telefona.';
+			
+			
+			// ******************
+			// SEPARADOR GRIS 3
+			// ******************
+			$scope.servTittle = 'Pružamo napredne "usluge u oblaku"';
+
+			// ******************
+			// TECNOLOGIAS
+			// ******************
+
+			// Inventrip
+			$scope.invTextA = 'Kreiranje putovanja: to je naša vizija';
+			$scope.invTextB = 'Nudimo vam tehnološku platformu koja vašim turistima omogućava da sami stvore vlastite planove puta (organizirane prema danima, gradovima, temama itd.) te da jednostavnom navigacijom kartom u plan dodaju mjesta koja žele posjetiti i usluge koje žele rezervirati.';
+
+			$scope.btnInventrip = 'Idi na Inventrip';			
+
+			// Signing 
+			$scope.sigText = 'Signing je usluga "u oblaku" specijalizirana za planiranje i upravljanje signalizacijskim sustavima na teritoriju i u gradovima koju koristi preko 30 javnih uprava u Španjolskoj.  Razvijena je 2009. u okviru Nacionalnog plana potpore za Istraživanje i razvoj španjolskog Ministarstva za Industriju, turizam i trgovinu.';
+			
+			$scope.btnSigning = 'Dodatne informacije';
+
+			// ******************
+			// CONTACTO
+			// ******************
+			$scope.cntSpain = 'Španjolska';
+			$scope.cntSpain2 = 'Madrid & Barcelona';
+			$scope.cntSpainPhone = '+34 913.238.208';
+			
+			$scope.cntFrance = 'Francuska';
+			$scope.cntFrance2 = 'Annecy';
+			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
+			
+			$scope.cntCroatia = 'Hrvatska';
+			$scope.cntCroatia2 = 'Zagreb';
+			$scope.cntCroatiaPhone = '+385.16187750';
+
+			$scope.cntAustria = 'Austrija';
+			$scope.cntAustria2 = 'Innsbruck';
+			$scope.cntAustriaPhone = '+43 699.111.43611';
+
+			$scope.cntSuiza = 'Švicarska';
+			$scope.cntSuiza2 = 'Lausanne';
+			$scope.cntSuizaPhone = '+41.76.393.72.52';
+
+			$scope.cntPortugal = 'Portugal';
+			$scope.cntPortugal2 = '';
+			$scope.cntPortugalPhone = '+34 629.415.915';
+			
+			$scope.btnContact = 'Kontaktirajte nas';
+			$scope.copyright = 'Copyright ¬© 2015 SISMOTUR SL.';
+
+
+			// *********************
+			// SUBSECCION TECNOLOGIA
+			// *********************
+
+			// P√°gina DronTrip
+			$scope.DronTriptext1 = 'Pozivamo vas na let nad španjolskom pokrajinom Palencijom';
+			$scope.DronTripbutton1 = 'Pogledajte video';
+
+			// P√°gina NFC
+			$scope.NFCtitle1 = 'Promocija kazališta u Hrvatskoj';
+			$scope.NFCtext1 = 'NFC kartice na premijeri kazališne predstave "Mobitel" u Zagrebu. Kartice sadrže program predstava i gostovanja tijekom 2015. u Hrvatskoj.';
+			$scope.NFCbutton1 = 'Pogledajte program';
+
+			$scope.NFCtitle2 = 'NFC kartice za Turističku zajednicu Palencije'
+			$scope.NFCtext2 = 'Turistička zajednica Palencije predstavila je medijima Inventrip na posljednjem Sajmu za unutrnji turizam (INTUR) te je dijelila posjetiteljima NFC kartice s putovanjem po pokrajini.';
+			$scope.NFCbutton2 = 'Otkrijte putovanje';
+
+			// P√°gina Se√±alizaci√≥n
+			$scope.SenyalizacionTitle = 'Sismotur SL - Se√±alizaci√≥n'
+
+			$scope.Sentitle1 = 'Barcelona';
+			$scope.Sentext1 = 'Uživajte u novoj turističkoj signalizaciji za pješake koju je izveo Sismotur za grad Barcelonu.';
+
+			$scope.Sentitle2 = 'Kastilja i Leon';
+			$scope.Sentext2 = 'Savjetnica i Generalni direktor za turizam pokrajine Kastilje i Leona, zajedno sa Sismoturom, predstavljaju na proteklom Sajmu za unutarnji turizam (INTUR) program poboljšanja turističke signalizacije pokrajine.';
+
+			$scope.Sentitle3 = 'Ribera del Duero';
+			$scope.Sentext3 = 'Postavljanje cjelokupne teritorijalne i gradske signalizacije za vinsku rutu Ribera del Duero.';
+
+			// P√°gina QR
+			$scope.QRtitle1 = 'Normandija i Bretanja'
+			$scope.QRtext1 = 'Otkrijte putovanje Normandijom i Bretanjom skenirajući ovaj QR kod.';
+			$scope.QRbutton1 = 'Otkrijte putovanje';
+
+			$scope.QRtitle2 = 'Barcelona';
+			$scope.QRtext2 = 'Sismotur je 2012. izradio prvi plan za turističku signalizaciju i informiranje u četvrti Horta-Ginardo u Barceloni.';
+			$scope.QRbutton2 = 'Dodatne informacije';
+
+			// P√°gina Beacon
+			$scope.Beacontitle1 = 'Beacon'
+			$scope.Beacontext1 = 'Projekt beacon tehnologije za španjolsku pokrajinu Palenciju.';
+
+			// *********************
+			// STAFF
+			// *********************
+
+			$scope.StaffCEO = 'Suosnivač - CEO';
+			$scope.StaffCOO = 'Suosnivač - COO';
+			$scope.StaffCMO = 'Partner - CMO';
+			$scope.StaffCTO = 'Partner - CTO';
+			$scope.StaffCLO = 'Partner - CLO';
+			$scope.StaffHeadDev = 'Razvoj softvera';
+			$scope.StaffArtificialInt = 'Umjetna inteligencija';
+			$scope.StaffDesign = 'Dizajn i komunikacije';
+			$scope.AssociateBcn = 'Tehnički suradnik u Barceloni';
+			$scope.AssociateProjects = 'Projektni menadžer';
+			$scope.StaffCoordinatorCroatia = 'Koordinatorica za Hrvatsku';
+			$scope.StaffCoordinatorAustria = 'Koordinator za Austriju';
+			$scope.StaffCoordinatorSwitzerland = 'Koordinator za Švicarsku';
+			$scope.StaffCoordinatorPortugal = 'Koordinator za Portugal';
+
+			$scope.idiomas = 'Jezici';
+			$scope.moreInfoShort = 'Saznajte više';
+			
+			$scope.btnContact = 'KONTAKTIRAJTE NAS';
+
 			break;
-*/
+
 		// ***********************************************************************************************
 		// **************************************** ENGLISH **********************************************
 		// ***********************************************************************************************
@@ -830,6 +1034,7 @@ function loadLanguage($scope){
 			$scope.mnTecno = 'Technologies';
 			$scope.mnTeam = 'Staff';
 			$scope.mnCont = 'Contact';
+			$scope.mnIdioma = 'EN';
 			
 			// ****************
 			// GREY SEPARATOR 1
@@ -859,6 +1064,7 @@ function loadLanguage($scope){
 			
 			// REVISAR
 			$scope.btnMoreInfo = 'Discover a practical example of success';
+			$scope.btnClick = 'CLICK HERE';
 
 			// ******************
 			// GREY SEPARATOR 2
@@ -999,6 +1205,8 @@ function loadLanguage($scope){
 			$scope.StaffCoordinatorPortugal = 'Coordinator Portugal';
 
 			$scope.idiomas = 'Languages';
+			
+			$scope.btnContact = 'CONTACT US';
 
 			break;
 	}
