@@ -21,107 +21,107 @@ a.cambio-idioma{display:block; float:left; cursor:pointer;}
 header{position:fixed; top:0px; width:100%; height:50px; background-color:rgb(0,36,168); z-index:2;}
 
 	img#logo{position:relative; margin-left:10px;}
-	
+
 	nav#menu{position:absolute; right:20px; top:0px;}
-		
+
 		ul#lista-menu{position:relative; list-style-type:none; float:left; height:50px; width:auto;}
-		
-		ul#lista-menu li{position:relative; float:left; padding-left:20px; height:35px; 
+
+		ul#lista-menu li{position:relative; float:left; padding-left:20px; height:35px;
 							padding-top:15px; color:#ffffff; font-family:'Exo'; padding-right:20px;}
-							
-					
+
+
 		ul#lista-menu li:hover{background-color:rgb(100,100,100);}
-			
+
 			ul#lista-menu li#lista-idiomas{position:relative; width:40px; margin-left:60px; font-family:'Open Sans';}
-			
-				ul#menu-idiomas{width:60px; position:relative; right:20px; height:auto; list-style-type:none; display:none; background-color:rgb(0,36,168); 
+
+				ul#menu-idiomas{width:60px; position:relative; right:20px; height:auto; list-style-type:none; display:none; background-color:rgb(0,36,168);
 								margin-top:17px;}
-				
+
 				li#lista-idiomas:hover > ul#menu-idiomas{display:block;}
-				
+
 					ul#menu-idiomas li{width:60px; background-color:rgb(0,36,168); font-size:14px; font-family:'Open Sans'; padding-bottom:10px; height:20px; }
-			
+
 	img#flechita{position:absolute; right:15px; width:20px; height:30px; bottom:10px;}
-	
+
 	a.menuRef{text-decoration:none; color:#ffffff; font-family:'Exo';}
-	
-	
-	
-	
+
+
+
+
 div.seccion{width:100%; position:relative;}
 
 div.separador{width:100%; height:140px; background-image:url(img/mapafondotres.jpg); position:relative; background-attachment:fixed; background-size:cover; opacity:0.8;
 			text-align:center; padding-top:60px; font-family:'Monda'; font-size:36px; color:rgb(0,36,168); font-weight:500; line-height:1.1;}
-			
+
 			div.separador#s-uno{height:105px; background-color:rgb(160,160,160); background-image:none; padding-top:45px; color:#ffffff; font-weight:300px;}
-			
-			
+
+
 
 div.seccion#portada{background-image:url(img/banner.jpg); background-size:cover; height:100vh; min-height:800px;}
 
-	
+
 	div#fondo-azul{position:absolute; width:100%; height:100%; background-color:rgb(0,36,168); opacity: 0.2;
     filter: alpha(opacity=20);}
-	
-	
+
+
 
 	div#logo-eslogan{position:relative; width:50%; height:auto; left:50%; margin-left:-25%; padding-top:10%;}
-	
-	img#logo-portada{position:relative; width:100%; height:auto;}
-	
-	p#eslogan{position:relative; width:100%; height:auto; font-size:36px; color:#ffffff; 
-					  font-family:'Monda'; text-align:center; font-weight:500; opacity:0.8;}
-					  
-		button#bajar{position:relative; width:80px; height:80px; left:50%; margin-left:-40px; border-style:solid;
-						border-radius:80px; margin-top:20px; background-color:rgb(0,36,168); background-image:url(img/boton-bajar.png); 
-						background-position:center; background-repeat:no-repeat; border-width:0px; border-color:#ffffff; box-shadow:5px 5px 10px #000000;}
-			
-			button#bajar:hover{background-color:rgb(100,100,100); margin-top:40px; transition: all 0.3s;}
-			
 
-div.seccion#objetivos{background-image:url(img/crossword.png);}		
+	img#logo-portada{position:relative; width:100%; height:auto;}
+
+	p#eslogan{position:relative; width:100%; height:auto; font-size:36px; color:#ffffff;
+					  font-family:'Monda'; text-align:center; font-weight:500; opacity:0.8;}
+
+		button#bajar{position:relative; width:80px; height:80px; left:50%; margin-left:-40px; border-style:solid;
+						border-radius:80px; margin-top:20px; background-color:rgb(0,36,168); background-image:url(img/boton-bajar.png);
+						background-position:center; background-repeat:no-repeat; border-width:0px; border-color:#ffffff; box-shadow:5px 5px 10px #000000;}
+
+			button#bajar:hover{background-color:rgb(100,100,100); margin-top:40px; transition: all 0.3s;}
+
+
+div.seccion#objetivos{background-image:url(img/crossword.png);}
 
 div.contenedor{position:relative; width:100%; padding-top:10%; padding-bottom:10%;}
 
 	div.obj{position:relative; float:left; margin-left:10%; width:20%; height:auto; padding-bottom:10%;}
-	
+
 	p.titulo{color:rgb(0,36,168); font-size:36px; font-family:'Monda'; width:100%; padding-bottom:20px;}
 			p.texto{font-size:16px; font-family:'Open Sans'; line-height:1.5; }
 			hr{height:1px; background-color:rgb(0,36,168); border-style:none;}
-			
+
 
 div#caso-exito{position:relative; margin-top:10%; width:80%; height:auto; left:50%; margin-left:-40%; padding-bottom:10%;}
 p#ribera-duero{text-align:center; width:80%; margin-left:10%; color:rgb(100,100,100); font-size:36px; font-weight:500; font-family:'Monda'; line-height:1.1;}
 button#btn-ribera{position: relative; text-align:center; width:40%; height:50px; left:50%; margin-left:-20%; margin-top:30px;
-						background-color:transparent; border-style:solid; border-color:rgb(0,36,168);border-width:1px;color:rgb(0,36,168); 
+						background-color:transparent; border-style:solid; border-color:rgb(0,36,168);border-width:1px;color:rgb(0,36,168);
 						font-family:'Exo'; font-size:16px;}
 		button#btn-ribera:hover{background-color:rgb(0,36,168); color:#ffffff; transition: all 0.5s;}
-		
-		
+
+
 div.seccion#tecnologias{height:180vh; min-height:1600px; background-image:url(img/crossword.png);}
 
 div.tecnol{position:relative; float:left; margin-left:10%; margin-top:10%; width:20%; height:500px;}
 
 	div.tecnol#qr{margin-left:25%;}
-	
+
 	img.img-tecnol{position:relative; width:50%; height:auto; left:50%; margin-left:-25%;}
-	
-	p.titulo-tecnol{font-size:36px; text-align:center; font-family:'Monda'; color:rgb(0,36,168); margin-top:20px; margin-bottom:20px;}	
-		
+
+	p.titulo-tecnol{font-size:36px; text-align:center; font-family:'Monda'; color:rgb(0,36,168); margin-top:20px; margin-bottom:20px;}
+
 		p.texto.t-tecno{height:200px; text-align:center;}
-		
+
 	button.mas-info{position:relative; width:80%; height:50px; background-color:transparent; border-style:solid; border-color:rgb(0,36,168);
 			border-width:1px; text-align:center; left:50%; margin-left:-40%; margin-top:5px; color:rgb(0,36,168); font-family:'Exo'; font-size:16px;}
-			
+
 		button.mas-info:hover{background-color:rgb(0,36,168); color:#ffffff; transition: all 0.5s;}
 
-		
-		
+
+
 
 div.seccion#inventrip{background-image:url(img/crossword.png); padding-bottom:10%; min-height:700px;}
 
 	p.titulo#tit-inventrip{position:relative; width:20%; height:auto; margin-right:10%; margin-top:150px; text-align:center; float:right; font-size:36px;}
-	
+
 	img#img-inventrip{position:relative; width:50%; height:auto; margin-left:10%; margin-top:180px;}
 
 
@@ -129,84 +129,82 @@ div.seccion#inventrip{background-image:url(img/crossword.png); padding-bottom:10
 
 
 	p#eslogan-inventrip{position:relative; width:100%; height:auto; text-align:center; font-size:18px; margin-bottom:25px; font-weight:bold; line-height:1.5;}
-	
+
 	p.texto#text-inventrip{text-align:center;}
-	
+
 	button.ver-mas{position:relative; width:80%; margin-top:60px; height:50px; background-color:transparent;
 						border-style:solid; border-color:rgb(0,36,168); border-width:1px; text-align:center; left:50%;
 						margin-left:-40%; color:rgb(0,36,168); font-family:'Exo'; font-size:16px;}
-						
+
 	button.ver-mas:hover{background-color:rgb(0,36,168); color:#ffffff; transition: all 0.5s;}
-	
+
 
 
 div.seccion#signing{min-height:900px; background-image:url(img/crossword.png); margin-bottom:0px;}
-	
+
 	p.titulo#tit-signing{position:relative; width:20%; height:auto; margin-left:10%; margin-top:150px; text-align:center; float:left; font-size:36px;}
-	
+
 	img#img-signing{position:relative; width:45%; height:auto; margin-right:10%; float:right; margin-top:180px;}
-	
+
 	div.contenido#cont-signing{position:absolute; top:220px; width:20%; height:auto; left:10%;}
-	
+
 	p.texto#text-signing{text-align:center;}
-	
-	
+
+
+
+/* section staff */
 
 div.seccion#staff{background-image:url(img/crossword-gris.png); min-height:900px;}
 
 p.titulo#equipo{padding-top:50px; text-align:center; font-size:42px;}
 
-	div#contenedor-staff{position:relative; width:560px; height:560px; padding-top:3%; left:50%; margin-left:-280px;}
-	
+  /* previously width 560px, height 560px, margin left -280 px */
+	div#contenedor-staff{position:relative; width:420px; height:420px; padding-top:3%; left:50%; margin-left:-210px;}
+
 	div.content-staff{position:relative; float:left; width:120px; height:120px; margin:10px;}
-	
+
 		div.content-staff#c-augusto{background-image:url(staff/augusto.png);}
 		div.content-staff#c-manolo{background-image:url(staff/manuel.png);}
 		div.content-staff#c-julio{background-image:url(staff/julio.png);}
 		div.content-staff#c-felipe{background-image:url(staff/felipe.png);}
-		div.content-staff#c-alberto{background-image:url(staff/alberto.png);}
 		div.content-staff#c-josejuan{background-image:url(staff/josejuan.png);}
 		div.content-staff#c-jorro{background-image:url(staff/jorro.png);}
-		div.content-staff#c-mario{background-image:url(staff/mario.png);}
 		div.content-staff#c-arantxa{background-image:url(staff/arantxa.png);}
-		div.content-staff#c-becerra{background-image:url(staff/becerra.png);}
-		div.content-staff#c-natalija{background-image:url(staff/natalija.png);}
 		div.content-staff#c-andres{background-image:url(staff/andres.png);}
-		div.content-staff#c-capel{background-image:url(staff/capel.png); margin-left:150px;}
 		div.content-staff#c-daniel{background-image:url(staff/daniel.png);}
-	
+
 	div.content-staff:hover{background-position:0px -120px;}
-	
-	
-	
-	
+
+
+
+
 div.seccion#contacto{background-image:url(img/classy_fabric.png);}
-	
+
 		div#sec-contacto{position:relative; padding-top:80px; width:100%; height:auto;}
-		
+
 			a#contactanos{position:relative; padding-top:17px; left:50%; height:33px; border-style:solid; border-color:#ffffff; border-width:1px; display:block; text-decoration:none;
 					  font-family:'Exo'; background-color:transparent; width:250px; margin-left:-125px; font-size:16px; text-align:center; color:#ffffff;}
-			
+
 			a#contactanos:hover{background-color:#ffffff; color:rgb(100,100,100); transition: all 0.5s;}
-			
+
 			div#rrss{position:relative; width:190px; height:40px; left:50%; margin-left:-95px; margin-top:100px;}
-			
+
 				a#linkedin{position:relative; width:40px; height:40px; margin-right:10px; float:left; background-image:url(img/logo-linkedin.png);} a#linkedin:hover{background-color:rgb(0,36,168);}
 			    a#twitter{position:relative; width:40px; height:40px; margin-right:10px; float:left; background-image:url(img/logo-twitter.png);} a#twitter:hover{background-color:rgb(0,36,168);}
 			    a#youtube{position:relative; width:40px; height:40px; margin-right:10px; float:left; background-image:url(img/logo-youtube.png);} a#youtube:hover{background-color:rgb(0,36,168);}
 			    a#github{position:relative; width:40px; height:40px; float:left; background-image:url(img/logo-github.png);} a#github:hover{background-color:rgb(0,36,168);}
-				
-				
+
+
 		table#lista-contacto{position:relative; height:auto; margin:50px auto;}
-		
+
 			td.lista-pais{position:relative; float:left; padding:50px;}
 				p.pais{color:#ffffff; font-size:16px; font-family:'Open Sans'; text-transform:uppercase;}
-				
+
 				hr.barra-pais{background-color:#ffffff; margin-top:5px; margin-bottom:5px; width:130px;}
-	
+
 	p.telefono{color:#ffffff; font-family:'Open Sans'; font-size:14px; line-height:1.5;}
-	
+
 	p#copyright{position:relative; width:300px; height:30px; left:50%; margin-left:-150px; bottom:0px; text-align:center; font-size:12px; color:#ffffff;}
-			
-			
-	
+
+
+
