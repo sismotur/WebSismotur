@@ -11,34 +11,33 @@
 		<title>Sismotur SL - QR</title>
 		<link rel="shortcut icon" href="img/favicon.png">
 
-		<link href="tecnologias.css" rel="stylesheet">
-        <link href="bootstrap.css" rel="stylesheet">
-
 		<!-- Important Owl stylesheet -->
-    	<link rel="stylesheet" href="owl.carousel.css">
-     
+    	<link rel="stylesheet" href="./css/owl.carousel.css">
     	<!-- Default Theme -->
-    	<link rel="stylesheet" href="owl.theme.css">
-             	
+    	<link rel="stylesheet" href="./css/owl.theme.css">
+        <!-- Stylesheets -->
+        <link href="./css/tecnologias.css" rel="stylesheet">
+        <link href="./css/bootstrap.css" rel="stylesheet">
+
     	<script src="js/jquery-1.11.1.js"></script>
     	<script src="js/angular.js"></script>
 
     	<script src="js/jquery.browser.js"></script>
     	<script src="js/lib/greensock/TweenMax.min.js"></script>
-    	<script src="js/lib/greensock/TimelineMax.min.js"></script>    	
+    	<script src="js/lib/greensock/TimelineMax.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
     	<script src="js/jquery.scrollmagic.js"></script>
     	<script src="js/jquery.scrollmagic.debug.js"></script>
-    	<script src="js/owl.carousel.js"></script>	
+    	<script src="js/owl.carousel.js"></script>
 
-    	<script src="js/sismotur.js"></script>    	    	
+    	<script src="js/sismotur.js"></script>
     	<script src="js/smt-angular.js"></script>
 
 		<script type="text/javascript">
 
     		$(document).ready(function() {
-     
-    			$("#owl-demo").owlCarousel({     
+
+    			$("#owl-demo").owlCarousel({
     				navigation : true, // Show next and prev buttons
 					navigationText: [
       					"<i class='icon-chevron-left icon-white'><</i>",
@@ -48,13 +47,13 @@
     				paginationSpeed : 400,
     				singleItem:true,
     			});
-     
+
     		});
 
 		</script>
 
 	</head>
-	<body>		
+	<body>
 		<div class="smt-tecno-content">
 
 			<nav class="navbar smt-menu" role="navigation">
@@ -66,11 +65,11 @@
             	</a>
 			</nav>
 			<div id="carousel-example-generic" class="carousel slide smt-carousel" data-ride="carousel">
-  
-      		<div id="owl-demo" class="owl-carousel smt-carousel">     
-    			<div id="dronTrip1" class="item smt-item"> 
-    				<div class="smt-item-content">   
-    					<div id="smt-qr-img1" class="row smt-content-item-img">   						
+
+      		<div id="owl-demo" class="owl-carousel smt-carousel">
+    			<div id="dronTrip1" class="item smt-item"> <!-- class row removed -->
+    				<div class="smt-item-content">
+    					<div id="smt-qr-img1" class="smt-content-item-img">
     					</div>
     					<div class="row smt-content-item-text">
     						<div class="col-md-6 col-md-offset-3 smt-item-text">
@@ -81,10 +80,10 @@
     							<button onclick="window.open('http://inventrip.com/movil/220')">{{QRbutton1}}</button>
     						</div>
     					</div>
-    				</div>								
-    			</div>   
-    			<div id="dronTrip1" class="item smt-item">  
-    				<div id="smt-qr-img2" class="row smt-content-item-img">   						
+    				</div>
+    			</div>
+    			<div id="dronTrip1" class="item smt-item">
+    				<div id="smt-qr-img2" class="smt-content-item-img"> <!-- class row removed -->
     					</div>
     					<div class="row smt-content-item-text">
     						<div class="col-md-6 col-md-offset-3 smt-item-text">
@@ -94,8 +93,8 @@
     						<!--<div class="col-md-6 col-md-offset-3 smt-item-button">
     							<button>{{QRbutton2}}</button>
     						</div>-->
-    					</div>  								
-    			</div> 
+    					</div>
+    			</div>
     		</div>
 		</div>
 	</body>
