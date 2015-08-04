@@ -11,34 +11,33 @@
 		<title>Sismotur SL - Drontrip</title>
 		<link rel="shortcut icon" href="img/favicon.png">
 
-		<link href="bootstrap.css" rel="stylesheet">
-		<link href="tecnologias.css" rel="stylesheet">	
-
 		<!-- Important Owl stylesheet -->
-    	<link rel="stylesheet" href="owl.carousel.css">
-     
+    	<link rel="stylesheet" href="./css/owl.carousel.css">
     	<!-- Default Theme -->
-    	<link rel="stylesheet" href="owl.theme.css">
-             	
+    	<link rel="stylesheet" href="./css/owl.theme.css">
+        <!-- Stylesheets -->
+        <link href="./css/bootstrap.css" rel="stylesheet">
+        <link href="./css/tecnologias.css" rel="stylesheet">
+
     	<script src="js/jquery-1.11.1.js"></script>
     	<script src="js/angular.js"></script>
 
     	<script src="js/jquery.browser.js"></script>
     	<script src="js/lib/greensock/TweenMax.min.js"></script>
-    	<script src="js/lib/greensock/TimelineMax.min.js"></script>    	
+    	<script src="js/lib/greensock/TimelineMax.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
     	<script src="js/jquery.scrollmagic.js"></script>
     	<script src="js/jquery.scrollmagic.debug.js"></script>
-    	<script src="js/owl.carousel.js"></script>	
+    	<script src="js/owl.carousel.js"></script>
 
-    	<script src="js/sismotur.js"></script>    	    	
+    	<script src="js/sismotur.js"></script>
     	<script src="js/smt-angular.js"></script>
 
 		<script type="text/javascript">
 
     		$(document).ready(function() {
-     
-    			$("#owl-demo").owlCarousel({     
+
+    			$("#owl-demo").owlCarousel({
     				navigation : true, // Show next and prev buttons
 					navigationText: [
       					"<i class='icon-chevron-left icon-white'><</i>",
@@ -48,13 +47,24 @@
     				paginationSpeed : 400,
     				singleItem:true,
     			});
-     
+
     		});
 
 		</script>
 
+    <!-- GOOGLE ANALYTICS -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-65795037-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
 	</head>
-	<body>		
+	<body>
 		<!--<div class="container-fluid smt-tecno-content">
 			<nav class="navbar smt-menu" role="navigation">
 				<a id="smt-logo-menu" class="navbar-brand smt-logo-nav">
@@ -76,11 +86,11 @@
                         <p>
                           	{{DronTriptext1}}
                         </p>
-                    </div>  
+                    </div>
                     <div class="col-md-4">
                     	 <button id="btnDronTrip1" onclick="videoYotube()">{{DronTripbutton1}}</button>
-                    </div>                             
-                </div>             
+                    </div>
+                </div>
             </div>
 		</div>-->
 		<div class="container-fluid smt-tecno-content">
@@ -94,11 +104,11 @@
             	</a>
 			</nav>
 			<div id="carousel-example-generic" class="carousel slide smt-carousel" data-ride="carousel">
-  
-      		<div id="owl-demo" class="owl-carousel smt-carousel">     
-    			<div id="dronTrip1" class="item smt-item"> 
-    				<div class="smt-item-content">   
-    					<div id="smt-dron-img1" class="row smt-content-item-img">   						
+
+      		<div id="owl-demo" class="owl-carousel smt-carousel">
+    			<div id="dronTrip1" class="item smt-item">
+    				<div class="smt-item-content">
+    					<div id="smt-dron-img1" class="row smt-content-item-img">
     					</div>
     					<div class="row smt-content-item-text">
     						<div class="col-md-6 col-md-offset-3 smt-item-text">
@@ -107,8 +117,8 @@
     							<button id="btnDronTrip1" onclick="videoYotube()">{{DronTripbutton1}}</button>
     						</div>
     					</div>
-    				</div>								
-    			</div>   
+    				</div>
+    			</div>
     		</div>
 		</div>
 	</body>

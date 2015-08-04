@@ -7,3 +7,5 @@ content
 ._*
 .DS_Store
 .*~
+.server.py
+.Thumbs.db
