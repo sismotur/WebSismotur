@@ -5,37 +5,39 @@
 var myApp = angular.module('smtApp',[]);
 
 myApp.controller('languagesController', ['$scope', function($scope){
-	if(document.cookie=="")
+/*	if(document.cookie=="")
 		$scope.lang = navigator.language.substr(0,2);
 	else{
 		$scope.lang = document.cookie.substr(5,6);
 	}
-
+*/
 	loadLanguage($scope);
 
 	$scope.changeLang = function(lang){
+		// reset the cookie to track the requested language
 		var d = new Date();
     	d.setTime(d.getTime() + (1*24*60*60*1000));
     	var expires = "expires="+d.toUTCString();
 		document.cookie = "lang="+lang + ";" + expires;
 		loadLanguage($scope);
-	}	
+	}
 }]);
 
 function loadLanguage($scope){
 	if(document.cookie=="")
 		$scope.lang = navigator.language.substr(0,2);
 	else{
-		$scope.lang = document.cookie.substr(5,6);
+		// this parses the cookie to find the requested language
+		index = document.cookie.indexOf("lang");
+		$scope.lang = document.cookie.substr(index+5,2);
 	}
-
 
 	// ******************
 	// COMMON ATTRIBUTES
 	// ******************
 	// Menu
 	$scope.mnInven = 'Inventrip';
-	$scope.mnSigni = 'Signing';	
+	$scope.mnSigni = 'Signing';
 	// Tecnology
 	$scope.nfcTittle = 'NFC';
 	$scope.beaconTittle = 'Beacons';
@@ -44,10 +46,10 @@ function loadLanguage($scope){
 	// Inventrip
 	$scope.invTittle = 'Inventrip';
 	// Signing
-	$scope.sigTittle = 'Signing';	
+	$scope.sigTittle = 'Signing';
 
 	$scope.btnTitleTeam = 'Staff';
-	
+
 	// Browser language selector
 	// Browser language selector
 		switch($scope.lang){
@@ -61,7 +63,7 @@ function loadLanguage($scope){
 			// TITULO WEB
 			// ******************
 			$scope.tittle1 = 'Trabajamos para promocionar y desarrollar destinos turisticos inteligentes';
-			
+
 			// ******************
 			// MENU
 			// ******************
@@ -70,12 +72,12 @@ function loadLanguage($scope){
 			$scope.mnTeam = 'Staff';
 			$scope.mnCont = 'Contacto';
 			$scope.mnIdioma = 'ES';
-			
+
 			// ******************
 			// SEPARADOR GRIS 1
 			// ******************
 			$scope.resume1 = 'Atendemos las necesidades de cada cliente';
-			
+
 			// ******************
 			// OBJETIVOS
 			// ******************
@@ -87,14 +89,14 @@ function loadLanguage($scope){
 
 			$scope.obj2Tittle = 'Servicios Turísticos';
 			$scope.obj2Text = 'Potencia tu canal de ventas on-line ofreciendo información, productos y servicios personalizados a tus clientes a través de la plataforma Inventrip. Promociona tu imagen de marca con la difusión por las redes sociales de vídeos turísticos realizados con drones.';
-			
+
 			//$scope.obj2Resume = 'Movilidad';
-			
+
 			$scope.obj3Tittle = 'Inventar Viajes';
 			$scope.obj3Text = 'Los turistas podrán conocer gratuitamente con la plataforma Inventrip los encantos de los destinos y las propuestas de servicios y actividades turísticos. Podrán fácilmente planificar su viaje, consultarlo durante su estancia y compartirlo con amigos y familiares.';
 
 			//$scope.obj3Resume = 'Turismo';
-			
+
 			// REVISAR
 			$scope.btnMoreInfo = '¿Quieres descubrir un caso de éxito?';
 			$scope.btnClick = 'HAZ CLICK AQUÍ';
@@ -110,21 +112,21 @@ function loadLanguage($scope){
 
 			// DronTrip
 			$scope.dronText = 'Utiliza vuelos turísticos con Drones para viralizar por las redes sociales la promoción de destinos y servicios turísticos.';
-			
+
 			// NFC
 			$scope.nfcText = 'Entrega a tus clientes tarjetas NFC (contactless) para personalizar su experiencia turística en el destino.';
-			
+
 			// Signal
 			$scope.senalizacionTittle = 'Señalización';
 			$scope.senalizacionText = 'Implanta un sistema de señalización para facilitar el guiado a los turistas y mejorar la calidad de imagen del destino.';
 
 			// QR
 			$scope.qrText = 'Comparte un viaje turístico a través de códigos QR.';
-			
+
 			// Beacons
 			$scope.beaconText = 'Despliega la nueva tecnología beacons para dar información contextualizada al turista y ofrecerle productos y servicios personalizados en su teléfono móvil.';
-			
-			
+
+
 			// ******************
 			// SEPARADOR GRIS 3
 			// ******************
@@ -138,11 +140,11 @@ function loadLanguage($scope){
 			$scope.invTextA = 'Inventar viajes: esa es la visión';
 			$scope.invTextB = 'Te proporcionamos una plataforma tecnológica con la que tus viajeros podrán crear su plan de viaje (por días, ciudades, temas, etc.) y navegando por el mapa podrán ir añadiendo los recursos que quieran visitar y servicios que deseen contratar.';
 
-			$scope.btnInventrip = 'Ir a Inventrip';			
+			$scope.btnInventrip = 'Ir a Inventrip';
 
-			// Signing 
+			// Signing
 			$scope.sigText = 'Signing es un servicio web especializado para la planificación y gestión de la señalización territorial y urbana utilizado por más de 30 administraciones públicas. Fue desarrollado en 2009 en el marco de un Plan Avanza de I+D del Ministerio de Industria, Turismo y Comercio.';
-			
+
 			$scope.btnSigning = 'Más información';
 
 			// ******************
@@ -151,11 +153,11 @@ function loadLanguage($scope){
 			$scope.cntSpain = 'España';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
 			$scope.cntSpainPhone = '+34 913.238.208';
-			
+
 			$scope.cntFrance = 'Francia';
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
-			
+
 			$scope.cntCroatia = 'Croacia';
 			$scope.cntCroatia2 = 'Zagreb';
 			$scope.cntCroatiaPhone = '+385.16187750';
@@ -171,7 +173,7 @@ function loadLanguage($scope){
 			$scope.cntPortugal = 'Portugal';
 			$scope.cntPortugal2 = '';
 			$scope.cntPortugalPhone = '+34 629.415.915';
-			
+
 			$scope.btnContact = 'Contactar';
 			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
@@ -239,12 +241,12 @@ function loadLanguage($scope){
 
 			$scope.idiomas = 'Idiomas';
 			$scope.moreInfoShort = 'MÁS INFO';
-			
+
 			$scope.btnContact = 'CONTÁCTANOS';
 
 			break;
 
-		
+
 		// ***********************************************************************************************
 		// **************************************** CATALAN **********************************************
 		// ***********************************************************************************************
@@ -254,7 +256,7 @@ function loadLanguage($scope){
 			// TITULO WEB
 			// ******************
 			$scope.tittle1 = 'Treballem per promocionar i desenvolupar destinacions turístiques intel·ligents';
-			
+
 			// ******************
 			// MENU
 			// ******************
@@ -263,12 +265,12 @@ function loadLanguage($scope){
 			$scope.mnTeam = 'Staff';
 			$scope.mnCont = 'Contacte';
 			$scope.mnIdioma = 'CA';
-			
+
 			// ******************
 			// SEPARADOR GRIS 1
 			// ******************
 			$scope.resume1 = 'Atenem les necessitats de cada client';
-			
+
 			// ******************
 			// OBJETIVOS
 			// ******************
@@ -280,14 +282,14 @@ function loadLanguage($scope){
 
 			$scope.obj2Tittle = 'Serveis Turístics';
 			$scope.obj2Text = 'Potencia el teu canal de ventes on-line oferint informació, productes i serveis personalitzats als teus clients mitjançant  la plataforma Inventrip. Promociona la teva imatge de marca amb la difusió a les xarxes socials de vídeos turístics realitzats amb drons.';
-			
+
 			//$scope.obj2Resume = 'Mobilitat';
-			
+
 			$scope.obj3Tittle = 'Inventar Viatges';
 			$scope.obj3Text = 'Els turistes podran coneixer gratuitament amb la plataforma Inventrip els encants de les destinacions i les propostes de serveis i activitats turístiques. Podran fàcilment planificar el seu viatge, consultar-lo durant la seva estada i compartir-lo amb amics i familiars.';
 
 			//$scope.obj3Resume = 'Turisme';
-			
+
 			// REVISAR
 			$scope.btnMoreInfo = 'Vol descubrir un cas d\'èxit?';
 			$scope.btnClick = 'FES CLICK AQUÍ';
@@ -303,21 +305,21 @@ function loadLanguage($scope){
 
 			// DronTrip
 			$scope.dronText = 'Utilitza vols turístics amb Drons per viralitzar per les xarxes socials la promoció de destinacions i serveis turístics.';
-			
+
 			// NFC
 			$scope.nfcText = 'Entrega als teus clients targetes NFC (contactless) per personalitzar la seva experiència turística a la destinació.';
-			
+
 			// Signal
 			$scope.senalizacionTittle = 'Senyalització';
 			$scope.senalizacionText = 'Implanta un sistema de senyalització per facilitar la guia  dels turistes i millorar la qualitat d\'imatge de la destinació.';
 
 			// QR
 			$scope.qrText = 'Comparteix un viatge turístic mitjançant codis QR.';
-			
+
 			// Beacons
 			$scope.beaconText = 'Desplega la nova tecnologia beacons per donar informació contextualitzada al turista i oferir-li productes i serveis personalitzats al seu telèfon mòbil.';
-			
-			
+
+
 			// ******************
 			// SEPARADOR GRIS 3
 			// ******************
@@ -331,11 +333,11 @@ function loadLanguage($scope){
 			$scope.invTextA = 'Inventar viatges: aquests és la visió';
 			$scope.invTextB = 'Et proporcionem una plataforma tecnològica amb la qual els teus viatgers podran crear el seu pla de viatge (per dies, ciutats, temes, etc.) i navegant pel mapa podran anar afegint els recursos que vulguen visitar i serveis que desitgin contractar.';
 
-			$scope.btnInventrip = 'Anar a Inventrip';			
+			$scope.btnInventrip = 'Anar a Inventrip';
 
 			// Signing
 			$scope.sigText = 'Signing és un servei web especialitzat per a la planificació i gestió de la senyalització territorial i urbana utilitzat per més de 30 administracions públiques. Fou desenvolupat el 2009 dintre del marc d\'un Plan Avanza de I+D del Ministeri d\'Industria, Turisme i Comerç.';
-			
+
 			$scope.btnSigning = 'Més informació';
 
 			// ******************
@@ -344,11 +346,11 @@ function loadLanguage($scope){
 			$scope.cntSpain = 'Espanya';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
 			$scope.cntSpainPhone = '+34 913.238.208';
-			
+
 			$scope.cntFrance = 'França';
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
-			
+
 			$scope.cntCroatia = 'Croàcia';
 			$scope.cntCroatia2 = 'Zagreb';
 			$scope.cntCroatiaPhone = '+385.16187750';
@@ -364,7 +366,7 @@ function loadLanguage($scope){
 			$scope.cntPortugal = 'Portugal';
 			$scope.cntPortugal2 = '';
 			$scope.cntPortugalPhone = '+34 629.415.915';
-			
+
 			$scope.btnContact = 'Contactar';
 			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
@@ -433,9 +435,9 @@ function loadLanguage($scope){
 			$scope.idiomas = 'Idiomes';
 
 			$scope.moreInfoShort = 'MÉS INFO';
-			
+
 			$scope.btnContact = 'CONTACTA\'NS';
-			
+
 			break;
 
 
@@ -447,7 +449,7 @@ function loadLanguage($scope){
 			// TITULO WEB
 			// ******************
 			$scope.tittle1 = 'Wir arbeiten um intelligente touristische Destinationen zu entwickeln und zu fördern.';
-			
+
 			// ******************
 			// MENU
 			// ******************
@@ -457,12 +459,12 @@ function loadLanguage($scope){
 			$scope.btnTitleTeam = 'Das Team';
 			$scope.mnCont = 'Kontakt';
 			$scope.mnIdioma = 'DE';
-			
+
 			// ******************
 			// SEPARADOR GRIS 1
 			// ******************
 			$scope.resume1 = 'Wir treffen die Bedürfnisse von jeden einzelnen Kunden';
-			
+
 			// ******************
 			// OBJETIVOS
 			// ******************
@@ -474,14 +476,14 @@ function loadLanguage($scope){
 
 			$scope.obj2Tittle = 'Touristische Leistungen';
 			$scope.obj2Text = 'Verbessern Sie Ihren online Vertriebsskanal, indem Sie effektive Information und nach den Kundenbedürfnissen, maßgeschneiderte Produkte und Dienstleistungen über die Inventrip Plattform anbieten. Fördern Sie Ihre Marke durch das Teilen touristischer Drohnen-Videos in den sozialen Netzwerken.';
-			
+
 			//$scope.obj2Resume = 'Movilidad';
-			
+
 			$scope.obj3Tittle = 'Reisen erfinden';
 			$scope.obj3Text = 'Dank der kostenlosen Plattform Inventrip, können die Touristen den Charme Ihrer Tourismusregion kennenlernen und diverse Vorschläge über touristische Dienstleistungen und Aktivitäten  erhalten. Diese können dann mühelos ihre Reise planen, auch während ihres Aufenthalts nachschlagen und mit Familie und Freunden teilen.';
 
 			//$scope.obj3Resume = 'Turismo';
-			
+
 			// REVISAR
 			$scope.btnMoreInfo = 'Wollen Sie einen Erfolgsfall kennenlernen?';
 			$scope.btnClick = 'KLICKEN SIE HIER';
@@ -497,21 +499,21 @@ function loadLanguage($scope){
 
 			// DronTrip
 			$scope.dronText = 'Benutzen Sie mit Drohnen gefilmte Tourismusvideos um Ihre Tourismusregion und Ihre touristischen Leistungen in den sozialen Netzwerken gezielt und effektiv zu verbreiten und zu fördern.';
-			
+
 			// NFC
 			$scope.nfcText = 'Versorgen Sie Ihre Kunden mit kontaktlosen NFC Chipkarten. Dadurch können Sie deren Reiseerfahrung in Ihrer Tourismusregion individualisieren und personalisieren.';
-			
+
 			// Signal
 			$scope.senalizacionTittle = 'Beschilderung';
 			$scope.senalizacionText = 'Errichten Sie ein dynamisches Beschilderungssystem um die Führung der Touristen zu erleichtern und die Qualitätswahrnehmung Ihrer Tourismusregion zu verbessern.';
 
 			// QR
 			$scope.qrText = 'Teilen Sie thematisierte touristische Reisen mittels QR-Codes. Diese können sowohl in Ihrer Tourismusinformation als auch in Ihrer touristischen Beschilderung eingesetzt werden.';
-			
+
 			// Beacons
 			$scope.beaconText = 'Setzen Sie die neue Beacons Technologie ein. So können Sie dem Touristen kontextbezogene Information weitergeben und ihm individualisierte Produkte und Dienstleistungen anbieten.';
-			
-			
+
+
 			// ******************
 			// SEPARADOR GRIS 3
 			// ******************
@@ -525,11 +527,11 @@ function loadLanguage($scope){
 			$scope.invTextA = 'Reisen erfinden: das ist die Vision';
 			$scope.invTextB = 'Wir versorgen Sie mit einer technologischen Plattform, die Ihrem Reisenden ermöglicht seine eigene Reise zu planen (nach Tagen, Städte, Themen, etc. geordnet), und durch das Navigieren durch der Karte die Besichtigungsorte und die gebuchten Dienstleistungen hinzufügt.';
 
-			$scope.btnInventrip = 'Weiter zu Inventrip';			
+			$scope.btnInventrip = 'Weiter zu Inventrip';
 
-			// Signing 
+			// Signing
 			$scope.sigText = 'Signing ist eine Cloud Computing Web-Dienstleistung, die sich in der Planung und Verwaltung von ländlichen und urbanen Beschilderungssystemen spezialisiert und von mehr als 30 öffentlichen Verwaltungen benutzt wird. Diese wurde 2009 entwickelt und profitierte von der Unterstützung eines F&E-Förderungsprogramms des spanischen Staates.';
-			
+
 			$scope.btnSigning = 'Zur Plattform';
 
 			// ******************
@@ -538,11 +540,11 @@ function loadLanguage($scope){
 			$scope.cntSpain = 'Spanien';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
 			$scope.cntSpainPhone = '+34.913.238.208';
-			
+
 			$scope.cntFrance = 'Frankreich';
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33.619.20.30.61';
-			
+
 			$scope.cntCroatia = 'Kroatien';
 			$scope.cntCroatia2 = 'Zagreb';
 			$scope.cntCroatiaPhone = '+385.161.87750';
@@ -558,7 +560,7 @@ function loadLanguage($scope){
 			$scope.cntPortugal = 'Portugal';
 			$scope.cntPortugal2 = '';
 			$scope.cntPortugalPhone = '+34.629.415.915';
-			
+
 			$scope.btnContact = 'Kontaktieren Sie uns';
 			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
@@ -626,9 +628,9 @@ function loadLanguage($scope){
 
 			$scope.idiomas = 'Sprachen';
 			$scope.moreInfoShort = 'MEHR INFO';
-			
+
 			$scope.btnContact = 'KONTAKTIEREN SIE UNS';
-			
+
 			break;
 
 		// ***********************************************************************************************
@@ -640,7 +642,7 @@ function loadLanguage($scope){
 			// TITRE SITE WEB
 			// ******************
 			$scope.tittle1 = 'Nous travaillons pour promouvoir et développer des destinations touristiques intelligentes';
-			
+
 			// ******************
 			// MENU
 			// ******************
@@ -649,12 +651,12 @@ function loadLanguage($scope){
 			$scope.mnTeam = 'Staff';
 			$scope.mnCont = 'Contact';
 			$scope.mnIdioma = 'FR';
-			
+
 			// ******************
 			// BARRE GRISE 1
 			// ******************
 			$scope.resume1 = 'Nous répondons aux besoins de chaque client';
-			
+
 			// ******************
 			// OBJECTIVES
 			// ******************
@@ -666,19 +668,19 @@ function loadLanguage($scope){
 
 			$scope.obj2Tittle = 'Services Touristiques';
 			$scope.obj2Text = "Développez votre canal de ventes online en offrant de l'information, des produits et des services personnalisés à vos clients à travers de la plateforme Inventrip. Améliorez la visibilité de votre image de marque avec la diffusion dans les réseaux sociaux de vidéos touristiques faites avec des drones.";
-			
+
 			//$scope.obj2Resume = 'Movilidad';
-			
+
 			$scope.obj3Tittle = 'Inventer des voyages';
 			$scope.obj3Text = 'Les touristes pourront connaître gratuitement avec la plateforme Inventrip les charmes des destinations et le propositions de services et activités touristiques. Ils pourront facilement planifier leurs voyages, les consulter pendant leur séjour, et les partager avec leurs amis et familiers.';
 
 
 			//$scope.obj3Resume = 'Turismo';
-			
+
 			// REVISAR
 			$scope.btnMoreInfo = 'Voulez-vous découvrir un cas de réussite ?';
 			$scope.btnClick = 'CLIQUEZ ICI';
-			
+
 
 			// ******************
 			// BARRE GRISE 2
@@ -691,20 +693,20 @@ function loadLanguage($scope){
 
 			// DronTrip
 			$scope.dronText = 'Utilisez des vols touristiques enregistrés avec des drones pour viraliser dans les réseaux sociaux la promotion des destinations et services touristiques.';
-			
+
 			// NFC
 			$scope.nfcText = 'Donnez à vos clients des cartes NFC (contactless) pour personnaliser leur expérience touristique dans la destination.';
-			
+
 			// Signalisation
 			$scope.senalizacionTittle = 'Signalisation';
 			$scope.senalizacionText = "Implantez un système de signalisation pour faciliter le guidage des touristes et améliorer la qualité de l'image de la destination.";
-			
+
 			// QR
 			$scope.qrText = 'Partagez un voyage touristique avec des codes QR.';
-			
+
 			// Beacons - revisar
-			$scope.beaconText = "Déployez la nouvelle technologie beacons pour donner de l'information contextualisée au touriste et lui offrir des produits et services personnalisés dans son téléphone portable."; 
-			
+			$scope.beaconText = "Déployez la nouvelle technologie beacons pour donner de l'information contextualisée au touriste et lui offrir des produits et services personnalisés dans son téléphone portable.";
+
 			// ******************
 			// BARRE GRISE 3
 			// ******************
@@ -719,11 +721,11 @@ function loadLanguage($scope){
 			$scope.invTextB = "Nous vous fournissons une plateforme technologique avec laquelle vos voyageurs pourront créer leur plan de voyage (par journées, villes, thématiques...) et, en navigant sur une carte, pourront ajouter les endroits qu'ils voudront visiter et les services qu'ils voudront contracter.";
 
 
-			$scope.btnInventrip = 'Allez à Inventrip';			
+			$scope.btnInventrip = 'Allez à Inventrip';
 
-			// Signing 
+			// Signing
 			$scope.sigText = "Signing est un service web spécialisé dans la planification et gestion de la signalisation territoriale et urbaine qui est utilisé par plus de 30 administrations publiques. Il a été développé en 2009 dans le cadre d'un plan national de recherche et développement de l'état espagnol";
-			
+
 			$scope.btnSigning = "Plus d'information";
 
 			// ******************
@@ -732,11 +734,11 @@ function loadLanguage($scope){
 			$scope.cntSpain = 'Espagne';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
 			$scope.cntSpainPhone = '+34 913.238.208';
-			
+
 			$scope.cntFrance = 'France';
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
-			
+
 			$scope.cntCroatia = 'Croatie';
 			$scope.cntCroatia2 = 'Zagreb';
 			$scope.cntCroatiaPhone = '+385.16187750';
@@ -752,7 +754,7 @@ function loadLanguage($scope){
 			$scope.cntPortugal = 'Portugal';
 			$scope.cntPortugal2 = '';
 			$scope.cntPortugalPhone = '+34 629.415.915';
-			
+
 			$scope.btnContact = 'Contacter';
 			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
@@ -771,7 +773,7 @@ function loadLanguage($scope){
 
 			$scope.NFCtitle2 = 'Cartes NFC Palencia Tourisme';
 			$scope.NFCtext2 = "L'Office de Tourisme de Palencia (Espagne) a présenté Inventrip à la presse au cours du dernier salon de tourisme d'intérieur espagnol (INTUR) et a distribué des cartes NFC avec un voyage dans la province de Palencia.";
-			
+
 			$scope.NFCbutton2 = 'Découvrez le voyage';
 
 			// Página Señalización
@@ -817,7 +819,7 @@ function loadLanguage($scope){
 			$scope.StaffCoordinatorAustria = 'Coordinateur Autriche';
 			$scope.StaffCoordinatorSwitzerland = 'Coordinateur Suisse';
 			$scope.StaffCoordinatorPortugal = 'Coordinateur Portugal';
-			
+
 			$scope.btnContact = 'CONTACTEZ NOUS';
 
 			break;
@@ -831,7 +833,7 @@ function loadLanguage($scope){
 			// TITULO WEB
 			// ******************
 			$scope.tittle1 = 'Radimo na promociji i razvoju pametnih turističkih destinacija';
-			
+
 			// ******************
 			// MENU
 			// ******************
@@ -840,12 +842,12 @@ function loadLanguage($scope){
 			$scope.mnTeam = 'Zaposlenici';
 			$scope.mnCont = 'Kontakt';
 			$scope.mnIdioma = 'HR';
-			
+
 			// ******************
 			// SEPARADOR GRIS 1
 			// ******************
 			$scope.resume1 = 'Ispunjavamo potrebe svakog klijenta';
-			
+
 			// ******************
 			// OBJETIVOS
 			// ******************
@@ -857,18 +859,18 @@ function loadLanguage($scope){
 
 			$scope.obj2Tittle = 'Turističke usluge';
 			$scope.obj2Text = 'Putem platforme Inventrip svojim klijentima ponudite informacije, individualizirane proizvode i usluge te na taj način povećajte prodaju putem Interneta. Promovirajte svoj brend na različitim društvenim mrežama putem turističkih promidžbenih video spotova snimanih bespilotnim letjelicama.';
-			
+
 			//$scope.obj2Resume = 'Kreiranje putovanja';
-			
+
 			$scope.obj3Tittle = 'Kreiranje putovanja';
 			$scope.obj3Text = 'Turisti će koristeći besplatnu aplikaciju Inventrip otkriti atrakcije vaše turističke destinacije, te dostupne turističke usluge i aktivnosti. Planiranje putovanja i informiranje tijekom boravka u destinaciji postat će jednostavan zadatak, a plan putovanja će se moći podijeliti s članovima obitelji i prijateljima.';
 
 			//$scope.obj3Resume = 'Turizam';
-			
+
 			// REVISAR
 			$scope.btnMoreInfo = 'Saznajte više o praktičnom primjeru uspjeha';
 			$scope.btnClick = 'KLIKNITE OVDJE';
-			
+
 
 			// ******************
 			// SEPARADOR GRIS 2
@@ -881,21 +883,21 @@ function loadLanguage($scope){
 
 			// DronTrip
 			$scope.dronText = 'Koristite panoramske turističke video spotove za promidžbu vaše destinacije i turističkih usluga na Internetu i na različitim društvenim mrežama.';
-			
+
 			// NFC
 			$scope.nfcText = 'Svojim klijentima uručite beskontaktne NFC kartice kako biste im omogućili individualizirano iskustvo boravka u vašoj turističkoj destinaciji.';
-			
+
 			// Signal
 			$scope.senalizacionTittle = 'Signalizacija';
 			$scope.senalizacionText = 'Uvedite sustav turističke signalizacije kako biste turistima pojednostavili snalaženje te time poboljšajte kvalitetu vaše destinacije.';
 
 			// QR
 			$scope.qrText = 'Podijelite turistička putovanja putem QR kodova.';
-			
+
 			// Beacons
 			$scope.beaconText = 'Koristite novu beacon tehnologiju za pružanje kontekstualiziranih informacija i individualiziranih proizvoda i usluga turistima, a sve to putem njihovih pametnih telefona.';
-			
-			
+
+
 			// ******************
 			// SEPARADOR GRIS 3
 			// ******************
@@ -909,11 +911,11 @@ function loadLanguage($scope){
 			$scope.invTextA = 'Kreiranje putovanja: to je naša vizija';
 			$scope.invTextB = 'Nudimo vam tehnološku platformu koja vašim turistima omogućava da sami stvore vlastite planove puta (organizirane prema danima, gradovima, temama itd.) te da jednostavnom navigacijom kartom u plan dodaju mjesta koja žele posjetiti i usluge koje žele rezervirati.';
 
-			$scope.btnInventrip = 'Idi na Inventrip';			
+			$scope.btnInventrip = 'Idi na Inventrip';
 
-			// Signing 
+			// Signing
 			$scope.sigText = 'Signing je usluga "u oblaku" specijalizirana za planiranje i upravljanje signalizacijskim sustavima na teritoriju i u gradovima koju koristi preko 30 javnih uprava u Španjolskoj.  Razvijena je 2009. u okviru Nacionalnog plana potpore za Istraživanje i razvoj španjolskog Ministarstva za Industriju, turizam i trgovinu.';
-			
+
 			$scope.btnSigning = 'Dodatne informacije';
 
 			// ******************
@@ -922,11 +924,11 @@ function loadLanguage($scope){
 			$scope.cntSpain = 'Španjolska';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
 			$scope.cntSpainPhone = '+34 913.238.208';
-			
+
 			$scope.cntFrance = 'Francuska';
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
-			
+
 			$scope.cntCroatia = 'Hrvatska';
 			$scope.cntCroatia2 = 'Zagreb';
 			$scope.cntCroatiaPhone = '+385.16187750';
@@ -942,7 +944,7 @@ function loadLanguage($scope){
 			$scope.cntPortugal = 'Portugal';
 			$scope.cntPortugal2 = '';
 			$scope.cntPortugalPhone = '+34 629.415.915';
-			
+
 			$scope.btnContact = 'Kontaktirajte nas';
 			$scope.copyright = 'Copyright ¬© 2015 SISMOTUR SL.';
 
@@ -1010,7 +1012,7 @@ function loadLanguage($scope){
 
 			$scope.idiomas = 'Jezici';
 			$scope.moreInfoShort = 'Saznajte više';
-			
+
 			$scope.btnContact = 'KONTAKTIRAJTE NAS';
 
 			break;
@@ -1026,7 +1028,7 @@ function loadLanguage($scope){
 			// ******************
 			$scope.tittle1 = 'We work to promote and develop smart tourism destinations';
 
-			
+
 			// ******************
 			// MENU
 			// ******************
@@ -1035,12 +1037,12 @@ function loadLanguage($scope){
 			$scope.mnTeam = 'Staff';
 			$scope.mnCont = 'Contact';
 			$scope.mnIdioma = 'EN';
-			
+
 			// ****************
 			// GREY SEPARATOR 1
 			// ****************
 			$scope.resume1 = 'We meet the needs of each client';
-			
+
 			// ******************
 			// OBJETIVOS
 			// ******************
@@ -1053,15 +1055,15 @@ function loadLanguage($scope){
 
 			$scope.obj2Tittle = 'Tourism Services';
 			$scope.obj2Text = 'Enhance your online sales channel offering information, products and tailored services to your clients through the Inventrip platform. Promote your brand by sharing tourism videos shot with drones in the social networks.';
-			
+
 			//$scope.obj2Resume = 'Movilidad';
-			
+
 			$scope.obj3Tittle = 'Travellers';
 			$scope.obj3Text = 'Travellers will discover the charm of tourism destinations and the proposals of touristic services and activities therein. They will plan their trip easily, consult it during their stay and share it with family members and friends.';
 
 
 			//$scope.obj3Resume = 'Turismo';
-			
+
 			// REVISAR
 			$scope.btnMoreInfo = 'Discover a practical example of success';
 			$scope.btnClick = 'CLICK HERE';
@@ -1077,21 +1079,21 @@ function loadLanguage($scope){
 
 			// DronTrip
 			$scope.dronText = 'Use tourism videos shot with drones to promote and viralize your destination and touristic services across social networks.';
-			
+
 			// NFC
 			$scope.nfcText = 'Provide to your clients with NFC cards (contactless) to personalize their experience in your touristic destination.';
-			
+
 			// Signal
 			$scope.senalizacionTittle = 'Traffic Signs'; // revisar
 			$scope.senalizacionText = 'Implement a traffic sign system to facilitate tourist guiding and improve the perceived quality of your destination.';
 
 			// QR
 			$scope.qrText = 'Share a touristic trip through QR codes.';
-			
+
 			// Beacons
 			$scope.beaconText = 'Deploy the new beacon technology to give tourists contextualized information and offer them tailored products and services in their smartphone.';
-			
-			
+
+
 			// ******************
 			// GREY SEPARATOR 3
 			// ******************
@@ -1105,11 +1107,11 @@ function loadLanguage($scope){
 			$scope.invTextA = 'To invent trips: this is the vision';
 			$scope.invTextB = 'We provide you with a technological platform that enable your travellers to create their own trip plans (organized by days, cities, topics, etc.), and by navigating on the map add the places they want to visit and the services they want to hire.';
 
-			$scope.btnInventrip = 'Go to Inventrip';			
+			$scope.btnInventrip = 'Go to Inventrip';
 
-			// Signing 
+			// Signing
 			$scope.sigText = 'Signing is a cloud computing web service specialized on the planification and management of territorial and urban signage systems which is used by more than 30 public administrations. It was developed in 2009 and benefited of the support of a R&D funding plan from the State of Spain';
-	
+
 			$scope.btnSigning = 'More information';
 
 			// ******************
@@ -1118,11 +1120,11 @@ function loadLanguage($scope){
 			$scope.cntSpain = 'Spain';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
 			$scope.cntSpainPhone = '+34 913.238.208';
-			
+
 			$scope.cntFrance = 'France';
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
-			
+
 			$scope.cntCroatia = 'Croatia';
 			$scope.cntCroatia2 = 'Zagreb';
 			$scope.cntCroatiaPhone = '+385.16187750';
@@ -1138,7 +1140,7 @@ function loadLanguage($scope){
 			$scope.cntPortugal = 'Portugal';
 			$scope.cntPortugal2 = '';
 			$scope.cntPortugalPhone = '+34 629.415.915';
-			
+
 			$scope.btnContact = 'Contact us';
 			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
@@ -1205,7 +1207,7 @@ function loadLanguage($scope){
 			$scope.StaffCoordinatorPortugal = 'Coordinator Portugal';
 
 			$scope.idiomas = 'Languages';
-			
+
 			$scope.btnContact = 'CONTACT US';
 
 			break;

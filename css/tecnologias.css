@@ -3,6 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Exo:300);
 
 
+
 *{font-family: 'Open Sans', sans-serif;}
 *{margin:0px; padding:0px;}
 
@@ -58,7 +59,7 @@ p.ng-binding{font-size:16px;}
 
 .smt-carousel{
 	/*padding-top: 52px;*/
-	height: 100vh;
+/*	height: 100vh; trouble, creates artificial scroll in mobile phones*/
 }
 
 .smt-item{
@@ -72,7 +73,7 @@ p.ng-binding{font-size:16px;}
 }
 
 .smt-content-item-text{
-	padding-top: 7vh;
+	padding-top: 3vh; /* before 7vh, too much white space on mobile phones*/
 	text-align: center;
 	margin-right: 0px;
 	margin-left: 0px;
@@ -130,6 +131,10 @@ div#fondo-drontrip{
 
 #btnDronTrip1{
 	bottom: 0px;
+}
+
+.owl-pagination{
+	visibility:  hidden;
 }
 
 /*************************************************************************/
@@ -249,4 +254,23 @@ div#fondo-drontrip{
 	-ms-background-size:cover;
 	-khtml-background-size:cover;
 	background-position: center;
+}
+
+/*************************************************************************/
+/* RESPONSIVE - CUSTOM TEXT PADDING AND SIZE FOR MOBILE PHONES*/
+@media all and (max-width: 780px) {
+	.smt-content-item-text{
+		padding-top: 1vh; /* before 7vh, too much white space on mobile phones*/
+		text-align: center;
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+	h2 {
+		margin-bottom: 0px;
+	}
+
+	.smt-item-text h2 {
+		font-size: 28px;
+	}
 }
