@@ -2,101 +2,230 @@
 /* CSS Document */
 
 
-
+/* TABLETS AND MOBILE PHONES */
 @media screen and (max-width:970px){
 
-	img#logo{margin-left:5px;}
-
-nav#menu{width:50px; height:50px; background-image:url(../img/menu.png); right:0px;}
-
-	ul#lista-menu{display:none;}
-
-	nav#menu:hover ul#lista-menu{display:block;}
-
-		ul#lista-menu{position:absolute; height:330px; width:120px; right:0px; top:50px; background-color:rgb(0,36,168);}
-
-			ul#lista-menu li{padding-left:10px; height:40px; width:100%; color:#ffffff; padding-right:0px;}
-
-			li#lista-idiomas{display:none;}
-
-
-
-
-
-div.separador{font-size:28px;}
-
-
-
-div.seccion#portada{}
-
-	div#logo-eslogan{padding-top:30%;}
-
-	p#eslogan{font-size:24px; font-weight:300;}
-
-	button#bajar{width:50px; height:50px; background-size:65%; margin-left:-25px; border-width:2px;}
-
-
-
-div.seccion#objetivos{width:100%; height:auto; position:relative;}
-
-	div.contendor{position:relative; width:80%; height:auto; left:50%; margin-left:-40%; background-color:red;}
-
-	div.obj{width:80%; height:auto; margin-top:10%;}
-
-	p.titulo{height:70px; font-size:28px;}
-
-	div#caso-exito{margin-top:60%;}
-
-	p#ribera-duero{font-size:28px;}
-
-
-
-div.seccion#tecnologias{height:auto;}
-
-	div.tecnol{width:350px; left:50%; margin-left:-175px; padding-top:10%; margin-top:0px; float:none;}
-
-		div.tecnol#qr{margin-left:-175px;}
-
-	button.mas-info{margin-top:-90px;}
-
-
-
-
-div.seccion#inventrip{margin-top:0px; padding-top:10%;}
-
-	p.titulo#tit-inventrip{width:100%; margin-right:0%; margin-top:0px; float:none;}
-
-	img#img-inventrip{ width:60%; left:50%; margin-left:-30%; margin-top:0px; margin-bottom:30px;}
-
-	div.contenido#cont-inventrip{position:relative; top:0px; width:60%; left:50%; margin-left:-30%; right:0%;}
-
-	button.ver-mas{ width:60%; margin-top:0px; margin-left:-30%; margin-top:30px;}
-
-
-div.seccion#signing{padding-top:200px; margin-bottom:0px;}
-
-	p.titulo#tit-signing{width:100%; margin-left:0%; margin-top:0px; float:none;}
-
-	img#img-signing{width:50%; margin-right:0%; float:none; margin-top:0px; left:50%; margin-left:-25%; padding-bottom:30px;}
-
-	div.contenido#cont-signing{position:relative; top:0px; width:60%; left:50%; margin-left:-30%; }
-
-
-	}
-
-
-	@media screen and (max-width:600px){
-
-		div.seccion#staff{min-height:1100px;}
-
-		div#contenedor-staff{width:280px; height:980px; margin-left:-140px; padding-bottom:100px;}
-
-		div.content-staff#c-capel{margin-left:10px;}
-
-
+   /* LOGO SISMOTUR */
+		img#logo {
+			margin-left:5px;
 		}
 
+		div#logo-eslogan {
+			position:relative;
+			width:80%; /* increased from 50% */
+			height:auto;
+			left:10%;
+			padding-top:10%;
+		}
 
+	/* NAVIGATION MENU */
+	nav#menu {
+		width:50px;
+		height:50px;
+		background-image:url(../img/menu.png);
+		right:0px;
+	}
 
+	ul#lista-menu {
+		display:none;
+	}
 
+	nav#menu:hover ul#lista-menu {
+		display:block;
+	}
 
+	ul#lista-menu {
+		position:absolute;
+		height:330px;
+		width:120px;
+		right:0px;
+		top:50px;
+		background-color:rgb(0,36,168);
+	}
+
+	ul#lista-menu li {
+		padding-left:10px;
+		height:40px;
+		width:100%;
+		color:#ffffff;
+		padding-right:0px;
+	}
+
+	li#lista-idiomas {
+		display:none;	/* autodetect language on mobile phone, to check, add back? */
+	}
+
+	div.separador {
+		font-size:28px;
+	}
+
+	div.seccion#portada{}
+
+	div#logo-eslogan {
+		padding-top:30%;
+	}
+
+	/* Reduce font size of the title and separate it from Sismotur logo */
+	p#eslogan {
+		font-size:28px;
+		font-weight:300;
+		padding-top: 10px
+	}
+
+	button#bajar {
+		width:50px;
+		height:50px;
+		background-size:65%;
+		margin-left:-25px;
+		border-width:2px;
+	}
+
+	/* SECTION OBJECTIVES */
+
+	div.seccion#objetivos {
+		width:100%;
+		height:auto;
+		position:relative;
+	}
+
+	div.contendor {
+		position:relative;
+		width:80%;
+		height:auto;
+		left:50%;
+		margin-left:-40%;
+		background-color:red;
+	}
+
+	div.obj {
+		width:80%;
+		height:auto;
+		margin-top:10%;
+	}
+
+	p.titulo {
+		/* Reduce white space on title "Destinos Turísticos, too much in mobile phones and tablets */
+		padding-bottom:10px;
+		font-size:28px;
+		text-align: center;
+	}
+
+	p.texto {
+		text-align: center;
+	}
+
+	div#caso-exito {
+		margin-top:60%;
+	}
+
+	p#ribera-duero {
+		font-size:28px;
+	}
+
+	div.seccion#tecnologias {
+		height:auto;
+	}
+
+	div.tecnol {
+		width:350px;
+		left:50%;
+		margin-left:-175px;
+		padding-top:10%;
+		margin-top:0px;
+		float:none;
+	}
+
+	div.tecnol#qr {
+		margin-left:-175px;
+	}
+
+	button.mas-info {
+		margin-top:-90px;
+	}
+
+	/* SECTION INVENTRIP */
+	div.seccion#inventrip {
+		margin-top:0px;
+		padding-top:10%;
+	}
+
+	p.titulo#tit-inventrip {
+		width:100%;
+		margin-right:0%;
+		margin-top:0px;
+		float:none;
+	}
+
+	img#img-inventrip {
+		width:60%;
+		left:50%;
+		margin-left:-30%;
+		margin-top:0px;
+		margin-bottom:30px;
+	}
+
+	div.contenido#cont-inventrip{
+		position:relative;
+		top:0px;
+		width:60%;
+		left:50%;
+		margin-left:-30%;
+		right:0%;
+	}
+
+	button.ver-mas {
+		width:60%;
+		margin-top:0px;
+		margin-left:-30%;
+		margin-top:30px;
+	}
+
+	/* SECTION SIGNING */
+		div.seccion#signing {
+			/* padding-top:200px; */
+			margin-bottom:0px;
+		}
+
+		p.titulo#tit-signing {
+			width:100%;
+			margin-left:0%;
+			margin-top:0px;
+			float:none;
+		}
+
+		img#img-signing {
+			width:50%;
+			margin-right:0%;
+			float:none;
+			margin-top:0px;
+			left:50%;
+			margin-left:-25%;
+			padding-bottom:30px;
+		}
+
+		div.contenido#cont-signing {
+			position:relative;
+			top:0px;
+			width:60%;
+			left:50%;
+			margin-left:-30%;
+		}
+
+}
+
+/* MOBILE PHONES */
+	@media screen and (max-width:600px){
+
+		/* not needed, managed via div#contenedor-staff
+		div.seccion#staff {
+			min-height:1100px;
+		} */
+
+		div#contenedor-staff{
+			width:280px;
+			height:600px; /* 980px before */
+			margin-left:-140px;
+			padding-bottom:100px;
+		}
+		/* div.content-staff#c-capel{margin-left:10px;} */
+}
