@@ -163,15 +163,15 @@ p.titulo#equipo{padding-top:50px; text-align:center; font-size:42px;}
 
 	div.content-staff{position:relative; float:left; width:120px; height:120px; margin:10px;}
 
-		div.content-staff#c-augusto{background-image:url(staff/augusto.png);}
-		div.content-staff#c-manolo{background-image:url(staff/manuel.png);}
-		div.content-staff#c-julio{background-image:url(staff/julio.png);}
-		div.content-staff#c-felipe{background-image:url(staff/felipe.png);}
-		div.content-staff#c-josejuan{background-image:url(staff/josejuan.png);}
-		div.content-staff#c-jorro{background-image:url(staff/jorro.png);}
-		div.content-staff#c-arantxa{background-image:url(staff/arantxa.png);}
-		div.content-staff#c-andres{background-image:url(staff/andres.png);}
-		div.content-staff#c-daniel{background-image:url(staff/daniel.png);}
+		div.content-staff#c-augusto{background-image:url(../img/staff/augusto.png);}
+		div.content-staff#c-manolo{background-image:url(../img/staff/manuel.png);}
+		div.content-staff#c-julio{background-image:url(../img/staff/julio.png);}
+		div.content-staff#c-felipe{background-image:url(../img/staff/felipe.png);}
+		div.content-staff#c-josejuan{background-image:url(../img/staff/josejuan.png);}
+		div.content-staff#c-jorro{background-image:url(../img/staff/jorro.png);}
+		div.content-staff#c-arantxa{background-image:url(../img/staff/arantxa.png);}
+		div.content-staff#c-andres{background-image:url(../img/staff/andres.png);}
+		div.content-staff#c-daniel{background-image:url(../img/staff/daniel.png);}
 
 	div.content-staff:hover{background-position:0px -120px;}
 
