@@ -7,3 +7,4 @@ content
 ._*
 .DS_Store
 .*~
+.server.py
