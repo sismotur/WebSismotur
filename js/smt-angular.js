@@ -24,7 +24,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 }]);
 
 function loadLanguage($scope){
-	if(document.cookie=="")
+	if(document.cookie.indexOf("lang")==-1)
 		$scope.lang = navigator.language.substr(0,2);
 	else{
 		// this parses the cookie to find the requested language
