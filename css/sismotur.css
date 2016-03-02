@@ -308,11 +308,11 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 	div#contenedor-staff {
 		/* previously width 560px, height 560px, margin left -280 px */
 		position:relative;
-		width:420px;
-		height:420px;
+		width:560px;
+		height:250px;
 		padding-top:3%;
 		left:50%;
-		margin-left:-210px;
+		margin-left:-250px;
 	}
 
 	div.content-staff {
@@ -328,11 +328,6 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 	div.content-staff#c-manolo{background-image:url(../img/staff/manuel.png);}
 	div.content-staff#c-julio{background-image:url(../img/staff/julio.png);}
 	div.content-staff#c-felipe{background-image:url(../img/staff/felipe.png);}
-	div.content-staff#c-josejuan{background-image:url(../img/staff/josejuan.png);}
-	div.content-staff#c-jorro{background-image:url(../img/staff/jorro.png);}
-	div.content-staff#c-arantxa{background-image:url(../img/staff/arantxa.png);}
-	div.content-staff#c-andres{background-image:url(../img/staff/andres.png);}
-	div.content-staff#c-daniel{background-image:url(../img/staff/daniel.png);}
 
 	/* blue artifact on hover to show team position */
 	div.content-staff:hover{background-position:0px -120px;}
@@ -362,4 +357,5 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 	p.pais{color:#ffffff; font-size:16px; font-family:'Open Sans'; text-transform:uppercase;}
 	hr.barra-pais{background-color:#ffffff; margin-top:5px; margin-bottom:5px; width:130px;}
 	p.telefono{color:#ffffff; font-family:'Open Sans'; font-size:14px; line-height:1.5;}
+	a.email{color:white; font-family:'Open Sans'; font-size:14px; line-height:1.5;text-decoration:none;}
 	p#copyright{position:relative; width:300px; height:30px; left:50%; margin-left:-150px; bottom:0px; text-align:center; font-size:12px; color:#ffffff;}

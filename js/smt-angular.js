@@ -48,7 +48,7 @@ function loadLanguage($scope){
 	// Signing
 	$scope.sigTittle = 'Signing';
 
-	$scope.btnTitleTeam = 'Staff';
+
 
 	// Browser language selector
 	// Browser language selector
@@ -223,6 +223,8 @@ function loadLanguage($scope){
 			// *********************
 			// STAFF
 			// *********************
+
+			$scope.btnTitleTeam = 'Socios';
 
 			$scope.StaffCEO = 'Cofundador - CEO';
 			$scope.StaffCOO = 'Cofundador - COO';
@@ -417,6 +419,8 @@ function loadLanguage($scope){
 			// STAFF
 			// *********************
 
+			$scope.btnTitleTeam = 'Socis';
+
 			$scope.StaffCEO = 'Cofundador - CEO';
 			$scope.StaffCOO = 'Cofundador - COO';
 			$scope.StaffCMO = 'Soci - CMO';
@@ -456,7 +460,6 @@ function loadLanguage($scope){
 			$scope.mnObjet = 'Ziele';
 			$scope.mnTecno = 'Technologien';
 			$scope.mnTeam = 'Team';
-			$scope.btnTitleTeam = 'Das Team';
 			$scope.mnCont = 'Kontakt';
 			$scope.mnIdioma = 'DE';
 
@@ -610,6 +613,8 @@ function loadLanguage($scope){
 			// *********************
 			// STAFF
 			// *********************
+
+			$scope.btnTitleTeam = 'Das Team';
 
 			$scope.StaffCEO = 'Mitgründer - CEO';
 			$scope.StaffCOO = 'Mitgründer - CEO';
@@ -805,6 +810,8 @@ function loadLanguage($scope){
 			// STAFF
 			// *********************
 
+			$scope.btnTitleTeam = 'Associés';
+
 			$scope.StaffCEO = 'Cofondateur - CEO';
 			$scope.StaffCOO = 'Cofondateur - COO';
 			$scope.StaffCMO = 'Partenaire - CMO';
@@ -820,7 +827,12 @@ function loadLanguage($scope){
 			$scope.StaffCoordinatorSwitzerland = 'Coordinateur Suisse';
 			$scope.StaffCoordinatorPortugal = 'Coordinateur Portugal';
 
+
+			$scope.idiomas = 'Langues';
+			$scope.moreInfoShort = "PLUS D'INFO";
 			$scope.btnContact = 'CONTACTEZ NOUS';
+
+
 
 			break;
 
@@ -994,6 +1006,8 @@ function loadLanguage($scope){
 			// *********************
 			// STAFF
 			// *********************
+
+			$scope.btnTitleTeam = 'Partneri';
 
 			$scope.StaffCEO = 'Suosnivač - CEO';
 			$scope.StaffCOO = 'Suosnivač - COO';
@@ -1190,6 +1204,8 @@ function loadLanguage($scope){
 			// *********************
 			// STAFF
 			// *********************
+
+		  $scope.btnTitleTeam = 'Partners';
 
 			$scope.StaffCEO = 'Co-founder - CEO';
 			$scope.StaffCOO = 'Co-founder - COO';
