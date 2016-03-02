@@ -244,9 +244,22 @@ div#fondo-drontrip{
 }
 
 /*************************************************************************/
-/* PAGINA DE SEÑALIZACIÓN */
+/* PAGINA DE BEACONS */
 #smt-banner-img1{
 	background-image:url(../img/Palencia2.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* PAGINA DE E-COMMERCE */
+#smt-ecommerce-img1{
+	background-image:url(../img/e_commerce.png);
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;

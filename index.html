@@ -100,7 +100,7 @@
         			<li><a class="cambio-idioma" ng-click="changeLang('en')">English</a></li>
             		<li><a class="cambio-idioma" ng-click="changeLang('es')">Español</a></li>
             		<li><a class="cambio-idioma" ng-click="changeLang('fr')">Français</a></li>
-                    <li><a class="cambio-idioma" ng-click="changeLang('hr')">Hrvatski</a></li>
+                    <!-- <li><a class="cambio-idioma" ng-click="changeLang('hr')">Hrvatski</a></li> -->
         		</ul>
             </li>
 
@@ -167,26 +167,34 @@
 
 <div class="seccion" id="tecnologias">
 
-
-	<div class="tecnol" id="drontrip">
-    	<img class="img-tecnol" src="img/logodron.png" title="DronTrip" alt="DronTrip" />
-    	<p class="titulo-tecnol">{{dronTittle}}</p>
-        <p class="texto t-tecno">{{dronText}}</p>
-        <button class="mas-info" onclick="window.open('drontrip.html')">{{moreInfoShort}}</button>
+    <div class="tecnol" id="senalizacion">
+        <img class="img-tecnol" src="img/logosenal.png" title="Señalización" alt="Señalización" />
+        <p class="titulo-tecnol">{{senalizacionTittle}}</p>
+        <p class="texto t-tecno">{{senalizacionText}}</p>
+        <button class="mas-info" onclick="window.open('senalizacion.html')">{{moreInfoShort}}</button>
     </div>
+
+    <div class="tecnol" id="beacons">
+        <img class="img-tecnol" src="img/logobeacon.png" title="Beacon" alt="Beacon" />
+        <p class="titulo-tecnol">{{beaconTittle}}</p>
+        <p class="texto t-tecno">{{beaconText}}</p>
+        <button class="mas-info" onclick="window.open('beacon.html')">{{moreInfoShort}}</button>
+    </div>
+
+
+    <div class="tecnol" id="comercializacion">
+        <img class="img-tecnol" src="img/logo_ecommerce.png" title="e-Commerce" alt="e-Commerce" />
+        <p class="titulo-tecnol">{{comercializacionTittle}}</p>
+        <p class="texto t-tecno">{{comercializacionText}}</p>
+        <button class="mas-info" onclick="window.open('e_commerce.html')">{{moreInfoShort}}</button>
+    </div>
+
 
     <div class="tecnol" id="nfc">
     	<img class="img-tecnol"  src="img/logonfc.png" title="NFC" alt="NFC" />
     	<p class="titulo-tecnol">{{nfcTittle}}</p>
         <p class="texto t-tecno">{{nfcText}}</p>
         <button class="mas-info" onclick="window.open('nfc.html')">{{moreInfoShort}}</button>
-    </div>
-
-    <div class="tecnol" id="senalizacion">
-    	<img class="img-tecnol" src="img/logosenal.png" title="Señalización" alt="Señalización" />
-    	<p class="titulo-tecnol">{{senalizacionTittle}}</p>
-        <p class="texto t-tecno">{{senalizacionText}}</p>
-        <button class="mas-info" onclick="window.open('senalizacion.html')">{{moreInfoShort}}</button>
     </div>
 
     <div class="tecnol" id="qr">
@@ -196,11 +204,11 @@
         <button class="mas-info" onclick="window.open('qr.html')">{{moreInfoShort}}</button>
     </div>
 
-    <div class="tecnol" id="beacons">
-    	<img class="img-tecnol" src="img/logobeacon.png" title="Beacon" alt="Beacon" />
-    	<p class="titulo-tecnol">{{beaconTittle}}</p>
-        <p class="texto t-tecno">{{beaconText}}</p>
-        <button class="mas-info" onclick="window.open('beacon.html')">{{moreInfoShort}}</button>
+    <div class="tecnol" id="drontrip">
+        <img class="img-tecnol" src="img/logodron.png" title="DronTrip" alt="DronTrip" />
+        <p class="titulo-tecnol">{{dronTittle}}</p>
+        <p class="texto t-tecno">{{dronText}}</p>
+        <button class="mas-info" onclick="window.open('drontrip.html')">{{moreInfoShort}}</button>
     </div>
 
 </div>

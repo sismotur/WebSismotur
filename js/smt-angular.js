@@ -43,10 +43,13 @@ function loadLanguage($scope){
 	$scope.beaconTittle = 'Beacons';
 	$scope.qrTittle = 'QR';
 	$scope.dronTittle = 'DronTrip';
+	$scope.comercializacionTittle = 'e-Commerce';
 	// Inventrip
 	$scope.invTittle = 'Inventrip';
 	// Signing
 	$scope.sigTittle = 'Signing';
+  // Copyright text
+	$scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 
 
 
@@ -126,6 +129,9 @@ function loadLanguage($scope){
 			// Beacons
 			$scope.beaconText = 'Despliega la nueva tecnología beacons para dar información contextualizada al turista y ofrecerle productos y servicios personalizados en su teléfono móvil.';
 
+			// e-Commerce
+			$scope.comercializacionText = 'Dota a tu Destino de capacidad para que los turistas puedan reservar on-line restaurantes, alojamientos y actividades desde cualquier dispositivo.';
+
 
 			// ******************
 			// SEPARADOR GRIS 3
@@ -175,7 +181,6 @@ function loadLanguage($scope){
 			$scope.cntPortugalPhone = '+34 629.415.915';
 
 			$scope.btnContact = 'Contactar';
-			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
 
 			// *********************
@@ -183,7 +188,7 @@ function loadLanguage($scope){
 			// *********************
 
 			// Página DronTrip
-			$scope.DronTriptext1 = '¡Te invitamos a volar por la provincia de Palencia!';
+			$scope.DronTriptext1 = '¡Te invitamos a volar por la comarca Sierra de Montánchez y Tamuja!';
 			$scope.DronTripbutton1 = 'Ver Video';
 
 			// Página NFC
@@ -208,7 +213,7 @@ function loadLanguage($scope){
 			$scope.Sentext3 = 'Implantación integral de todos los equipamentos de señalización territorial y urbana para la Ruta Ribera del Duero.';
 
 			// Página QR
-			$scope.QRtitle1 = 'Normandía y Bretaña'
+			$scope.QRtitle1 = 'Normandía y Bretaña';
 			$scope.QRtext1 = '¡Descubre un viaje por Normandía y Bretaña escaneando este código QR!';
 			$scope.QRbutton1 = 'Descubre el viaje';
 
@@ -217,8 +222,12 @@ function loadLanguage($scope){
 			$scope.QRbutton2 = 'Más Info';
 
 			// Página Beacon
-			$scope.Beacontitle1 = 'Beacon'
+			$scope.Beacontitle1 = 'Beacon';
 			$scope.Beacontext1 = 'Propuesta de la tecnología beacons a la provincia de Palencia.';
+
+			// Página e-Commerce
+			$scope.eCommercetitle1 = 'e-Commerce';
+			$scope.eCommercetext1 = 'Integración de centrales de reservas en Inventrip para que los turistas puedan reservar servicios antes y durante el viaje.';
 
 			// *********************
 			// STAFF
@@ -321,6 +330,11 @@ function loadLanguage($scope){
 			// Beacons
 			$scope.beaconText = 'Desplega la nova tecnologia beacons per donar informació contextualitzada al turista i oferir-li productes i serveis personalitzats al seu telèfon mòbil.';
 
+			// e-Commerce
+			$scope.comercializacionText = 'Dota a tu Destino de capacidad para que los turistas puedan reservar on-line restaurantes, alojamientos y actividades desde cualquier dispositivo.'; // TODO
+
+
+
 
 			// ******************
 			// SEPARADOR GRIS 3
@@ -370,7 +384,6 @@ function loadLanguage($scope){
 			$scope.cntPortugalPhone = '+34 629.415.915';
 
 			$scope.btnContact = 'Contactar';
-			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
 
 			// *********************
@@ -378,7 +391,7 @@ function loadLanguage($scope){
 			// *********************
 
 			// Página DronTrip
-			$scope.DronTriptext1 = 'Et convidem a volar per la província de Palència!';
+			$scope.DronTriptext1 = 'Et convidem a volar per la comarca Sierra de Montánchez y Tamuja!';
 			$scope.DronTripbutton1 = 'Veure Video';
 
 			// Página NFC
@@ -414,6 +427,10 @@ function loadLanguage($scope){
 			// Página Beacon
 			$scope.Beacontitle1 = 'Beacon'
 			$scope.Beacontext1 = 'Proposta de la tecnologia beacons a la província de Palència.';
+
+			// Página e-Commerce
+			$scope.eCommercetitle1 = 'e-Commerce';
+			$scope.eCommercetext1 = 'Integración de centrales de reservas en Inventrip para que los turistas puedan reservar servicios antes y durante el viaje.';
 
 			// *********************
 			// STAFF
@@ -516,6 +533,9 @@ function loadLanguage($scope){
 			// Beacons
 			$scope.beaconText = 'Setzen Sie die neue Beacons Technologie ein. So können Sie dem Touristen kontextbezogene Information weitergeben und ihm individualisierte Produkte und Dienstleistungen anbieten.';
 
+			// e-Commerce
+			$scope.comercializacionText = 'Dota a tu Destino de capacidad para que los turistas puedan reservar on-line restaurantes, alojamientos y actividades desde cualquier dispositivo.'; // TODO
+
 
 			// ******************
 			// SEPARADOR GRIS 3
@@ -565,7 +585,6 @@ function loadLanguage($scope){
 			$scope.cntPortugalPhone = '+34.629.415.915';
 
 			$scope.btnContact = 'Kontaktieren Sie uns';
-			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
 
 			// *********************
@@ -573,7 +592,7 @@ function loadLanguage($scope){
 			// *********************
 
 			// Página DronTrip
-			$scope.DronTriptext1 = 'Wir laden Sie zu einem Flug über die spanische Tourismusregion von Palencia ein!';
+			$scope.DronTriptext1 = 'Wir laden Sie zu einem Flug über die spanische Tourismusregion von Montánchez ein!';
 			$scope.DronTripbutton1 = 'Video ansehen';
 
 			// Página NFC
@@ -610,11 +629,15 @@ function loadLanguage($scope){
 			$scope.Beacontitle1 = 'Beacon'
 			$scope.Beacontext1 = 'Vorschlag für die Implementierung der Beacons Technologie in der Region von Palencia, Spanien.';
 
+			// Página e-Commerce
+			$scope.eCommercetitle1 = 'e-Commerce';
+			$scope.eCommercetext1 = 'Integration of booking engines in Inventrip that tourists can access before and during the trip.';
+
 			// *********************
 			// STAFF
 			// *********************
 
-			$scope.btnTitleTeam = 'Das Team';
+			$scope.btnTitleTeam = 'Partners';
 
 			$scope.StaffCEO = 'Mitgründer - CEO';
 			$scope.StaffCOO = 'Mitgründer - CEO';
@@ -700,17 +723,20 @@ function loadLanguage($scope){
 			$scope.dronText = 'Utilisez des vols touristiques enregistrés avec des drones pour viraliser dans les réseaux sociaux la promotion des destinations et services touristiques.';
 
 			// NFC
-			$scope.nfcText = 'Donnez à vos clients des cartes NFC (contactless) pour personnaliser leur expérience touristique dans la destination.';
+			$scope.nfcText = 'Donnez à vos touristes de belles cartes équipées de puces sans contact pour personnaliser et enrichir leur expérience touristique dans votre territoire.';
 
 			// Signalisation
 			$scope.senalizacionTittle = 'Signalisation';
-			$scope.senalizacionText = "Implantez un système de signalisation pour faciliter le guidage des touristes et améliorer la qualité de l'image de la destination.";
+			$scope.senalizacionText = "Améliorez la signalisation touristique de votre destination en l'intégrant avec des systèmes d'information touristique de pointe.";
 
 			// QR
-			$scope.qrText = 'Partagez un voyage touristique avec des codes QR.';
+			$scope.qrText = "Gérez facilement l'information touristique en ligne des ressources et cartes, et ce quelle que soit la langue du touriste.";
 
-			// Beacons - revisar
-			$scope.beaconText = "Déployez la nouvelle technologie beacons pour donner de l'information contextualisée au touriste et lui offrir des produits et services personnalisés dans son téléphone portable.";
+			// Beacons
+			$scope.beaconText = "Adoptez cette nouvelle technologie pour envoyer aux touristes des produits et services personnalisés sur leurs smartphones.";
+
+			// e-Commerce
+			$scope.comercializacionText = "Facilitez au touriste l'accés à la réservation en ligne de logements, restaurants et activités, et ce avant ou durant le voyage.";
 
 			// ******************
 			// BARRE GRISE 3
@@ -761,14 +787,13 @@ function loadLanguage($scope){
 			$scope.cntPortugalPhone = '+34 629.415.915';
 
 			$scope.btnContact = 'Contacter';
-			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
 			// *********************
 			// SUBSECTION TECHNOLOGIE
 			// *********************
 
 			// Página DronTrip
-			$scope.DronTriptext1 = 'Nous vous invitons à voler dans la province de Palencia !';
+			$scope.DronTriptext1 = "Nous vous invitons à voler dans la région d'Extremadure !";
 			$scope.DronTripbutton1 = 'Regarder la vidéo';
 
 			// Página NFC
@@ -806,6 +831,10 @@ function loadLanguage($scope){
 			$scope.Beacontitle1 = 'Beacon'
 			$scope.Beacontext1 = 'Proposition de la technologie beacons au département de Palencia.';
 
+			// Página e-Commerce
+			$scope.eCommercetitle1 = 'e-Commerce';
+			$scope.eCommercetext1 = 'Intégration de systèmes de réservation dans Inventrip de manière à permettre aux touristes la réservation de services avant et au cours de leur voyage.';
+
 			// *********************
 			// STAFF
 			// *********************
@@ -832,207 +861,10 @@ function loadLanguage($scope){
 			$scope.moreInfoShort = "PLUS D'INFO";
 			$scope.btnContact = 'CONTACTEZ NOUS';
 
-
-
-			break;
-
-
-		// ***********************************************************************************************
-		// **************************************** CROATIAN *********************************************
-		// ***********************************************************************************************
-		case "hr":
-			// ******************
-			// TITULO WEB
-			// ******************
-			$scope.tittle1 = 'Radimo na promociji i razvoju pametnih turističkih destinacija';
-
-			// ******************
-			// MENU
-			// ******************
-			$scope.mnObjet = 'Ciljevi';
-			$scope.mnTecno = 'Tehnologije';
-			$scope.mnTeam = 'Zaposlenici';
-			$scope.mnCont = 'Kontakt';
-			$scope.mnIdioma = 'HR';
-
-			// ******************
-			// SEPARADOR GRIS 1
-			// ******************
-			$scope.resume1 = 'Ispunjavamo potrebe svakog klijenta';
-
-			// ******************
-			// OBJETIVOS
-			// ******************
-
-			$scope.obj1Tittle = 'Turističke destinacije';
-			$scope.obj1Text = 'Povećajte broj turista koji posjećuju vašu destinaciju i poboljšajte kvalitetu njihovog boravka upotrebom naprednih integriranih offline sustava (turistička signalizacija) i digitalnih online sustava koji objedinjuju najbolje dostupne tehnologije.';
-
-			//$scope.obj1Resume = 'Sustavi';
-
-			$scope.obj2Tittle = 'Turističke usluge';
-			$scope.obj2Text = 'Putem platforme Inventrip svojim klijentima ponudite informacije, individualizirane proizvode i usluge te na taj način povećajte prodaju putem Interneta. Promovirajte svoj brend na različitim društvenim mrežama putem turističkih promidžbenih video spotova snimanih bespilotnim letjelicama.';
-
-			//$scope.obj2Resume = 'Kreiranje putovanja';
-
-			$scope.obj3Tittle = 'Kreiranje putovanja';
-			$scope.obj3Text = 'Turisti će koristeći besplatnu aplikaciju Inventrip otkriti atrakcije vaše turističke destinacije, te dostupne turističke usluge i aktivnosti. Planiranje putovanja i informiranje tijekom boravka u destinaciji postat će jednostavan zadatak, a plan putovanja će se moći podijeliti s članovima obitelji i prijateljima.';
-
-			//$scope.obj3Resume = 'Turizam';
-
-			// REVISAR
-			$scope.btnMoreInfo = 'Saznajte više o praktičnom primjeru uspjeha';
-			$scope.btnClick = 'KLIKNITE OVDJE';
-
-
-			// ******************
-			// SEPARADOR GRIS 2
-			// ******************
-			$scope.tecTittle = 'Stavljamo vam na raspolaganje najbolje tehnologije';
-
-			// ******************
-			// TECNOLOGIAS
-			// ******************
-
-			// DronTrip
-			$scope.dronText = 'Koristite panoramske turističke video spotove za promidžbu vaše destinacije i turističkih usluga na Internetu i na različitim društvenim mrežama.';
-
-			// NFC
-			$scope.nfcText = 'Svojim klijentima uručite beskontaktne NFC kartice kako biste im omogućili individualizirano iskustvo boravka u vašoj turističkoj destinaciji.';
-
-			// Signal
-			$scope.senalizacionTittle = 'Signalizacija';
-			$scope.senalizacionText = 'Uvedite sustav turističke signalizacije kako biste turistima pojednostavili snalaženje te time poboljšajte kvalitetu vaše destinacije.';
-
-			// QR
-			$scope.qrText = 'Podijelite turistička putovanja putem QR kodova.';
-
-			// Beacons
-			$scope.beaconText = 'Koristite novu beacon tehnologiju za pružanje kontekstualiziranih informacija i individualiziranih proizvoda i usluga turistima, a sve to putem njihovih pametnih telefona.';
-
-
-			// ******************
-			// SEPARADOR GRIS 3
-			// ******************
-			$scope.servTittle = 'Pružamo napredne "usluge u oblaku"';
-
-			// ******************
-			// TECNOLOGIAS
-			// ******************
-
-			// Inventrip
-			$scope.invTextA = 'Kreiranje putovanja: to je naša vizija';
-			$scope.invTextB = 'Nudimo vam tehnološku platformu koja vašim turistima omogućava da sami stvore vlastite planove puta (organizirane prema danima, gradovima, temama itd.) te da jednostavnom navigacijom kartom u plan dodaju mjesta koja žele posjetiti i usluge koje žele rezervirati.';
-
-			$scope.btnInventrip = 'Idi na Inventrip';
-
-			// Signing
-			$scope.sigText = 'Signing je usluga "u oblaku" specijalizirana za planiranje i upravljanje signalizacijskim sustavima na teritoriju i u gradovima koju koristi preko 30 javnih uprava u Španjolskoj.  Razvijena je 2009. u okviru Nacionalnog plana potpore za Istraživanje i razvoj španjolskog Ministarstva za Industriju, turizam i trgovinu.';
-
-			$scope.btnSigning = 'Dodatne informacije';
-
-			// ******************
-			// CONTACTO
-			// ******************
-			$scope.cntSpain = 'Španjolska';
-			$scope.cntSpain2 = 'Madrid & Barcelona';
-			$scope.cntSpainPhone = '+34 913.238.208';
-
-			$scope.cntFrance = 'Francuska';
-			$scope.cntFrance2 = 'Annecy';
-			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
-
-			$scope.cntCroatia = 'Hrvatska';
-			$scope.cntCroatia2 = 'Zagreb';
-			$scope.cntCroatiaPhone = '+385.16187750';
-
-			$scope.cntAustria = 'Austrija';
-			$scope.cntAustria2 = 'Innsbruck';
-			$scope.cntAustriaPhone = '+43 699.111.43611';
-
-			$scope.cntSuiza = 'Švicarska';
-			$scope.cntSuiza2 = 'Lausanne';
-			$scope.cntSuizaPhone = '+41.76.393.72.52';
-
-			$scope.cntPortugal = 'Portugal';
-			$scope.cntPortugal2 = '';
-			$scope.cntPortugalPhone = '+34 629.415.915';
-
-			$scope.btnContact = 'Kontaktirajte nas';
-			$scope.copyright = 'Copyright ¬© 2015 SISMOTUR SL.';
-
-
-			// *********************
-			// SUBSECCION TECNOLOGIA
-			// *********************
-
-			// P√°gina DronTrip
-			$scope.DronTriptext1 = 'Pozivamo vas na let nad španjolskom pokrajinom Palencijom';
-			$scope.DronTripbutton1 = 'Pogledajte video';
-
-			// P√°gina NFC
-			$scope.NFCtitle1 = 'Promocija kazališta u Hrvatskoj';
-			$scope.NFCtext1 = 'NFC kartice na premijeri kazališne predstave "Mobitel" u Zagrebu. Kartice sadrže program predstava i gostovanja tijekom 2015. u Hrvatskoj.';
-			$scope.NFCbutton1 = 'Pogledajte program';
-
-			$scope.NFCtitle2 = 'NFC kartice za Turističku zajednicu Palencije'
-			$scope.NFCtext2 = 'Turistička zajednica Palencije predstavila je medijima Inventrip na posljednjem Sajmu za unutrnji turizam (INTUR) te je dijelila posjetiteljima NFC kartice s putovanjem po pokrajini.';
-			$scope.NFCbutton2 = 'Otkrijte putovanje';
-
-			// P√°gina Se√±alizaci√≥n
-			$scope.SenyalizacionTitle = 'Sismotur SL - Se√±alizaci√≥n'
-
-			$scope.Sentitle1 = 'Barcelona';
-			$scope.Sentext1 = 'Uživajte u novoj turističkoj signalizaciji za pješake koju je izveo Sismotur za grad Barcelonu.';
-
-			$scope.Sentitle2 = 'Kastilja i Leon';
-			$scope.Sentext2 = 'Savjetnica i Generalni direktor za turizam pokrajine Kastilje i Leona, zajedno sa Sismoturom, predstavljaju na proteklom Sajmu za unutarnji turizam (INTUR) program poboljšanja turističke signalizacije pokrajine.';
-
-			$scope.Sentitle3 = 'Ribera del Duero';
-			$scope.Sentext3 = 'Postavljanje cjelokupne teritorijalne i gradske signalizacije za vinsku rutu Ribera del Duero.';
-
-			// P√°gina QR
-			$scope.QRtitle1 = 'Normandija i Bretanja'
-			$scope.QRtext1 = 'Otkrijte putovanje Normandijom i Bretanjom skenirajući ovaj QR kod.';
-			$scope.QRbutton1 = 'Otkrijte putovanje';
-
-			$scope.QRtitle2 = 'Barcelona';
-			$scope.QRtext2 = 'Sismotur je 2012. izradio prvi plan za turističku signalizaciju i informiranje u četvrti Horta-Ginardo u Barceloni.';
-			$scope.QRbutton2 = 'Dodatne informacije';
-
-			// P√°gina Beacon
-			$scope.Beacontitle1 = 'Beacon'
-			$scope.Beacontext1 = 'Projekt beacon tehnologije za španjolsku pokrajinu Palenciju.';
-
-			// *********************
-			// STAFF
-			// *********************
-
-			$scope.btnTitleTeam = 'Partneri';
-
-			$scope.StaffCEO = 'Suosnivač - CEO';
-			$scope.StaffCOO = 'Suosnivač - COO';
-			$scope.StaffCMO = 'Partner - CMO';
-			$scope.StaffCTO = 'Partner - CTO';
-			$scope.StaffCLO = 'Partner - CLO';
-			$scope.StaffHeadDev = 'Razvoj softvera';
-			$scope.StaffArtificialInt = 'Umjetna inteligencija';
-			$scope.StaffDesign = 'Dizajn i komunikacije';
-			$scope.AssociateBcn = 'Tehnički suradnik u Barceloni';
-			$scope.AssociateProjects = 'Projektni menadžer';
-			$scope.StaffCoordinatorCroatia = 'Koordinatorica za Hrvatsku';
-			$scope.StaffCoordinatorAustria = 'Koordinator za Austriju';
-			$scope.StaffCoordinatorSwitzerland = 'Koordinator za Švicarsku';
-			$scope.StaffCoordinatorPortugal = 'Koordinator za Portugal';
-
-			$scope.idiomas = 'Jezici';
-			$scope.moreInfoShort = 'Saznajte više';
-
-			$scope.btnContact = 'KONTAKTIRAJTE NAS';
-
 			break;
 
 		// ***********************************************************************************************
-		// **************************************** ENGLISH **********************************************
+		// **************************************** ENGLISH (DEFAULT) ************************************
 		// ***********************************************************************************************
 		default:
 
@@ -1107,6 +939,9 @@ function loadLanguage($scope){
 			// Beacons
 			$scope.beaconText = 'Deploy the new beacon technology to give tourists contextualized information and offer them tailored products and services in their smartphone.';
 
+			// e-Commerce
+			$scope.comercializacionText = 'Make it simple for tourists the access to online booking systems for accommodation, restaurants and activities, before or during the trip.';
+
 
 			// ******************
 			// GREY SEPARATOR 3
@@ -1156,7 +991,6 @@ function loadLanguage($scope){
 			$scope.cntPortugalPhone = '+34 629.415.915';
 
 			$scope.btnContact = 'Contact us';
-			$scope.copyright = 'Copyright © 2015 SISMOTUR SL.';
 
 
 			// *********************
@@ -1164,7 +998,7 @@ function loadLanguage($scope){
 			// *********************
 
 			// Página DronTrip
-			$scope.DronTriptext1 = 'We invite you to flight over the province of Palencia, Spain!';
+			$scope.DronTriptext1 = 'We invite you to flight over the county of Sierra de Montánchez and Tamuja, Spain!';
 			$scope.DronTripbutton1 = 'Watch Video';
 
 			// Página NFC
@@ -1200,6 +1034,10 @@ function loadLanguage($scope){
 			// Página Beacon
 			$scope.Beacontitle1 = 'Beacon'
 			$scope.Beacontext1 = 'Proposal of beacons technology implementation to the province of Palencia, Spain.';
+
+			// Página e-Commerce
+			$scope.eCommercetitle1 = 'e-Commerce';
+			$scope.eCommercetext1 = 'Integration of booking engines in Inventrip that tourists can access before and during the trip.';
 
 			// *********************
 			// STAFF

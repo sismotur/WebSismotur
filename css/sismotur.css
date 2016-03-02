@@ -124,9 +124,11 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 		height:500px;
 	}
 
+/*
 	div.tecnol#qr {
 		margin-left:25%;
 	}
+*/
 
 	img.img-tecnol {
 		position:relative;
@@ -309,7 +311,7 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 		/* previously width 560px, height 560px, margin left -280 px */
 		position:relative;
 		width:560px;
-		height:250px;
+		height:150px;
 		padding-top:3%;
 		left:50%;
 		margin-left:-250px;
