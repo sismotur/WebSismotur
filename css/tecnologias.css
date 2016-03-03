@@ -67,7 +67,7 @@ p.ng-binding{font-size:16px;}
 }
 
 .smt-content-item-img{
-	height: 55vh; /* before 70vh, broken photos and need to scroll */
+	height: 65vh; /* before 55vh not enough height // even before 70vh, broken photos and need to scroll */
 	margin-right: 0px;
 	margin-left: 0px;
 }
