@@ -292,6 +292,49 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 	}
 
 /*********************/
+/* SECTION NEWS */
+/*********************/
+
+	div.seccion#noticias {
+		background-image:url(../img/crossword.png);
+		min-height:600px;
+	}
+
+	p.titulo#tit-noticias-derecha {
+		position:relative;
+		width:20%;
+		height:auto;
+		margin-right:10%;
+		margin-top:150px;
+		text-align:center;
+		float:right;
+		font-size:36px;
+	} /*removed padding-bottom:10% */
+
+	img#img-noticias-derecha {
+		position:relative;
+		width:55%;
+		height:auto;
+		margin-left:7%;
+		margin-top:150px;
+		border:1px solid gray;
+	}
+
+	div.contenido#cont-noticias-derecha {
+		position:absolute;
+		top:220px;
+		width:20%;
+		height:auto;
+		right:10%;
+	}
+
+	p.texto#text-noticias-derecha {
+		text-align:center;
+	}
+
+	div#otras-noticias{position:relative; margin-top:7%; width:80%; height:auto; left:50%; margin-left:-40%; padding-bottom:7%;}
+
+/*********************/
 /* SECTION STAFF     */
 /*********************/
 

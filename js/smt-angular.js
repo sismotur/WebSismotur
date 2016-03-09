@@ -70,6 +70,7 @@ function loadLanguage($scope){
 			// ******************
 			// MENU
 			// ******************
+			$scope.mnNoticias = 'Noticias';
 			$scope.mnObjet = 'Objetivos';
 			$scope.mnTecno = 'Tecnologías';
 			$scope.mnTeam = 'Staff';
@@ -152,6 +153,15 @@ function loadLanguage($scope){
 			$scope.sigText = 'Signing es un servicio web especializado para la planificación y gestión de la señalización territorial y urbana utilizado por más de 30 administraciones públicas. Fue desarrollado en 2009 en el marco de un Plan Avanza de I+D del Ministerio de Industria, Turismo y Comercio.';
 
 			$scope.btnSigning = 'Más información';
+
+			// ******************
+			// NOTICIAS
+			// ******************
+
+			$scope.resumeNoticias = 'Últimas noticias';
+			$scope.newsTitle = 'FITUR 2016';
+			$scope.newsContent = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la Plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del Turista.';
+			$scope.btnNewsClick = 'Más noticias';
 
 			// ******************
 			// CONTACTO
@@ -271,6 +281,7 @@ function loadLanguage($scope){
 			// ******************
 			// MENU
 			// ******************
+			$scope.mnNoticias = 'Notícies';
 			$scope.mnObjet = 'Objectius';
 			$scope.mnTecno = 'Tecnologies';
 			$scope.mnTeam = 'Staff';
@@ -355,6 +366,14 @@ function loadLanguage($scope){
 			$scope.sigText = 'Signing és un servei web especialitzat per a la planificació i gestió de la senyalització territorial i urbana utilitzat per més de 30 administracions públiques. Fou desenvolupat el 2009 dintre del marc d\'un Plan Avanza de I+D del Ministeri d\'Industria, Turisme i Comerç.';
 
 			$scope.btnSigning = 'Més informació';
+
+			// ******************
+			// NOTICIAS
+			// ******************
+
+			$scope.resumeNoticias = 'Últimes notícies';
+			$scope.newsContent = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la Plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del Turista.';
+			$scope.btnNewsClick = 'Més notícies';
 
 			// ******************
 			// CONTACTO
@@ -474,6 +493,7 @@ function loadLanguage($scope){
 			// ******************
 			// MENU
 			// ******************
+			$scope.mnNoticias = 'Nachrichten';
 			$scope.mnObjet = 'Ziele';
 			$scope.mnTecno = 'Technologien';
 			$scope.mnTeam = 'Team';
@@ -586,6 +606,15 @@ function loadLanguage($scope){
 
 			$scope.btnContact = 'Kontaktieren Sie uns';
 
+			// ******************
+			// NOTICIAS
+			// ******************
+
+			$scope.resumeNoticias = 'Aktuelle nachrichten';
+			$scope.newsTitle = 'FITUR 2016';
+			$scope.newsContent = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la Plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del Turista.';
+			$scope.btnNewsClick = 'More news'; // TODO: Traducir
+
 
 			// *********************
 			// SUBSECCION TECNOLOGIA
@@ -674,6 +703,7 @@ function loadLanguage($scope){
 			// ******************
 			// MENU
 			// ******************
+			$scope.mnNoticias = 'Actualités';
 			$scope.mnObjet = 'Objectives';
 			$scope.mnTecno = 'Technologies';
 			$scope.mnTeam = 'Staff';
@@ -758,6 +788,15 @@ function loadLanguage($scope){
 			$scope.sigText = "Signing est un service web spécialisé dans la planification et gestion de la signalisation territoriale et urbaine qui est utilisé par plus de 30 administrations publiques. Il a été développé en 2009 dans le cadre d'un plan national de recherche et développement de l'état espagnol";
 
 			$scope.btnSigning = "Plus d'information";
+
+			// ******************
+			// NOTICIAS
+			// ******************
+
+			$scope.resumeNoticias = 'Dernières actualités';
+			$scope.newsTitle = 'FITUR 2016';
+			// TODO: Traducir textos
+			$scope.btnNewsClick = "Plus d'actualités" ;
 
 			// ******************
 			// NOUS CONTACTER
@@ -878,6 +917,7 @@ function loadLanguage($scope){
 			// ******************
 			// MENU
 			// ******************
+			$scope.mnNoticias = 'News';
 			$scope.mnObjet = 'Objectives';
 			$scope.mnTecno = 'Technologies';
 			$scope.mnTeam = 'Staff';
@@ -962,6 +1002,15 @@ function loadLanguage($scope){
 			$scope.sigText = 'Signing is a cloud computing web service specialized on the planification and management of territorial and urban signage systems which is used by more than 30 public administrations. It was developed in 2009 and benefited of the support of a R&D funding plan from the State of Spain';
 
 			$scope.btnSigning = 'More information';
+
+			// ******************
+			// NOTICIAS
+			// ******************
+
+			$scope.resumeNoticias = 'Recent news';
+			$scope.newsTitle = 'FITUR 2016';
+			$scope.newsContent = 'Text here'; // TODO: add text here
+			$scope.btnNewsClick = "More news" ; // TODO: verify translation
 
 			// ******************
 			// CONTACTO

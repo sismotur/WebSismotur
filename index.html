@@ -80,12 +80,17 @@
 
 <body>
 
+<!-- ------------------------
+--------- MENU -------
+------------------------- -->
+
 <header>
 
 	<img id="logo" src="img/logomenu.png" title="Sismotur" alt="Sismotur"/>
 
 	<nav id="menu">
     	<ul id="lista-menu">
+            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#noticias',1000)">{{mnNoticias}}</a></li>
         	<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#objetivos',1000)">{{mnObjet}}</a></li>
             <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#tecnologias',1000)">{{mnTecno}}</a></li>
             <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#inventrip',1000)">{{mnInven}}</a></li>
@@ -107,9 +112,11 @@
         </ul>
     </nav>
 
-
-
 </header>
+
+<!-- ------------------------
+--------- PARALLAX-----------
+------------------------- -->
 
 <div id="parallaxTrigger">
 <div class="seccion" id="portada">
@@ -127,6 +134,9 @@
 
 <div class="separador" id="s-uno">{{resume1}}</div>
 
+<!-- ------------------------
+--------- OBJETIVOS ---------
+------------------------- -->
 
 <div class="seccion" id="objetivos">
 
@@ -164,6 +174,9 @@
 
 <div class="separador" id="s-dos">{{tecTittle}}</div>
 
+<!-- ------------------------
+--------- TECNOLOGIAS -------
+------------------------- -->
 
 <div class="seccion" id="tecnologias">
 
@@ -216,6 +229,9 @@
 
 <div class="separador" id="s-tres">{{servTittle}}</div>
 
+<!-- ------------------------
+--------- INVENTRIP ---------
+------------------------- -->
 
 <div class="seccion" id="inventrip">
 	<p class="titulo" id="tit-inventrip">{{invTittle}}</p>
@@ -229,6 +245,9 @@
 
 </div>
 
+<!-- ------------------------
+--------- SIGNING -----------
+------------------------- -->
 
 <div class="seccion" id="signing">
 	<p class="titulo" id="tit-signing">{{sigTittle}}</p>
@@ -241,6 +260,40 @@
 
 </div>
 
+<div class="separador" id="s-uno">{{resumeNoticias}}</div>
+
+
+<!-- ------------------------
+--------- NOTICIAS ----------
+------------------------ -->
+
+<div class="seccion" id="noticias">
+    <p class="titulo" id="tit-noticias-derecha">{{newsTitle}}</p>
+    <img id="img-noticias-derecha" src="img/noticias_1_fitur.jpg" title="Presenting Inventrip to HM the Queen of Spain" alt="Presenting Inventrip to HM the Queen of Spain" />
+
+    <div class="contenido" id="cont-noticias-derecha">
+
+    <p class="texto" id="text-noticias-derecha">{{newsContent}}
+    <br/><br/>
+    <a href="https://twitter.com/sismotur">@Sismotur</a>
+    <a href="https://twitter.com/segittur">@Seggitur</a>
+    <a href="https://twitter.com/hashtag/Fitur16">#Fitur16</a>
+    <a href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+    <!-- CUENTA INACTIVA <a href="https://twitter.com/inventrip" id="text-noticias">@Inventrip</a> -->
+    <a href="https://twitter.com/hashtag/beacons">#beacons</a>
+    <!-- <button class="ver-mas" onclick="window.open('http://inventrip.com/')" >{{btnInventrip}}</button> -->
+    </p>
+    </div>
+
+    <div id="otras-noticias">
+        <button id="btn-ribera" onclick="window.open('./news.html')" >{{btnNewsClick}}</button>
+    </div>
+
+</div>
+
+<!-- ------------------------
+--------- STAFF -----------
+------------------------- -->
 
 <div class="seccion" id="staff">
 
@@ -255,6 +308,10 @@
     </div>
 
 </div>
+
+<!-- ------------------------
+--------- CONTACTO -----------
+------------------------- -->
 
 <div class="seccion" id="contacto">
 
@@ -290,7 +347,6 @@
             <a class="email" href="mailto:fsanti@sismotur.com">fsanti@sismotur.com</a>
 			</td>
         </tr>
-
 
     </table>
 
