@@ -160,7 +160,7 @@ function loadLanguage($scope){
 
 			$scope.resumeNoticias = 'Últimas noticias';
 			$scope.newsTitle = 'FITUR 2016';
-			$scope.newsContent = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la Plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del Turista.';
+			$scope.newsContent = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del turista.';
 			$scope.btnNewsClick = 'Más noticias';
 
 			// ******************
@@ -372,7 +372,7 @@ function loadLanguage($scope){
 			// ******************
 
 			$scope.resumeNoticias = 'Últimes notícies';
-			$scope.newsContent = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la Plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del Turista.';
+			$scope.newsContent = "Sismotur va ser la triada per presentar el seu concepte de Destinació Turística Intel·ligent a través de la integració de mitjans físics i digitals OFF/ON connectant la senyalització a la plataforma Inventrip. D'aquesta forma, els senyals i el territori li parlen al mòbil del turista.";
 			$scope.btnNewsClick = 'Més notícies';
 
 			// ******************
@@ -481,216 +481,7 @@ function loadLanguage($scope){
 			break;
 
 
-		// ***********************************************************************************************
-		// **************************************** GERMAN ***********************************************
-		// ***********************************************************************************************
-		case "de":
-			// ******************
-			// TITULO WEB
-			// ******************
-			$scope.tittle1 = 'Wir arbeiten um intelligente touristische Destinationen zu entwickeln und zu fördern.';
-
-			// ******************
-			// MENU
-			// ******************
-			$scope.mnNoticias = 'Nachrichten';
-			$scope.mnObjet = 'Ziele';
-			$scope.mnTecno = 'Technologien';
-			$scope.mnTeam = 'Team';
-			$scope.mnCont = 'Kontakt';
-			$scope.mnIdioma = 'DE';
-
-			// ******************
-			// SEPARADOR GRIS 1
-			// ******************
-			$scope.resume1 = 'Wir treffen die Bedürfnisse von jeden einzelnen Kunden';
-
-			// ******************
-			// OBJETIVOS
-			// ******************
-
-			$scope.obj1Tittle = 'Tourismus Destinationen';
-			$scope.obj1Text = 'Erhöhen Sie die Anzahl von Gästen, die Ihre Tourismusregion besuchen und verbessern Sie deren Orientierung durch die Integration moderner offline Systeme (touristische Beschilderung) mit digitalen online Systemen, unter der Verwendung der besten Technologien.';
-
-			//$scope.obj1Resume = 'Sistemas';
-
-			$scope.obj2Tittle = 'Touristische Leistungen';
-			$scope.obj2Text = 'Verbessern Sie Ihren online Vertriebsskanal, indem Sie effektive Information und nach den Kundenbedürfnissen, maßgeschneiderte Produkte und Dienstleistungen über die Inventrip Plattform anbieten. Fördern Sie Ihre Marke durch das Teilen touristischer Drohnen-Videos in den sozialen Netzwerken.';
-
-			//$scope.obj2Resume = 'Movilidad';
-
-			$scope.obj3Tittle = 'Reisen erfinden';
-			$scope.obj3Text = 'Dank der kostenlosen Plattform Inventrip, können die Touristen den Charme Ihrer Tourismusregion kennenlernen und diverse Vorschläge über touristische Dienstleistungen und Aktivitäten  erhalten. Diese können dann mühelos ihre Reise planen, auch während ihres Aufenthalts nachschlagen und mit Familie und Freunden teilen.';
-
-			//$scope.obj3Resume = 'Turismo';
-
-			// REVISAR
-			$scope.btnMoreInfo = 'Wollen Sie einen Erfolgsfall kennenlernen?';
-			$scope.btnClick = 'KLICKEN SIE HIER';
-
-			// ******************
-			// SEPARADOR GRIS 2
-			// ******************
-			$scope.tecTittle = 'Wir stellen Ihnen die beste Technologie zur Verfügung';
-
-			// ******************
-			// TECNOLOGIAS
-			// ******************
-
-			// DronTrip
-			$scope.dronText = 'Benutzen Sie mit Drohnen gefilmte Tourismusvideos um Ihre Tourismusregion und Ihre touristischen Leistungen in den sozialen Netzwerken gezielt und effektiv zu verbreiten und zu fördern.';
-
-			// NFC
-			$scope.nfcText = 'Versorgen Sie Ihre Kunden mit kontaktlosen NFC Chipkarten. Dadurch können Sie deren Reiseerfahrung in Ihrer Tourismusregion individualisieren und personalisieren.';
-
-			// Signal
-			$scope.senalizacionTittle = 'Beschilderung';
-			$scope.senalizacionText = 'Errichten Sie ein dynamisches Beschilderungssystem um die Führung der Touristen zu erleichtern und die Qualitätswahrnehmung Ihrer Tourismusregion zu verbessern.';
-
-			// QR
-			$scope.qrText = 'Teilen Sie thematisierte touristische Reisen mittels QR-Codes. Diese können sowohl in Ihrer Tourismusinformation als auch in Ihrer touristischen Beschilderung eingesetzt werden.';
-
-			// Beacons
-			$scope.beaconText = 'Setzen Sie die neue Beacons Technologie ein. So können Sie dem Touristen kontextbezogene Information weitergeben und ihm individualisierte Produkte und Dienstleistungen anbieten.';
-
-			// e-Commerce
-			$scope.comercializacionText = 'Dota a tu Destino de capacidad para que los turistas puedan reservar on-line restaurantes, alojamientos y actividades desde cualquier dispositivo.'; // TODO
-
-
-			// ******************
-			// SEPARADOR GRIS 3
-			// ******************
-			$scope.servTittle = 'Wir implementieren fortschrittliche Cloud Computing Dienstleistung';
-
-			// ******************
-			// TECNOLOGIAS
-			// ******************
-
-			// Inventrip
-			$scope.invTextA = 'Reisen erfinden: das ist die Vision';
-			$scope.invTextB = 'Wir versorgen Sie mit einer technologischen Plattform, die Ihrem Reisenden ermöglicht seine eigene Reise zu planen (nach Tagen, Städte, Themen, etc. geordnet), und durch das Navigieren durch der Karte die Besichtigungsorte und die gebuchten Dienstleistungen hinzufügt.';
-
-			$scope.btnInventrip = 'Weiter zu Inventrip';
-
-			// Signing
-			$scope.sigText = 'Signing ist eine Cloud Computing Web-Dienstleistung, die sich in der Planung und Verwaltung von ländlichen und urbanen Beschilderungssystemen spezialisiert und von mehr als 30 öffentlichen Verwaltungen benutzt wird. Diese wurde 2009 entwickelt und profitierte von der Unterstützung eines F&E-Förderungsprogramms des spanischen Staates.';
-
-			$scope.btnSigning = 'Zur Plattform';
-
-			// ******************
-			// CONTACTO
-			// ******************
-			$scope.cntSpain = 'Spanien';
-			$scope.cntSpain2 = 'Madrid & Barcelona';
-			$scope.cntSpainPhone = '+34.913.238.208';
-
-			$scope.cntFrance = 'Frankreich';
-			$scope.cntFrance2 = 'Annecy';
-			$scope.cntFrancePhone = '+33.619.20.30.61';
-
-			$scope.cntCroatia = 'Kroatien';
-			$scope.cntCroatia2 = 'Zagreb';
-			$scope.cntCroatiaPhone = '+385.161.87750';
-
-			$scope.cntAustria = 'Österreich';
-			$scope.cntAustria2 = 'Innsbruck';
-			$scope.cntAustriaPhone = '+43.699.111.43611';
-
-			$scope.cntSuiza = 'Schweiz';
-			$scope.cntSuiza2 = 'Lausanne';
-			$scope.cntSuizaPhone = '+41.76.393.72.52';
-
-			$scope.cntPortugal = 'Portugal';
-			$scope.cntPortugal2 = '';
-			$scope.cntPortugalPhone = '+34.629.415.915';
-
-			$scope.btnContact = 'Kontaktieren Sie uns';
-
-			// ******************
-			// NOTICIAS
-			// ******************
-
-			$scope.resumeNoticias = 'Aktuelle nachrichten';
-			$scope.newsTitle = 'FITUR 2016';
-			$scope.newsContent = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la Plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del Turista.';
-			$scope.btnNewsClick = 'More news'; // TODO: Traducir
-
-
-			// *********************
-			// SUBSECCION TECNOLOGIA
-			// *********************
-
-			// Página DronTrip
-			$scope.DronTriptext1 = 'Wir laden Sie zu einem Flug über die spanische Tourismusregion von Montánchez ein!';
-			$scope.DronTripbutton1 = 'Video ansehen';
-
-			// Página NFC
-			$scope.NFCtitle1 = 'Inventrip fördert die Kultur in Kroatien';
-			$scope.NFCtext1 = 'Verteilung von NFC Chipkarten während der Premiere der Theaterstücks "Mobitel" in Zagreb. Die Chipkarten beinhalten das Programm der Theateraufführungen in allen kroatischen Städten während dem Jahr 2015.';
-			$scope.NFCbutton1 = 'Zum Programm';
-
-			$scope.NFCtitle2 = 'NFC Chipkarten für die Tourismusregion von Palencia'
-			$scope.NFCtext2 = 'Während der nationalen Tourismusmesse INTUR 2014, stellte die Tourismusregion von Palencia die Plattform Inventrip der Presse vor. Anschließend wurden NFC Chipkarten mit einer Reise durch deren Region ausgehändigt.';
-			$scope.NFCbutton2 = 'Entdecke diese Reise!';
-
-			// Página Señalización
-			$scope.SenyalizacionTitle = 'Sismotur SL - Beschilderung'
-
-			$scope.Sentitle1 = 'Barcelona';
-			$scope.Sentext1 = 'Durch Sismotur ausgeführter Entwurf der neuen touristischen Fußgängerbeschilderung für die Stadt von Barcelona.';
-
-			$scope.Sentitle2 = 'Kastilien und León';
-			$scope.Sentext2 = 'Die Handelsreferentin und der Generaldirektor für Tourismus des Bundeslands Kastilien und León präsentierten in der vergangenen Auflage von INTUR (die Messe für den internen spanischen Tourismus), gemeinsam mit Sismotur, das Verbesserungsprogramm der touristischen Beschilderung der Region.';
-
-			$scope.Sentitle3 = 'Ribera del Duero';
-			$scope.Sentext3 = 'Ganzheitliche Durchführung aller ländlichen und urbanen Beschilderungseinrichtungen für die Weinroute von Ribera del Duero.';
-
-			// Página QR
-			$scope.QRtitle1 = 'Normandie und Bretagne'
-			$scope.QRtext1 = 'Entdecken Sie diese Reise durch die Normandie und die Bretagne indem Sie diesen QR-Code scannen.';
-			$scope.QRbutton1 = 'Zur Reise!';
-
-			$scope.QRtitle2 = 'Barcelona';
-			$scope.QRtext2 = 'Sismotur verfasste 2012 den ersten Beschilderungs- und Tourismusinformationsplan für Barcelona für den Stadtteil Horta-Guinardó.';
-			$scope.QRbutton2 = 'Mehr Info';
-
-			// Página Beacon
-			$scope.Beacontitle1 = 'Beacon'
-			$scope.Beacontext1 = 'Vorschlag für die Implementierung der Beacons Technologie in der Region von Palencia, Spanien.';
-
-			// Página e-Commerce
-			$scope.eCommercetitle1 = 'e-Commerce';
-			$scope.eCommercetext1 = 'Integration of booking engines in Inventrip that tourists can access before and during the trip.';
-
-			// *********************
-			// STAFF
-			// *********************
-
-			$scope.btnTitleTeam = 'Partners';
-
-			$scope.StaffCEO = 'Mitgründer - CEO';
-			$scope.StaffCOO = 'Mitgründer - CEO';
-			$scope.StaffCMO = 'Partner - CMO';
-			$scope.StaffCTO = 'Partner - CTO';
-			$scope.StaffCLO = 'Partner - CLO';
-			$scope.StaffHeadDev = 'Leiter der Softwareentwicklung';
-			$scope.StaffArtificialInt = 'Künstliche Intelligenz';
-			$scope.StaffDesign = 'Design & Kommunikation';
-			$scope.AssociateBcn = 'Techniker Barcelona';
-			$scope.AssociateProjects = 'Projektmanager';
-			$scope.StaffCoordinatorCroatia = 'Koordinator Kroatien';
-			$scope.StaffCoordinatorAustria = 'Koordinator Österreich';
-			$scope.StaffCoordinatorSwitzerland = 'Koordinator Schweiz';
-			$scope.StaffCoordinatorPortugal = 'Koordinator Portugal';
-
-			$scope.idiomas = 'Sprachen';
-			$scope.moreInfoShort = 'MEHR INFO';
-
-			$scope.btnContact = 'KONTAKTIEREN SIE UNS';
-
-			break;
-
-		// ***********************************************************************************************
+    // ***********************************************************************************************
 		// **************************************** FRENCH ***********************************************
 		// ***********************************************************************************************
 			case "fr":
@@ -795,7 +586,7 @@ function loadLanguage($scope){
 
 			$scope.resumeNoticias = 'Dernières actualités';
 			$scope.newsTitle = 'FITUR 2016';
-			// TODO: Traducir textos
+			$scope.newsContent = "Sismotur a été choisi pour présenter son concept de Destination Touristique Intelligente lors de l'inauguration du salon. Grâce à l'intégration de moyens physiques et numériques OFF/ON qui connectent la signalisation à la plateforme Inventrip, les signaux et le territoire parlent au téléphone du touriste.";
 			$scope.btnNewsClick = "Plus d'actualités" ;
 
 			// ******************
@@ -1009,7 +800,7 @@ function loadLanguage($scope){
 
 			$scope.resumeNoticias = 'Recent news';
 			$scope.newsTitle = 'FITUR 2016';
-			$scope.newsContent = 'Text here'; // TODO: add text here
+			$scope.newsContent = "Sismotur was chosen to present its concept of Smart Tourist Destination via the integration of physical and digital devices OFF/ON which connect the signage to Inventrip. In this way, the signs and the territory speak to the tourist's telephone.";
 			$scope.btnNewsClick = "More news" ; // TODO: verify translation
 
 			// ******************
