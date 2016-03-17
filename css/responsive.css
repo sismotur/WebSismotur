@@ -5,6 +5,17 @@
 /* TABLETS AND MOBILE PHONES */
 @media screen and (max-width:970px){
 
+	 /* COMMON */
+	 /* min-height to override in responsive.css */
+	.blank_wide {
+		min-height:75px;
+	}
+
+	/* min-height to override in responsive.css */
+	.blank_narrow {
+		min-height:40px;
+	}
+
    /* LOGO SISMOTUR */
 		img#logo {
 			margin-left:5px;
@@ -210,6 +221,54 @@
 			left:50%;
 			margin-left:-30%;
 		}
+
+	/****************/
+	/* SECTION NEWS */
+	/****************/
+
+	div.seccion#noticias {
+		margin-top:0px;
+	}
+
+	p.titulo#tit-noticias-derecha {
+		width:100%;
+		margin-right:0%;
+		margin-top:0px;
+		float:none;
+	}
+
+	img#img-noticias-derecha {
+		width:80%;
+		display:block;
+		margin: 0 auto;
+		margin-top:20px;
+		margin-bottom:30px;
+	}
+
+	/* display:table to center the whole div */
+	div.contenido#cont-noticias-derecha{
+		position:relative;
+		top:0px;
+		display:table;
+		right:0%;
+		width: 100%;
+	}
+
+  /* centering happens here */
+		div.contenido#cont-noticias-derecha > p {
+		display:table-cell;
+		vertical-align: middle;
+		text-align: center;
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+
+	button.ver-mas-noticias {
+		width:60%;
+		margin-top:0px;
+		margin-left:-30%;
+		margin-bottom:100px;
+	}
 
 }
 

@@ -1,10 +1,31 @@
-
+/****************/
+/* BASIC SPECS */
+/****************/
 @charset "UTF-8";
-/* CSS Document */
 
+/****************/
+/* CSS Document */
+/****************/
 @import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Exo:300);
+
+/****************/
+/* COMMON SETUP */
+/****************/
+
+/* min-height to override in responsive.css */
+.blank_wide {
+	background-image:url(../img/crossword.png);
+	min-height:150px;
+}
+
+/* min-height to override in responsive.css */
+.blank_narrow {
+	background-image:url(../img/crossword.png);
+	min-height:75px;
+}
+
 
 *{margin:0px; padding:0px; font-family:'Open Sans'; line-height:1.1;}
 
@@ -192,7 +213,7 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 		text-align:center;
 		float:right;
 		font-size:36px;
-	} /*removed padding-bottom:10% */
+	}
 
 	img#img-inventrip {
 		position:relative;
@@ -297,7 +318,13 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 
 	div.seccion#noticias {
 		background-image:url(../img/crossword.png);
-		min-height:600px;
+	}
+
+	div.seccion#noticias > hr {
+		width:30%;
+		margin-top:3em;
+		margin-bottom:3em;
+		margin-left: 35%;
 	}
 
 	p.titulo#tit-noticias-derecha {
@@ -305,7 +332,6 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 		width:20%;
 		height:auto;
 		margin-right:10%;
-		margin-top:150px;
 		text-align:center;
 		float:right;
 		font-size:36px;
@@ -316,13 +342,12 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 		width:55%;
 		height:auto;
 		margin-left:7%;
-		margin-top:150px;
 		border:1px solid gray;
 	}
 
 	div.contenido#cont-noticias-derecha {
 		position:absolute;
-		top:220px;
+		top:50px;
 		width:20%;
 		height:auto;
 		right:10%;
@@ -332,7 +357,41 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 		text-align:center;
 	}
 
-	div#otras-noticias{position:relative; margin-top:7%; width:80%; height:auto; left:50%; margin-left:-40%; padding-bottom:7%;}
+	div#otras-noticias{
+		position:relative;
+		margin-top:7%;
+		width:80%;
+		height:auto;
+		left:50%;
+		margin-left:-40%;
+		padding-bottom:7%;
+	}
+
+	a#ver-mas-noticias{
+		position:relative;
+		padding-top:17px;
+		left:50%;
+		height:33px;
+		border-style:solid;
+		border-color:rgb(0,36,168);
+		border-width:1px;
+		display:block;
+		text-decoration:none;
+		font-family:'Exo';
+		background-color:transparent;
+		width:250px;
+		margin-left:-125px;
+		font-size:16px;
+		text-align:center;
+		color:rgb(0,36,168);
+	}
+
+	a#ver-mas-noticias:hover{
+		background-color:rgb(0,36,168);
+		color:rgb(100,100,100);
+		transition: all 0.5s;
+	}
+
 
 /*********************/
 /* SECTION STAFF     */
@@ -381,11 +440,42 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 /* SECTION CONTACT   */
 /*********************/
 
-	div.seccion#contacto {background-image:url(../img/classy_fabric.png);}
-	div#sec-contacto{position:relative; padding-top:80px; width:100%; height:auto;}
-	a#contactanos{position:relative; padding-top:17px; left:50%; height:33px; border-style:solid; border-color:#ffffff; border-width:1px; display:block; text-decoration:none;
-						  font-family:'Exo'; background-color:transparent; width:250px; margin-left:-125px; font-size:16px; text-align:center; color:#ffffff;}
-	a#contactanos:hover{background-color:#ffffff; color:rgb(100,100,100); transition: all 0.5s;}
+	div.seccion#contacto {
+		background-image:url(../img/classy_fabric.png);
+	}
+
+	div#sec-contacto{
+		position:relative;
+		padding-top:80px;
+		width:100%;
+		height:auto;
+	}
+
+	a#contactanos{
+		position:relative;
+		padding-top:17px;
+		left:50%;
+		height:33px;
+		border-style:solid;
+		border-color:#ffffff;
+		border-width:1px;
+		display:block;
+		text-decoration:none;
+		font-family:'Exo';
+		background-color:transparent;
+		width:250px;
+		margin-left:-125px;
+		font-size:16px;
+		text-align:center;
+		color:#ffffff;
+	}
+
+	a#contactanos:hover{
+		background-color:#ffffff;
+		color:rgb(100,100,100);
+		transition: all 0.5s;
+	}
+
 	div#rrss{position:relative; width:190px; height:40px; left:50%; margin-left:-95px; margin-top:100px;}
 	a#linkedin{position:relative; width:40px; height:40px; margin-right:10px; float:left; background-image:url(../img/logo-linkedin.png);}
 	a#linkedin:hover{background-color:rgb(0,36,168);}

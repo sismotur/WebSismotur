@@ -50,7 +50,10 @@ button.ng-binding:hover{
 p.ng-binding{font-size:16px;}
 
 
+/*************************************************************************/
 /* TECNOLOGIES PROPERTIES*/
+/*************************************************************************/
+
 .smt-tecno-content{
 	padding-left: 0px;
 	padding-right: 0px;
@@ -138,7 +141,9 @@ div#fondo-drontrip{
 }
 
 /*************************************************************************/
-/*	PAGINA DE DRONTRIP */
+/*	DRONTRIP PAGE */
+/*************************************************************************/
+
 .smt-drontrip-title{
 	padding-top: 52px;
 }
@@ -159,7 +164,9 @@ div#fondo-drontrip{
 }
 
 /*************************************************************************/
-/* PAGINA DE NFC */
+/* NFC PAGE */
+/*************************************************************************/
+
 #smt-nfc-croacia-img{
 	background-image:url(../img/nfc-croacia.jpg);
 	background-size:cover;
@@ -183,7 +190,9 @@ div#fondo-drontrip{
 }
 
 /*************************************************************************/
-/* PAGINA DE SEÑALIZACIÓN */
+/* SIGNAGE PAGE */
+/*************************************************************************/
+
 #smt-sen-img1{
 	background-image:url(../img/barcelonasen.jpg);
 	background-size:cover;
@@ -218,7 +227,9 @@ div#fondo-drontrip{
 }
 
 /*************************************************************************/
-/* PAGINA DE QR */
+/* QR PAGE */
+/*************************************************************************/
+
 #smt-qr-img1{
 	background-image:url(../img/normandia-dos.jpg);
 	background-size:cover;
@@ -244,7 +255,9 @@ div#fondo-drontrip{
 }
 
 /*************************************************************************/
-/* PAGINA DE BEACONS */
+/* BEACONS PAGE */
+/*************************************************************************/
+
 #smt-banner-img1{
 	background-image:url(../img/Palencia2.jpg);
 	background-size:cover;
@@ -257,7 +270,9 @@ div#fondo-drontrip{
 }
 
 /*************************************************************************/
-/* PAGINA DE E-COMMERCE */
+/* E-COMMERCE PAGE */
+/*************************************************************************/
+
 #smt-ecommerce-img1{
 	background-image:url(../img/e_commerce.png);
 	background-size:cover;
