@@ -342,10 +342,7 @@ function loadLanguage($scope){
 			$scope.beaconText = 'Desplega la nova tecnologia beacons per donar informació contextualitzada al turista i oferir-li productes i serveis personalitzats al seu telèfon mòbil.';
 
 			// e-Commerce
-			$scope.comercializacionText = 'Dota a tu Destino de capacidad para que los turistas puedan reservar on-line restaurantes, alojamientos y actividades desde cualquier dispositivo.'; // TODO
-
-
-
+			$scope.comercializacionText = 'Dota a la teva Destinació de capacitat perquè els turistes puguin reservar on-line restaurants, allotjaments i activitats des de qualsevol dispositiu.';
 
 			// ******************
 			// SEPARADOR GRIS 3
