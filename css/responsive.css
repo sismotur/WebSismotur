@@ -3,7 +3,7 @@
 
 
 /* TABLETS AND MOBILE PHONES */
-@media screen and (max-width:970px){
+@media screen and (max-width:1020px){ /* before 970 px */
 
 	 /* COMMON */
 	 /* min-height to override in responsive.css */
