@@ -327,4 +327,11 @@ div#fondo-drontrip{
 	.smt-item-text h2 {
 		font-size: 28px;
 	}
+
+	.smt-content-item-img {
+		display:block;
+		height:40vh; /* limit the photo height to 40% of the screen height */
+	}
+
+
 }
