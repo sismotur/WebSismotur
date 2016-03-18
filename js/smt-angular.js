@@ -202,13 +202,17 @@ function loadLanguage($scope){
 			$scope.DronTripbutton1 = 'Ver Video';
 
 			// Página NFC
-			$scope.NFCtitle1 = 'Implant teatro Croacia';
-			$scope.NFCtext1 = 'Tarjetas NFC entregadas durante la premiere de la obra de teatro "Mobitel" en Zagreb. Las tarjetas contienen el programa de la representación de la obra durante 2015 en Croacia';
-			$scope.NFCbutton1 = 'Ver programa';
+			$scope.NFCtitle1 = 'Tarjetas NFC Ibiza';
+			$scope.NFCtext1 = 'El Ayuntamiento de Ibiza presentó a los medios el proyecto de Destino Turístico Inteligente con señalización inteligente, beacons y estas tarjetas NFC con un viaje predefinido por Dalt Vila.';
+			$scope.NFCbutton1 = 'Descubre el viaje';
 
 			$scope.NFCtitle2 = 'Tarjetas NFC Palencia Turismo'
 			$scope.NFCtext2 = 'Palencia Turismo presentó Inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
 			$scope.NFCbutton2 = 'Descubre el viaje';
+
+			$scope.NFCtitle3 = 'Implant teatro Croacia';
+			$scope.NFCtext3 = 'Tarjetas NFC entregadas durante la premiere de la obra de teatro "Mobitel" en Zagreb. Las tarjetas contienen el programa de la representación de la obra durante 2015 en Croacia';
+			$scope.NFCbutton3 = 'Ver programa';
 
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
@@ -233,7 +237,10 @@ function loadLanguage($scope){
 
 			// Página Beacon
 			$scope.Beacontitle1 = 'Beacon';
-			$scope.Beacontext1 = 'Propuesta de la tecnología beacons a la provincia de Palencia.';
+			$scope.Beacontext1 = 'Proyecto de tecnología beacons para Ibiza.';
+
+			$scope.Beacontitle2 = 'Beacon';
+			$scope.Beacontext2 = 'Propuesta de la tecnología beacons a la provincia de Palencia.';
 
 			// Página e-Commerce
 			$scope.eCommercetitle1 = 'e-Commerce';
@@ -411,13 +418,18 @@ function loadLanguage($scope){
 			$scope.DronTripbutton1 = 'Veure Video';
 
 			// Página NFC
-			$scope.NFCtitle1 = 'Implant teatre Croàcia';
-			$scope.NFCtext1 = 'Targetes NFC entregades durant la premiere de l\'obra de teatre "Mobitel" a Zagreb. Les targetes contenen el programa de la representació de l\'obra el 2015 a Croàcia';
-			$scope.NFCbutton1 = 'Veure programa';
+			$scope.NFCtitle1 = 'Tarjetas NFC Ibiza';
+			$scope.NFCtext1 = "L'Ajuntament d'Eivissa va presentar als mitjans el projecte de Destinació Turística Intel·ligent amb Senyalització Intel·ligent, Beacons i aquestes targetes NFC amb un viatge predefinit per Dalt Vila";
+			$scope.NFCbutton1 = 'Descubre el viaje';
 
 			$scope.NFCtitle2 = 'Targetes NFC Palència Turisme'
 			$scope.NFCtext2 = 'Palència Turisme va presentar Inventrip als mitjans durant la passada Fira de Turisme Interior (INTUR) i entregà  targetes NFC amb un viatge per la Província de Palència.';
 			$scope.NFCbutton2 = 'Descobreix el viatge';
+
+			$scope.NFCtitle3 = 'Implant teatre Croàcia';
+			$scope.NFCtext3 = 'Targetes NFC entregades durant la premiere de l\'obra de teatre "Mobitel" a Zagreb. Les targetes contenen el programa de la representació de l\'obra el 2015 a Croàcia';
+			$scope.NFCbutton3 = 'Veure programa';
+
 
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Senyalització'
@@ -624,14 +636,19 @@ function loadLanguage($scope){
 			$scope.DronTripbutton1 = 'Regarder la vidéo';
 
 			// Página NFC
-			$scope.NFCtitle1 = 'Implant théâtre Croatie';
-			$scope.NFCtext1 = 'Cartes NFC offertes après la première de la pièce de théâtre "Mobitel" à Zagreb. Les cartes contiennent le programme de la représentation de la pièce pendant 2015 en Croatie.';
-			$scope.NFCbutton1 = 'Voir programme';
+			$scope.NFCtitle1 = 'Cartes NFC Ibiza';
+			$scope.NFCtext1 = "L'équipe municipale d'Ibiza a présenté à la presse le projet de Destination Touristique Intelligente: signalisation connectée, beacons, et ces cartes NFC qui contiennent un voyage à Dalt Vila";
+			$scope.NFCbutton1 = 'Découvrez le voyage';
 
 			$scope.NFCtitle2 = 'Cartes NFC Palencia Tourisme';
-			$scope.NFCtext2 = "L'Office de Tourisme de Palencia (Espagne) a présenté Inventrip à la presse au cours du dernier salon de tourisme d'intérieur espagnol (INTUR) et a distribué des cartes NFC avec un voyage dans la province de Palencia.";
+			$scope.NFCtext2 = "L'Office de Tourisme de Palencia (Espagne) a présenté Inventrip à la presse au cours salon de tourisme d'intérieur espagnol (INTUR) et a distribué des cartes NFC avec un voyage dans la province de Palencia.";
 
 			$scope.NFCbutton2 = 'Découvrez le voyage';
+
+			$scope.NFCtitle3 = 'Implant théâtre Croatie';
+			$scope.NFCtext3 = 'Cartes NFC offertes après la première de la pièce de théâtre "Mobitel" à Zagreb. Les cartes contiennent le programme de la représentation de la pièce pendant 2015 en Croatie.';
+			$scope.NFCbutton3 = 'Voir programme';
+
 
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Signalisation'
@@ -839,13 +856,18 @@ function loadLanguage($scope){
 			$scope.DronTripbutton1 = 'Watch Video';
 
 			// Página NFC
-			$scope.NFCtitle1 = 'Inventrip promotes theatre in Croacia';
-			$scope.NFCtext1 = 'NFC cards handed out during the premiere of the theatre piece "Mobitel" in Zagreb. The 2015 agenda of the representation of the piece in Croacia is contained in the card.';
-			$scope.NFCbutton1 = 'See the program';
 
-			$scope.NFCtitle2 = 'NFC cards for Palencia Turism'
-			$scope.NFCtext2 = 'Palencia Turism presented Inventrip to the press during the last spanish fair of interior tourism (INTUR).';
+			$scope.NFCtitle1 = 'NFC cards for Ibiza';
+			$scope.NFCtext1 = "The city of Ibiza presented to the press the project of Smart Tourist Destination: smart signage, beacons, and these NFC cards containing a trip to the city.";
+			$scope.NFCbutton1 = 'Discover the trip';
+
+			$scope.NFCtitle2 = 'NFC cards for Palencia'
+			$scope.NFCtext2 = 'Palencia Tourism presented Inventrip to the press during the last spanish fair of interior tourism (INTUR).';
 			$scope.NFCbutton2 = 'Discover the trip';
+
+			$scope.NFCtitle3 = 'Inventrip promotes theatre in Croacia';
+			$scope.NFCtext3 = 'NFC cards handed out during the premiere of the theatre piece "Mobitel" in Zagreb. The 2015 agenda of the representation of the piece in Croacia is contained in the card.';
+			$scope.NFCbutton3 = 'See the program';
 
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Signage'

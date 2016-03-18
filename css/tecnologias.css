@@ -176,17 +176,7 @@ div#fondo-drontrip{
 	-o-background-size:cover;
 	-ms-background-size:cover;
 	-khtml-background-size:cover;
-}
-
-#smt-nfc-croacia-img{
-	background-image:url(../img/nfc-croacia.jpg);
-	background-size:cover;
-	/* background-position: 0px -130px; TEST TO FIX RESPONSIVE*/
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	-khtml-background-size:cover;
+	background-position: center;
 }
 
 #smt-nfc-palencia-img{
@@ -199,6 +189,20 @@ div#fondo-drontrip{
 	-khtml-background-size:cover;
 	background-position: center;
 }
+
+#smt-nfc-croacia-img{
+	background-image:url(../img/nfc-croacia.jpg);
+	background-size:cover;
+	/* background-position: 0px -130px; TEST TO FIX RESPONSIVE*/
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+
 
 /*************************************************************************/
 /* SIGNAGE PAGE */
