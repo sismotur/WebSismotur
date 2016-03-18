@@ -167,6 +167,17 @@ div#fondo-drontrip{
 /* NFC PAGE */
 /*************************************************************************/
 
+#smt-nfc-ibiza-img{
+	background-image:url(../img/nfc_ibiza.jpg);
+	background-size:cover;
+	/* background-position: 0px -130px; TEST TO FIX RESPONSIVE*/
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+}
+
 #smt-nfc-croacia-img{
 	background-image:url(../img/nfc-croacia.jpg);
 	background-size:cover;
@@ -259,6 +270,17 @@ div#fondo-drontrip{
 /*************************************************************************/
 
 #smt-banner-img1{
+	background-image:url(../img/Palencia2.jpg);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-banner-img2{
 	background-image:url(../img/Palencia2.jpg);
 	background-size:cover;
 	-webkit-background-size:cover;

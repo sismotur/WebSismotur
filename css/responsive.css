@@ -275,16 +275,16 @@
 /* MOBILE PHONES */
 	@media screen and (max-width:600px){
 
-		/* not needed, managed via div#contenedor-staff
-		div.seccion#staff {
-			min-height:1100px;
-		} */
-
 		div#contenedor-staff{
 			width:280px;
 			height:600px; /* 980px before */
 			margin-left:-140px;
 			padding-bottom:100px;
 		}
-		/* div.content-staff#c-capel{margin-left:10px;} */
+
+		td.lista-pais{
+			display:block;
+			float:none;
+		}
+
 }

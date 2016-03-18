@@ -485,12 +485,57 @@ button#btn-ribera{position: relative; text-align:center; width:40%; height:50px;
 	a#youtube:hover{background-color:rgb(0,36,168);}
 	a#github{position:relative; width:40px; height:40px; float:left; background-image:url(../img/logo-github.png);}
 	a#github:hover{background-color:rgb(0,36,168);}
-	table#lista-contacto{position:relative; height:auto; margin:50px auto;}
 
-	/* countries */
-	td.lista-pais{position:relative; float:left; padding:50px;}
-	p.pais{color:#ffffff; font-size:16px; font-family:'Open Sans'; text-transform:uppercase;}
-	hr.barra-pais{background-color:#ffffff; margin-top:5px; margin-bottom:5px; width:130px;}
-	p.telefono{color:#ffffff; font-family:'Open Sans'; font-size:14px; line-height:1.5;}
-	a.email{color:white; font-family:'Open Sans'; font-size:14px; line-height:1.5;text-decoration:none;}
-	p#copyright{position:relative; width:300px; height:30px; left:50%; margin-left:-150px; bottom:0px; text-align:center; font-size:12px; color:#ffffff;}
+	table#lista-contacto{
+		position:relative;
+		height:auto;
+		margin:50px auto;
+	}
+
+	/* contact-countries */
+	td.lista-pais{
+		position:relative;
+		float:left;
+		padding:50px;
+	}
+
+	p.pais{
+		color:#ffffff;
+		font-size:16px;
+		font-family:'Open Sans';
+		text-transform:uppercase;
+	}
+
+	hr.barra-pais{
+		background-color:#ffffff;
+		margin-top:5px;
+		margin-bottom:5px;
+		width:130px;
+	}
+
+	p.telefono{
+		color:#ffffff;
+		font-family:'Open Sans';
+		font-size:14px;
+		line-height:1.5;
+	}
+
+	a.email{
+		color:white;
+		font-family:'Open Sans';
+		font-size:14px;
+		line-height:1.5;
+		text-decoration:none;
+	}
+
+	p#copyright{
+		position:relative;
+		width:300px;
+		height:30px;
+		left:50%;
+		margin-left:-150px;
+		bottom:0px;
+		text-align:center;
+		font-size:12px;
+		color:#ffffff;
+	}
