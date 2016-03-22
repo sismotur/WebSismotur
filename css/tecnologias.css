@@ -7,20 +7,20 @@
 *{font-family: 'Open Sans', sans-serif;}
 *{margin:0px; padding:0px;}
 
-html, body{
+html, body {
 	margin: 0px;
 	padding: 0px;
 	background-image:url();
 }
 
-.smt-logo-menu{
+.smt-logo-menu {
 	height:50px;
 	width:auto;
 	position:absolute;
 	top:0px;
 }
 
-.smt-logo-return{
+.smt-logo-return {
 	height:25px;
 	width:auto;
 	position:absolute;
@@ -28,22 +28,23 @@ html, body{
 	top:10px;
 	}
 
-button.ng-binding{
+button.ng-binding {
 	width:250px;
 	height:50px;
-	background-color:transparent;
-	color:rgb(0,36,168);
+	background-color:rgb(160,160,160);
+	color:rgb(255,255,255);
 	border-style:solid;
 	border-width:1px;
-	border-color:rgb(0,36,168);
+	border-color:rgb(160,160,160);
+	border-radius: 25px;
 	font-family:'Exo';
 	font-size:16px;
 	text-transform:uppercase;
 	}
 
-button.ng-binding:hover{
-	background-color:rgb(0,36,168);
-	color:#ffffff;
+button.ng-binding:hover {
+	color:rgb(0,36,168);
+	font-weight: bold;
 	transition: all 0.5s ease;
 	}
 

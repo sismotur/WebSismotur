@@ -84,33 +84,33 @@
 		border-top-style:solid;
 		border-top-width:thin; ;
 		border-top-color: rgb(160,160,160);
-
 	}
 
 	/* inside footer */
 	a.contact-us {
 		position:relative;
-		top:10px;
+		top:25px;
 		padding-top:15px;
 		left:50%;
 		height:50px;
+		border-radius: 25px;
 		border-style:solid;
-		border-color:rgb(0,36,168);
+		border-color:rgb(160,160,160);
 		border-width:1px;
 		display:block;
 		text-decoration:none;
 		font-family:'Exo';
-		background-color:white;
+		background-color:rgb(160,160,160);
 		width:250px;
 		margin-left:-125px;
 		font-size:16px;
 		text-align:center;
-		color:rgb(0,36,168);
+		color:rgb(255,255,255);
 	}
 
 	a.contact-us:hover {
-		background-color:rgb(0,36,168);
-		color:rgb(255,255,255);
+		color:rgb(0,36,168);
+		font-weight: bold;
 		transition: all 0.5s;
 	}
 
@@ -175,6 +175,9 @@
 		font-size: 16px;
 	}
 
+	a.contact-us {
+		top:10px;
+	}
 
 
 }
