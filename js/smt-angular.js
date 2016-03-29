@@ -497,8 +497,11 @@ function loadLanguage($scope){
 			$scope.QRbutton2 = 'Més Info';
 
 			// Página Beacon
-			$scope.Beacontitle1 = 'Beacon'
-			$scope.Beacontext1 = 'Proposta de la tecnologia beacons a la província de Palència.';
+			$scope.Beacontitle1 = 'Beacon';
+			$scope.Beacontext1 = 'Projecte de tecnologia beacons per Ibiza.';
+
+			$scope.Beacontitle2 = 'Beacon';
+			$scope.Beacontext2 = 'Proposta de la tecnologia beacons a la província de Palència.';
 
 			// Página e-Commerce
 			$scope.eCommercetitle1 = 'e-Commerce';
@@ -762,8 +765,11 @@ function loadLanguage($scope){
 			$scope.QRbutton2 = "Plus d'Info";
 
 			// Página Beacon
-			$scope.Beacontitle1 = 'Beacon'
-			$scope.Beacontext1 = 'Proposition de la technologie beacons au département de Palencia.';
+			$scope.Beacontitle1 = 'Beacon';
+			$scope.Beacontext1 = "Projet en cours d'implantation d'un réseau de beacons à Ibiza.";
+
+			$scope.Beacontitle2 = 'Beacon';
+			$scope.Beacontext2 = 'Proposition de la technologie beacons au département de Palencia.';
 
 			// Página e-Commerce
 			$scope.eCommercetitle1 = 'e-Commerce';
@@ -1027,8 +1033,11 @@ function loadLanguage($scope){
 			$scope.QRbutton2 = 'More info'; // revisar "more info"
 
 			// Página Beacon
-			$scope.Beacontitle1 = 'Beacon'
-			$scope.Beacontext1 = 'Proposal of beacons technology implementation to the province of Palencia, Spain.';
+			$scope.Beacontitle1 = 'Beacon';
+			$scope.Beacontext1 = "Implementation of a network of beacons in Ibiza.";
+
+			$scope.Beacontitle2 = 'Beacon';
+			$scope.Beacontext2 = 'Proposal of beacons technology implementation to the province of Palencia, Spain.';
 
 			// Página e-Commerce
 			$scope.eCommercetitle1 = 'e-Commerce';
