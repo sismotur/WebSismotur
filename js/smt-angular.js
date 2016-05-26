@@ -805,47 +805,48 @@ function loadLanguage($scope){
 			// news.html
 			// *********************
 
-			$scope.newsTitle14 = 'FITUR 2016';
-			$scope.newsContent14 = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del turista.';
+			$scope.newsTitle14 = 'Salon FITUR 2016';
+			$scope.newsContent14 = "Sismotur a été choisi pour présenter à S.M. la Reine d'Espagne son concept de Destination Touristique Intelligente lors de l'inauguration du salon. Le CEO de Sismotur, Augusto Ramos, y a présenté l'intégration des signaux touristiques avec notre système cloud computing Inventrip (intégration OFF/ON). La destination touristique peut ainsi communiquer directement avec le smartphone du touriste.";
 
-			$scope.newsTitle13 = 'Aportación de Sismotur al Libro Blanco de Destinos Turísticos Inteligentes';
-			$scope.newsContent13 = 'El pasado mes de octubre se presentó en la sede del Ministerio de Industria, Energía y Turismo el Libro Blanco de Destinos Turísticos Inteligentes promovido por Segittur y dentro del marco del Plan Nacional de Ciudades Inteligentes. Sismotur ha participado en la redacción de este Libro Blanco con su  modelo de integración OFF/ON de medios físicos y digitales en un Destino para mejorar la Acogida y la Experiencia del Turista.';
+			$scope.newsTitle13 = "Contribution de Sismotour au livre blanc des Destinations Touristiques Intelligentes";
+			$scope.newsContent13 = "En octobre 2015 a été présenté le livre blanc des Destinations Touristiques Intelligentes. Ce livre a été promu par le ministère de l'Industrie, l'Energie et le Tourisme via l'organisme Segittur, en charge des nouvelles technologies appliquées au tourisme. Il s'inscrit dans le cadre du Plan National des Villes Intelligentes d'Espagne. Sismotur a contribué dans la rédaction de ce livre avec le partage de son modèle d'intégration OFF/ON de moyens physiques et numériques, ce qui améliore l'accueil et l'expérience du touriste.";
 
-			$scope.newsTitle12 = 'Sismotur redacta el Plan de Señalización Turística de Euskadi';
-			$scope.newsContent12 = 'Sismotur ha redactado el Plan de Señalización Turística para Euskadi, trabajando codo a codo con el Gobierno Vasco y su Directora General de Turismo y con las tres Diputaciones Forales, unificando criterios, analizando necesidades y especificidades en pos de la Concertación.';
+			$scope.newsTitle12 = "Sismotur a été choisi pour rédiger le Plan de Signalisation Touristique du Pays Basque espagnol";
+			$scope.newsContent12 = "Sismotur travaille de pair avec la direction générale du Tourisme du gouvernement du Pays Basque et avec les directions des trois départements. L'application du plan permettra au Pays Basque de disposer d'un système de signalisation unifié, cohérent, et qui intègre les besoins de la destination touristique et du secteur privé.";
 
-			$scope.newsTitle11 = 'Sismotur en INTUR 2015';
-			$scope.newsContent11 = 'En la pasada edición de INTUR en Valladolid, Sismotur presentó los avances de la plataforma Inventrip como herramienta de Promoción de un Destino, Planificador de viajes para el Turista y servicio de información digital en el Territorio vinculado a la Señalización física y a los Recursos y Servicios del Destino.';
+			$scope.newsTitle11 = 'Sismotur au salon INTUR 2015';
+			$scope.newsContent11 = "Lors de la dernière édition du salon de tourisme intérieur INTUR, qui a eu lieu à Valladolid, Sismotur a présenté les améliorations de sa plateforme Inventrip, lequel est depuis un outil de promotion des destinations touristiques, système de planification de voyages pour le touriste, service d'information numérique dans le territoire lié à la signalétique physique, et plateforme de commercialisation des services présents dans le territoire.";
 
-			$scope.newsTitle10 = 'Sismotur Participa en la Jornada de Redes Sociales y Turismo de la Diputación de Barcelona';
-			$scope.newsContent10 = 'Augusto Ramos, CEO de Sismotur, ha impartido una ponencia sobre la capacidad de las Redes Sociales y el Turista como prescriptores de un Destino, la necesidad de que los Territorios se sumen a los nuevos medios de difusión y promoción y cómo Inventrip implementa y explota estos medios para la difusión del Destino por parte de turistas y promotores del mismo.';
+			$scope.newsTitle10 = "Sismotur participe dans la journée Réseaux Sociaux et Tourisme du Conseil Général de Barcelone.";
+			$scope.newsContent10 = "Augusto Ramos, CEO de Sismotur, a exposé le potentiel des réseaux sociaux et des touristes pour agir comme prescripteurs d'une destination touristique, le besoin des territoires d'utiliser ces nouveaux moyens numériques, et la manière dont Sismotur utilise ces outils pour aider les destinations touristiques à être présentes sur le Net.";
 
-			$scope.newsTitle9 = 'Sismotur con el Principado de Asturias en la presentación de Inventrip para Piloña';
-			$scope.newsContent9 = 'Sismotur ha acompañado al Director General de Turismo del Principado de Asturias en la presentación de Inventrip como plataforma de promoción del Destino y gestión de la información turística para Piloña, zona muy turística de Asturias y que apuesta por las nuevas tecnologías en su desarrollo turístico.';
+			$scope.newsTitle9 = "Sismotur avec la Principauté des Asturies lors de la présentation d'Inventrip pour Piloña";
+			$scope.newsContent9 = "Sismotur a accompagné le directeur général de Tourisme de la Principauté des Asturies dans la présentation d'Inventrip, plateforme de promotion de la destination et de gestion de l'information touristique pour Piloña. Cette zone dispose d'un grand potentiel et mise sur les nouvelles technologies offertes par Sismotur pour dévélopper son secteur touristique.";
 
-			$scope.newsTitle8 = 'Sismotur con Turismo de Extremadura en la presentación de Inventrip para la Sierra de Montánchez';
-			$scope.newsContent8 = 'Felipe Santi, CTO de Sismotur, acompaña a Turismo de Extremadura en la presentación del servicio Inventrip para la mejora de la promoción de la Sierra de Montánchez y Tamuja en su camino hacia un Destino Turístico Inteligente. También se ha presentado un vídeo promocional con Drones asociado a Inventrip para difundir el destino en las redes sociales.';
+			$scope.newsTitle8 = "Sismotur avec la région d'Estrémadure lors de la présentation d'Inventrip pour la Sierra de Montánchez";
+			$scope.newsContent8 = "Felipe Santi, CTO de Sismotur, accompagne le tourisme d'Estrémadure lors de la présentation d'Inventrip pour la communauté de communes Sierra de Montánchez et Tamuja. Une vidéo de promotion réalisée par Sismotur à l'aide de drones a été également présentée, laquelle a été diffusé sur les réseaux sociaux.";
 
-			$scope.newsTitle7 = 'Sismotur presentando el proyecto de Ibiza Destino Turístico Inteligente con Beacons e Inventrip';
-			$scope.newsContent7 = 'Sismotur ha acompañado al Ayuntamiento de Ibiza en la presentación del proyecto que convierte al municipio en un Destino Turístico Inteligente con la implantación de la plataforma Inventrip como sistema de gestión de la información turística y de la promoción del Destino, integrado con un plan de señalización inteligente peatonal e interpretativa y una red de Beacons.';
+			$scope.newsTitle7 =
+			"Sismotur présente le projet Ibiza, Destination Touristique Intelligente";
+			$scope.newsContent7 = "Sismotur a accompagné la commune d'Ibiza dans la présentation de ce projet qui transforme la commune en Destination Touristique Intelligente. Cela est possible grâce à l'implantation du système d'information touristique et de promotion Inventrip, couplé avec un plan de signalisation intelligent au sein de la ville qui prévoit le déploiement d'un réseau de beacons.";
 
-			$scope.newsTitle6 = 'Presentación de Inventrip en la Sierra Norte de Madrid';
-			$scope.newsContent6 = 'Julio José Julián, CMO de Sismotur, presenta la implantación de la plataforma Inventrip como sistema de gestión de la información turística, planificador de viajes y medio de promoción en las redes sociales del Destino Turístico. Se enmarca dentro de un ambicioso plan para promocionar la Sierra Norte y que se apoya decididamente en las Nuevas Tecnologías y las redes sociales como vehículo de difusión.';
+			$scope.newsTitle6 = "Présentation d'Inventrip dans la Sierra Norte de Madrid";
+			$scope.newsContent6 = "Julio José Julián, CMO de Sismotur, présente l'implantation de la plateforme Inventrip en tant que système de gestion de l'information touristique, de planification de voyages, et outil de promotion de la destination. Ce projet s'inscrit dans une démarche ambitieuse de promotion de Sierra Norte, et qui s'appuie tout particulièrement dans les technologies numériques et les réseaux sociaux comme moyens de promotion.";
 
-			$scope.newsTitle5 = 'Sismotur en las Jornadas Técnicas de Turismo en Perú';
-			$scope.newsContent5 = 'De la mano de Segittur y del ICEX, Sismotur ha estado presente en las Jornadas Tecnicas de Turismo que se han celebrado en la capital de Perú. Se ha presentado la visión del Destino Turístico Inteligente y la capacidad de Inventrip como gestor de la información y herramienta de promoción para un Territorio turístico a nivel global.';
+			$scope.newsTitle5 = "Sismotur dans les Journées de Tourisme Espagne-Pérou";
+			$scope.newsContent5 = "Sismotur a été présent dans ces journées de tourisme bilatérales à Lima. Cet évènement, organisé par Segittur et l'ICEX, a compté notamment avec la présence de la vice-ministre du Tourisme du Pérou, de l'ambassadeur d'Espagne au Pérou, ainsi que de nombreuses entreprises touristiques travaillant dans le pays.";
 
-			$scope.newsTitle4 = 'Sismotur en las Jornadas Técnicas de Turismo España-Chile, en Santiago de Chile';
-			$scope.newsContent4 = 'Sismotur acompaña a Segittur y al ICEX en las Jornadas Técnicas de Turismo que se han celebrado en Santiago de Chile, y está presente como testigo de excepción de la firma del convenio bilateral entre Chile y España, presentando Inventrip y la potencia de la visión OFF/ON de integración de elementos físicos y digitales para desarrollar un Destino Turístico Inteligente.';
+			$scope.newsTitle4 = "Sismotur dans les Journées de Tourisme Espagne-Chili"
+			$scope.newsContent4 = "Sismotur a accompagné à nouveau Segittur et l'ICEX, cette fois-ci dans les journées bilatérales de tourisme Espagne-Chili qui ont eu lieu dans la capitale Santiago. Nous avons assisté à la signature d'un accord bilatéral entre les deux États, et nous avons eu l'occasion de présenter notre vision OFF/ON d'intégration de la signalisation physique avec nos systèmes numériques pour développer une destination touristique intelligente."
 
-			$scope.newsTitle3 = 'Sismotur presenta el Proyecto de Señalización Turística del Camino de Santiago por Castilla y León';
-			$scope.newsContent3 = 'Sismotur ha presentado el Plan de Señalización Turística del Camino de Santiago por las carreteras de Castilla y León, junto con la consejera y el Director General de Turismo. Supone una mejora en la percepción de la calidad del Destino y en el proceso de Acogida al Turista sobre el territorio.';
+			$scope.newsTitle3 = "Sismotur présente le projet de signalisation touristique du chemin de Saint-Jacques à Castille et Léon";
+			$scope.newsContent3 = "Sismotur a présenté le Plan de Signalisation Touristique du chemin de Saint-Jacques de Castille et Léon avec la directrice du Tourisme de la région. Ce plan améliore nettement l'accueil des touristes dans le territoire et la qualité perçue de la destination dans son ensemble.";
 
-			$scope.newsTitle2 = 'Sismotur en el Cluster de Turismo de Extremadura';
-			$scope.newsContent2 = 'Reportaje de TVE sobre el Cluster de Turismo de Extremadura, donde Augusto Ramos, CEO de Sismotur, expone la capacidad de Inventrip como plataforma de Promoción de un Destino Turístico y su potencia como herramienta para planificar viajes para el turista y como gestor de la información turística de un Territorio.';
+			$scope.newsTitle2 = "Sismotur dans le Cluster de Tourismo d'Estrémadure";
+			$scope.newsContent2 = "Reportage de la télévision régionale sur le cluster, où notre CEO Augusto Ramos a exposé notre service Inventrip en tant que plateforme de promotion des destinations touristiques et de gestion de l'information du territoire.";
 
-			$scope.newsTitle1 = 'Inventrip recibe el Premio a la mejor idea de Marketing de Destinos de Territorio & Marketing';
-			$scope.newsContent1 = 'Sismotur ha recibido el premio finalista por la aportación de la plataforma Inventrip a la difusión y promoción de un Destino Turístico. El jurado reconoce cómo Inventrip es capaz de unir la parte emotiva de la experiencia de un Turista a la hora de preparar un viaje con la realidad de desplazarse dentro del territorio durante el viaje y la prescripción en positivo que posteriormente hace de dicho Destino.';
+			$scope.newsTitle1 = "Sismotur reçoit le prix à la meilleure idée de marketing des destinations";
+			$scope.newsContent1 = "Sismotur a reçu le prix finaliste pour l'apport d'Inventrip à la diffusion et promotion d'une destination touristique. Le jury a reconnu Inventrip comme étant capable de canaliser l'envie de voyager des touristes, en leur aidant à préparer leur voyage et en leur informant durant celui-ci. De même, le jury a apprécié la capacité de promotion de la destination touristique sur les réseaux sociaux offerte par d'Inventrip.";
 
 			break;
 
