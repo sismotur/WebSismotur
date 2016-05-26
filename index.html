@@ -285,7 +285,18 @@
 <div class="seccion" id="noticias">
 
     <p class="titulo" id="tit-noticias-derecha">{{newsTitle14}}</p>
+
+    <div onclick="play()" id="img-noticias-derecha" class="video-wrapper-index" style="background:black url('img/news/news14_youtube.jpg') no-repeat center; background-size:cover; overflow:hidden; cursor:pointer"  title="Presenting Inventrip to HM the Queen of Spain" alt="Presenting Inventrip to HM the Queen of Spain" />
+        <script type="text/javascript">
+            function play() {
+                document.getElementById('img-noticias-derecha').innerHTML = '<iframe src="https://www.youtube.com/embed/SlUz6yyXcZA?autoplay=1&color=white&autohide=0&start=75&end=105" frameborder="0" allowfullscreen></iframe>';
+            }
+        </script>
+    </div>
+
+    <!--
     <img id="img-noticias-derecha" src="img/news/news14.jpg" title="Presenting Inventrip to HM the Queen of Spain" alt="Presenting Inventrip to HM the Queen of Spain" />
+    -->
 
     <div class="contenido" id="cont-noticias-derecha">
         <p class="texto" id="text-noticias-derecha">{{newsContent14}}

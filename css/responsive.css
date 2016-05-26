@@ -237,7 +237,7 @@
 		float:none;
 	}
 
-	img#img-noticias-derecha {
+	div#img-noticias-derecha {
 		width:80%;
 		display:block;
 		margin: 0 auto;
