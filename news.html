@@ -90,7 +90,15 @@
         <!-- ************************************************* -->
         <div class="news-block" id="news14">
             <p class="news-title">{{newsTitle14}}</p>
-            <img class="news-image" src="img/news/news14.jpg" title="Presenting Inventrip to HM the Queen of Spain" alt="Presenting Inventrip to HM the Queen of Spain" />
+
+            <div onclick="play()" id="vidwrap14" class="video-wrapper" style="background:black url('img/news/news14_youtube.jpg') no-repeat center; background-size:cover; overflow:hidden; cursor:pointer"  title="Presenting Inventrip to HM the Queen of Spain" alt="Presenting Inventrip to HM the Queen of Spain" />
+
+                <script type="text/javascript">
+                    function play() {
+                        document.getElementById('vidwrap14').innerHTML = '<iframe src="https://www.youtube.com/embed/SlUz6yyXcZA?autoplay=1&color=white&autohide=0&start=75&end=105" frameborder="0" allowfullscreen></iframe>';
+                    }
+                </script>
+            </div>
 
             <div class="content">
                 <p class="news-content">{{newsContent14}}
@@ -102,7 +110,7 @@
                     <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
                 </p>
             </div>
-        </div>
+
 
         <hr/ class="news-divider">
         <div class="blank_narrow"></div>
@@ -346,7 +354,7 @@
             640/360-->
             <div class="video-wrapper">
                 <iframe
-                    src="https://www.youtube.com/embed/CGnK95DJuzU"
+                    src="https://www.youtube.com/embed/CGnK95DJuzU?start=66"
                     frameborder="0"
                     allowfullscreen>
                 </iframe>
