@@ -273,6 +273,15 @@ function loadLanguage($scope){
 			// news.html
 			// *********************
 
+			$scope.newsTitle17 = 'Lorem Ipsum Title 17 - ES';
+			$scope.newsContent17 = 'Lorem Ipsum Description 17 - ES.';
+
+			$scope.newsTitle16 = 'Lorem Ipsum Title 16 - ES';
+			$scope.newsContent16 = 'Lorem Ipsum Description 16 - ES.';
+
+			$scope.newsTitle15 = 'Lorem Ipsum Title 15 - ES';
+			$scope.newsContent15 = 'Lorem Ipsum Description 15 - ES.';
+
 			$scope.newsTitle14 = 'FITUR 2016';
 			$scope.newsContent14 = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del turista.';
 
@@ -537,6 +546,15 @@ function loadLanguage($scope){
 			// *********************
 			// news.html
 			// *********************
+
+			$scope.newsTitle17 = 'Lorem Ipsum Title 17 - CA';
+			$scope.newsContent17 = 'Lorem Ipsum Description 17 - CA.';
+
+			$scope.newsTitle16 = 'Lorem Ipsum Title 16 - CA';
+			$scope.newsContent16 = 'Lorem Ipsum Description 16 - CA.';
+
+			$scope.newsTitle15 = 'Lorem Ipsum Title 15 - CA';
+			$scope.newsContent15 = 'Lorem Ipsum Description 15 - CA.';
 
 			$scope.newsTitle14 = 'FITUR 2016';
 			$scope.newsContent14 = "Sismotur va ser la triada per presentar el seu concepte de Destinació Turística Intel·ligent a través de la integració de mitjans físics i digitals OFF/ON connectant la senyalització a la plataforma Inventrip. D'aquesta forma, els senyals i el territori li parlen al mòbil del turista.";
@@ -805,6 +823,15 @@ function loadLanguage($scope){
 			// news.html
 			// *********************
 
+			$scope.newsTitle17 = 'Lorem Ipsum Title 17 - FR';
+			$scope.newsContent17 = 'Lorem Ipsum Description 17 - FR.';
+
+			$scope.newsTitle16 = 'Lorem Ipsum Title 16 - FR';
+			$scope.newsContent16 = 'Lorem Ipsum Description 16 - FR.';
+
+			$scope.newsTitle15 = 'Lorem Ipsum Title 15 - FR';
+			$scope.newsContent15 = 'Lorem Ipsum Description 15 - FR.';
+
 			$scope.newsTitle14 = 'Salon FITUR 2016';
 			$scope.newsContent14 = "Sismotur a été choisi pour présenter à S.M. la Reine d'Espagne son concept de Destination Touristique Intelligente lors de l'inauguration du salon. Le CEO de Sismotur, Augusto Ramos, y a présenté l'intégration des signaux touristiques avec notre système cloud computing Inventrip (intégration OFF/ON). La destination touristique peut ainsi communiquer directement avec le smartphone du touriste.";
 
@@ -1072,6 +1099,15 @@ function loadLanguage($scope){
 			// *********************
 			// news.html
 			// *********************
+
+			$scope.newsTitle17 = 'Lorem Ipsum Title 17 - EN';
+			$scope.newsContent17 = 'Lorem Ipsum Description 17 - EN.';
+
+			$scope.newsTitle16 = 'Lorem Ipsum Title 16 - EN';
+			$scope.newsContent16 = 'Lorem Ipsum Description 16 - EN.';
+
+			$scope.newsTitle15 = 'Lorem Ipsum Title 15 - EN';
+			$scope.newsContent15 = 'Lorem Ipsum Description 15 - EN.';
 
 			$scope.newsTitle14 = 'FITUR 2016';
 			$scope.newsContent14 = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del turista.';
