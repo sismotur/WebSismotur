@@ -8,18 +8,17 @@
 
 <!-- SEO -->
 <title>Sismotur S.L.</title>
-<meta name="description" content="We work to promote and develop smart tourist destinations." />
+<meta name="description" content="Connect your destination with digital tourists." />
 
 <!-- Twitter Card data -->
-<meta name="twitter:card" value="We work to promote and develop smart tourist destinations.">
+<meta name="twitter:card" value="Connect your destination with digital tourists.">
 <meta name="keywords" content="Tourism signage, Beacons, Eddystone, Inventrip">
 
 <!-- Open Graph data -->
 <meta property="og:title" content="Sismotur S.L." />
 <meta property="og:url" content="http://www.sismotur.com" />
 <meta property="og:image" content="http://www.sismotur.com/img/sismotur-logo-portada.png" />
-<meta property="og:description" content="We work to promote and develop smart tourist destinations." />
-
+<meta property="og:description" content="Connect your destination with digital tourists." />
 
 <link rel="shortcut icon" href="img/favicon.png"/>
 <link rel="stylesheet" href="./css/sismotur.css" />
@@ -27,7 +26,7 @@
 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-        <script src="js/jquery-1.11.1.js"></script>
+      <script src="js/jquery-1.11.1.js"></script>
     	<script src="js/jquery.browser.js"></script>
     	<script src="js/jquery.iframe-auto-height.js"></script>
     	<script src="js/lib/greensock/TweenMax.min.js"></script>
@@ -39,7 +38,7 @@
     	<script src="js/angular.js"></script>
     	<script src="js/smt-angular.js"></script>
 
-        <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+      <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
 
         <script type="text/javascript">
         $(document).ready(function($){
@@ -53,7 +52,7 @@
 					});
 				}
 			});
-        </script>
+      </script>
 
 <!-- GOOGLE ANALYTICS -->
 <script>
@@ -76,7 +75,8 @@
   "description": "We work to promote and develop smart tourist destinations.",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Madrid, Spain",
+    "addressLocality": "Madrid",
+		"addressCountry": "Spain",
     "postalCode": "28033",
     "streetAddress": "Calle Arturo Soria 327"
   },
@@ -92,43 +92,36 @@
 
 <body>
 
-<!-- ------------------------
---------- MENU -------
-------------------------- -->
+<!-- ********************
+********* MENU **********
+********************* -->
 
 <header>
-
-	<img id="logo" src="img/logomenu.png" title="Sismotur" alt="Sismotur"/>
-
+  <img id="logo" src="img/logomenu.png" title="Sismotur" alt="Sismotur"/>
 	<nav id="menu">
-    	<ul id="lista-menu">
-            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#noticias',1000)">{{mnNoticias}}</a></li>
-        	<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#objetivos',1000)">{{mnObjet}}</a></li>
-            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#tecnologias',1000)">{{mnTecno}}</a></li>
-            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#inventrip',1000)">{{mnInven}}</a></li>
-            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#signing',1000)">{{mnSigni}}</a></li>
-            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#staff',1000)">{{mnTeam}}</a></li>
-            <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#contacto',1000)">{{mnCont}}</a></li>
+  	<ul id="lista-menu">
+      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#noticias',1000)">{{mnNoticias}}</a></li>
+      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#tecnologias',1000)">{{mnTecno}}</a></li>
+      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#inventrip',1000)">{{mnInven}}</a></li>
+      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#signing',1000)">{{mnSigni}}</a></li>
+      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#staff',1000)">{{mnTeam}}</a></li>
+      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#contacto',1000)">{{mnCont}}</a></li>
 
-            <li id="lista-idiomas"> {{mnIdioma}} <img id="flechita" src="img/flechita.png" />
-            	<ul id="menu-idiomas">
-        			<li><a class="cambio-idioma" ng-click="changeLang('ca')">Catalá</a></li>
-            		<!-- <li><a class="cambio-idioma" ng-click="changeLang('de')">Deutsch</a></li> -->
-        			<li><a class="cambio-idioma" ng-click="changeLang('en')">English</a></li>
-            		<li><a class="cambio-idioma" ng-click="changeLang('es')">Español</a></li>
-            		<li><a class="cambio-idioma" ng-click="changeLang('fr')">Français</a></li>
-                    <!-- <li><a class="cambio-idioma" ng-click="changeLang('hr')">Hrvatski</a></li> -->
-        		</ul>
-            </li>
-
-        </ul>
-    </nav>
-
+      <li id="lista-idiomas"> {{mnIdioma}} <img id="flechita" src="img/flechita.png" />
+        <ul id="menu-idiomas">
+          <li><a class="cambio-idioma" ng-click="changeLang('ca')">Catalá</a></li>
+          <li><a class="cambio-idioma" ng-click="changeLang('en')">English</a></li>
+          <li><a class="cambio-idioma" ng-click="changeLang('es')">Español</a></li>
+          <li><a class="cambio-idioma" ng-click="changeLang('fr')">Français</a></li>
+      	</ul>
+      </li>
+    </ul>
+  </nav>
 </header>
 
-<!-- ------------------------
---------- PARALLAX-----------
-------------------------- -->
+<!-- ************************
+********* PARALLAX **********
+************************* -->
 
 <div id="parallaxTrigger">
 <div class="seccion" id="portada">
@@ -146,49 +139,11 @@
 
 <div class="separador" id="s-uno">{{resume1}}</div>
 
-<!-- ------------------------
---------- OBJETIVOS ---------
-------------------------- -->
-
-<div class="seccion" id="objetivos">
-
-	<div class="contenedor">
-
-		<div class="obj" id="obj-uno">
-    		<p class="titulo">{{obj1Tittle}}</p>
-        	<hr/>
-            <br/>
-        	<p class="texto">{{obj1Text}}</p>
-    	</div>
-
-   		<div class="obj" id="obj-dos">
-    		<p class="titulo">{{obj2Tittle}}</p>
-        	<hr/>
-            <br/>
-        	<p class="texto">{{obj2Text}}</p>
-    	</div>
-
-    	<div class="obj" id="obj-tres">
-    		<p class="titulo">{{obj3Tittle}}</p>
-        	<hr/>
-            <br/>
-        	<p class="texto">{{obj3Text}}</p>
-    	</div>
-     </div>
-
-     	<div id="caso-exito">
-        	<p id="ribera-duero">{{btnMoreInfo}}</p>
-        	<button id="btn-ribera" onclick="window.open('http://www.youtube.com/embed/lVLSAYLhMfg')" >{{btnClick}}</button>
-     	</div>
-
-</div>
-
-
 <div class="separador" id="s-dos">{{tecTittle}}</div>
 
-<!-- ------------------------
---------- TECNOLOGIAS -------
-------------------------- -->
+<!-- ************************
+********* TECNOLOGIAS *******
+************************* -->
 
 <div class="seccion" id="tecnologias">
 
@@ -241,9 +196,9 @@
 
 <div class="separador" id="s-tres">{{servTittle}}</div>
 
-<!-- ------------------------
---------- INVENTRIP ---------
-------------------------- -->
+<!-- ************************
+********* INVENTRIP *********
+************************* -->
 
 <div class="seccion" id="inventrip">
 	<p class="titulo" id="tit-inventrip">{{invTittle}}</p>
@@ -254,12 +209,11 @@
     <p class="texto" id="text-inventrip">{{invTextB}}</p>
     <button class="ver-mas" onclick="window.open('http://inventrip.com/')" >{{btnInventrip}}</button>
     </div>
-
 </div>
 
-<!-- ------------------------
---------- SIGNING -----------
-------------------------- -->
+<!-- ************************
+********* SIGNING ***********
+************************* -->
 
 <div class="seccion" id="signing">
 	<p class="titulo" id="tit-signing">{{sigTittle}}</p>
@@ -275,9 +229,9 @@
 <div class="separador" id="s-uno">{{resumeNoticias}}</div>
 
 
-<!-- ------------------------
---------- NOTICIAS ----------
------------------------- -->
+<!-- ************************
+********* NOTICIAS **********
+************************* -->
 
 <!-- 150 px white space only here and in start of news.html -->
 <div class="blank_wide"></div>
@@ -316,9 +270,9 @@
 
 </div>
 
-<!-- ------------------------
---------- STAFF -----------
-------------------------- -->
+<!-- ************************
+************ STAFF **********
+************************* -->
 
 <div class="seccion" id="staff">
 
@@ -334,9 +288,9 @@
 
 </div>
 
-<!-- ------------------------
---------- CONTACTO -----------
-------------------------- -->
+<!-- ***********************
+********* CONTACTO *********
+************************ -->
 
 <div class="seccion" id="contacto">
 
@@ -380,5 +334,3 @@
 </div>
 </body>
 </html>
-
-

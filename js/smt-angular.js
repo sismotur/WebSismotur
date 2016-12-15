@@ -82,25 +82,6 @@ function loadLanguage($scope){
 			// ******************
 			$scope.resume1 = 'Atendemos las necesidades de cada cliente';
 
-			// ******************
-			// OBJETIVOS
-			// ******************
-
-			$scope.obj1Tittle = 'Destinos Turísticos';
-			$scope.obj1Text = 'Aumenta el número de turistas que visitan tu territorio y mejora su acogida en el destino mediante la integración de sistemas avanzados offline/físicos (señalización) con sistemas on-line/digitales, utilizando las mejores tecnologías.';
-
-			//$scope.obj1Resume = 'Sistemas';
-
-			$scope.obj2Tittle = 'Servicios Turísticos';
-			$scope.obj2Text = 'Potencia tu canal de ventas on-line ofreciendo información, productos y servicios personalizados a tus clientes a través de la plataforma Inventrip. Promociona tu imagen de marca con la difusión por las redes sociales de vídeos turísticos realizados con drones.';
-
-			//$scope.obj2Resume = 'Movilidad';
-
-			$scope.obj3Tittle = 'Inventar Viajes';
-			$scope.obj3Text = 'Los turistas podrán conocer gratuitamente con la plataforma Inventrip los encantos de los destinos y las propuestas de servicios y actividades turísticos. Podrán fácilmente planificar su viaje, consultarlo durante su estancia y compartirlo con amigos y familiares.';
-
-			//$scope.obj3Resume = 'Turismo';
-
 			// REVISAR
 			$scope.btnMoreInfo = '¿Quieres descubrir un caso de éxito?';
 			$scope.btnClick = 'HAZ CLICK AQUÍ';
@@ -352,25 +333,6 @@ function loadLanguage($scope){
 			// SEPARADOR GRIS 1
 			// ******************
 			$scope.resume1 = 'Atenem les necessitats de cada client';
-
-			// ******************
-			// OBJETIVOS
-			// ******************
-
-			$scope.obj1Tittle = 'Destinacions Turístiques';
-			$scope.obj1Text = 'Augmenta el nombre de turistes que visiten el teu territori i millora la seva acollida a la destinació mitjançant la integració de sistemes avançats offline/físics (senyalització) amb sistemes on-line/digitals, utilitzant les millors tecnologies.';
-
-			//$scope.obj1Resume = 'Sistemes';
-
-			$scope.obj2Tittle = 'Serveis Turístics';
-			$scope.obj2Text = 'Potencia el teu canal de ventes on-line oferint informació, productes i serveis personalitzats als teus clients mitjançant  la plataforma Inventrip. Promociona la teva imatge de marca amb la difusió a les xarxes socials de vídeos turístics realitzats amb drons.';
-
-			//$scope.obj2Resume = 'Mobilitat';
-
-			$scope.obj3Tittle = 'Inventar Viatges';
-			$scope.obj3Text = 'Els turistes podran coneixer gratuitament amb la plataforma Inventrip els encants de les destinacions i les propostes de serveis i activitats turístiques. Podran fàcilment planificar el seu viatge, consultar-lo durant la seva estada i compartir-lo amb amics i familiars.';
-
-			//$scope.obj3Resume = 'Turisme';
 
 			// REVISAR
 			$scope.btnMoreInfo = 'Vol descubrir un cas d\'èxit?';
@@ -625,26 +587,6 @@ function loadLanguage($scope){
 			// BARRE GRISE 1
 			// ******************
 			$scope.resume1 = 'Nous répondons aux besoins de chaque client';
-
-			// ******************
-			// OBJECTIVES
-			// ******************
-
-			$scope.obj1Tittle = 'Destinations Touristiques';
-			$scope.obj1Text = 'Augmentez le nombre de touristes qui visitent votre territoire et améliorez leur accueil en intégrant des systèmes avancés offline/physiques (signalisation) avec des systèmes online/numériques, en utilisant les meilleures technologies.';
-
-			//$scope.obj1Resume = 'Sistemas';
-
-			$scope.obj2Tittle = 'Services Touristiques';
-			$scope.obj2Text = "Développez votre canal de ventes online en offrant de l'information, des produits et des services personnalisés à vos clients à travers de la plateforme Inventrip. Améliorez la visibilité de votre image de marque avec la diffusion dans les réseaux sociaux de vidéos touristiques faites avec des drones.";
-
-			//$scope.obj2Resume = 'Movilidad';
-
-			$scope.obj3Tittle = 'Inventer des voyages';
-			$scope.obj3Text = 'Les touristes pourront connaître gratuitement avec la plateforme Inventrip les charmes des destinations et le propositions de services et activités touristiques. Ils pourront facilement planifier leurs voyages, les consulter pendant leur séjour, et les partager avec leurs amis et familiers.';
-
-
-			//$scope.obj3Resume = 'Turismo';
 
 			// REVISAR
 			$scope.btnMoreInfo = 'Voulez-vous découvrir un cas de réussite ?';
@@ -903,27 +845,6 @@ function loadLanguage($scope){
 			// GREY SEPARATOR 1
 			// ****************
 			$scope.resume1 = 'We meet the needs of each client';
-
-			// ******************
-			// OBJETIVOS
-			// ******************
-
-			$scope.obj1Tittle = 'Tourism Destinations'; // revisar touristic
-			$scope.obj1Text = 'Increase the amount of tourists who visit your destination and improve their welcome by integrating advanced offline systems (tourist signs) with digital online systems, using the best technologies.';
-
-
-			//$scope.obj1Resume = 'Sistemas';
-
-			$scope.obj2Tittle = 'Tourism Services';
-			$scope.obj2Text = 'Enhance your online sales channel offering information, products and tailored services to your clients through the Inventrip platform. Promote your brand by sharing tourism videos shot with drones in the social networks.';
-
-			//$scope.obj2Resume = 'Movilidad';
-
-			$scope.obj3Tittle = 'Travellers';
-			$scope.obj3Text = 'Travellers will discover the charm of tourism destinations and the proposals of touristic services and activities therein. They will plan their trip easily, consult it during their stay and share it with family members and friends.';
-
-
-			//$scope.obj3Resume = 'Turismo';
 
 			// REVISAR
 			$scope.btnMoreInfo = 'Discover a practical example of success';
