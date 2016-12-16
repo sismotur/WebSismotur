@@ -37,17 +37,14 @@ function loadLanguage($scope){
 	// ******************
 	// Menu
 	$scope.mnInven = 'Inventrip';
-	$scope.mnSigni = 'Signing';
 	// Tecnology
-	$scope.nfcTittle = 'NFC';
-	$scope.beaconTittle = 'Beacons';
+	$scope.nfcTitle = 'NFC';
+	$scope.beaconTitle = 'Beacons';
 	$scope.qrTittle = 'QR';
 	$scope.dronTittle = 'DronTrip';
-	$scope.comercializacionTittle = 'e-Commerce';
+	$scope.comercializacionTitle = 'e-Commerce';
 	// Inventrip
-	$scope.invTittle = 'Inventrip';
-	// Signing
-	$scope.sigTittle = 'Signing';
+	$scope.invTitle = 'Inventrip';
   // Copyright text
 	$scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 
@@ -62,10 +59,12 @@ function loadLanguage($scope){
 		// ***********************************************************************************
 
 		case "es":
+
 			// ******************
-			// TITULO WEB
+			// CLAIM
 			// ******************
-			$scope.tittle1 = 'Trabajamos para promocionar y desarrollar destinos turisticos inteligentes';
+			$scope.claim1 = 'Conecta tu destino con el turista digital';
+			$scope.claim2 = 'Descubre la señalización turística inteligente';
 
 			// ******************
 			// MENU
@@ -80,7 +79,7 @@ function loadLanguage($scope){
 			// ******************
 			// SEPARADOR GRIS 1
 			// ******************
-			$scope.resume1 = 'Atendemos las necesidades de cada cliente';
+			$scope.resume1 = 'Implanta un Servicio de Información Personalizado';
 
 			// REVISAR
 			$scope.btnMoreInfo = '¿Quieres descubrir un caso de éxito?';
@@ -89,7 +88,7 @@ function loadLanguage($scope){
 			// ******************
 			// SEPARADOR GRIS 2
 			// ******************
-			$scope.tecTittle = 'Ponemos a tu disposición las mejores tecnologías';
+			$scope.tecTitle = 'Inventrip utiliza las mejores tecnologías';
 
 			// ******************
 			// TECNOLOGIAS
@@ -99,39 +98,30 @@ function loadLanguage($scope){
 			$scope.dronText = 'Utiliza vuelos turísticos con Drones para viralizar por las redes sociales la promoción de destinos y servicios turísticos.';
 
 			// NFC
-			$scope.nfcText = 'Entrega a tus clientes tarjetas NFC (contactless) para personalizar su experiencia turística en el destino.';
+			$scope.nfcText = 'Entrega al turista tarjetas contactless en oficinas, ferias u hoteles para personalizar su experiencia turística en el destino.';
 
 			// Signal
-			$scope.senalizacionTittle = 'Señalización';
-			$scope.senalizacionText = 'Implanta un sistema de señalización para facilitar el guiado a los turistas y mejorar la calidad de imagen del destino.';
+			$scope.senalizacionTitle = 'Señalización Inteligente';
+			$scope.senalizacionText = 'Mejora la señalización turística de tu destino integrándola con sistemas avanzados de información turística. Te ofrecemos nuestro servicio cloud Signing para su planificación y gestión';
 
 			// QR
-			$scope.qrText = 'Comparte un viaje turístico a través de códigos QR.';
+			$scope.qrText = 'Gestiona fácilmente la información turística online de recursos y mapas en múltiples idiomas.';
 
 			// Beacons
-			$scope.beaconText = 'Despliega la nueva tecnología beacons para dar información contextualizada al turista y ofrecerle productos y servicios personalizados en su teléfono móvil.';
+			$scope.beaconText = 'Incorpora esta nueva tecnología en señales o en oficinas de información para enviar al turista productos y servicios personalizados a su dispositivo móvil.';
 
 			// e-Commerce
-			$scope.comercializacionText = 'Dota a tu Destino de capacidad para que los turistas puedan reservar on-line restaurantes, alojamientos y actividades desde cualquier dispositivo.';
-
-
-			// ******************
-			// SEPARADOR GRIS 3
-			// ******************
-			$scope.servTittle = 'Implantamos servicios avanzados en la nube';
+			$scope.comercializacionText = 'Facilita al turista el acceso a motores de reserva de alojamientos, restaurantes y actividades, antes o durante el viaje.';
 
 			// ******************
 			// TECNOLOGIAS
 			// ******************
 
 			// Inventrip
-			$scope.invTextA = 'Inventar viajes: esa es la visión';
-			$scope.invTextB = 'Te proporcionamos una plataforma tecnológica con la que tus viajeros podrán crear su plan de viaje (por días, ciudades, temas, etc.) y navegando por el mapa podrán ir añadiendo los recursos que quieran visitar y servicios que deseen contratar.';
+			$scope.invTextA = 'Conecta tu destino';
+			$scope.invTextB = 'Implanta un servicio de información personalizado para tu destino, que permita consultar la oferta turística, reservar, construir viajes a medida y compartirlos en redes sociales o mediante el uso de las últimas tecnologías: Beacons, NFC, QR.';
 
 			$scope.btnInventrip = 'Ir a Inventrip';
-
-			// Signing
-			$scope.sigText = 'Signing es un servicio web especializado para la planificación y gestión de la señalización territorial y urbana utilizado por más de 30 administraciones públicas. Fue desarrollado en 2009 en el marco de un Plan Avanza de I+D del Ministerio de Industria, Turismo y Comercio.';
 
 			$scope.btnSigning = 'Más información';
 
@@ -254,20 +244,32 @@ function loadLanguage($scope){
 			// news.html
 			// *********************
 
-			$scope.newsTitle17 = 'Lorem Ipsum Title 17 - ES';
-			$scope.newsContent17 = 'Lorem Ipsum Description 17 - ES.';
+			$scope.newsTitle19 = 'Sismotur presentará Blockchain y sus aplicaciones potenciales para el Turismo durante FITUR 2017 en SEGITTUR Lab';
+			$scope.newsContent19 = 'Sismotur estará presente en FITUR 2017, en el área Know How & Export, cerca del stand de SEGITTUR (Stand 10B09). El día 18 de enero a las 17:30, en el espacio SEGITTUR Lab, organizaremos una conferencia sobre la tecnología Blockchain y sus aplicaciones en el ámbito del Turismo.';
+			$scope.newsDetail19 = 'Análisis de Blockchain y su potencial para el Turismo';
 
-			$scope.newsTitle16 = 'Lorem Ipsum Title 16 - ES';
-			$scope.newsContent16 = 'Lorem Ipsum Description 16 - ES.';
+			$scope.newsTitle18 = 'Artículo sobre la Señalización Turística Inteligente en EFE Empresas';
+			$scope.newsContent18 = 'Artículo de EFE Empresas comentando la innovación que supone conectar el Destino Turístico con el nuevo turista digital y su Smartphone a través de la señalización turística inteligente e Inventrip.';
+			$scope.newsDetail18 = 'Enlace al Artículo';
 
-			$scope.newsTitle15 = 'Lorem Ipsum Title 15 - ES';
-			$scope.newsContent15 = 'Lorem Ipsum Description 15 - ES.';
+			$scope.newsTitle17 = 'Artículo en el Blog de Kontakt.io';
+			$scope.newsContent17 = 'Kontakt, referencia mundial en tecnologías conectadas (Internet of the Things) y compañero de viaje de Sismotur, explica la innovación que supone Inventrip para el sector turístico.';
+			$scope.newsDetail17 = 'Enlace al Blog de Kontakt';
+
+			$scope.newsTitle16 = 'Presentación de Inventrip para la Ruta del Vino Ribera del Duero';
+			$scope.newsContent16 = 'El Director General de Turismo de Castilla y León presenta Inventrip, el nuevo sistema de señalización turística inteligente de Sismotur.';
+			$scope.newsDetail16 = 'Enlace al Artículo';
+
+			$scope.newsTitle15 = 'Las Palmas de Gran Canaria implantará Inventrip';
+			$scope.newsContent15 = 'El Ayuntamiento y el Cabildo han llegado a un acuerdo para implantar la señalización turística inteligente de Sismotur en las zonas comerciales abiertas de interés turístico y dar información con la plataforma Inventrip.';
+			$scope.newsDetail15 = 'Enlace al Artículo';
 
 			$scope.newsTitle14 = 'FITUR 2016';
 			$scope.newsContent14 = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del turista.';
 
 			$scope.newsTitle13 = 'Aportación de Sismotur al Libro Blanco de Destinos Turísticos Inteligentes';
 			$scope.newsContent13 = 'El pasado mes de octubre se presentó en la sede del Ministerio de Industria, Energía y Turismo el libro blanco de Destinos Turísticos Inteligentes promovido por SEGITTUR dentro del marco del Plan Nacional de Ciudades Inteligentes. Sismotur ha participado en la redacción de este libro blanco con su modelo de integración OFF/ON de medios físicos y digitales en un destino para mejorar la acogida y la experiencia del turista.';
+			$scope.newsDetail13 = 'Enlace al Libro Blanco';
 
 			$scope.newsTitle12 = 'Sismotur redacta el Plan de Señalización Turística de Euskadi';
 			$scope.newsContent12 = 'Sismotur ha redactado el plan de señalización turística para Euskadi, trabajando codo a codo con el Gobierno Vasco y su directora general de Turismo y con las tres diputaciones forales, unificando criterios, analizando necesidades y especificidades en pos de la concertación.';
@@ -314,10 +316,12 @@ function loadLanguage($scope){
 		// ************************************************************************
 
 		case "ca":
+
 			// ******************
-			// TITULO WEB
+			// CLAIM
 			// ******************
-			$scope.tittle1 = 'Treballem per promocionar i desenvolupar destinacions turístiques intel·ligents';
+			$scope.claim1 = 'Conecta tu destino con el turista digital';
+			$scope.claim2 = 'Descubre la señalización turística inteligente';
 
 			// ******************
 			// MENU
@@ -341,7 +345,7 @@ function loadLanguage($scope){
 			// ******************
 			// SEPARADOR GRIS 2
 			// ******************
-			$scope.tecTittle = 'Posem a la teva disposició les millors tecnologies';
+			$scope.tecTitle = 'LOREM IPSUM';
 
 			// ******************
 			// TECNOLOGIAS
@@ -354,7 +358,7 @@ function loadLanguage($scope){
 			$scope.nfcText = 'Entrega als teus clients targetes NFC (contactless) per personalitzar la seva experiència turística a la destinació.';
 
 			// Signal
-			$scope.senalizacionTittle = 'Senyalització';
+			$scope.senalizacionTitle = 'Senyalització Intel·ligent';
 			$scope.senalizacionText = 'Implanta un sistema de senyalització per facilitar la guia  dels turistes i millorar la qualitat d\'imatge de la destinació.';
 
 			// QR
@@ -367,11 +371,6 @@ function loadLanguage($scope){
 			$scope.comercializacionText = 'Dota a la teva Destinació de capacitat perquè els turistes puguin reservar on-line restaurants, allotjaments i activitats des de qualsevol dispositiu.';
 
 			// ******************
-			// SEPARADOR GRIS 3
-			// ******************
-			$scope.servTittle = 'Implantem serveis avançats  al nuvol';
-
-			// ******************
 			// TECNOLOGIAS
 			// ******************
 
@@ -380,9 +379,6 @@ function loadLanguage($scope){
 			$scope.invTextB = 'Et proporcionem una plataforma tecnològica amb la qual els teus viatgers podran crear el seu pla de viatge (per dies, ciutats, temes, etc.) i navegant pel mapa podran anar afegint els recursos que vulguen visitar i serveis que desitgin contractar.';
 
 			$scope.btnInventrip = 'Anar a Inventrip';
-
-			// Signing
-			$scope.sigText = 'Signing és un servei web especialitzat per a la planificació i gestió de la senyalització territorial i urbana utilitzat per més de 30 administracions públiques. Fou desenvolupat el 2009 dintre del marc d\'un Plan Avanza de I+D del Ministeri d\'Industria, Turisme i Comerç.';
 
 			$scope.btnSigning = 'Més informació';
 
@@ -509,14 +505,25 @@ function loadLanguage($scope){
 			// news.html
 			// *********************
 
-			$scope.newsTitle17 = 'Lorem Ipsum Title 17 - CA';
-			$scope.newsContent17 = 'Lorem Ipsum Description 17 - CA.';
+			$scope.newsTitle19 = '';
+			$scope.newsContent19 = '.';
+			$scope.newsDetail19 = '';
 
-			$scope.newsTitle16 = 'Lorem Ipsum Title 16 - CA';
-			$scope.newsContent16 = 'Lorem Ipsum Description 16 - CA.';
+			$scope.newsTitle18 = '';
+			$scope.newsContent18 = '.';
+			$scope.newsDetail18 = '';
 
-			$scope.newsTitle15 = 'Lorem Ipsum Title 15 - CA';
-			$scope.newsContent15 = 'Lorem Ipsum Description 15 - CA.';
+			$scope.newsTitle17 = '';
+			$scope.newsContent17 = '.';
+			$scope.newsDetail17 = '';
+
+			$scope.newsTitle16 = '';
+			$scope.newsContent16 = '.';
+			$scope.newsDetail16 = '';
+
+			$scope.newsTitle15 = '';
+			$scope.newsContent15 = '.';
+			$scope.newsDetail15 = '';
 
 			$scope.newsTitle14 = 'FITUR 2016';
 			$scope.newsContent14 = "Sismotur va ser la triada per presentar el seu concepte de Destinació Turística Intel·ligent a través de la integració de mitjans físics i digitals OFF/ON connectant la senyalització a la plataforma Inventrip. D'aquesta forma, els senyals i el territori li parlen al mòbil del turista.";
@@ -569,9 +576,10 @@ function loadLanguage($scope){
 			case "fr":
 
 			// ******************
-			// TITRE SITE WEB
+			// CLAIM
 			// ******************
-			$scope.tittle1 = 'Nous travaillons pour promouvoir et développer des destinations touristiques intelligentes';
+			$scope.claim1 = 'Conecta tu destino con el turista digital';
+			$scope.claim2 = 'Descubre la señalización turística inteligente';
 
 			// ******************
 			// MENU
@@ -596,7 +604,7 @@ function loadLanguage($scope){
 			// ******************
 			// BARRE GRISE 2
 			// ******************
-			$scope.tecTittle = 'Nous mettons à votre disposition les meilleures technologies';
+			$scope.tecTitle = 'LOREM IPSUM';
 
 			// ******************
 			// TECHNOLOGIES
@@ -609,7 +617,7 @@ function loadLanguage($scope){
 			$scope.nfcText = 'Donnez à vos touristes de belles cartes équipées de puces sans contact pour personnaliser et enrichir leur expérience touristique dans votre territoire.';
 
 			// Signalisation
-			$scope.senalizacionTittle = 'Signalisation';
+			$scope.senalizacionTitle = 'Signalisation Intelligente';
 			$scope.senalizacionText = "Améliorez la signalisation touristique de votre destination en l'intégrant avec des systèmes d'information touristique de pointe.";
 
 			// QR
@@ -622,11 +630,6 @@ function loadLanguage($scope){
 			$scope.comercializacionText = "Facilitez au touriste l'accés à la réservation en ligne de logements, restaurants et activités, et ce avant ou durant le voyage.";
 
 			// ******************
-			// BARRE GRISE 3
-			// ******************
-			$scope.servTittle = 'Nous implantons des services avancés dans le nouage';
-
-			// ******************
 			// PLATEFORMES
 			// ******************
 
@@ -636,9 +639,6 @@ function loadLanguage($scope){
 
 
 			$scope.btnInventrip = 'Allez à Inventrip';
-
-			// Signing
-			$scope.sigText = "Signing est un service web spécialisé dans la planification et gestion de la signalisation territoriale et urbaine qui est utilisé par plus de 30 administrations publiques. Il a été développé en 2009 dans le cadre d'un plan national de recherche et développement de l'état espagnol";
 
 			$scope.btnSigning = "Plus d'information";
 
@@ -765,14 +765,25 @@ function loadLanguage($scope){
 			// news.html
 			// *********************
 
-			$scope.newsTitle17 = 'Lorem Ipsum Title 17 - FR';
-			$scope.newsContent17 = 'Lorem Ipsum Description 17 - FR.';
+			$scope.newsTitle19 = '';
+			$scope.newsContent19 = '.';
+			$scope.newsDetail19 = '';
 
-			$scope.newsTitle16 = 'Lorem Ipsum Title 16 - FR';
-			$scope.newsContent16 = 'Lorem Ipsum Description 16 - FR.';
+			$scope.newsTitle18 = '';
+			$scope.newsContent18 = '.';
+			$scope.newsDetail18 = '';
 
-			$scope.newsTitle15 = 'Lorem Ipsum Title 15 - FR';
-			$scope.newsContent15 = 'Lorem Ipsum Description 15 - FR.';
+			$scope.newsTitle17 = '';
+			$scope.newsContent17 = '.';
+			$scope.newsDetail17 = '';
+
+			$scope.newsTitle16 = '';
+			$scope.newsContent16 = '.';
+			$scope.newsDetail16 = '';
+
+			$scope.newsTitle15 = '';
+			$scope.newsContent15 = '.';
+			$scope.newsDetail15 = '';
 
 			$scope.newsTitle14 = 'Salon FITUR 2016';
 			$scope.newsContent14 = "Sismotur a été choisi pour présenter à S.M. la Reine d'Espagne son concept de Destination Touristique Intelligente lors de l'inauguration du salon. Le CEO de Sismotur, Augusto Ramos, y a présenté l'intégration des signaux touristiques avec notre système cloud computing Inventrip (intégration OFF/ON). La destination touristique peut ainsi communiquer directement avec le smartphone du touriste.";
@@ -825,11 +836,12 @@ function loadLanguage($scope){
 		default:
 
 			$scope.moreInfoShort = 'MORE INFO';
-			// ******************
-			// WEB TITLE
-			// ******************
-			$scope.tittle1 = 'We work to promote and develop smart tourism destinations';
 
+			// ******************
+			// CLAIM
+			// ******************
+			$scope.claim1 = 'Conecta tu destino con el turista digital';
+			$scope.claim2 = 'Descubre la señalización turística inteligente';
 
 			// ******************
 			// MENU
@@ -853,7 +865,7 @@ function loadLanguage($scope){
 			// ******************
 			// GREY SEPARATOR 2
 			// ******************
-			$scope.tecTittle = 'We put at your disposal the best technologies';
+			$scope.tecTitle = 'LOREM IPSUM';
 
 			// ******************
 			// TECNOLOGIAS
@@ -866,7 +878,7 @@ function loadLanguage($scope){
 			$scope.nfcText = 'Provide to your clients with NFC cards (contactless) to personalize their experience in your touristic destination.';
 
 			// Signal
-			$scope.senalizacionTittle = 'Traffic Signs'; // revisar
+			$scope.senalizacionTitle = 'Smart Signage';
 			$scope.senalizacionText = 'Implement a traffic sign system to facilitate tourist guiding and improve the perceived quality of your destination.';
 
 			// QR
@@ -878,12 +890,6 @@ function loadLanguage($scope){
 			// e-Commerce
 			$scope.comercializacionText = 'Make it simple for tourists the access to online booking systems for accommodation, restaurants and activities, before or during the trip.';
 
-
-			// ******************
-			// GREY SEPARATOR 3
-			// ******************
-			$scope.servTittle = 'We implement advanced cloud computing services';
-
 			// ******************
 			// TECNOLOGIAS
 			// ******************
@@ -893,9 +899,6 @@ function loadLanguage($scope){
 			$scope.invTextB = 'We provide you with a technological platform that enable your travellers to create their own trip plans (organized by days, cities, topics, etc.), and by navigating on the map add the places they want to visit and the services they want to hire.';
 
 			$scope.btnInventrip = 'Go to Inventrip';
-
-			// Signing
-			$scope.sigText = 'Signing is a cloud computing web service specialized on the planification and management of territorial and urban signage systems which is used by more than 30 public administrations. It was developed in 2009 and benefited of the support of a R&D funding plan from the State of Spain';
 
 			$scope.btnSigning = 'More information';
 
@@ -960,7 +963,7 @@ function loadLanguage($scope){
 			$scope.NFCtext3 = 'NFC cards handed out during the premiere of the theatre piece "Mobitel" in Zagreb. The 2015 agenda of the representation of the piece in Croacia is contained in the card.';
 			$scope.NFCbutton3 = 'See the program';
 
-			// Página Señalización
+			// Página zación
 			$scope.SenyalizacionTitle = 'Sismotur SL - Signage'
 
 			$scope.Sentitle1 = 'Barcelona';
@@ -1021,14 +1024,25 @@ function loadLanguage($scope){
 			// news.html
 			// *********************
 
-			$scope.newsTitle17 = 'Lorem Ipsum Title 17 - EN';
-			$scope.newsContent17 = 'Lorem Ipsum Description 17 - EN.';
+			$scope.newsTitle19 = '';
+			$scope.newsContent19 = '.';
+			$scope.newsDetail19 = '';
 
-			$scope.newsTitle16 = 'Lorem Ipsum Title 16 - EN';
-			$scope.newsContent16 = 'Lorem Ipsum Description 16 - EN.';
+			$scope.newsTitle18 = '';
+			$scope.newsContent18 = '.';
+			$scope.newsDetail18 = '';
 
-			$scope.newsTitle15 = 'Lorem Ipsum Title 15 - EN';
-			$scope.newsContent15 = 'Lorem Ipsum Description 15 - EN.';
+			$scope.newsTitle17 = '';
+			$scope.newsContent17 = '.';
+			$scope.newsDetail17 = '';
+
+			$scope.newsTitle16 = '';
+			$scope.newsContent16 = '.';
+			$scope.newsDetail16 = '';
+
+			$scope.newsTitle15 = '';
+			$scope.newsContent15 = '.';
+			$scope.newsDetail15 = '';
 
 			$scope.newsTitle14 = 'FITUR 2016';
 			$scope.newsContent14 = 'Sismotur fue la elegida para presentar en la inauguración su concepto de Destino Turístico Inteligente a través de la integración de medios físicos y digitales OFF/ON conectando la señalización a la plataforma Inventrip. De esta forma, las señales y el territorio le hablan al móvil del turista.';
