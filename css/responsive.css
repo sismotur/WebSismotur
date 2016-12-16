@@ -77,9 +77,14 @@
 	}
 
 	/* Reduce font size of the title and separate it from Sismotur logo */
-	p#eslogan {
-		font-size:28px;
-		font-weight:300;
+	p#eslogan1 {
+		font-size:50px;
+		padding-top: 10px
+	}
+
+	/* Reduce font size of the title and separate it from Sismotur logo */
+	p#eslogan2 {
+		font-size:20px;
 		padding-top: 10px
 	}
 

@@ -26,53 +26,148 @@
 	min-height:75px;
 }
 
+* {
+	margin:0px;
+	padding:0px;
+	font-family:'Open Sans';
+	line-height:1.1;
+}
 
-*{margin:0px; padding:0px; font-family:'Open Sans'; line-height:1.1;}
+a:focus {
+	outline:0;
+}
 
-a:focus{outline:0;}
+button:focus {
+	outline:0;
+}
 
-button:focus{outline:0;}
+a {
+	cursor:pointer;
+}
 
-a{cursor:pointer;}
+button {
+	cursor:pointer;
+}
 
-button{cursor:pointer;}
+a.cambio-idioma {
+	display:block;
+	float:left;
+	cursor:pointer;
+}
 
-a.cambio-idioma{display:block; float:left; cursor:pointer;}
+/****************/
+/* HEADER */
+/****************/
 
-header{position:fixed; top:0px; width:100%; height:50px; background-color:rgb(0,36,168); z-index:2;}
+header {
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:50px;
+	background-color:rgb(0,36,168);
+	z-index:2;
+}
 
-	img#logo{position:relative; margin-left:10px;}
+img#logo {
+	position:relative;
+	margin-left:10px;
+}
 
-	nav#menu{position:absolute; right:20px; top:0px;}
+nav#menu {
+	position:absolute;
+	right:20px;
+	top:0px;
+}
 
-		ul#lista-menu{position:relative; list-style-type:none; float:left; height:50px; width:auto;}
+ul#lista-menu {
+	position:relative;
+	list-style-type:none;
+	float:left;
+	height:50px;
+	width:auto;
+}
 
-		ul#lista-menu li{position:relative; float:left; padding-left:20px; height:35px;
-							padding-top:15px; color:#ffffff; font-family:'Exo'; padding-right:20px;}
+ul#lista-menu li {
+	position:relative;
+	float:left;
+	padding-left:20px;
+	height:35px;
+	padding-top:15px;
+	color:#ffffff;
+	font-family:'Exo';
+	padding-right:20px;
+}
 
+ul#lista-menu li:hover {
+	background-color:rgb(100,100,100);
+}
 
-		ul#lista-menu li:hover{background-color:rgb(100,100,100);}
+ul#lista-menu li#lista-idiomas {
+	position:relative;
+	width:40px;
+	margin-left:60px;
+	font-family:'Open Sans';
+}
 
-			ul#lista-menu li#lista-idiomas{position:relative; width:40px; margin-left:60px; font-family:'Open Sans';}
+ul#menu-idiomas {
+	width:60px;
+	position:relative;
+	right:20px;
+	height:auto;
+	list-style-type:none;
+	display:none;
+	background-color:rgb(0,36,168);
+	margin-top:17px;
+}
 
-				ul#menu-idiomas{width:60px; position:relative; right:20px; height:auto; list-style-type:none; display:none; background-color:rgb(0,36,168);
-								margin-top:17px;}
+li#lista-idiomas:hover > ul#menu-idiomas{
+	display:block;
+}
 
-				li#lista-idiomas:hover > ul#menu-idiomas{display:block;}
+ul#menu-idiomas li {
+	width:60px;
+	background-color:rgb(0,36,168);
+	font-size:14px;
+	font-family:'Open Sans';
+	padding-bottom:10px;
+	height:20px;
+}
 
-					ul#menu-idiomas li{width:60px; background-color:rgb(0,36,168); font-size:14px; font-family:'Open Sans'; padding-bottom:10px; height:20px; }
+img#flechita {
+	position:absolute;
+	right:15px;
+	width:20px;
+	height:30px;
+	bottom:10px;
+}
 
-	img#flechita{position:absolute; right:15px; width:20px; height:30px; bottom:10px;}
+a.menuRef {
+	text-decoration:none;
+	color:#ffffff;
+	font-family:'Exo';
+}
 
-	a.menuRef{text-decoration:none; color:#ffffff; font-family:'Exo';}
+div.seccion {
+	width:100%;
+	position:relative;
+}
 
-
-
-
-div.seccion{width:100%; position:relative;}
-
-div.separador{width:100%; height:140px; background-image:url(../img/mapafondotres.jpg); position:relative; background-attachment:fixed; background-size:cover; opacity:0.8;
-			text-align:center; padding-top:60px; font-family:'Monda'; font-size:36px; color:rgb(0,36,168); font-weight:500; line-height:1.1;}
+div.separador {
+	width:100%;
+	height:140px;
+	background-image:url(../img/mapafondotres.jpg);
+	position:relative;
+	background-attachment:fixed;
+	background-size:cover;
+	opacity:0.8;
+	text-align:center;
+	padding-top:60px;
+	font-family:'Monda';
+	font-size:36px;
+	color:rgb(0,36,168);
+	font-weight:500;
+	line-height:1.1;
+}
 
 div.separador#s-uno {
 	height:105px;
@@ -83,30 +178,87 @@ div.separador#s-uno {
 	/* font-weight:300px; */
 }
 
+/***********/
+/* PORTADA */
+/***********/
 
+div.seccion#portada {
+	background-image:url(../img/banner.jpg);
+	background-size:cover;
+	height:100vh;
+	min-height:800px;
+}
 
-div.seccion#portada{background-image:url(../img/banner.jpg); background-size:cover; height:100vh; min-height:800px;}
+	div#fondo-azul {
+		position:absolute;
+		width:100%;
+		height:100%;
+		background-color:rgb(0,36,168);
+		opacity: 0.2;
+    filter: alpha(opacity=20);
+	}
 
+	div#logo-eslogan {
+		position:relative;
+		width:50%;
+		height:auto;
+		left:5%;
+		padding-top:10%;
+	}
 
-	div#fondo-azul{position:absolute; width:100%; height:100%; background-color:rgb(0,36,168); opacity: 0.2;
-    filter: alpha(opacity=20);}
+	p#eslogan1 {
+		position:relative;
+		width:100%;
+		height:auto;
+		font-size:70px;
+		color:#ffffff;
+		font-family:'Open Sans';
+		text-align:left;
+		font-weight:normal;
+		opacity:0.8;
+	}
 
+	p#eslogan2 {
+		position:relative;
+		width:100%;
+		height:auto;
+		font-size:30px;
+		color:#ffffff;
+		font-family:'Open Sans';
+		text-align:left;
+		font-weight:normal;
+		padding-top: 20px;
+		opacity:0.8;
+	}
 
-  /* Logo Sismotur : removed margin-left:-25% */
-	div#logo-eslogan{position:relative; width:50%; height:auto; left:25%; padding-top:10%;}
-	img#logo-portada{position:relative; width:100%; height:auto;}
+	.call-to-action {
+		position:relative;
+		padding-top:17px;
+		margin-top: 35px;
+		height:33px;
+		border-style:solid;
+		border-color:#ffffff;
+		border-width:1px;
+		border-radius:25px;
+		display:block;
+		text-decoration:none;
+		font-family:'Exo';
+		background-color:transparent;
+		width:350px;
+		font-size:16px;
+		text-align:center;
+		color:#ffffff;
+	}
 
-	p#eslogan{position:relative; width:100%; height:auto; font-size:36px; color:#ffffff;
-					  font-family:'Monda'; text-align:center; font-weight:500; opacity:0.8;}
+	.call-to-action:hover {
+		background-color:#ffffff;
+		color:rgb(100,100,100);
+		transition: all 0.5s;
+	}
 
-		button#bajar{position:relative; width:80px; height:80px; left:50%; margin-left:-40px; border-style:solid;
-						border-radius:80px; margin-top:20px; background-color:rgb(0,36,168); background-image:url(../img/boton-bajar.png);
-						background-position:center; background-repeat:no-repeat; border-width:0px; border-color:#ffffff; box-shadow:5px 5px 10px #000000;}
-
-			button#bajar:hover{background-color:rgb(100,100,100); margin-top:40px; transition: all 0.3s;}
-
-
-div.seccion#objetivos{background-image:url(../img/crossword.png);}
+div.seccion#objetivos {
+	background-image:url(../img/crossword.png);
+}
 
 div.contenedor{position:relative; width:100%; padding-top:10%; padding-bottom:10%;}
 
@@ -184,10 +336,12 @@ button#btn-ribera {
 		font-family:'Monda';
 		color:rgb(0,36,168);
 		margin-top:20px;
-		margin-bottom:20px;}
+		margin-bottom:20px;
+		min-height: 80px;
+	}
 
 	p.texto.t-tecno {
-		height:200px;
+		height:160px;
 		text-align:center;
 	}
 

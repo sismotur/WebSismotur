@@ -72,7 +72,7 @@
   "@type": "Organization",
   "url":"http://www.sismotur.com",
   "name": "Sismotur",
-  "description": "We work to promote and develop smart tourist destinations.",
+  "description": "Connected signage systems.",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Madrid",
@@ -100,10 +100,9 @@
   <img id="logo" src="img/logomenu.png" title="Sismotur" alt="Sismotur"/>
 	<nav id="menu">
   	<ul id="lista-menu">
-      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#noticias',1000)">{{mnNoticias}}</a></li>
-      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#tecnologias',1000)">{{mnTecno}}</a></li>
-      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#inventrip',1000)">{{mnInven}}</a></li>
-      <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#signing',1000)">{{mnSigni}}</a></li>
+			<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#inventrip',1000)">{{mnInven}}</a></li>
+			<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#tecnologias',1000)">{{mnTecno}}</a></li>
+			<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#noticias',1000)">{{mnNoticias}}</a></li>
       <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#staff',1000)">{{mnTeam}}</a></li>
       <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#contacto',1000)">{{mnCont}}</a></li>
 
@@ -127,9 +126,9 @@
 <div class="seccion" id="portada">
 <div id="fondo-azul"></div>
 	<div id="logo-eslogan">
-		<img id="logo-portada" src="img/sismotur-logo-portada.png" title="Sismotur S.L." alt="Sismotur S.L." />
-    	<p id="eslogan">{{tittle1}}</p>
-    	<button id="bajar" onclick="javascript:$.scrollTo('div.seccion#objetivos',1000)"></button>
+    <p id="eslogan1">{{claim1}}</p>
+		<p id="eslogan2">{{claim2}}</p>
+		<a class="call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
 	</div>
 </div>
 
@@ -139,7 +138,21 @@
 
 <div class="separador" id="s-uno">{{resume1}}</div>
 
-<div class="separador" id="s-dos">{{tecTittle}}</div>
+<!-- ************************
+********* INVENTRIP *********
+************************* -->
+
+<div class="seccion" id="inventrip">
+	<p class="titulo" id="tit-inventrip">{{invTitle}}</p>
+    <div class="contenido" id="cont-inventrip">
+    	<p id="eslogan-inventrip">{{invTextA}}</p>
+    	<p class="texto" id="text-inventrip">{{invTextB}}</p>
+    	<!-- <button class="ver-mas" onclick="window.open('http://inventrip.com/')" >{{btnInventrip}}</button> -->
+    </div>
+		<img id="img-inventrip" src="img/inventrip-interfaz.png" title="Inventrip" alt="Inventrip" />
+</div>
+
+<div class="separador" id="s-dos">{{tecTitle}}</div>
 
 <!-- ************************
 ********* TECNOLOGIAS *******
@@ -149,14 +162,14 @@
 
     <div class="tecnol" id="senalizacion">
         <img class="img-tecnol" src="img/logosenal.png" title="Señalización" alt="Señalización" />
-        <p class="titulo-tecnol">{{senalizacionTittle}}</p>
+        <p class="titulo-tecnol">{{senalizacionTitle}}</p>
         <p class="texto t-tecno">{{senalizacionText}}</p>
         <button class="mas-info" onclick="window.open('senalizacion.html')">{{moreInfoShort}}</button>
     </div>
 
     <div class="tecnol" id="beacons">
         <img class="img-tecnol" src="img/logobeacon.png" title="Beacon" alt="Beacon" />
-        <p class="titulo-tecnol">{{beaconTittle}}</p>
+        <p class="titulo-tecnol">{{beaconTitle}}</p>
         <p class="texto t-tecno">{{beaconText}}</p>
         <button class="mas-info" onclick="window.open('beacon.html')">{{moreInfoShort}}</button>
     </div>
@@ -164,7 +177,7 @@
 
     <div class="tecnol" id="comercializacion">
         <img class="img-tecnol" src="img/logo_ecommerce.png" title="e-Commerce" alt="e-Commerce" />
-        <p class="titulo-tecnol">{{comercializacionTittle}}</p>
+        <p class="titulo-tecnol">{{comercializacionTitle}}</p>
         <p class="texto t-tecno">{{comercializacionText}}</p>
         <button class="mas-info" onclick="window.open('e_commerce.html')">{{moreInfoShort}}</button>
     </div>
@@ -172,7 +185,7 @@
 
     <div class="tecnol" id="nfc">
     	<img class="img-tecnol"  src="img/logonfc.png" title="NFC" alt="NFC" />
-    	<p class="titulo-tecnol">{{nfcTittle}}</p>
+    	<p class="titulo-tecnol">{{nfcTitle}}</p>
         <p class="texto t-tecno">{{nfcText}}</p>
         <button class="mas-info" onclick="window.open('nfc.html')">{{moreInfoShort}}</button>
     </div>
@@ -193,39 +206,6 @@
 
 </div>
 
-
-<div class="separador" id="s-tres">{{servTittle}}</div>
-
-<!-- ************************
-********* INVENTRIP *********
-************************* -->
-
-<div class="seccion" id="inventrip">
-	<p class="titulo" id="tit-inventrip">{{invTittle}}</p>
-    <img id="img-inventrip" src="img/inventrip-interfaz.png" title="Inventrip" alt="Inventrip" />
-
-    <div class="contenido" id="cont-inventrip">
-    <p id="eslogan-inventrip">{{invTextA}}</p>
-    <p class="texto" id="text-inventrip">{{invTextB}}</p>
-    <button class="ver-mas" onclick="window.open('http://inventrip.com/')" >{{btnInventrip}}</button>
-    </div>
-</div>
-
-<!-- ************************
-********* SIGNING ***********
-************************* -->
-
-<div class="seccion" id="signing">
-	<p class="titulo" id="tit-signing">{{sigTittle}}</p>
-    <img id="img-signing" src="img/signing-interfaz.png" title="Signing" alt="Signing" />
-
-    <div class="contenido" id="cont-signing">
-    <p class="texto" id="text-signing">{{sigText}}</p>
-    <button class="ver-mas" onclick="window.open('http://sismotur.net/signing/')">{{btnSigning}}</button>
-    </div>
-
-</div>
-
 <div class="separador" id="s-uno">{{resumeNoticias}}</div>
 
 
@@ -238,28 +218,13 @@
 
 <div class="seccion" id="noticias">
 
-    <p class="titulo" id="tit-noticias-derecha">{{newsTitle14}}</p>
-
-    <div onclick="play()" id="img-noticias-derecha" class="video-wrapper-index" style="background:black url('img/news/news14_youtube.jpg') no-repeat center; background-size:cover; overflow:hidden; cursor:pointer"  title="Presenting Inventrip to HM the Queen of Spain" alt="Presenting Inventrip to HM the Queen of Spain" />
-        <script type="text/javascript">
-            function play() {
-                document.getElementById('img-noticias-derecha').innerHTML = '<iframe src="https://www.youtube.com/embed/SlUz6yyXcZA?autoplay=1&color=white&autohide=0&start=75&end=105" frameborder="0" allowfullscreen></iframe>';
-            }
-        </script>
-    </div>
-
-    <!--
-    <img id="img-noticias-derecha" src="img/news/news14.jpg" title="Presenting Inventrip to HM the Queen of Spain" alt="Presenting Inventrip to HM the Queen of Spain" />
-    -->
+    <p class="titulo" id="tit-noticias-derecha">{{newsTitle18}}</p>
 
     <div class="contenido" id="cont-noticias-derecha">
-        <p class="texto" id="text-noticias-derecha">{{newsContent14}}
+				<img id="img-noticias-derecha" src="img/news/news18.jpg" title="EFE Article about Inventrip and Sismotur" alt="" />
+        <p class="texto" id="text-noticias-derecha">{{newsContent18}}
         <br/><br/>
-        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-        <a target="_blank" href="https://twitter.com/segittur">@Seggitur</a>
-        <a target="_blank" href="https://twitter.com/hashtag/Fitur16">#Fitur16</a>
-        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-        <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
+
         </p>
     </div>
 

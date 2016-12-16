@@ -65,6 +65,7 @@ function loadLanguage($scope){
 			// ******************
 			$scope.claim1 = 'Conecta tu destino con el turista digital';
 			$scope.claim2 = 'Descubre la señalización turística inteligente';
+			$scope.btnMuestra = 'Solicítanos una muestra gratuita';
 
 			// ******************
 			// MENU
@@ -186,14 +187,14 @@ function loadLanguage($scope){
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
 
-			$scope.Sentitle1 = 'Barcelona';
-			$scope.Sentext1 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
+			$scope.Sentitle1 = 'Ruta Ribera del Duero Smart';
+			$scope.Sentext1 = 'Sismotur ha implantado el sistema de señalización turística inteligente Inventrip en la Ruta del Vino Ribera del Duero.';
 
-			$scope.Sentitle2 = 'Castilla y León';
-			$scope.Sentext2 = 'La Consejera y el Director General de Turismo de Castilla y León, conjuntamente con Sismotur, presentaron en la pasada edición de INTUR el programa de mejora de la señalización turística de la región.';
+			$scope.Sentitle2 = 'Barcelona';
+			$scope.Sentext2 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
 
-			$scope.Sentitle3 = 'Ribera del Duero';
-			$scope.Sentext3 = 'Implantación integral de todos los equipamentos de señalización territorial y urbana para la Ruta Ribera del Duero.';
+			$scope.Sentitle3 = 'Castilla y León';
+			$scope.Sentext3 = 'La Consejera y el Director General de Turismo de Castilla y León, conjuntamente con Sismotur, presentaron en INTUR el programa de mejora de la señalización turística de la región.';
 
 			// Página QR
 			$scope.QRtitle1 = 'Normandía y Bretaña';
@@ -205,11 +206,11 @@ function loadLanguage($scope){
 			$scope.QRbutton2 = 'Más Info';
 
 			// Página Beacon
-			$scope.Beacontitle1 = 'Beacon';
-			$scope.Beacontext1 = 'Proyecto de tecnología beacons para Ibiza.';
+			$scope.Beacontitle1 = 'Beacons en las Señales Inteligentes';
+			$scope.Beacontext1 = 'Inventrip conecta las señales inteligentes con el turista utilizando Beacons.';
 
-			$scope.Beacontitle2 = 'Beacon';
-			$scope.Beacontext2 = 'Propuesta de la tecnología beacons a la provincia de Palencia.';
+			$scope.Beacontitle2 = 'Señalización Turística Inteligente en las Palmas de Gran Canaria';
+			$scope.Beacontext2 = 'Sismotur desarrolla el plan de señalización turística inteligente de las Palmas de Gran Canaria empleando la tecnología Beacons gestionada por Inventrip.';
 
 			// Página e-Commerce
 			$scope.eCommercetitle1 = 'e-Commerce';
@@ -237,7 +238,7 @@ function loadLanguage($scope){
 			$scope.StaffCoordinatorPortugal = 'Coordinador Portugal';
 
 			$scope.idiomas = 'Idiomas';
-			$scope.moreInfoShort = 'MÁS INFO';
+			$scope.moreInfoShort = 'REFERENCIAS';
 			$scope.btnContact = 'CONTÁCTANOS';
 
 			// *********************
@@ -322,6 +323,7 @@ function loadLanguage($scope){
 			// ******************
 			$scope.claim1 = 'Conecta tu destino con el turista digital';
 			$scope.claim2 = 'Descubre la señalización turística inteligente';
+			$scope.btnMuestra = 'Solicítanos una muestra';
 
 			// ******************
 			// MENU
@@ -497,7 +499,7 @@ function loadLanguage($scope){
 
 			$scope.idiomas = 'Idiomes';
 
-			$scope.moreInfoShort = 'MÉS INFO';
+			$scope.moreInfoShort = 'REFERENCIAS';
 
 			$scope.btnContact = 'CONTACTA\'NS';
 
@@ -580,6 +582,7 @@ function loadLanguage($scope){
 			// ******************
 			$scope.claim1 = 'Conecta tu destino con el turista digital';
 			$scope.claim2 = 'Descubre la señalización turística inteligente';
+			$scope.btnMuestra = 'Solicítanos una muestra';
 
 			// ******************
 			// MENU
@@ -758,7 +761,7 @@ function loadLanguage($scope){
 
 
 			$scope.idiomas = 'Langues';
-			$scope.moreInfoShort = "PLUS D'INFO";
+			$scope.moreInfoShort = "RÉFÉRENCES";
 			$scope.btnContact = 'CONTACTEZ NOUS';
 
 			// *********************
@@ -835,13 +838,14 @@ function loadLanguage($scope){
 		// ****************************************************************
 		default:
 
-			$scope.moreInfoShort = 'MORE INFO';
+			$scope.moreInfoShort = 'REFERENCES';
 
 			// ******************
 			// CLAIM
 			// ******************
-			$scope.claim1 = 'Conecta tu destino con el turista digital';
-			$scope.claim2 = 'Descubre la señalización turística inteligente';
+			$scope.claim1 = 'Connect your destination with the digital tourist';
+			$scope.claim2 = 'Discover tourism smart signage';
+			$scope.btnMuestra = 'Request a free sample';
 
 			// ******************
 			// MENU

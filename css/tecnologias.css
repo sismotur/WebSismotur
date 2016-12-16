@@ -210,7 +210,7 @@ div#fondo-drontrip{
 /*************************************************************************/
 
 #smt-sen-img1{
-	background-image:url(../img/barcelonasen.jpg);
+	background-image:url(../img/tech/senalizacion1.png);
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -221,7 +221,7 @@ div#fondo-drontrip{
 }
 
 #smt-sen-img2{
-	background-image:url(../img/senCastillaLeon.jpg);
+	background-image:url(../img/tech/senalizacion2.jpg);
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -232,7 +232,7 @@ div#fondo-drontrip{
 }
 
 #smt-sen-img3{
-	background-image:url(../img/senRibera.jpg);
+	background-image:url(../img/tech/senalizacion3.jpg);
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -286,7 +286,7 @@ div#fondo-drontrip{
 }
 
 #smt-banner-img2{
-	background-image:url(../img/tech/beacons2.jpg);
+	background-image:url(../img/tech/beacons2.png);
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
