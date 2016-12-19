@@ -206,9 +206,8 @@ div.seccion#portada {
 		padding-top:10%;
 	}
 
-	p#eslogan1 {
+	p#logo-eslogan-1 {
 		position:relative;
-		width:100%;
 		height:auto;
 		font-size:70px;
 		color:#ffffff;
@@ -218,9 +217,8 @@ div.seccion#portada {
 		opacity:0.8;
 	}
 
-	p#eslogan2 {
+	p#logo-eslogan-2 {
 		position:relative;
-		width:100%;
 		height:auto;
 		font-size:30px;
 		color:#ffffff;
@@ -231,7 +229,7 @@ div.seccion#portada {
 		opacity:0.8;
 	}
 
-	.call-to-action {
+	a#logo-call-to-action {
 		position:relative;
 		padding-top:17px;
 		margin-top: 35px;
@@ -244,58 +242,114 @@ div.seccion#portada {
 		text-decoration:none;
 		font-family:'Exo';
 		background-color:transparent;
-		width:350px;
+		width:50%;
 		font-size:16px;
 		text-align:center;
 		color:#ffffff;
 	}
 
-	.call-to-action:hover {
+	a#call-to-action:hover {
 		background-color:#ffffff;
 		color:rgb(100,100,100);
 		transition: all 0.5s;
 	}
 
-div.seccion#objetivos {
-	background-image:url(../img/crossword.png);
-}
-
-div.contenedor{position:relative; width:100%; padding-top:10%; padding-bottom:10%;}
-
-	div.obj{position:relative; float:left; margin-left:10%; width:20%; height:auto; padding-bottom:10%;}
-
-p.titulo{color:rgb(0,36,168); font-size:36px; font-family:'Monda'; width:100%; padding-bottom:20px;}
-
-p.texto{font-size:16px; font-family:'Open Sans'; line-height:1.5; }
-
-hr{height:1px; background-color:rgb(0,36,168); border-style:none;}
-
-
-div#caso-exito{position:relative; margin-top:10%; width:80%; height:auto; left:50%; margin-left:-40%; padding-bottom:10%;}
-p#ribera-duero{text-align:center; width:80%; margin-left:10%; color:rgb(100,100,100); font-size:36px; font-weight:500; font-family:'Monda'; line-height:1.1;}
-
-button#btn-ribera {
-	position: relative;
-	text-align:center;
-	width:40%;
-	height:50px;
-	left:50%;
-	margin-left:-20%;
-	margin-top:30px;
-	background-color:rgb(160,160,160);
-	border-style:solid;
-	border-radius: 25px;
-	border-color:rgb(160,160,160);
-	border-width:1px;
-	color:rgb(255,255,255);
-	font-family:'Exo';
-	font-size:16px;
-}
-	button#btn-ribera:hover {
-		color:rgb(0,36,168);
-		transition: all 0.5s;
-		font-weight: bold;
+	button#bajar {
+		position:relative;
+		width:140px;
+		height:140px;
+		left:10%;
+		border-radius:120px;
+		margin-top:20px;
+		background-color:rgb(0,36,168); background-image:url(../img/inventrip-logo.png);
+		background-position:center;
+		background-repeat:no-repeat;
+		border-width:0px;
+		border-color:#ffffff;
+		box-shadow:5px 5px 10px #000000;
 	}
+
+	button#bajar:hover {
+		background-color:rgb(100,100,100);
+		margin-top:40px;
+		transition: all 0.3s;
+	}
+
+	/*********************/
+	/* SECTION INVENTRIP */
+	/*********************/
+
+		div.seccion#inventrip {
+			background-image:url(../img/crossword.png);
+			min-height:700px;
+		}
+
+		p.titulo#tit-inventrip {
+			position:relative;
+			width:20%;
+			height:auto;
+			margin-right:10%;
+			margin-top:150px;
+			text-align:center;
+			float:right;
+			font-size:36px;
+		}
+
+		img#img-inventrip {
+			position:relative;
+			width:50%;
+			height:auto;
+			margin-left:10%;
+			margin-top:180px;
+		}
+
+		div.contenido#cont-inventrip {
+			position:absolute;
+			top:220px;
+			width:20%;
+			height:auto;
+			right:10%;
+		}
+
+		p#eslogan-inventrip {
+			position:relative;
+			width:100%;
+			height:auto;
+			text-align:center;
+			font-size:18px;
+			margin-bottom:25px;
+			font-weight:bold;
+			line-height:1.5;
+		}
+
+		p.texto#text-inventrip {
+			text-align:center;
+		}
+
+		a#inventrip-call-to-action {
+			position:relative;
+			padding-top:17px;
+			margin-top: 35px;
+			height:33px;
+			border-style:solid;
+			border-color:rgb(0,36,168);
+			border-width:1px;
+			border-radius:25px;
+			display:block;
+			text-decoration:none;
+			font-family:'Exo';
+			background-color:transparent;
+			font-size:16px;
+			text-align:center;
+			color:rgb(0,36,168);
+		}
+
+		a#inventrip-call-to-action:hover {
+			background-color:rgb(0,36,168);
+			color:#ffffff;
+			transition: all 0.5s;
+		}
+
 
 /************************/
 /* SECTION TECHNOLOGIES */
@@ -315,12 +369,6 @@ button#btn-ribera {
 		width:23%; /* before 20%, corrige descuadre Manuel */
 		height:500px;
 	}
-
-/*
-	div.tecnol#qr {
-		margin-left:25%;
-	}
-*/
 
 	img.img-tecnol {
 		position:relative;
@@ -371,123 +419,6 @@ button#btn-ribera {
 	}
 
 /*********************/
-/* SECTION INVENTRIP */
-/*********************/
-
-	div.seccion#inventrip {
-		background-image:url(../img/crossword.png);
-		min-height:700px;
-	}
-
-	p.titulo#tit-inventrip {
-		position:relative;
-		width:20%;
-		height:auto;
-		margin-right:10%;
-		margin-top:150px;
-		text-align:center;
-		float:right;
-		font-size:36px;
-	}
-
-	img#img-inventrip {
-		position:relative;
-		width:50%;
-		height:auto;
-		margin-left:10%;
-		margin-top:180px;
-	}
-
-	div.contenido#cont-inventrip {
-		position:absolute;
-		top:220px;
-		width:20%;
-		height:auto;
-		right:10%;
-	}
-
-	p#eslogan-inventrip {
-		position:relative;
-		width:100%;
-		height:auto;
-		text-align:center;
-		font-size:18px;
-		margin-bottom:25px;
-		font-weight:bold;
-		line-height:1.5;
-	}
-
-	p.texto#text-inventrip {
-		text-align:center;
-	}
-
-	button.ver-mas {
-		position:relative;
-		width:80%;
-		margin-top:60px;
-		height:50px;
-		background-color:rgb(160,160,160);
-		border-style:solid;
-		border-radius: 25px;
-		border-color:rgb(160,160,160);
-		border-width:1px;
-		text-align:center;
-		left:50%;
-		margin-left:-40%;
-		color:rgb(255,255,255);
-		font-family:'Exo';
-		font-size:16px;
-	}
-
-	button.ver-mas:hover {
-		color:rgb(0,36,168);
-		transition: all 0.5s;
-	}
-
-/*********************/
-/* SECTION SIGNING   */
-/*********************/
-
-	div.seccion#signing {
-		/* min-h 900->700px, removed margin-bottom:0% */
-		min-height:700px;
-		padding-bottom: 100px;
-		background-image:url(../img/crossword.png);
-	}
-
-	p.titulo#tit-signing {
-		position:relative;
-		width:20%;
-		height:auto;
-		margin-left:10%;
-		margin-top:150px;
-		text-align:center;
-		float:left;
-		font-size:36px;
-	}
-
-	img#img-signing {
-		position:relative;
-		width:45%;
-		height:auto;
-		margin-right:10%;
-		float:right;
-		margin-top:180px;
-	}
-
-	div.contenido#cont-signing {
-		position:absolute;
-		top:220px;
-		width:20%;
-		height:auto;
-		left:10%;
-	}
-
-	p.texto#text-signing {
-		text-align:center;
-	}
-
-/*********************/
 /* SECTION NEWS */
 /*********************/
 
@@ -511,12 +442,11 @@ button#btn-ribera {
 		position:relative;
 		width:25%;
 		height:auto;
-		margin-right:8%;
+		margin-right:10%;
 		text-align:center;
 		float:right;
 		font-size:36px;
-	} /*removed padding-bottom:10% */
-
+	}
 
 	div#img-noticias-derecha {
 		position:relative;
@@ -529,14 +459,6 @@ button#btn-ribera {
 		border:1px solid gray;
 	}
 
-	.video-wrapper-index iframe {
-		position:absolute;
-		top:0;
-		left: 0;
-		width:100%;
-		height:100%;
-	}
-
 	div.contenido#cont-noticias-derecha {
 		position:absolute;
 		top:50px;
@@ -547,16 +469,6 @@ button#btn-ribera {
 
 	p.texto#text-noticias-derecha {
 		text-align:center;
-	}
-
-	div#otras-noticias{
-		position:relative;
-		margin-top:7%;
-		width:80%;
-		height:auto;
-		left:50%;
-		margin-left:-40%;
-		padding-bottom:7%;
 	}
 
 	a#ver-mas-noticias{
@@ -583,7 +495,6 @@ button#btn-ribera {
 		color:rgb(100,100,100);
 		transition: all 0.5s;
 	}
-
 
 /*********************/
 /* SECTION STAFF     */

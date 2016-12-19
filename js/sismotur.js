@@ -2,7 +2,7 @@
  * @author Sismotur
  */
 
- function isMobile(){
+ function isMobile() {
  	var device = navigator.userAgent;
 
  	return device.match(/Iphone/i) ||
@@ -26,25 +26,17 @@
  			device.match(/HTC/i);
  }
 
+function parallaxBanner() {
 
-
-function parallaxBanner(){
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onLeave", duration: $('#parallaxTrigger').height()}});
-
 
 	var scene2 = new ScrollScene({triggerElement: "#parallaxTrigger"})
 			.setTween(TweenMax.fromTo("#fondo-azul", 1, {autoAlpha: 0.1}, {autoAlpha: 1}))
 			.addTo(controller);
-
-
 	//scene2.addIndicators();
-
 }
 
-
-
-
-function opaqueMenu(){
+function opaqueMenu() {
 	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 0.1, duration: 0}});
 
 	var scene = new ScrollScene({triggerElement: "#menuTrigger"})
@@ -57,8 +49,6 @@ function opaqueMenu(){
 
 	//scene.addIndicators();
 }
-
-
 
 function resizeIframe(obj) {
     obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';

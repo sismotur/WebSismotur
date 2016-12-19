@@ -65,7 +65,7 @@
   ga('send', 'pageview');
 </script>
 
-<!-- GOOGLE STRUCTURED DATA -->
+<!-- SCHEMA.ORG JSON-LD -->
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -85,10 +85,7 @@
   "logo":"http://www.sismotur.com/img/sismotur-logo-portada.png"
 }
 </script>
-
 </head>
-
-
 
 <body>
 
@@ -97,7 +94,10 @@
 ********************* -->
 
 <header>
+	<!-- LOGO SISMOTUR -->
   <img id="logo" src="img/logomenu.png" title="Sismotur" alt="Sismotur"/>
+
+	<!-- MENU DE NAVEGACION -->
 	<nav id="menu">
   	<ul id="lista-menu">
 			<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#inventrip',1000)">{{mnInven}}</a></li>
@@ -106,6 +106,7 @@
       <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#staff',1000)">{{mnTeam}}</a></li>
       <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#contacto',1000)">{{mnCont}}</a></li>
 
+			<!-- LISTA DE IDIOMAS -->
       <li id="lista-idiomas"> {{mnIdioma}} <img id="flechita" src="img/flechita.png" />
         <ul id="menu-idiomas">
           <li><a class="cambio-idioma" ng-click="changeLang('ca')">Catalá</a></li>
@@ -119,16 +120,16 @@
 </header>
 
 <!-- ************************
-********* PARALLAX **********
+********* PORTADA **********
 ************************* -->
 
 <div id="parallaxTrigger">
 <div class="seccion" id="portada">
 <div id="fondo-azul"></div>
 	<div id="logo-eslogan">
-    <p id="eslogan1">{{claim1}}</p>
-		<p id="eslogan2">{{claim2}}</p>
-		<a class="call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
+    <p id="logo-eslogan-1">{{claim1}}</p>
+		<p id="logo-eslogan-2">{{claim2}}</p>
+		<a id="logo-call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
 	</div>
 </div>
 
@@ -144,10 +145,11 @@
 
 <div class="seccion" id="inventrip">
 	<p class="titulo" id="tit-inventrip">{{invTitle}}</p>
+		<button id="bajar" onclick="javascript:$.scrollTo('div.seccion#inventrip',700)"></button>
     <div class="contenido" id="cont-inventrip">
     	<p id="eslogan-inventrip">{{invTextA}}</p>
     	<p class="texto" id="text-inventrip">{{invTextB}}</p>
-    	<!-- <button class="ver-mas" onclick="window.open('http://inventrip.com/')" >{{btnInventrip}}</button> -->
+			<a id="inventrip-call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
     </div>
 		<img id="img-inventrip" src="img/inventrip-interfaz.png" title="Inventrip" alt="Inventrip" />
 </div>
@@ -215,23 +217,23 @@
 
 <!-- 150 px white space only here and in start of news.html -->
 <div class="blank_wide"></div>
+<div class="separador" id="s-dos">{{tecTitle}}</div>
 
 <div class="seccion" id="noticias">
+  	<p class="titulo" id="tit-noticias-derecha">{{newsTitle18}}</p>
 
-    <p class="titulo" id="tit-noticias-derecha">{{newsTitle18}}</p>
-
-    <div class="contenido" id="cont-noticias-derecha">
-				<img id="img-noticias-derecha" src="img/news/news18.jpg" title="EFE Article about Inventrip and Sismotur" alt="" />
-        <p class="texto" id="text-noticias-derecha">{{newsContent18}}
-        <br/><br/>
+    <div class="contenido" id="cont-inventrip">
+		<img id="img-inventrip" src="./img/news/news18.jpg" title="EFE Article about Inventrip and Sismotur" alt="" />
+    <p class="texto" id="text-noticias-derecha">{{newsContent18}}
+    <br/><br/>
 
         </p>
-    </div>
+  </div>
 
-    <div id="otras-noticias">
+
         <button class="ver-mas" onclick="window.open('./news.html')" >{{btnNewsClick}}</button>
         <!-- <button class="ver-mas" onclick="alert('Work in progress: please come back in a few hours!')" >{{btnNewsClick}}</button> -->
-    </div>
+
 
 </div>
 
@@ -261,7 +263,7 @@
 
 	<div id="sec-contacto">
 
-    	<a id="contactanos" href="mailto:aramos@sismotur.com" title="contacto" alt="contacto">{{btnContact}}</a>
+    	<a id="contactanos" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnContact}}</a>
 
         <div id="rrss">
 
