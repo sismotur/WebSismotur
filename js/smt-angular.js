@@ -637,7 +637,7 @@ function loadLanguage($scope){
 			// ******************
 
 			// Inventrip
-			$scope.invTextA = 'Inventer des voyages : ceci est notre vision';
+			$scope.invTextA = 'Connectez votre destination';
 			$scope.invTextB = "Nous vous fournissons une plateforme technologique avec laquelle vos voyageurs pourront créer leur plan de voyage (par journées, villes, thématiques...) et, en navigant sur une carte, pourront ajouter les endroits qu'ils voudront visiter et les services qu'ils voudront contracter.";
 
 
@@ -844,7 +844,7 @@ function loadLanguage($scope){
 			// CLAIM
 			// ******************
 			$scope.claim1 = 'Connect your destination with the digital tourist';
-			$scope.claim2 = 'Discover tourism smart signage';
+			$scope.claim2 = 'Discover smart tourism signage';
 			$scope.btnMuestra = 'Request a free sample';
 
 			// ******************
@@ -899,7 +899,7 @@ function loadLanguage($scope){
 			// ******************
 
 			// Inventrip
-			$scope.invTextA = 'To invent trips: this is the vision';
+			$scope.invTextA = 'Connect your destination';
 			$scope.invTextB = 'We provide you with a technological platform that enable your travellers to create their own trip plans (organized by days, cities, topics, etc.), and by navigating on the map add the places they want to visit and the services they want to hire.';
 
 			$scope.btnInventrip = 'Go to Inventrip';

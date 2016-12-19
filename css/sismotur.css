@@ -73,8 +73,14 @@ a.cambio-idioma {
 	cursor:pointer;
 }
 
+p.title {
+	height: auto;
+	color:rgb(0,36,168);
+}
+
 p.texto {
 	font-size: 18px;
+	line-height: 1.5;
 }
 
 .action-button {
@@ -207,6 +213,14 @@ div.seccion#portada {
 		height:auto;
 		left:5%;
 		padding-top:10%;
+	}
+
+	img#logo-portada {
+		display: block;
+		margin-left: 1%;
+		margin-bottom: 1%;
+		height: auto;
+		width: 50%;
 	}
 
 	p#logo-eslogan-1 {
@@ -473,14 +487,13 @@ div.seccion#portada {
 	.seccion#staff {
 		background-image:url(../img/crossword-gris.png);
 		padding-bottom: 100px;
+		text-align:center;
 	}
 
 	#title-staff {
 		padding-top:50px;
-		text-align:center;
 		font-size:42px;
 		font-family: 'Monda';
-		color:rgb(0,36,168)
 	}
 
 	#contenedor-staff {
