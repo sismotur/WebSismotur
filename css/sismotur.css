@@ -1,11 +1,5 @@
-/****************/
-/* BASIC SPECS */
-/****************/
 @charset "UTF-8";
 
-/****************/
-/* CSS Document */
-/****************/
 @import url(http://fonts.googleapis.com/css?family=Monda:400,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Exo:300);
@@ -13,6 +7,30 @@
 /****************/
 /* COMMON SETUP */
 /****************/
+
+/* main section divs */
+div.seccion {
+	width:100%;
+	position:relative;
+}
+
+/* separator inter-section divs */
+div.separador {
+	width:100%;
+	height:120px;
+	background-image:url(../img/mapafondotres.jpg);
+	position:relative;
+	background-attachment:fixed;
+	background-size:cover;
+	opacity:0.8;
+	text-align:center;
+	padding-top:60px;
+	font-family:'Monda';
+	font-size:36px;
+	color:rgb(0,36,168);
+	font-weight:500;
+	line-height:1.1;
+}
 
 /* min-height to override in responsive.css */
 .blank_wide {
@@ -53,6 +71,14 @@ a.cambio-idioma {
 	display:block;
 	float:left;
 	cursor:pointer;
+}
+
+p.texto {
+	font-size: 18px;
+}
+
+.action-button {
+	font-size: 20px;
 }
 
 /****************/
@@ -147,35 +173,12 @@ a.menuRef {
 	font-family:'Exo';
 }
 
-div.seccion {
-	width:100%;
-	position:relative;
-}
-
-div.separador {
-	width:100%;
-	height:140px;
-	background-image:url(../img/mapafondotres.jpg);
-	position:relative;
-	background-attachment:fixed;
-	background-size:cover;
-	opacity:0.8;
-	text-align:center;
-	padding-top:60px;
-	font-family:'Monda';
-	font-size:36px;
-	color:rgb(0,36,168);
-	font-weight:500;
-	line-height:1.1;
-}
-
 div.separador#s-uno {
 	height:105px;
 	background-color:rgb(160,160,160);
 	background-image:none;
 	padding-top:45px;
 	color:#ffffff;
-	/* font-weight:300px; */
 }
 
 /***********/
@@ -242,8 +245,7 @@ div.seccion#portada {
 		text-decoration:none;
 		font-family:'Exo';
 		background-color:transparent;
-		width:50%;
-		font-size:16px;
+		width:60%;
 		text-align:center;
 		color:#ffffff;
 	}
@@ -280,10 +282,8 @@ div.seccion#portada {
 	/*********************/
 
 		.seccion#inventrip {
-			position: relative;
-			min-height:600px;
+			min-height:80vh;
 			background-image:url(../img/crossword.png);
-
 		}
 
 		#img-inventrip {
@@ -323,6 +323,10 @@ div.seccion#portada {
 			line-height:1.5;
 		}
 
+		#text-inventrip {
+			padding: 20px 0 20px 0;
+		}
+
 		#inventrip-call-to-action {
 			padding-top:17px;
 			margin-top: 35px;
@@ -335,7 +339,7 @@ div.seccion#portada {
 			text-decoration:none;
 			font-family:'Exo';
 			background-color:transparent;
-			font-size:16px;
+			font-size:16px; /* class std 20px too high */
 			color:rgb(0,36,168);
 		}
 
@@ -350,9 +354,9 @@ div.seccion#portada {
 /* SECTION TECHNOLOGIES */
 /************************/
 
-	div.seccion#tecnologias {
-		height:180vh;
-		min-height:1300px; /* before 1600px */
+	.seccion#tecnologias {
+		min-height:150vh;
+		/* min-height:1300px; */ /* before 1600px */
 		background-image:url(../img/crossword.png);
 	}
 
@@ -360,7 +364,7 @@ div.seccion#portada {
 		position:relative;
 		float:left;
 		margin-left:8%; /* before 10% , corrige descuadre Manuel */
-		margin-top:10%;
+		margin-top:6%;
 		width:23%; /* before 20%, corrige descuadre Manuel */
 		height:500px;
 		text-align: center;
@@ -387,24 +391,21 @@ div.seccion#portada {
 	}
 
 	button.mas-info {
-		position:relative;
 		width:80%;
 		height:50px;
-		border-radius: 25px;
-		background-color:rgb(160,160,160);
 		border-style:solid;
-		border-color:rgb(160,160,160);
+		border-color:rgb(0,36,168);
+		background-color: transparent;
 		border-width:1px;
-		text-align:center;
-		color:rgb(255,255,255);
+		border-radius: 25px;
+		color:rgb(0,36,168);
 		font-family:'Exo';
 		font-size:16px;
 	}
 
 	button.mas-info:hover {
-		/* background-color:rgb(0,36,168); */
-		/* color:#ffffff; */
-		color:rgb(0,36,168);
+		background-color: rgb(0,36,168);
+		color:#ffffff;
 		transition: all 0.5s;
 	}
 
@@ -412,107 +413,77 @@ div.seccion#portada {
 /* SECTION NEWS */
 /*********************/
 
-	div.seccion#noticias {
+	.seccion#noticias {
+		min-height: 75vh;
 		background-image:url(../img/crossword.png);
 	}
 
-	div.seccion#noticias > hr {
-		width:30%;
-		margin-top:3em;
-		margin-bottom:3em;
-		margin-left: 35%;
-	}
-
-	.news-block {
-		display:block;
-		min-height:50vh;
-	}
-
-	p.titulo#tit-noticias-derecha {
-		position:relative;
-		width:25%;
+	#img-noticias {
+		float: left;
+		margin-left:10%;
+		margin-top:75px;
+		width:50%;
 		height:auto;
-		margin-right:10%;
-		text-align:center;
-		float:right;
-		font-size:36px;
+		box-shadow: 2px 2px 2px #aaaaaa;
 	}
 
-	div#img-noticias-derecha {
-		position:relative;
-		padding-bottom:35%;
-		padding-top:30px;
+	#cont-noticias {
+		float: right;
+		padding: 75px 10% 0 10%;
+		width:20%;
 		height:auto;
-		width:55%;
+		text-align: center;
+	}
+
+	#title-noticias {
+		margin-bottom: 20px;
 		height:auto;
-		margin-left:7%;
-		border:1px solid gray;
+		font-size:24px;
 	}
 
-	div.contenido#cont-noticias-derecha {
-		position:absolute;
-		top:50px;
-		width:25%;
+	#text-noticias {
+		margin-bottom:25px;
 		height:auto;
-		right:8%;
 	}
 
-	p.texto#text-noticias-derecha {
-		text-align:center;
-	}
-
-	a#ver-mas-noticias{
-		position:relative;
-		padding-top:17px;
-		left:50%;
+	#ver-mas-noticias{
 		height:50px;
 		border-style:solid;
 		border-color:rgb(0,36,168);
 		border-width:1px;
+		border-radius: 25px;
 		display:block;
 		text-decoration:none;
 		font-family:'Exo';
 		background-color:transparent;
-		width:250px;
-		margin-left:-125px;
-		font-size:16px;
-		text-align:center;
 		color:rgb(0,36,168);
+		width:100%;
 	}
 
-	a#ver-mas-noticias:hover{
+	#ver-mas-noticias:hover{
 		background-color:rgb(0,36,168);
-		color:rgb(100,100,100);
+		color:#ffffff;
 		transition: all 0.5s;
-	}
-
-	div.contenido#cont-noticias {
-		position:relative;
-		width:20%;
-		height:auto;
-		float: right;
-		text-align: center;
-		padding: 90px 10% 0 10%;
 	}
 
 /*********************/
 /* SECTION STAFF     */
 /*********************/
 
-	div.seccion#staff {
+	.seccion#staff {
 		background-image:url(../img/crossword-gris.png);
-		/* min-height:900px; already contained in #contenedor-staff */
 		padding-bottom: 100px;
 	}
 
-	p.titulo#equipo {
+	#title-staff {
 		padding-top:50px;
 		text-align:center;
 		font-size:42px;
+		font-family: 'Monda';
+		color:rgb(0,36,168)
 	}
 
-	div#contenedor-staff {
-		/* previously width 560px, height 560px, margin left -280 px */
+	#contenedor-staff {
 		position:relative;
 		width:560px;
 		height:150px;
@@ -542,32 +513,26 @@ div.seccion#portada {
 /* SECTION CONTACT   */
 /*********************/
 
-	div.seccion#contacto {
+	.seccion#contacto {
+		padding-top: 80px;
 		background-image:url(../img/classy_fabric.png);
+		text-align: center;
 	}
 
-	div#sec-contacto{
-		position:relative;
-		padding-top:80px;
-		width:100%;
-		height:auto;
-	}
-
-	a#contactanos{
-		position:relative;
+	a#contactanos {
+		display:block;
+		margin: auto;
 		padding-top:17px;
-		left:50%;
 		height:33px;
 		border-style:solid;
 		border-color:#ffffff;
 		border-width:1px;
 		border-radius:25px;
-		display:block;
+
 		text-decoration:none;
 		font-family:'Exo';
 		background-color:transparent;
 		width:250px;
-		margin-left:-125px;
 		font-size:16px;
 		text-align:center;
 		color:#ffffff;
@@ -579,7 +544,15 @@ div.seccion#portada {
 		transition: all 0.5s;
 	}
 
-	div#rrss{position:relative; width:190px; height:40px; left:50%; margin-left:-95px; margin-top:100px;}
+	div#rrss {
+		position:relative;
+		width:190px;
+		height:40px;
+		left:50%;
+		margin-left:-95px;
+		margin-top:100px;
+	}
+
 	a#linkedin{position:relative; width:40px; height:40px; margin-right:10px; float:left; background-image:url(../img/logo-linkedin.png);}
 	a#linkedin:hover{background-color:rgb(0,36,168);}
 	a#twitter{position:relative; width:40px; height:40px; margin-right:10px; float:left; background-image:url(../img/logo-twitter.png);}

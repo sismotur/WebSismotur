@@ -129,7 +129,7 @@
 	<div id="logo-eslogan">
     <p id="logo-eslogan-1">{{claim1}}</p>
 		<p id="logo-eslogan-2">{{claim2}}</p>
-		<a id="logo-call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
+		<a class="action-button" id="logo-call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
 	</div>
 </div>
 
@@ -145,22 +145,21 @@
 
 <div class="seccion" id="inventrip">
 
-		<!-- PC/tablet image -->
-    <img id="img-inventrip" src="./img/inventrip-interfaz.png" title="Inventrip" alt="Inventrip" />
+	<!-- PC/tablet image -->
+  <img id="img-inventrip" src="./img/inventrip-interfaz.png" title="Inventrip logo" alt="Inventrip logo" />
 
-
-    <div id="cont-inventrip">
-
-			<!-- PC/tablet image -->
-			<div id="header-inventrip">
-				<img id="logo-inventrip" src="./img/inventrip-logo.png"></img>
-				<p id="title-inventrip">{{invTitle}}</p>
-	    	<p id="eslogan-inventrip">{{invTextA}}</p>
-			</div>
-
-	    	<p class="texto" id="text-inventrip">{{invTextB}}</p>
-				<a id="inventrip-call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
-    </div>
+  <div id="cont-inventrip">
+		<!-- header with logo -->
+		<div id="header-inventrip">
+			<img id="logo-inventrip" src="./img/inventrip-logo.png"></img>
+			<p id="title-inventrip">{{invTitle}}</p>
+    	<p id="eslogan-inventrip">{{invTextA}}</p>
+		</div>
+		<!-- description -->
+    <p class="texto" id="text-inventrip">{{invTextB}}</p>
+		<!-- contact button -->
+		<a class="action-button" id="inventrip-call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
+  </div>
 
 </div>
 
@@ -220,49 +219,42 @@
 
 <div class="separador" id="s-uno">{{resumeNoticias}}</div>
 
+<!-- 150 px white space only here and in start of news.html -->
+<!-- <div class="blank_wide"></div> -->
 
 <!-- ************************
 ********* NOTICIAS **********
 ************************* -->
 
-<!-- 150 px white space only here and in start of news.html -->
-<div class="blank_wide"></div>
-<div class="separador" id="s-dos">{{tecTitle}}</div>
-
 <div class="seccion" id="noticias">
-  	<p class="titulo" id="tit-noticias-derecha">{{newsTitle18}}</p>
 
-    <div class="contenido" id="cont-noticias">
-		<img id="img-inventrip" src="./img/news/news18.jpg" title="EFE Article about Inventrip and Sismotur" alt="" />
-    <p class="texto" id="text-noticias-derecha">{{newsContent18}}
+	<img id="img-noticias" src="./img/news/news18.jpg" title="EFE Article about Inventrip and Sismotur" alt="EFE Article about Inventrip and Sismotur" />
+
+  <div id="cont-noticias">
+  	<p id="title-noticias">{{newsTitle18}}</p>
+    <p class = "texto" id="text-noticias">{{newsContent18}}
     <br/><br/>
-
-        </p>
+    </p>
+		<button class="action-button" id="ver-mas-noticias" onclick="window.open('./news.html')" >{{btnNewsClick}}</button>
   </div>
-
-
-        <button class="ver-mas" onclick="window.open('./news.html')" >{{btnNewsClick}}</button>
-        <!-- <button class="ver-mas" onclick="alert('Work in progress: please come back in a few hours!')" >{{btnNewsClick}}</button> -->
-
-
+	<!-- <button class="ver-mas" onclick="alert('Work in progress: please come back in a few hours!')" >{{btnNewsClick}}</button> -->
 </div>
 
-<!-- ************************
-************ STAFF **********
+<!-- ***************************
+************ PARTNERS **********
 ************************* -->
 
 <div class="seccion" id="staff">
 
-<p class="titulo" id="equipo">{{btnTitleTeam}}</p>
-
+<p id="title-staff">{{btnTitleTeam}}</p>
 	<div id="contenedor-staff">
-
-    	<div class="content-staff" id="c-augusto"></div>
-        <div class="content-staff" id="c-manolo"></div>
-        <a href="https://es.linkedin.com/in/juliojosejulian" target="_blank"><div class="content-staff" id="c-julio"></div></a>
-        <a href="https://fr.linkedin.com/in/felipesanti" target="_blank"><div class="content-staff" id="c-felipe"></div></a>
-    </div>
-
+  	<div class="content-staff" id="c-augusto"></div>
+  	<div class="content-staff" id="c-manolo"></div>
+    <a href="https://es.linkedin.com/in/juliojosejulian" target="_blank">
+		<div class="content-staff" id="c-julio"></div></a>
+    <a href="https://fr.linkedin.com/in/felipesanti" target="_blank">
+		<div class="content-staff" id="c-felipe"></div></a>
+  </div>
 </div>
 
 <!-- ***********************
@@ -271,7 +263,7 @@
 
 <div class="seccion" id="contacto">
 
-	<div id="sec-contacto">
+
 
     	<a id="contactanos" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnContact}}</a>
 
@@ -284,7 +276,7 @@
 
         </div>
 
-    </div>
+
 
 	<table id="lista-contacto">
 

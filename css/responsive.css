@@ -1,9 +1,10 @@
 @charset "UTF-8";
-/* CSS Document */
 
-
+/******************************
 /* TABLETS AND MOBILE PHONES */
-@media screen and (max-width:1020px){ /* before 970 px */
+/*****************************/
+
+@media screen and (max-width:1020px) { /* before 970 px */
 
 	 /* COMMON */
 	 /* min-height to override in responsive.css */
@@ -279,8 +280,11 @@
 
 }
 
+/******************
 /* MOBILE PHONES */
-	@media screen and (max-width:600px){
+/*****************/
+
+	@media screen and (max-width:600px) {
 
 		div#contenedor-staff{
 			width:280px;
@@ -293,5 +297,4 @@
 			display:block;
 			float:none;
 		}
-
 }
