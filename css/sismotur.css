@@ -229,7 +229,7 @@ div.seccion#portada {
 		opacity:0.8;
 	}
 
-	a#logo-call-to-action {
+	#logo-call-to-action {
 		position:relative;
 		padding-top:17px;
 		margin-top: 35px;
@@ -248,7 +248,7 @@ div.seccion#portada {
 		color:#ffffff;
 	}
 
-	a#call-to-action:hover {
+	#logo-call-to-action:hover {
 		background-color:#ffffff;
 		color:rgb(100,100,100);
 		transition: all 0.5s;
@@ -279,57 +279,51 @@ div.seccion#portada {
 	/* SECTION INVENTRIP */
 	/*********************/
 
-		div.seccion#inventrip {
+		.seccion#inventrip {
+			position: relative;
+			min-height:600px;
 			background-image:url(../img/crossword.png);
-			min-height:700px;
+
 		}
 
-		p.titulo#tit-inventrip {
-			position:relative;
-			/*width:20%;*/
+		#img-inventrip {
+			float: left;
+			margin-left:10%;
+			margin-top:75px;
+			width:50%;
 			height:auto;
-			/*margin-right:10%;
-			margin-top:150px;
-			text-align:center;
-			float:right;*/
+		}
+
+		#cont-inventrip {
+			float: right;
+			padding: 90px 10% 0 10%;
+			width:20%;
+			height:auto;
+			text-align: center;
+		}
+
+		#logo-inventrip {
+			float:left;
+			width:70px;
+			height:70px;
+			border-radius:120px;
+			/* box-shadow:5px 5px 10px #000000; felipe: optional */
+		}
+
+		#title-inventrip {
+			height:auto;
 			font-size:36px;
 		}
 
-		img#img-inventrip {
-			position:relative;
-			width:50%;
-			height:auto;
-			margin-left:10%;
-			margin-top:180px;
-			float: left;
-		}
-
-		div.contenido#cont-inventrip {
-			position:relative;
-			width:20%;
-			height:auto;
-			float: right;
-			text-align: center;
-			padding: 90px 10% 0 10%;
-		}
-
-		p#eslogan-inventrip {
-			position:relative;
-			width:100%;
-			height:auto;
-			text-align:center;
-			font-size:18px;
+		#eslogan-inventrip {
 			margin-bottom:25px;
+			height:auto;
+			font-size:18px;
 			font-weight:bold;
 			line-height:1.5;
 		}
 
-		p.texto#text-inventrip {
-			text-align:center;
-		}
-
-		a#inventrip-call-to-action {
-			position:relative;
+		#inventrip-call-to-action {
 			padding-top:17px;
 			margin-top: 35px;
 			height:33px;
@@ -342,11 +336,10 @@ div.seccion#portada {
 			font-family:'Exo';
 			background-color:transparent;
 			font-size:16px;
-			text-align:center;
 			color:rgb(0,36,168);
 		}
 
-		a#inventrip-call-to-action:hover {
+		#inventrip-call-to-action:hover {
 			background-color:rgb(0,36,168);
 			color:#ffffff;
 			transition: all 0.5s;
@@ -370,19 +363,18 @@ div.seccion#portada {
 		margin-top:10%;
 		width:23%; /* before 20%, corrige descuadre Manuel */
 		height:500px;
+		text-align: center;
 	}
 
 	img.img-tecnol {
 		position:relative;
 		width:50%;
 		height:auto;
-		left:50%;
-		margin-left:-25%;
+		margin: 0 auto;
 	}
 
 	p.titulo-tecnol {
 		font-size:36px;
-		text-align:center;
 		font-family:'Monda';
 		color:rgb(0,36,168);
 		margin-top:20px;
@@ -392,7 +384,6 @@ div.seccion#portada {
 
 	p.texto.t-tecno {
 		height:160px;
-		text-align:center;
 	}
 
 	button.mas-info {
@@ -405,9 +396,6 @@ div.seccion#portada {
 		border-color:rgb(160,160,160);
 		border-width:1px;
 		text-align:center;
-		left:50%;
-		margin-left:-40%;
-		margin-top:5px;
 		color:rgb(255,255,255);
 		font-family:'Exo';
 		font-size:16px;
@@ -496,6 +484,15 @@ div.seccion#portada {
 		background-color:rgb(0,36,168);
 		color:rgb(100,100,100);
 		transition: all 0.5s;
+	}
+
+	div.contenido#cont-noticias {
+		position:relative;
+		width:20%;
+		height:auto;
+		float: right;
+		text-align: center;
+		padding: 90px 10% 0 10%;
 	}
 
 /*********************/

@@ -144,18 +144,27 @@
 ************************* -->
 
 <div class="seccion" id="inventrip">
-    <img id="img-inventrip" src="img/inventrip-interfaz.png" title="Inventrip" alt="Inventrip" />
-    <div class="contenido" id="cont-inventrip">
-	<button id="bajar" onclick="javascript:$.scrollTo('div.seccion#inventrip',700)"></button>
-	<p class="titulo" id="tit-inventrip">{{invTitle}}</p>
-    	<p id="eslogan-inventrip">{{invTextA}}</p>
-    	<p class="texto" id="text-inventrip">{{invTextB}}</p>
-	<a id="inventrip-call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
+
+		<!-- PC/tablet image -->
+    <img id="img-inventrip" src="./img/inventrip-interfaz.png" title="Inventrip" alt="Inventrip" />
+
+
+    <div id="cont-inventrip">
+
+			<!-- PC/tablet image -->
+			<div id="header-inventrip">
+				<img id="logo-inventrip" src="./img/inventrip-logo.png"></img>
+				<p id="title-inventrip">{{invTitle}}</p>
+	    	<p id="eslogan-inventrip">{{invTextA}}</p>
+			</div>
+
+	    	<p class="texto" id="text-inventrip">{{invTextB}}</p>
+				<a id="inventrip-call-to-action" href="mailto:contacto@sismotur.com" title="contacto" alt="contacto">{{btnMuestra}}</a>
     </div>
-		
+
 </div>
 
-<div class="separador" id="s-dos">{{tecTitle}}</div>
+<div class="separador" id="s-dos">{{techTitle}}</div>
 
 <!-- ************************
 ********* TECNOLOGIAS *******
@@ -223,7 +232,7 @@
 <div class="seccion" id="noticias">
   	<p class="titulo" id="tit-noticias-derecha">{{newsTitle18}}</p>
 
-    <div class="contenido" id="cont-inventrip">
+    <div class="contenido" id="cont-noticias">
 		<img id="img-inventrip" src="./img/news/news18.jpg" title="EFE Article about Inventrip and Sismotur" alt="" />
     <p class="texto" id="text-noticias-derecha">{{newsContent18}}
     <br/><br/>

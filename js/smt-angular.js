@@ -89,7 +89,7 @@ function loadLanguage($scope){
 			// ******************
 			// SEPARADOR GRIS 2
 			// ******************
-			$scope.tecTitle = 'Inventrip utiliza las mejores tecnologías';
+			$scope.techTitle = 'Inventrip utiliza las mejores tecnologías';
 
 			// ******************
 			// TECNOLOGIAS
@@ -120,7 +120,7 @@ function loadLanguage($scope){
 
 			// Inventrip
 			$scope.invTextA = 'Conecta tu destino';
-			$scope.invTextB = 'Implanta un servicio de información personalizado para tu destino, que permita consultar la oferta turística, reservar, construir viajes a medida y compartirlos en redes sociales o mediante el uso de las últimas tecnologías: Beacons, NFC, QR.';
+			$scope.invTextB = 'Implanta un servicio de información y gestión de la  señalización turística inteligente para tu destino, que permita consultar la oferta turística, reservar, construir viajes a medida y compartirlos en redes sociales o mediante el uso de las últimas tecnologías: Beacons, NFC, QR.';
 
 			$scope.btnInventrip = 'Ir a Inventrip';
 
@@ -347,7 +347,7 @@ function loadLanguage($scope){
 			// ******************
 			// SEPARADOR GRIS 2
 			// ******************
-			$scope.tecTitle = 'LOREM IPSUM';
+			$scope.techTitle = 'LOREM IPSUM - CA';
 
 			// ******************
 			// TECNOLOGIAS
@@ -607,7 +607,7 @@ function loadLanguage($scope){
 			// ******************
 			// BARRE GRISE 2
 			// ******************
-			$scope.tecTitle = 'LOREM IPSUM';
+			$scope.techTitle = 'Inventrip utilise les meilleures technologies';
 
 			// ******************
 			// TECHNOLOGIES
@@ -869,7 +869,7 @@ function loadLanguage($scope){
 			// ******************
 			// GREY SEPARATOR 2
 			// ******************
-			$scope.tecTitle = 'LOREM IPSUM';
+			$scope.techTitle = 'Inventrip uses the best technologies';
 
 			// ******************
 			// TECNOLOGIAS
