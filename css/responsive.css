@@ -107,51 +107,6 @@
 		width: 90%;
 	}
 
-	/* SECTION OBJECTIVES */
-
-	div.seccion#objetivos {
-		width:100%;
-		height:auto;
-		position:relative;
-	}
-
-	div.contendor {
-		position:relative;
-		width:80%;
-		height:auto;
-		left:50%;
-		margin-left:-40%;
-		background-color:red;
-	}
-
-	div.obj {
-		width:80%;
-		height:auto;
-		margin-top:10%;
-	}
-
-	p.titulo {
-		/* Reduce white space on title "Destinos Turísticos, too much in mobile phones and tablets */
-		padding-bottom:10px;
-		font-size:28px;
-		text-align: center;
-	}
-
-	p.texto {
-		text-align: center;
-	}
-
-	div#caso-exito {
-		margin-top:60%;
-	}
-
-	p#ribera-duero {
-		font-size:28px;
-	}
-
-	div.seccion#tecnologias {
-		height:auto;
-	}
 
 	div.tecnol {
 		width:350px;

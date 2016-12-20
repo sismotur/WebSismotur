@@ -14,8 +14,8 @@ div.seccion {
 	position:relative;
 }
 
-/* separator inter-section divs */
-div.separador {
+/* separator inter-section */
+.separador {
 	width:100%;
 	height:8vh;
 	background-image:url(../img/mapafondotres.jpg);
@@ -25,13 +25,13 @@ div.separador {
 	opacity:0.8;
 	text-align:center;
 	padding-top:2vh;
-	padding-bottom: 1vh;
+	padding-bottom: 2vh;
 	font-family:'Monda';
 	font-size:36px;
 	color:rgb(0,36,168);
-	font-weight:500;
+	font-weight:bold;;
 	line-height:1.1;
-}
+	}
 
 /* min-height to override in responsive.css */
 .blank_wide {
@@ -180,9 +180,14 @@ a.menuRef {
 	font-family:'Exo';
 }
 
-div.separador#s-uno {
+/* SEPARADOR 1 */
+div#separador-1 {
 	background-color:rgb(160,160,160);
 	background-image:none;
+}
+
+p#separador-1 {
+	margin: 1% auto;
 	color:#ffffff;
 }
 
@@ -341,6 +346,10 @@ div.seccion#portada {
 			transition: all 0.5s;
 		}
 
+		/* SEPARADOR 2 */
+		p#separador-2 {
+			margin: 1% auto;
+		}
 
 /************************/
 /* SECTION TECHNOLOGIES */
@@ -399,6 +408,17 @@ div.seccion#portada {
 		background-color: rgb(0,36,168);
 		color:#ffffff;
 		transition: all 0.5s;
+	}
+
+	/* SEPARADOR 3 */
+	div#separador-3 {
+		background-color:rgb(160,160,160);
+		background-image:none;
+	}
+
+	p#separador-3 {
+		margin: 1% auto;
+		color:#ffffff;
 	}
 
 /*********************/

@@ -71,9 +71,8 @@ function loadLanguage($scope){
 			// MENU
 			// ******************
 			$scope.mnNoticias = 'Noticias';
-			$scope.mnObjet = 'Objetivos';
 			$scope.mnTecno = 'Tecnologías';
-			$scope.mnTeam = 'Staff';
+			$scope.mnTeam = 'Socios';
 			$scope.mnCont = 'Contacto';
 			$scope.mnIdioma = 'ES';
 
@@ -144,24 +143,7 @@ function loadLanguage($scope){
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
 
-			$scope.cntCroatia = 'Croacia';
-			$scope.cntCroatia2 = 'Zagreb';
-			$scope.cntCroatiaPhone = '+385.16187750';
-
-			$scope.cntAustria = 'Austria';
-			$scope.cntAustria2 = 'Innsbruck';
-			$scope.cntAustriaPhone = '+43 699.111.43611';
-
-			$scope.cntSuiza = 'Suiza';
-			$scope.cntSuiza2 = 'Lausanne';
-			$scope.cntSuizaPhone = '+41.76.393.72.52';
-
-			$scope.cntPortugal = 'Portugal';
-			$scope.cntPortugal2 = '';
-			$scope.cntPortugalPhone = '+34 629.415.915';
-
 			$scope.btnContact = 'Contactar';
-
 
 			// *********************
 			// SUBSECCION TECNOLOGIA
@@ -327,7 +309,7 @@ function loadLanguage($scope){
 			$scope.mnNoticias = 'Notícies';
 			$scope.mnObjet = 'Objectius';
 			$scope.mnTecno = 'Tecnologies';
-			$scope.mnTeam = 'Staff';
+			$scope.mnTeam = 'Socis';
 			$scope.mnCont = 'Contacte';
 			$scope.mnIdioma = 'CA';
 
@@ -398,22 +380,6 @@ function loadLanguage($scope){
 			$scope.cntFrance = 'França';
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
-
-			$scope.cntCroatia = 'Croàcia';
-			$scope.cntCroatia2 = 'Zagreb';
-			$scope.cntCroatiaPhone = '+385.16187750';
-
-			$scope.cntAustria = 'Àustria';
-			$scope.cntAustria2 = 'Innsbruck';
-			$scope.cntAustriaPhone = '+43 699.111.43611';
-
-			$scope.cntSuiza = 'Suïssa';
-			$scope.cntSuiza2 = 'Lausanne';
-			$scope.cntSuizaPhone = '+41.76.393.72.52';
-
-			$scope.cntPortugal = 'Portugal';
-			$scope.cntPortugal2 = '';
-			$scope.cntPortugalPhone = '+34 629.415.915';
 
 			$scope.btnContact = 'Contactar';
 
@@ -581,7 +547,7 @@ function loadLanguage($scope){
 			$scope.mnNoticias = 'Actualités';
 			$scope.mnObjet = 'Objectives';
 			$scope.mnTecno = 'Technologies';
-			$scope.mnTeam = 'Staff';
+			$scope.mnTeam = 'Partenaires';
 			$scope.mnCont = 'Contact';
 			$scope.mnIdioma = 'FR';
 
@@ -655,22 +621,6 @@ function loadLanguage($scope){
 			$scope.cntFrance = 'France';
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
-
-			$scope.cntCroatia = 'Croatie';
-			$scope.cntCroatia2 = 'Zagreb';
-			$scope.cntCroatiaPhone = '+385.16187750';
-
-			$scope.cntAustria = 'Autriche';
-			$scope.cntAustria2 = 'Innsbruck';
-			$scope.cntAustriaPhone = '+43 699.111.43611';
-
-			$scope.cntSuiza = 'Suisse';
-			$scope.cntSuiza2 = 'Lausanne';
-			$scope.cntSuizaPhone = '+41.76.393.72.52';
-
-			$scope.cntPortugal = 'Portugal';
-			$scope.cntPortugal2 = '';
-			$scope.cntPortugalPhone = '+34 629.415.915';
 
 			$scope.btnContact = 'Contacter';
 
@@ -838,18 +788,9 @@ function loadLanguage($scope){
 			$scope.mnNoticias = 'News';
 			$scope.mnObjet = 'Objectives';
 			$scope.mnTecno = 'Technologies';
-			$scope.mnTeam = 'Staff';
+			$scope.mnTeam = 'Partners';
 			$scope.mnCont = 'Contact';
 			$scope.mnIdioma = 'EN';
-
-			// ****************
-			// GREY SEPARATOR 1
-			// ****************
-			$scope.resume1 = 'We meet the needs of each client';
-
-			// REVISAR
-			$scope.btnMoreInfo = 'Discover a practical example of success';
-			$scope.btnClick = 'CLICK HERE';
 
 			// ******************
 			// GREY SEPARATOR 2
@@ -911,24 +852,7 @@ function loadLanguage($scope){
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
 
-			$scope.cntCroatia = 'Croatia';
-			$scope.cntCroatia2 = 'Zagreb';
-			$scope.cntCroatiaPhone = '+385.16187750';
-
-			$scope.cntAustria = 'Austria';
-			$scope.cntAustria2 = 'Innsbruck';
-			$scope.cntAustriaPhone = '+43 699.111.43611';
-
-			$scope.cntSuiza = 'Switzerland';
-			$scope.cntSuiza2 = 'Lausanne';
-			$scope.cntSuizaPhone = '+41.76.393.72.52';
-
-			$scope.cntPortugal = 'Portugal';
-			$scope.cntPortugal2 = '';
-			$scope.cntPortugalPhone = '+34 629.415.915';
-
 			$scope.btnContact = 'Contact us';
-
 
 			// *********************
 			// SUBSECCION TECNOLOGIA

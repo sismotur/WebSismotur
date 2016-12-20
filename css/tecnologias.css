@@ -48,7 +48,11 @@ button.ng-binding:hover {
 	transition: all 0.5s ease;
 	}
 
-p.ng-binding{font-size:16px;}
+/*
+p.ng-binding {
+	font-size:20px;
+}
+*/
 
 
 /*************************************************************************/
@@ -88,7 +92,7 @@ p.ng-binding{font-size:16px;}
 }
 
 .smt-item-content p{
-	font-size:16px;
+	font-size:20px;
 	font-family:'Open Sans';
 	line-height:1,5;
 	/*color: #FFFFFF;*/
