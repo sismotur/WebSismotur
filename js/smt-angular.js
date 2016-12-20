@@ -180,10 +180,6 @@ function loadLanguage($scope){
 			$scope.NFCtext2 = 'Palencia Turismo presentó Inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
 			$scope.NFCbutton2 = 'Descubre el viaje';
 
-			$scope.NFCtitle3 = 'Implant teatro Croacia';
-			$scope.NFCtext3 = 'Tarjetas NFC entregadas durante la premiere de la obra de teatro "Mobitel" en Zagreb. Las tarjetas contienen el programa de la representación de la obra durante 2015 en Croacia';
-			$scope.NFCbutton3 = 'Ver programa';
-
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
 
@@ -439,11 +435,6 @@ function loadLanguage($scope){
 			$scope.NFCtext2 = 'Palència Turisme va presentar Inventrip als mitjans durant la passada Fira de Turisme Interior (INTUR) i entregà  targetes NFC amb un viatge per la Província de Palència.';
 			$scope.NFCbutton2 = 'Descobreix el viatge';
 
-			$scope.NFCtitle3 = 'Implant teatre Croàcia';
-			$scope.NFCtext3 = 'Targetes NFC entregades durant la premiere de l\'obra de teatre "Mobitel" a Zagreb. Les targetes contenen el programa de la representació de l\'obra el 2015 a Croàcia';
-			$scope.NFCbutton3 = 'Veure programa';
-
-
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Senyalització'
 
@@ -698,13 +689,7 @@ function loadLanguage($scope){
 
 			$scope.NFCtitle2 = 'Cartes NFC Palencia Tourisme';
 			$scope.NFCtext2 = "L'Office de Tourisme de Palencia (Espagne) a présenté Inventrip à la presse au cours salon de tourisme d'intérieur espagnol (INTUR) et a distribué des cartes NFC avec un voyage dans la province de Palencia.";
-
 			$scope.NFCbutton2 = 'Découvrez le voyage';
-
-			$scope.NFCtitle3 = 'Implant théâtre Croatie';
-			$scope.NFCtext3 = 'Cartes NFC offertes après la première de la pièce de théâtre "Mobitel" à Zagreb. Les cartes contiennent le programme de la représentation de la pièce pendant 2015 en Croatie.';
-			$scope.NFCbutton3 = 'Voir programme';
-
 
 			// Página Señalización
 			$scope.SenyalizacionTitle = 'Sismotur SL - Signalisation'
@@ -962,10 +947,6 @@ function loadLanguage($scope){
 			$scope.NFCtitle2 = 'NFC cards for Palencia'
 			$scope.NFCtext2 = 'Palencia Tourism presented Inventrip to the press during the last spanish fair of interior tourism (INTUR).';
 			$scope.NFCbutton2 = 'Discover the trip';
-
-			$scope.NFCtitle3 = 'Inventrip promotes theatre in Croacia';
-			$scope.NFCtext3 = 'NFC cards handed out during the premiere of the theatre piece "Mobitel" in Zagreb. The 2015 agenda of the representation of the piece in Croacia is contained in the card.';
-			$scope.NFCbutton3 = 'See the program';
 
 			// Página zación
 			$scope.SenyalizacionTitle = 'Sismotur SL - Signage'

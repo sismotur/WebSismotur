@@ -69,32 +69,42 @@
 
 	div.separador {
 		font-size:28px;
+		height:16vh;
 	}
 
-	div.seccion#portada{}
+
+	/***********/
+	/* PORTADA */
+	/***********/
 
 	div#logo-eslogan {
 		padding-top:30%;
+		width: 80%;
+	}
+
+	img#logo-portada {
+		display: block;
+		margin-left: 1%;
+		margin-bottom: 5%;
+		height: auto;
+		width: 90%;
 	}
 
 	/* Reduce font size of the title and separate it from Sismotur logo */
-	p#eslogan1 {
-		font-size:50px;
-		padding-top: 10px
+	p#logo-eslogan-1 {
+		font-size:40px;
+		margin-bottom: 5%;
 	}
 
 	/* Reduce font size of the title and separate it from Sismotur logo */
-	p#eslogan2 {
+	p#logo-eslogan-2 {
 		font-size:20px;
-		padding-top: 10px
+		margin-bottom: 10%;
 	}
 
-	button#bajar {
-		width:50px;
-		height:50px;
-		background-size:65%;
-		margin-left:-25px;
-		border-width:2px;
+	a#logo-call-to-action {
+		font-size: 16px;
+		width: 90%;
 	}
 
 	/* SECTION OBJECTIVES */
