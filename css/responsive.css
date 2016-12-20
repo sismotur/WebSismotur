@@ -1,34 +1,55 @@
 @charset "UTF-8";
 
 /******************************
-/* TABLETS AND MOBILE PHONES */
+******** MAC 13 INCHES ********
+/*****************************/
+
+@media screen and (max-width:1300px) {
+
+	p.texto {
+		font-size: 16px;
+		line-height: 1.5;
+	}
+
+	.separador {
+		font-size: 32px;
+	}
+
+	.seccion#tecnologias {
+		min-height: 180vh;
+	}
+
+	.seccion#noticias {
+		min-height: 90vh;
+	}
+
+	#text-inventrip {
+		padding-top: 0;
+	}
+
+	#text-noticias {
+		margin-bottom: 0;
+	}
+}
+
+/******************************
+***** TABLETS OR SMALLER ******
 /*****************************/
 
 @media screen and (max-width:1020px) { /* before 970 px */
 
-	 /* COMMON */
-	 /* min-height to override in responsive.css */
-	.blank_wide {
-		min-height:75px;
+  /***********
+	** COMMON **
+	***********/
+
+	.separador {
+		font-size: 26px;
 	}
 
-	/* min-height to override in responsive.css */
-	.blank_narrow {
-		min-height:40px;
+  /* LOGO SISMOTUR */
+	img#logo {
+		margin-left:5px;
 	}
-
-   /* LOGO SISMOTUR */
-		img#logo {
-			margin-left:5px;
-		}
-
-		div#logo-eslogan {
-			position:relative;
-			width:80%; /* increased from 50% */
-			height:auto;
-			left:10%;
-			padding-top:10%;
-		}
 
 	/* NAVIGATION MENU */
 	nav#menu {
@@ -67,39 +88,35 @@
 		display:none;	/* autodetect language on mobile phone, to check, add back? */
 	}
 
-	div.separador {
-		font-size:28px;
-		height:16vh;
-	}
-
-
-	/***********/
-	/* PORTADA */
+	/***********
+	** PORTADA *
 	/***********/
 
 	div#logo-eslogan {
-		padding-top:30%;
-		width: 80%;
+		position:relative;
+		width:80%; /* increased from 50% */
+		height:auto;
+		left:10%;
+		padding-top: 2%;
 	}
 
 	img#logo-portada {
 		display: block;
+		margin-top: 10%;
 		margin-left: 1%;
 		margin-bottom: 5%;
 		height: auto;
-		width: 90%;
 	}
 
 	/* Reduce font size of the title and separate it from Sismotur logo */
 	p#logo-eslogan-1 {
 		font-size:40px;
-		margin-bottom: 5%;
 	}
 
 	/* Reduce font size of the title and separate it from Sismotur logo */
 	p#logo-eslogan-2 {
 		font-size:20px;
-		margin-bottom: 10%;
+		margin-bottom: 8%;
 	}
 
 	a#logo-call-to-action {
@@ -107,128 +124,69 @@
 		width: 90%;
 	}
 
+	/*********************/
+	/* SECTION INVENTRIP */
+	/*********************/
 
-	div.tecnol {
-		width:350px;
-		left:50%;
-		margin-left:-175px;
-		padding-top:10%;
+	.seccion#inventrip {
 		margin-top:0px;
-		float:none;
+		min-height: 170vh;
 	}
 
-	div.tecnol#qr {
-		margin-left:-175px;
+	#img-inventrip {
+		width:80%;
+		display: block;
+	}
+
+	#cont-inventrip{
+		float: none;
+		width:80%;
+	}
+
+	#logo-inventrip {
+		float: none;
+	}
+
+	/************************/
+	/* SECTION TECHNOLOGIES */
+	/************************/
+
+	.seccion#tecnologias {
+		min-height: 630vh;
+	}
+
+	div.tecnol {
+		float:none;
+		width:50%;
+		margin: 0 auto;
+		padding-top:10%;
 	}
 
 	button.mas-info {
 		margin-top:-90px;
 	}
 
-	/* SECTION INVENTRIP */
-	div.seccion#inventrip {
-		margin-top:0px;
-		padding-top:10%;
-	}
-
-	p.titulo#tit-inventrip {
-		width:100%;
-		margin-right:0%;
-		margin-top:0px;
-		float:none;
-	}
-
-	img#img-inventrip {
-		width:60%;
-		left:50%;
-		margin-left:-30%;
-		margin-top:0px;
-		margin-bottom:30px;
-		float: none;
-	}
-
-	div.contenido#cont-inventrip{
-		position:relative;
-		top:0px;
-		width:60%;
-		left:50%;
-		margin-left:-30%;
-		right:0%;
-		float: none;
-	}
-
-	button.ver-mas {
-		width:60%;
-		margin-top:0px;
-		margin-left:-30%;
-		margin-top:30px;
-	}
-
-	/* SECTION SIGNING */
-		div.seccion#signing {
-			/* padding-top:200px; */
-			margin-bottom:0px;
-		}
-
-		p.titulo#tit-signing {
-			width:100%;
-			margin-left:0%;
-			margin-top:0px;
-			float:none;
-		}
-
-		img#img-signing {
-			width:50%;
-			margin-right:0%;
-			float:none;
-			margin-top:0px;
-			left:50%;
-			margin-left:-25%;
-			padding-bottom:30px;
-		}
-
-		div.contenido#cont-signing {
-			position:relative;
-			top:0px;
-			width:60%;
-			left:50%;
-			margin-left:-30%;
-		}
-
 	/****************/
 	/* SECTION NEWS */
 	/****************/
 
-	div.seccion#noticias {
+	.seccion#noticias {
 		margin-top:0px;
+		min-height: 150vh;
 	}
 
-	p.titulo#tit-noticias-derecha {
-		width:100%;
-		margin-right:0%;
-		margin-top:0px;
-		float:none;
-	}
-
-	div#img-noticias-derecha {
+	#img-noticias {
 		width:80%;
 		display:block;
-		margin: 0 auto;
-		margin-top:20px;
-		margin-bottom:30px;
 	}
 
-	/* display:table to center the whole div */
-	div.contenido#cont-noticias-derecha{
-		position:relative;
-		top:0px;
+	#cont-noticias{
+		float:none;
 		display:table;
-		right:0%;
-		width: 100%;
+		width: 80%;
 	}
 
-  /* centering happens here */
-		div.contenido#cont-noticias-derecha > p {
+	#text-noticias > p {
 		display:table-cell;
 		vertical-align: middle;
 		text-align: center;
@@ -236,13 +194,10 @@
 		padding-right: 15%;
 	}
 
-	button.ver-mas-noticias {
-		width:60%;
+	#ver-mas-noticias {
 		margin-top:0px;
-		margin-left:-30%;
 		margin-bottom:100px;
 	}
-
 }
 
 /******************
