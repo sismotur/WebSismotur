@@ -16,11 +16,11 @@
 	}
 
 	.seccion#tecnologias {
-		min-height: 180vh;
+		height: 180vh;
 	}
 
 	.seccion#noticias {
-		min-height: 90vh;
+		height: 90vh;
 	}
 
 	#text-inventrip {
@@ -32,18 +32,23 @@
 	}
 }
 
-/******************************
-***** TABLETS OR SMALLER ******
-/*****************************/
+/***********************************
+***** TABLETS OR SMALLER ***********
+***** FROM HERE TABLE DISPLAY ******
+/***********************************/
 
-@media screen and (max-width:1020px) { /* before 970 px */
+@media screen and (max-width:1025px) { /* iPad 1024 */
 
-  /***********
-	** COMMON **
-	***********/
+  /*****************
+	** 1020: COMMON **
+	******************/
 
 	.separador {
 		font-size: 26px;
+	}
+
+	.action-button {
+		font-size: 18px;
 	}
 
   /* LOGO SISMOTUR */
@@ -88,9 +93,9 @@
 		display:none;	/* autodetect language on mobile phone, to check, add back? */
 	}
 
-	/***********
-	** PORTADA *
-	/***********/
+	/******************
+	** 1020: PORTADA **
+	/*****************/
 
 	div#logo-eslogan {
 		position:relative;
@@ -108,12 +113,10 @@
 		height: auto;
 	}
 
-	/* Reduce font size of the title and separate it from Sismotur logo */
 	p#logo-eslogan-1 {
 		font-size:40px;
 	}
 
-	/* Reduce font size of the title and separate it from Sismotur logo */
 	p#logo-eslogan-2 {
 		font-size:20px;
 		margin-bottom: 8%;
@@ -124,46 +127,61 @@
 		width: 90%;
 	}
 
-	/*********************/
-	/* SECTION INVENTRIP */
-	/*********************/
+	/**************************
+	* 1020: SECTION INVENTRIP *
+	/*************************/
 
 	.seccion#inventrip {
 		margin-top:0px;
-		min-height: 170vh;
+		height: auto;
 	}
 
 	#img-inventrip {
-		width:80%;
+		float: none;
 		display: block;
+		width:80%;
+		margin: 0 auto;
+		padding: 5% 0;
 	}
 
 	#cont-inventrip{
 		float: none;
 		width:80%;
+		padding-top: 0;
 	}
 
 	#logo-inventrip {
 		float: none;
+		height: auto;
+		width: auto;
 	}
 
-	/************************/
-	/* SECTION TECHNOLOGIES */
-	/************************/
+	/*****************************
+	* 1020: SECTION TECHNOLOGIES *
+	/****************************/
 
 	.seccion#tecnologias {
-		min-height: 630vh;
+		height: auto;
 	}
 
 	div.tecnol {
 		float:none;
+		height: auto;
 		width:50%;
 		margin: 0 auto;
 		padding-top:10%;
 	}
 
+	p.texto.t-tecno {
+		height: auto;
+	}
+
+	p.titulo-tecnol {
+		height: auto;
+	}
+
 	button.mas-info {
-		margin-top:-90px;
+		margin:10% auto;
 	}
 
 	/****************/
@@ -172,12 +190,14 @@
 
 	.seccion#noticias {
 		margin-top:0px;
-		min-height: 150vh;
+		height: auto;
 	}
 
 	#img-noticias {
-		width:80%;
-		display:block;
+		float: none;
+		display:table;
+		width:90%;
+		margin: 5% auto;
 	}
 
 	#cont-noticias{
@@ -195,9 +215,17 @@
 	}
 
 	#ver-mas-noticias {
-		margin-top:0px;
-		margin-bottom:100px;
+		margin: 10% auto;
 	}
+
+	/*****************
+	* SECTION STAFF *
+	/****************/
+
+	.section#staff {
+		
+	}
+
 }
 
 /******************
@@ -205,6 +233,19 @@
 /*****************/
 
 	@media screen and (max-width:600px) {
+
+		.separador {
+			font-size: 20px;
+		}
+
+		img#logo-portada {
+			margin-top: 25%;
+			width: 90%;
+		}
+
+		div.tecnol {
+			width: 80%;
+		}
 
 		div#contenedor-staff{
 			width:280px;

@@ -17,7 +17,7 @@ div.seccion {
 /* separator inter-section */
 .separador {
 	width:100%;
-	height:8vh;
+	height:auto;
 	background-image:url(../img/mapafondotres.jpg);
 	position:relative;
 	background-attachment:fixed;
@@ -186,7 +186,7 @@ div#separador-1 {
 }
 
 p#separador-1 {
-	margin: 1% 0;
+	margin: 1% 5%;
 	color:#ffffff;
 }
 
@@ -198,7 +198,6 @@ div.seccion#portada {
 	background-image:url(../img/banner.jpg);
 	background-size:cover;
 	height:100vh;
-	min-height:800px;
 }
 
 	div#fondo-azul {
@@ -325,7 +324,7 @@ div.seccion#portada {
 
 		#inventrip-call-to-action {
 			padding-top:17px;
-			margin-top: 5%;
+			margin: 10% auto;
 			height:33px;
 			border-style:solid;
 			border-color:rgb(0,36,168);
@@ -347,7 +346,7 @@ div.seccion#portada {
 
 		/* SEPARADOR 2 */
 		p#separador-2 {
-			margin: 1% 0;
+			margin: 1% 5%;
 		}
 
 
@@ -384,7 +383,7 @@ div.seccion#portada {
 		color:rgb(0,36,168);
 		margin-top:15px;
 		margin-bottom:15px;
-		min-height: 80px;
+		height: 80px;
 	}
 
 	p.texto.t-tecno {
@@ -417,7 +416,7 @@ div.seccion#portada {
 	}
 
 	p#separador-3 {
-		margin: 1% 0;
+		margin: 1% 5%;
 		color:#ffffff;
 	}
 
@@ -441,7 +440,7 @@ div.seccion#portada {
 
 	#cont-noticias {
 		float: right;
-		padding: 75px 10% 0 10%;
+		padding: 5% 10% 0 10%;
 		width:20%;
 		height:auto;
 		text-align: center;
@@ -484,12 +483,11 @@ div.seccion#portada {
 
 	.seccion#staff {
 		background-image:url(../img/crossword-gris.png);
-		padding-bottom: 100px;
+		padding: 5% 0;
 		text-align:center;
 	}
 
 	#title-staff {
-		padding-top:50px;
 		font-size:42px;
 		font-family: 'Monda';
 	}
