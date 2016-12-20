@@ -11,7 +11,7 @@
 		line-height: 1.5;
 	}
 
-	.separador {
+	.separador > p {
 		font-size: 32px;
 	}
 
@@ -19,20 +19,16 @@
 		height: 180vh;
 	}
 
-	#logo-inventrip {
+	img.product-logo {
 		width: 70px;
 		height: 70px;
 	}
 
-	#title-inventrip {
+	p.product-title {
 		font-size: 36px;
 	}
 
-  #eslogan-inventrip {
-		font-size:19px;
-	}
-
-	#text-inventrip {
+	p.product-text {
 		padding-top: 0;
 	}
 
@@ -52,7 +48,7 @@
 	** 1020: COMMON **
 	******************/
 
-	.separador {
+	.separador > p {
 		font-size: 26px;
 	}
 
@@ -145,7 +141,12 @@
 		height: auto;
 	}
 
-	#img-inventrip {
+	.seccion#signing {
+		margin-top:0px;
+		height: auto;
+	}
+
+	img.product {
 		float: none;
 		display: block;
 		width:80%;
@@ -153,18 +154,18 @@
 		padding: 5% 0;
 	}
 
-	#cont-inventrip{
+	div.product {
 		float: none;
 		width:80%;
 		margin: 0 auto;
 		padding-top: 0;
 	}
 
-	#title-inventrip {
+	p.product-title {
 		margin: 15px 0;
 	}
 
-	#logo-inventrip {
+	img.product-logo {
 		float: none;
 		height: auto;
 		width: auto;
@@ -253,7 +254,7 @@
 
 	@media screen and (max-width:600px) {
 
-		.separador {
+		.separador > p {
 			font-size: 20px;
 		}
 

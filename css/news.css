@@ -76,6 +76,7 @@
 
 	footer.news {
 		position:fixed;
+		text-align: center;
 		height:100px;
 		width:100%;
 		background-color:white;
@@ -89,9 +90,8 @@
 	/* inside footer */
 	a.contact-us {
 		position:relative;
-		top:25px;
+		margin: 20px auto;
 		padding-top:15px;
-		left:50%;
 		height:50px;
 		border-radius: 25px;
 		border-style:solid;
@@ -100,17 +100,15 @@
 		display:block;
 		text-decoration:none;
 		font-family:'Exo';
-		background-color:rgb(160,160,160);
+		background-color:rgb(0,36,168);
 		width:250px;
-		margin-left:-125px;
 		font-size:16px;
-		text-align:center;
-		color:rgb(255,255,255);
+		color:#ffffff;
 	}
 
 	a.contact-us:hover {
+		background-color: transparent;
 		color:rgb(0,36,168);
-		font-weight: bold;
 		transition: all 0.5s;
 	}
 
@@ -175,17 +173,12 @@
 		font-size: 16px;
 	}
 
-	a.contact-us {
-		top:10px;
-	}
-
 	footer.news {
 		height:70px;
 	}
 
 	a.contact-us {
-		top:10px;
+		margin: 0 auto;
 	}
 
 }
-

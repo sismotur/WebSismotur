@@ -75,20 +75,26 @@ function loadLanguage($scope){
 			$scope.mnTeam = 'Socios';
 			$scope.mnCont = 'Contacto';
 			$scope.mnIdioma = 'ES';
+			
+			// ******************
+			// INVENTRIP
+			// ******************
+			$scope.separadorInventrip = 'Implanta un Servicio de Información Personalizado';
+			$scope.invTextA = 'Conecta tu Destino';
+			$scope.invTextB = 'Sismotur te implanta un servicio de información y gestión de la  señalización turística inteligente para tu destino, que permita consultar la oferta turística, reservar, construir viajes a medida y compartirlos en redes sociales o mediante el uso de las últimas tecnologías: Beacons, NFC, códigos QR.';
 
-			// ******************
-			// SEPARADOR GRIS 1
-			// ******************
-			$scope.resume1 = 'Implanta un Servicio de Información Personalizado';
+			// **********************
+			// SIGNING
+			// **********************
+			$scope.separadorSigning = "Implanta un Servicio de Señalización";
+			$scope.signingTitle = 'Signing';
+			$scope.signingTextA = 'Gestiona tu señalización';
+			$scope.signingTextB = 'Sismotur es líder en la elaboración de planes de señalización y te implanta Signing, un servicio web especializado para la planificación y gestión de la señalización territorial y urbana utilizado por más de 30 administraciones públicas.';
 
-			// REVISAR
-			$scope.btnMoreInfo = '¿Quieres descubrir un caso de éxito?';
-			$scope.btnClick = 'HAZ CLICK AQUÍ';
-
-			// ******************
-			// SEPARADOR GRIS 2
-			// ******************
-			$scope.techTitle = 'Inventrip utiliza las mejores tecnologías';
+			// **********************
+			// SEPARADOR TECHNOLOGIES
+			// **********************
+			$scope.techTitle = 'Inventrip y Signing utilizan las mejores tecnologías';
 
 			// ******************
 			// TECNOLOGIAS
@@ -112,18 +118,6 @@ function loadLanguage($scope){
 
 			// e-Commerce
 			$scope.comercializacionText = 'Facilita al turista el acceso a motores de reserva de alojamientos, restaurantes y actividades, antes o durante el viaje.';
-
-			// ******************
-			// TECNOLOGIAS
-			// ******************
-
-			// Inventrip
-			$scope.invTextA = 'Conecta tu destino';
-			$scope.invTextB = 'Implanta un servicio de información y gestión de la  señalización turística inteligente para tu destino, que permita consultar la oferta turística, reservar, construir viajes a medida y compartirlos en redes sociales o mediante el uso de las últimas tecnologías: Beacons, NFC, QR.';
-
-			$scope.btnInventrip = 'Ir a Inventrip';
-
-			$scope.btnSigning = 'Más información';
 
 			// ******************
 			// NOTICIAS
@@ -166,7 +160,7 @@ function loadLanguage($scope){
 			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
 
 			$scope.Sentitle1 = 'Ruta Ribera del Duero Smart';
-			$scope.Sentext1 = 'Sismotur ha implantado el sistema de señalización turística inteligente Inventrip en la Ruta del Vino Ribera del Duero.';
+			$scope.Sentext1 = 'Sismotur ha implantado el sistema Inventrip de señalización turística inteligente en la Ruta del Vino Ribera del Duero.';
 
 			$scope.Sentitle2 = 'Barcelona';
 			$scope.Sentext2 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
@@ -224,7 +218,7 @@ function loadLanguage($scope){
 			// *********************
 
 			$scope.newsTitle19 = 'Sismotur presentará Blockchain y sus aplicaciones potenciales para el Turismo durante FITUR 2017 en SEGITTUR Lab';
-			$scope.newsContent19 = 'Sismotur estará presente en FITUR 2017, en el área Know How & Export, cerca del stand de SEGITTUR (Stand 10B09). El día 18 de enero a las 17:30, en el espacio SEGITTUR Lab, organizaremos una conferencia sobre la tecnología Blockchain y sus aplicaciones en el ámbito del Turismo.';
+			$scope.newsContent19 = 'Sismotur estará presente en FITUR 2017, en el área Know How & Export (Stand 10B09, cerca del stand de SEGITTUR). El día 18 de enero a las 17:30, en el espacio SEGITTUR Lab, organizaremos una conferencia sobre la tecnología Blockchain y sus aplicaciones en el ámbito del Turismo.';
 			$scope.newsDetail19 = 'Análisis de Blockchain y su potencial para el Turismo';
 
 			$scope.newsTitle18 = 'Artículo sobre la Señalización Turística Inteligente en EFE Empresas';
@@ -232,7 +226,7 @@ function loadLanguage($scope){
 			$scope.newsDetail18 = 'Enlace al Artículo';
 
 			$scope.newsTitle17 = 'Artículo en el Blog de Kontakt.io';
-			$scope.newsContent17 = 'Kontakt, referencia mundial en tecnologías conectadas (Internet of the Things) y compañero de viaje de Sismotur, explica la innovación que supone Inventrip para el sector turístico.';
+			$scope.newsContent17 = 'Kontakt, referencia mundial en tecnologías conectadas (Internet of the Things) y colaborador de Sismotur, explica la innovación que supone Inventrip para el sector turístico.';
 			$scope.newsDetail17 = 'Enlace al Blog de Kontakt';
 
 			$scope.newsTitle16 = 'Presentación de Inventrip para la Ruta del Vino Ribera del Duero';
@@ -299,7 +293,7 @@ function loadLanguage($scope){
 			// ******************
 			// CLAIM
 			// ******************
-			$scope.claim1 = 'Conecta tu destino con el turista digital';
+			$scope.claim1 = 'Conecta tu Destino con el turista digital';
 			$scope.claim2 = 'Descubre la señalización turística inteligente';
 			$scope.btnMuestra = 'Solicítanos una muestra';
 
@@ -316,11 +310,7 @@ function loadLanguage($scope){
 			// ******************
 			// SEPARADOR GRIS 1
 			// ******************
-			$scope.resume1 = 'Atenem les necessitats de cada client';
-
-			// REVISAR
-			$scope.btnMoreInfo = 'Vol descubrir un cas d\'èxit?';
-			$scope.btnClick = 'FES CLICK AQUÍ';
+			$scope.separadorInventrip = 'Atenem les necessitats de cada client';
 
 			// ******************
 			// SEPARADOR GRIS 2
@@ -357,10 +347,6 @@ function loadLanguage($scope){
 			// Inventrip
 			$scope.invTextA = 'Inventar viatges: aquests és la visió';
 			$scope.invTextB = 'Et proporcionem una plataforma tecnològica amb la qual els teus viatgers podran crear el seu pla de viatge (per dies, ciutats, temes, etc.) i navegant pel mapa podran anar afegint els recursos que vulguen visitar i serveis que desitgin contractar.';
-
-			$scope.btnInventrip = 'Anar a Inventrip';
-
-			$scope.btnSigning = 'Més informació';
 
 			// ******************
 			// NOTICIAS
@@ -455,9 +441,7 @@ function loadLanguage($scope){
 			$scope.StaffCoordinatorPortugal = 'Coordinador Portugal';
 
 			$scope.idiomas = 'Idiomes';
-
 			$scope.moreInfoShort = 'REFERENCIAS';
-
 			$scope.btnContact = 'CONTACTA\'NS';
 
 			// *********************
@@ -554,12 +538,7 @@ function loadLanguage($scope){
 			// ******************
 			// BARRE GRISE 1
 			// ******************
-			$scope.resume1 = 'Nous répondons aux besoins de chaque client';
-
-			// REVISAR
-			$scope.btnMoreInfo = 'Voulez-vous découvrir un cas de réussite ?';
-			$scope.btnClick = 'CLIQUEZ ICI';
-
+			$scope.separadorInventrip = 'Nous répondons aux besoins de chaque client';
 
 			// ******************
 			// BARRE GRISE 2
@@ -596,11 +575,6 @@ function loadLanguage($scope){
 			// Inventrip
 			$scope.invTextA = 'Connectez votre destination';
 			$scope.invTextB = "Nous vous fournissons une plateforme technologique avec laquelle vos voyageurs pourront créer leur plan de voyage (par journées, villes, thématiques...) et, en navigant sur une carte, pourront ajouter les endroits qu'ils voudront visiter et les services qu'ils voudront contracter.";
-
-
-			$scope.btnInventrip = 'Allez à Inventrip';
-
-			$scope.btnSigning = "Plus d'information";
 
 			// ******************
 			// NOTICIAS
@@ -827,10 +801,6 @@ function loadLanguage($scope){
 			// Inventrip
 			$scope.invTextA = 'Connect your destination';
 			$scope.invTextB = 'We provide you with a technological platform that enable your travellers to create their own trip plans (organized by days, cities, topics, etc.), and by navigating on the map add the places they want to visit and the services they want to hire.';
-
-			$scope.btnInventrip = 'Go to Inventrip';
-
-			$scope.btnSigning = 'More information';
 
 			// ******************
 			// NOTICIAS
