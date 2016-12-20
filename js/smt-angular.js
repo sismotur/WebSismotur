@@ -13,7 +13,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 */
 	loadLanguage($scope);
 
-	$scope.changeLang = function(lang){
+	$scope.changeLang = function(lang) {
 		// reset the cookie to track the requested language
 		var d = new Date();
     	d.setTime(d.getTime() + (1*24*60*60*1000));
@@ -23,7 +23,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
 	}
 }]);
 
-function loadLanguage($scope){
+function loadLanguage($scope) {
 	if(document.cookie.indexOf("lang")==-1)
 		$scope.lang = navigator.language.substr(0,2);
 	else{
@@ -32,25 +32,6 @@ function loadLanguage($scope){
 		$scope.lang = document.cookie.substr(index+5,2);
 	}
 
-	// ******************
-	// COMMON ATTRIBUTES
-	// ******************
-	// Menu
-	$scope.mnInven = 'Inventrip';
-	// Tecnology
-	$scope.nfcTitle = 'NFC';
-	$scope.beaconTitle = 'Beacons';
-	$scope.qrTittle = 'QR';
-	$scope.dronTittle = 'DronTrip';
-	$scope.comercializacionTitle = 'e-Commerce';
-	// Inventrip
-	$scope.invTitle = 'Inventrip';
-  // Copyright text
-	$scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
-
-
-
-	// Browser language selector
 	// Browser language selector
 		switch($scope.lang){
 
@@ -70,65 +51,70 @@ function loadLanguage($scope){
 			// ******************
 			// MENU
 			// ******************
-			$scope.mnNoticias = 'Noticias';
+			$scope.inventrip = 'Inventrip';
 			$scope.mnTecno = 'Tecnologías';
+			$scope.mnNoticias = 'Noticias';
 			$scope.mnTeam = 'Socios';
 			$scope.mnCont = 'Contacto';
 			$scope.mnIdioma = 'ES';
-			
+
 			// ******************
 			// INVENTRIP
 			// ******************
-			$scope.separadorInventrip = 'Implanta un Servicio de Información Personalizado';
+			$scope.dividerInventrip = 'Implanta un Servicio de Información Personalizado';
 			$scope.invTextA = 'Conecta tu Destino';
 			$scope.invTextB = 'Sismotur te implanta un servicio de información y gestión de la  señalización turística inteligente para tu destino, que permita consultar la oferta turística, reservar, construir viajes a medida y compartirlos en redes sociales o mediante el uso de las últimas tecnologías: Beacons, NFC, códigos QR.';
 
 			// **********************
 			// SIGNING
 			// **********************
-			$scope.separadorSigning = "Implanta un Servicio de Señalización";
+			$scope.dividerSigning = "Implanta un Servicio de Señalización";
 			$scope.signingTitle = 'Signing';
 			$scope.signingTextA = 'Gestiona tu señalización';
 			$scope.signingTextB = 'Sismotur es líder en la elaboración de planes de señalización y te implanta Signing, un servicio web especializado para la planificación y gestión de la señalización territorial y urbana utilizado por más de 30 administraciones públicas.';
 
-			// **********************
-			// SEPARADOR TECHNOLOGIES
-			// **********************
-			$scope.techTitle = 'Inventrip y Signing utilizan las mejores tecnologías';
-
 			// ******************
 			// TECNOLOGIAS
 			// ******************
+			$scope.dividerTechnologies = 'Inventrip y Signing utilizan las mejores tecnologías';
 
-			// DronTrip
-			$scope.dronText = 'Utiliza vuelos turísticos con Drones para viralizar por las redes sociales la promoción de destinos y servicios turísticos.';
+			$scope.btnReferences = 'REFERENCIAS';
 
-			// NFC
-			$scope.nfcText = 'Entrega al turista tarjetas contactless en oficinas, ferias u hoteles para personalizar su experiencia turística en el destino.';
-
-			// Signal
 			$scope.senalizacionTitle = 'Señalización Inteligente';
 			$scope.senalizacionText = 'Mejora la señalización turística de tu destino integrándola con sistemas avanzados de información turística. Te ofrecemos nuestro servicio cloud Signing para su planificación y gestión';
 
-			// QR
-			$scope.qrText = 'Gestiona fácilmente la información turística online de recursos y mapas en múltiples idiomas.';
-
-			// Beacons
+			$scope.beacons = 'Beacons';
 			$scope.beaconText = 'Incorpora esta nueva tecnología en señales o en oficinas de información para enviar al turista productos y servicios personalizados a su dispositivo móvil.';
 
-			// e-Commerce
+			$scope.eCommerce = 'e-Commerce';
 			$scope.comercializacionText = 'Facilita al turista el acceso a motores de reserva de alojamientos, restaurantes y actividades, antes o durante el viaje.';
+
+			$scope.nfc = 'NFC';
+			$scope.nfcText = 'Entrega al turista tarjetas contactless en oficinas, ferias u hoteles para personalizar su experiencia turística en el destino.';
+
+			$scope.qr = 'QR';
+			$scope.qrText = 'Gestiona fácilmente la información turística online de recursos y mapas en múltiples idiomas.';
+
+			$scope.dronTrip = 'DronTrip';
+			$scope.dronText = 'Utiliza vuelos turísticos con Drones para viralizar por las redes sociales la promoción de destinos y servicios turísticos.';
 
 			// ******************
 			// NOTICIAS
 			// ******************
+			$scope.dividerNews = 'Últimas noticias';
+			$scope.moreNews = 'Más noticias';
 
-			$scope.resumeNoticias = 'Últimas noticias';
-			$scope.btnNewsClick = 'Más noticias';
+			// *********************
+			// PARTNERS
+			// *********************
+			$scope.titlePartners = 'Socios';
 
 			// ******************
 			// CONTACTO
 			// ******************
+
+			$scope.btnContact = 'CONTÁCTANOS';
+
 			$scope.cntSpain = 'España';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
 			$scope.cntSpainPhone = '+34 913.238.208';
@@ -137,81 +123,53 @@ function loadLanguage($scope){
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
 
-			$scope.btnContact = 'Contactar';
+			$scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 
 			// *********************
 			// SUBSECCION TECNOLOGIA
 			// *********************
 
-			// Página DronTrip
-			$scope.DronTriptext1 = '¡Te invitamos a volar por la comarca Sierra de Montánchez y Tamuja!';
-			$scope.DronTripbutton1 = 'Ver Video';
+			// Página Señalización Inteligente
+			$scope.senalizacionTitle1 = 'Ruta Ribera del Duero Smart';
+			$scope.senalizacionText1 = 'Sismotur ha implantado el sistema Inventrip de señalización turística inteligente en la Ruta del Vino Ribera del Duero.';
 
-			// Página NFC
-			$scope.NFCtitle1 = 'Tarjetas NFC Ibiza';
-			$scope.NFCtext1 = 'El Ayuntamiento de Ibiza presentó a los medios el proyecto de Destino Turístico Inteligente con señalización inteligente, beacons y estas tarjetas NFC con un viaje predefinido por Dalt Vila.';
-			$scope.NFCbutton1 = 'Descubre el viaje';
+			$scope.senalizacionTitle2 = 'Barcelona';
+			$scope.senalizacionText2 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
 
-			$scope.NFCtitle2 = 'Tarjetas NFC Palencia Turismo'
-			$scope.NFCtext2 = 'Palencia Turismo presentó Inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
-			$scope.NFCbutton2 = 'Descubre el viaje';
-
-			// Página Señalización
-			$scope.SenyalizacionTitle = 'Sismotur SL - Señalización'
-
-			$scope.Sentitle1 = 'Ruta Ribera del Duero Smart';
-			$scope.Sentext1 = 'Sismotur ha implantado el sistema Inventrip de señalización turística inteligente en la Ruta del Vino Ribera del Duero.';
-
-			$scope.Sentitle2 = 'Barcelona';
-			$scope.Sentext2 = 'Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.';
-
-			$scope.Sentitle3 = 'Castilla y León';
-			$scope.Sentext3 = 'La Consejera y el Director General de Turismo de Castilla y León, conjuntamente con Sismotur, presentaron en INTUR el programa de mejora de la señalización turística de la región.';
-
-			// Página QR
-			$scope.QRtitle1 = 'Normandía y Bretaña';
-			$scope.QRtext1 = '¡Descubre un viaje por Normandía y Bretaña escaneando este código QR!';
-			$scope.QRbutton1 = 'Descubre el viaje';
-
-			$scope.QRtitle2 = 'Barcelona';
-			$scope.QRtext2 = 'Sismotur redactó en 2012 el primer plan de señalización e información turística de la ciudad de Barcelona para el distrito de Horta-Guinardó.';
-			$scope.QRbutton2 = 'Más Info';
+			$scope.senalizacionTitle3 = 'Castilla y León';
+			$scope.senalizacionText3 = 'La Consejera y el Director General de Turismo de Castilla y León, conjuntamente con Sismotur, presentaron en INTUR el programa de mejora de la señalización turística de la región.';
 
 			// Página Beacon
-			$scope.Beacontitle1 = 'Beacons en las Señales Inteligentes';
-			$scope.Beacontext1 = 'Inventrip conecta las señales inteligentes con el turista utilizando Beacons.';
+			$scope.beaconTitle1 = 'Beacons en las Señales Inteligentes';
+			$scope.beaconText1 = 'Inventrip conecta las señales inteligentes con el turista utilizando Beacons.';
 
-			$scope.Beacontitle2 = 'Señalización Turística Inteligente en las Palmas de Gran Canaria';
-			$scope.Beacontext2 = 'Sismotur desarrolla el plan de señalización turística inteligente de las Palmas de Gran Canaria empleando la tecnología Beacons gestionada por Inventrip.';
+			$scope.beaconTitle2 = 'Señalización Turística Inteligente en las Palmas de Gran Canaria';
+			$scope.beaconText2 = 'Sismotur desarrolla el plan de señalización turística inteligente de las Palmas de Gran Canaria empleando la tecnología Beacons gestionada por Inventrip.';
 
 			// Página e-Commerce
-			$scope.eCommercetitle1 = 'e-Commerce';
-			$scope.eCommercetext1 = 'Integración de centrales de reservas en Inventrip para que los turistas puedan reservar servicios antes y durante el viaje.';
+			$scope.eCommerceTitle1 = 'e-Commerce';
+			$scope.eCommerceText1 = 'Integración de centrales de reservas en Inventrip para que los turistas puedan reservar servicios antes y durante el viaje.';
 
-			// *********************
-			// STAFF
-			// *********************
+			// Página NFC
+			$scope.nfcTitle1 = 'Tarjetas NFC Ibiza';
+			$scope.nfcText1 = 'El Ayuntamiento de Ibiza presentó a los medios el proyecto de Destino Turístico Inteligente con señalización inteligente, beacons y estas tarjetas NFC con un viaje predefinido por Dalt Vila.';
+			$scope.nfcButton1 = 'Descubre el viaje';
 
-			$scope.btnTitleTeam = 'Socios';
+			$scope.nfcTitle2 = 'Tarjetas NFC Palencia Turismo'
+			$scope.nfcText2 = 'Palencia Turismo presentó Inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
+			$scope.nfcButton2 = 'Descubre el viaje';
 
-			$scope.StaffCEO = 'Cofundador - CEO';
-			$scope.StaffCOO = 'Cofundador - COO';
-			$scope.StaffCMO = 'Socio - CMO';
-			$scope.StaffCTO = 'Socio - CTO';
-			$scope.StaffCLO = 'Socio - CLO';
-			$scope.StaffHeadDev = 'Jefe Dpto. Desarrollo';
-			$scope.StaffArtificialInt = 'Inteligencia Artificial';
-			$scope.StaffDesign = 'Diseño & Comunicación';
-			$scope.AssociateBcn = 'Técnico Barcelona';
-			$scope.AssociateProjects = 'Jefe Proyectos';
-			$scope.StaffCoordinatorCroatia = 'Coordinador Croacia';
-			$scope.StaffCoordinatorAustria = 'Coordinador Austria';
-			$scope.StaffCoordinatorSwitzerland = 'Coordinador Suiza';
-			$scope.StaffCoordinatorPortugal = 'Coordinador Portugal';
+			// Página QR
+			$scope.qrTitle1 = 'Normandía y Bretaña';
+			$scope.qrText1 = '¡Descubre un viaje por Normandía y Bretaña escaneando este código QR!';
+			$scope.qrButton1 = 'Descubre el viaje';
 
-			$scope.idiomas = 'Idiomas';
-			$scope.moreInfoShort = 'REFERENCIAS';
-			$scope.btnContact = 'CONTÁCTANOS';
+			$scope.qrTitle2 = 'Barcelona';
+			$scope.qrText2 = 'Sismotur redactó en 2012 el primer plan de señalización e información turística de la ciudad de Barcelona para el distrito de Horta-Guinardó.';
+
+			// Página DronTrip
+			$scope.drontripText1 = '¡Te invitamos a volar por la comarca Sierra de Montánchez y Tamuja!';
+			$scope.drontripButton1 = 'Ver Video';
 
 			// *********************
 			// news.html
@@ -280,9 +238,7 @@ function loadLanguage($scope){
 			$scope.newsTitle1 = 'Inventrip recibe el premio a la mejor idea de marketing de destinos de Territorio & Marketing';
 			$scope.newsContent1 = 'Sismotur ha recibido el premio finalista por la aportación de la plataforma Inventrip a la difusión y promoción de un destino turístico. El jurado reconoce cómo Inventrip es capaz de unir la parte emotiva de la experiencia de un turista a la hora de preparar un viaje con la realidad de desplazarse dentro del territorio durante el viaje y la prescripción en positivo que posteriormente hace de dicho destino.';
 
-
 			break;
-
 
 		// ************************************************************************
 		// **************************************** CATALAN ***********************
