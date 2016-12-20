@@ -279,6 +279,7 @@ div.seccion#portada {
 		.seccion#inventrip {
 			min-height:80vh;
 			background-image:url(../img/crossword.png);
+			text-align: center;
 		}
 
 		#img-inventrip {
@@ -291,29 +292,28 @@ div.seccion#portada {
 
 		#cont-inventrip {
 			float: right;
-			padding: 90px 10% 0 10%;
-			width:20%;
+			padding: 90px 5% 0 5%;
+			width:30%;
 			height:auto;
-			text-align: center;
 		}
 
 		#logo-inventrip {
 			float:left;
-			width:70px;
-			height:70px;
-			border-radius:120px;
+			width:100px;
+			height:100px;
 			/* box-shadow:5px 5px 10px #000000; felipe: optional */
 		}
 
 		#title-inventrip {
 			height:auto;
-			font-size:36px;
+			font-size:50px;
+			font-family: 'Monda';
 		}
 
 		#eslogan-inventrip {
 			margin-bottom:25px;
 			height:auto;
-			font-size:18px;
+			font-size:26px;
 			font-weight:bold;
 			line-height:1.5;
 		}
@@ -356,7 +356,6 @@ div.seccion#portada {
 
 	.seccion#tecnologias {
 		min-height:150vh;
-		/* min-height:1300px; */ /* before 1600px */
 		background-image:url(../img/crossword.png);
 	}
 
@@ -381,8 +380,7 @@ div.seccion#portada {
 		font-size:36px;
 		font-family:'Monda';
 		color:rgb(0,36,168);
-		margin-top:15px;
-		margin-bottom:15px;
+		margin: 15px 0;
 		height: 80px;
 	}
 
@@ -493,12 +491,10 @@ div.seccion#portada {
 	}
 
 	#contenedor-staff {
-		position:relative;
 		width:560px;
 		height:150px;
 		padding-top:3%;
-		left:50%;
-		margin-left:-250px;
+		margin: 0 auto;
 	}
 
 	div.content-staff {

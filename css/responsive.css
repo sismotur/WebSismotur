@@ -19,8 +19,17 @@
 		height: 180vh;
 	}
 
-	.seccion#noticias {
-		height: 90vh;
+	#logo-inventrip {
+		width: 70px;
+		height: 70px;
+	}
+
+	#title-inventrip {
+		font-size: 36px;
+	}
+
+  #eslogan-inventrip {
+		font-size:19px;
 	}
 
 	#text-inventrip {
@@ -147,7 +156,12 @@
 	#cont-inventrip{
 		float: none;
 		width:80%;
+		margin: 0 auto;
 		padding-top: 0;
+	}
+
+	#title-inventrip {
+		margin: 15px 0;
 	}
 
 	#logo-inventrip {
@@ -170,6 +184,11 @@
 		width:50%;
 		margin: 0 auto;
 		padding-top:10%;
+	}
+
+	img.img-tecnol {
+		height: 148px;
+		width: 148px;
 	}
 
 	p.texto.t-tecno {
@@ -197,7 +216,7 @@
 		float: none;
 		display:table;
 		width:90%;
-		margin: 5% auto;
+		margin: 5% auto 0 auto;
 	}
 
 	#cont-noticias{
@@ -215,7 +234,7 @@
 	}
 
 	#ver-mas-noticias {
-		margin: 10% auto;
+		margin: 5% auto;
 	}
 
 	/*****************
@@ -223,7 +242,7 @@
 	/****************/
 
 	.section#staff {
-		
+
 	}
 
 }
@@ -250,7 +269,6 @@
 		div#contenedor-staff{
 			width:280px;
 			height:200px;
-			margin-left:-140px;
 			padding-bottom:100px;
 		}
 
