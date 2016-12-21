@@ -114,7 +114,7 @@ function loadLanguage($scope) {
 			$scope.nfcButton1 = 'Descubre el viaje';
 
 			$scope.nfcTitle2 = 'Tarjetas NFC Palencia Turismo'
-			$scope.nfcText2 = 'Palencia Turismo presentó Inventrip a los medios durante la pasada Feria de Turismo Interior (INTUR) e hizo entrega de tarjetas NFC con un viaje por la Provincia de Palencia.';
+			$scope.nfcText2 = 'Palencia Turismo presentó Inventrip a los medios durante la Feria de Turismo Interior (INTUR-2015) y entregó tarjetas NFC con un viaje por la Provincia de Palencia.';
 			$scope.nfcButton2 = 'Descubre el viaje';
 
 			// qr
@@ -162,10 +162,10 @@ function loadLanguage($scope) {
 			$scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 
 			// *********************
-			// news.html ES
+			// NEWS ES
 			// *********************
 			$scope.newsTitle19 = 'Sismotur presentará Blockchain y sus aplicaciones potenciales para el Turismo durante FITUR 2017 en SEGITTUR Lab';
-			$scope.newsContent19 = 'Sismotur estará presente en FITUR 2017, en el área Know How & Export (Stand 10B09, cerca del stand de SEGITTUR). El día 18 de enero a las 17:30, en el espacio SEGITTUR Lab, organizaremos una conferencia sobre la tecnología Blockchain y sus aplicaciones en el ámbito del Turismo.';
+			$scope.newsContent19 = 'Sismotur estará presente en FITUR 2017, en el área Know-How & Export (Stand 10B09, cerca del stand de SEGITTUR). El día 18 de enero a las 17:30, en el espacio SEGITTUR Lab, organizaremos una conferencia sobre la tecnología Blockchain y sus aplicaciones en el ámbito del Turismo.';
 			$scope.newsDetail19 = 'Análisis de Blockchain y su potencial para el Turismo';
 
 			$scope.newsTitle18 = 'Artículo sobre la Señalización Turística Inteligente en EFE Empresas';
@@ -322,7 +322,6 @@ function loadLanguage($scope) {
 
 			$scope.QRtitle2 = 'Barcelona';
 			$scope.QRtext2 = 'Sismotur va redactar el 2012 el primer pla de senyalització i informació turística de la ciutat de Barcelona per al districte d\'Horta-Guinardó.';
-			$scope.QRbutton2 = 'Més Info';
 
 			// drontrip
 			$scope.dronText = 'Utilitza vols turístics amb Drons per viralitzar per les xarxes socials la promoció de destinacions i serveis turístics.';
@@ -344,7 +343,7 @@ function loadLanguage($scope) {
 			// ******************
 			// CONTACTO CA
 			// ******************
-			$scope.btnContact = 'CONTÁCTANOS';
+			$scope.btnContact = 'CONTACTA\'NS';
 
 			$scope.cntSpain = 'Espanya';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
@@ -353,29 +352,6 @@ function loadLanguage($scope) {
 			$scope.cntFrance = 'França';
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
-
-
-
-			// Página Beacon
-			$scope.Beacontitle1 = 'Beacon';
-			$scope.Beacontext1 = 'Projecte de tecnologia beacons per Ibiza.';
-
-			$scope.Beacontitle2 = 'Beacon';
-			$scope.Beacontext2 = 'Proposta de la tecnologia beacons a la província de Palència.';
-
-			// Página e-Commerce
-			$scope.eCommercetitle1 = 'e-Commerce';
-			$scope.eCommercetext1 = 'Integración de centrales de reservas en Inventrip para que los turistas puedan reservar servicios antes y durante el viaje.';
-
-			// *********************
-			// PARTNERS CA
-			// *********************
-			$scope.titlePartners = 'Socis';
-
-			// ******************
-			// CONTACTO CA
-			// ******************
-			$scope.btnContact = 'CONTACTA\'NS';
 
 			// *********************
 			// news.html CA
@@ -450,75 +426,121 @@ function loadLanguage($scope) {
 			case "fr":
 
 			// ******************
-			// CLAIM
+			// CLAIM FR
 			// ******************
-			$scope.claim1 = 'Conecta tu destino con el turista digital';
-			$scope.claim2 = 'Descubre la señalización turística inteligente';
-			$scope.btnMuestra = 'Solicítanos una muestra';
+			$scope.claim1 = 'Connectez votre destination avec le touriste numérique';
+			$scope.claim2 = 'Découvrez la signalétique touristique intelligente';
+			$scope.btnMuestra = 'Demandez un échantillon gratuit';
 
 			// ******************
-			// MENU
+			// MENU FR
 			// ******************
-			$scope.mnNoticias = 'Actualités';
-			$scope.mnObjet = 'Objectives';
+			$scope.inventrip = 'Inventrip';
 			$scope.mnTecno = 'Technologies';
+			$scope.mnNoticias = 'Actualités';
 			$scope.mnTeam = 'Partenaires';
 			$scope.mnCont = 'Contact';
 			$scope.mnIdioma = 'FR';
 
 			// ******************
-			// BARRE GRISE 1
+			// INVENTRIP FR
 			// ******************
-			$scope.separadorInventrip = 'Nous répondons aux besoins de chaque client';
+			$scope.dividerInventrip = 'Implantez un Service d\'Information Personnalisé';
+			$scope.invTextA = 'Connectez votre Destination';
+			$scope.invTextB = "Sismotur implante dans votre destination un service d'information et gestion de la signalisation touristique intelligente, lequel permet la consultation de l'offre touristique, la réservation, ainsi que la construction de voyages sur mesure. Il permet également le partage d'expériences sur les réseaux sociaux ou par l'usage de dispositifs de connexion: Beacons, NFC, codes QR.";
+
+			// **********************
+			// SIGNING ES
+			// **********************
+			$scope.dividerSigning = "Implantez un Service de Signalisation";
+			$scope.signingTitle = 'Signing';
+			$scope.signingTextA = 'Gérez votre signalétique';
+			$scope.signingTextB = "Sismotur est leader dans l'élaboration de schémas directeurs et vous implante Signing, un service web spécialisé pour la planification et la gestion de la signalisation territoriale et urbaine qui est utilisé par plus de 30 administrations publiques.";
 
 			// ******************
-			// BARRE GRISE 2
+			// TECNOLOGIAS FR
 			// ******************
-			$scope.techTitle = 'Inventrip utilise les meilleures technologies';
+			$scope.dividerTechnologies = 'Inventrip et Signing utilisent les meilleures technologies';
 
-			// ******************
-			// TECHNOLOGIES
-			// ******************
+			$scope.btnReferences = 'RÉFÉRENCES';
 
-			// DronTrip
-			$scope.dronText = 'Utilisez des vols touristiques enregistrés avec des drones pour viraliser dans les réseaux sociaux la promotion des destinations et services touristiques.';
-
-			// NFC
-			$scope.nfcText = 'Donnez à vos touristes de belles cartes équipées de puces sans contact pour personnaliser et enrichir leur expérience touristique dans votre territoire.';
-
-			// Signalisation
+			// smart signage
 			$scope.senalizacionTitle = 'Signalisation Intelligente';
-			$scope.senalizacionText = "Améliorez la signalisation touristique de votre destination en l'intégrant avec des systèmes d'information touristique de pointe.";
+			$scope.senalizacionText = "Améliorez la signalisation touristique de votre destination en l'intégrant avec des systèmes d'information touristique de pointe. Nous vous offrons notre service cloud Signing pour sa planification et gestion.";
 
-			// QR
-			$scope.qrText = "Gérez facilement l'information touristique en ligne des ressources et cartes, et ce quelle que soit la langue du touriste.";
+			$scope.senalizacionTitle1 = 'Route Ribera del Duero Smart';
+			$scope.senalizacionText1 = 'Sismotur a implanté le système Inventrip de signalisation touristique intelligente dans la Route Ribera del Duero.';
 
-			// Beacons
+			$scope.senalizacionTitle2 = 'Barcelone';
+			$scope.senalizacionText2 = 'Design de la nouvelle signalisation touristique piétonne menée par Sismotur pour la ville de Barcelone.';
+
+			$scope.senalizacionTitle3 = 'Castille et Leon';
+			$scope.senalizacionText3 = "La Conseillère et le Directeur Général de Tourisme de Castille et Leon, ont présenté avec Sismotur le programme d'amélioration de la signalisation touristique de la région lors du salon de tourisme intérieur INTUR.";
+
+			// beacons
+			$scope.beacons = 'Beacons';
 			$scope.beaconText = "Adoptez cette nouvelle technologie pour envoyer aux touristes des produits et services personnalisés sur leurs smartphones.";
 
-			// e-Commerce
+			$scope.beaconTitle1 = 'Beacons dans les Signaux Intelligents';
+			$scope.beaconText1 = "Inventrip connecte les panneaux intelligents avec le touriste en utilisant des Beacons.";
+
+			$scope.beaconTitle2 = 'Signalétique Touristique Intelligente à Las Palmas de Gran Canaria';
+			$scope.beaconText2 = 'Sismotur développe le plan de signalisation touristique intelligente de Las Palmas de Gran Canaria en utilisant la technologie Beacons gérée par Inventrip.';
+
+			// e-commerce
+			$scope.eCommerce = 'e-Commerce';
 			$scope.comercializacionText = "Facilitez au touriste l'accés à la réservation en ligne de logements, restaurants et activités, et ce avant ou durant le voyage.";
 
-			// ******************
-			// PLATEFORMES
-			// ******************
+			$scope.eCommerceTitle1 = 'e-Commerce';
+			$scope.eCommerceText1 = 'Intégration de systèmes de réservation dans Inventrip de manière à permettre aux touristes la réservation de services avant et durant leur voyage.';
 
-			// Inventrip
-			$scope.invTextA = 'Connectez votre destination';
-			$scope.invTextB = "Nous vous fournissons une plateforme technologique avec laquelle vos voyageurs pourront créer leur plan de voyage (par journées, villes, thématiques...) et, en navigant sur une carte, pourront ajouter les endroits qu'ils voudront visiter et les services qu'ils voudront contracter.";
+			// nfc
+			$scope.nfc = 'NFC';
+			$scope.nfcText = 'Donnez à vos touristes de belles cartes équipées de puces sans contact pour personnaliser et enrichir leur expérience touristique dans votre territoire.';
+
+			$scope.nfcTitle1 = 'Cartes NFC Ibiza';
+			$scope.nfcText1 = "L'équipe municipale d'Ibiza a présenté à la presse le projet de Destination Touristique Intelligente: signalisation connectée, beacons, et ces cartes NFC qui contiennent un voyage à Dalt Vila";
+			$scope.nfcButton1 = 'Découvrez le voyage';
+
+			$scope.nfcTitle2 = 'Cartes NFC Palencia Tourisme';
+			$scope.nfcText2 = "L'Office de Tourisme de Palencia (Espagne) a présenté Inventrip à la presse au cours salon de tourisme d'intérieur espagnol (INTUR) et a distribué des cartes NFC avec un voyage dans la province de Palencia.";
+			$scope.nfcButton2 = 'Découvrez le voyage';
+
+			// qr
+			$scope.qr = 'QR';
+			$scope.qrText = "Gérez facilement l'information touristique en ligne des ressources et cartes, et ce quelle que soit la langue du touriste.";
+
+			$scope.qrTitle1 = 'Normandie et Bretagne'
+			$scope.qrText1 = 'Découvrez un voyage en Normandie et Bretagne avec ce code QR !';
+			$scope.qrButton1 = 'Découvrez le voyage';
+
+			$scope.qrTitle2 = 'Barcelone';
+			$scope.qrText2 = "Sismotur a rédigé en 2012 le premier plan de signalisation et information touristique de la ville de Barcelone pour l'arrondissement d'Horta-Guinardó.";
+			$scope.qrButton2 = "Plus d'Info";
+
+			// drontrip
+			$scope.dronTrip = 'DronTrip';
+			$scope.dronText = 'Utilisez des vols touristiques enregistrés avec des drones pour viraliser dans les réseaux sociaux la promotion des destinations et services touristiques.';
+
+			$scope.drontripText1 = "Nous vous invitons à voler dans la région d'Extremadure !";
+			$scope.drontripButton1 = 'Regarder la vidéo';
 
 			// ******************
-			// NOTICIAS
+			// NOTICIAS FR
 			// ******************
+			$scope.dividerNews = 'Dernières actualités';
+			$scope.moreNews = "Plus d'actualités" ;
 
-			$scope.resumeNoticias = 'Dernières actualités';
-			$scope.newsTitle14 = 'FITUR 2016';
-			$scope.newsContent14 = "Sismotur a été choisi pour présenter son concept de Destination Touristique Intelligente lors de l'inauguration du salon. Grâce à l'intégration de moyens physiques et numériques OFF/ON qui connectent la signalisation à la plateforme Inventrip, les signaux et le territoire parlent au téléphone du touriste.";
-			$scope.btnNewsClick = "Plus d'actualités" ;
+			// *********************
+			// PARTNERS FR
+			// *********************
+			$scope.titlePartners = 'Associés';
 
 			// ******************
-			// NOUS CONTACTER
+			// CONTACTO FR
 			// ******************
+			$scope.btnContact = 'CONTACTEZ-NOUS';
+
 			$scope.cntSpain = 'Espagne';
 			$scope.cntSpain2 = 'Madrid & Barcelona';
 			$scope.cntSpainPhone = '+34 913.238.208';
@@ -527,107 +549,31 @@ function loadLanguage($scope) {
 			$scope.cntFrance2 = 'Annecy';
 			$scope.cntFrancePhone = '+33 (0)619.20.30.61';
 
-			$scope.btnContact = 'Contacter';
+			$scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 
 			// *********************
-			// SUBSECTION TECHNOLOGIE
+			// NEWS FR
 			// *********************
+			$scope.newsTitle19 = 'Sismotur présentera Blockchain y ses applications potentielles pour le Tourisme lors du salon FITUR 2017, dans  SEGITTUR Lab';
+			$scope.newsContent19 = "Sismotur sera présent dans FITUR 2017, section Know-How & Export (Stand 10B09, près de SEGITTUR). Le 18 janvier à 17:30, dans l'espace SEGITTUR Lab, nous organiserons une conférence sur la technologie Blockchain et ses aplications dans le domaine du Tourisme.";
+			$scope.newsDetail19 = "Analyse de Blockchain et son potentiel dans le domaine du Tourisme";
 
-			// Página DronTrip
-			$scope.DronTriptext1 = "Nous vous invitons à voler dans la région d'Extremadure !";
-			$scope.DronTripbutton1 = 'Regarder la vidéo';
+			$scope.newsTitle18 = "Article sur la Signalisation Touristique Intelligente dans EFE Empresas";
+			$scope.newsContent18 = "Article de EFE Empresas sur l'innovation qui représente la connexion d'une Destination Touristique avec le nouveau touriste numérique et son smartphone via la signalétique touristique intelligente et Inventrip.";
+			$scope.newsDetail18 = "Lien vers l'Article";
 
-			// Página NFC
-			$scope.NFCtitle1 = 'Cartes NFC Ibiza';
-			$scope.NFCtext1 = "L'équipe municipale d'Ibiza a présenté à la presse le projet de Destination Touristique Intelligente: signalisation connectée, beacons, et ces cartes NFC qui contiennent un voyage à Dalt Vila";
-			$scope.NFCbutton1 = 'Découvrez le voyage';
+			$scope.newsTitle17 = 'Article dans le Blog de Kontak.io';
+			$scope.newsContent17 = "Kontakt, référence mondiale dans les technologies connectées (Internet of the Things) et collaborateur de Sismotur, explique l'innovation qui repréente Inventrip pour le secteur touristique.";
+			$scope.newsDetail17 = 'Lien vers le Blog de Kontakt';
 
-			$scope.NFCtitle2 = 'Cartes NFC Palencia Tourisme';
-			$scope.NFCtext2 = "L'Office de Tourisme de Palencia (Espagne) a présenté Inventrip à la presse au cours salon de tourisme d'intérieur espagnol (INTUR) et a distribué des cartes NFC avec un voyage dans la province de Palencia.";
-			$scope.NFCbutton2 = 'Découvrez le voyage';
+			$scope.newsTitle16 = "Présentation d'Inventrip pour la Route du Vin de Ribera del Duero";
+			$scope.newsContent16 = "Le Directeur Général de Tourisme de Castille et on El Director General de Turismo de Castille et Léon présente Inventrip, le nouveau système de sigalisation touristique intelligente de Sismotur.";
+			$scope.newsDetail16 = "Lien vers l'Article";
 
-			// Página Señalización
-			$scope.SenyalizacionTitle = 'Sismotur SL - Signalisation'
-
-			$scope.Sentitle1 = 'Barcelone';
-			$scope.Sentext1 = 'Design de la nouvelle signalisation touristique piétonne mené par Sismotur pour la ville de Barcelone.';
-
-			$scope.Sentitle2 = 'Castille et Leon';
-			$scope.Sentext2 = "La Conseillère et le Directeur Général de Tourisme de Castille et Leon, avec Sismotur, ont présenté pendant la dernière édition du salon de tourisme intérieur INTUR le programme d'amélioration de la signalisation touristique de la région.";
-
-			$scope.Sentitle3 = 'AOC Ribera del Duero';
-			$scope.Sentext3 = "Implémentation intégrale de l'ensemble des équipements de signalisation territoriale et urbaine pour la Route Ribera del Duero.";
-
-			// Página QR
-			$scope.QRtitle1 = 'Normandie et Bretagne'
-			$scope.QRtext1 = 'Découvrez un voyage en Normandie et Bretagne avec ce code QR !';
-			$scope.QRbutton1 = 'Découvrez le voyage';
-
-			$scope.QRtitle2 = 'Barcelone';
-			$scope.QRtext2 = "Sismotur a rédigé en 2012 le premier plan de signalisation et information touristique de la ville de Barcelone pour l'arrondissement d'Horta-Guinardó.";
-			$scope.QRbutton2 = "Plus d'Info";
-
-			// Página Beacon
-			$scope.Beacontitle1 = 'Beacon';
-			$scope.Beacontext1 = "Projet en cours d'implantation d'un réseau de beacons à Ibiza.";
-
-			$scope.Beacontitle2 = 'Beacon';
-			$scope.Beacontext2 = 'Proposition de la technologie beacons au département de Palencia.';
-
-			// Página e-Commerce
-			$scope.eCommercetitle1 = 'e-Commerce';
-			$scope.eCommercetext1 = 'Intégration de systèmes de réservation dans Inventrip de manière à permettre aux touristes la réservation de services avant et au cours de leur voyage.';
-
-			// *********************
-			// STAFF
-			// *********************
-
-			$scope.btnTitleTeam = 'Associés';
-
-			$scope.StaffCEO = 'Cofondateur - CEO';
-			$scope.StaffCOO = 'Cofondateur - COO';
-			$scope.StaffCMO = 'Partenaire - CMO';
-			$scope.StaffCTO = 'Partenaire - CTO';
-			$scope.StaffCLO = 'Partenaire - CLO';
-			$scope.StaffHeadDev = 'Resp. Développement Informatique';
-			$scope.StaffArtificialInt = 'Intelligence Artificielle';
-			$scope.StaffDesign = 'Design & Communication';
-			$scope.AssociateBcn = 'Chef de projets';
-			$scope.AssociateProjects = 'Chef de projets';
-			$scope.StaffCoordinatorCroatia = 'Coordinateur Croatie';
-			$scope.StaffCoordinatorAustria = 'Coordinateur Autriche';
-			$scope.StaffCoordinatorSwitzerland = 'Coordinateur Suisse';
-			$scope.StaffCoordinatorPortugal = 'Coordinateur Portugal';
-
-
-			$scope.idiomas = 'Langues';
-			$scope.moreInfoShort = "RÉFÉRENCES";
-			$scope.btnContact = 'CONTACTEZ NOUS';
-
-			// *********************
-			// news.html
-			// *********************
-
-			$scope.newsTitle19 = '';
-			$scope.newsContent19 = '.';
-			$scope.newsDetail19 = '';
-
-			$scope.newsTitle18 = '';
-			$scope.newsContent18 = '.';
-			$scope.newsDetail18 = '';
-
-			$scope.newsTitle17 = '';
-			$scope.newsContent17 = '.';
-			$scope.newsDetail17 = '';
-
-			$scope.newsTitle16 = '';
-			$scope.newsContent16 = '.';
-			$scope.newsDetail16 = '';
-
-			$scope.newsTitle15 = '';
-			$scope.newsContent15 = '.';
-			$scope.newsDetail15 = '';
-
+			$scope.newsTitle15 = 'Las Palmas de Gran Canaria adoptera Inventrip';
+			$scope.newsContent15 = "La Mairie et le Cabildo sont parvenus à un accord pour implanter la signalétique touristique intelligente de Sismotur dans les zones commerçantes ouvertes d'intérêt touristique et donner de l'information avec Inventrip.";
+			$scope.newsDetail15 = "Lien vers l'Artículo";
+			
 			$scope.newsTitle14 = 'Salon FITUR 2016';
 			$scope.newsContent14 = "Sismotur a été choisi pour présenter à S.M. la Reine d'Espagne son concept de Destination Touristique Intelligente lors de l'inauguration du salon. Le CEO de Sismotur, Augusto Ramos, y a présenté l'intégration des signaux touristiques avec notre système cloud computing Inventrip (intégration OFF/ON). La destination touristique peut ainsi communiquer directement avec le smartphone du touriste.";
 
@@ -673,9 +619,9 @@ function loadLanguage($scope) {
 
 			break;
 
-		// ****************************************************************
-		// **************************************** ENGLISH (DEFAULT) *****
-		// ****************************************************************
+		// ************************************
+		// ************** ENGLISH (DEFAULT) ***
+		// ************************************
 		default:
 
 			$scope.moreInfoShort = 'REFERENCES';
