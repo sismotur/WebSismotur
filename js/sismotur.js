@@ -123,60 +123,61 @@ function inventrip(){
 		lang = document.cookie.substr(5,6);
 	}
 
-	var video = "";
-	switch(lang){
+	var url = "";
+	switch(lang) {
 		case "es":
-			video = "http://www.inventrip.com?lang=es";
+			url = "http://www.inventrip.com?lang=es";
 			break;
 		case "fr":
-			video = "http://www.inventrip.com?lang=fr";
+			url = "http://www.inventrip.com?lang=fr";
 			break;
 		case "hr":
-			video = "http://www.inventrip.com?lang=hr";
+			url = "http://www.inventrip.com?lang=hr";
 			break;
 		case "ca":
-			video = "http://www.inventrip.com?lang=ca";
+			url = "http://www.inventrip.com?lang=ca";
 			break;
 		/*case "de":
 			video = "http://www.inventrip.com?lang=de";
 			break;*/
 		default:
-			video = "http://www.inventrip.com?lang=en";
+			url = "http://www.inventrip.com?lang=en";
 			break;
 	}
 
-	window.open(video);
+	window.open(url);
 }
 
+// Opens a window with Inventrip Palencia in the right language
 function nfcPalencia(){
 	var lang;
 	if(document.cookie=="")
 		lang = navigator.language.substr(0,2);
-	else{
+	else {
 		lang = document.cookie.substr(5,6);
 	}
 
-	var video = "";
+	var url = "";
 	switch(lang){
 		case "es":
-			video = "http://www.inventrip.com/diputaciondepalencia?lang=es";
+			url = "http://www.inventrip.com/diputaciondepalencia?lang=es";
 			break;
 		case "fr":
-			video = "http://www.inventrip.com/diputaciondepalencia?lang=fr";
+			url = "http://www.inventrip.com/diputaciondepalencia?lang=fr";
 			break;
 		case "hr":
-			video = "http://www.inventrip.com/diputaciondepalencia?lang=hr";
+			url = "http://www.inventrip.com/diputaciondepalencia?lang=hr";
 			break;
 		case "ca":
-			video = "http://www.inventrip.com/diputaciondepalencia?lang=ca";
+			url = "http://www.inventrip.com/diputaciondepalencia?lang=ca";
 			break;
 		/*case "de":
 			video = "http://www.inventrip.com/diputaciondepalencia?lang=de";
 			break;*/
 		default:
-			video = "http://www.inventrip.com/diputaciondepalencia?lang=en";
+			url = "http://www.inventrip.com/diputaciondepalencia?lang=en";
 			break;
 	}
 
-	window.open(video);
+	window.open(url);
 }
