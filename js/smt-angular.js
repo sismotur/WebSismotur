@@ -240,7 +240,7 @@ case "ca":
 // ******************
 $scope.claim1 = 'Connecta la teva destinació amb el turista digital';
 $scope.claim2 = 'Descobreix la senyalització turística intel·ligent';
-$scope.btnMuestra = "sol·licita'ns una mostra una gratuïta";
+$scope.btnMuestra = "sol·licita'ns una mostra gratuïta";
 
 // ******************
 // MENU CA
