@@ -58,7 +58,7 @@ function loadLanguage($scope) {
 			// ******************
 			$scope.dividerInventrip = 'Implanta un Servicio de Información Personalizado';
 			$scope.invTextA = 'Conecta tu Destino';
-			$scope.invTextB = 'Sismotur te implanta un servicio de información y gestión de la  señalización turística inteligente para tu destino, que permita consultar la oferta turística, reservar, construir viajes a medida y compartirlos en redes sociales o mediante el uso de las últimas tecnologías: Beacons, NFC, códigos QR.';
+			$scope.invTextB = 'Sismotur te implanta un servicio de información y gestión de la  señalización turística inteligente para tu destino, que permite consultar la oferta turística, reservar, construir viajes a medida y compartirlos en redes sociales o mediante el uso de las últimas tecnologías: Beacons, NFC, códigos QR.';
 
 			// **********************
 			// SIGNING ES
@@ -563,17 +563,17 @@ function loadLanguage($scope) {
 			$scope.newsDetail18 = "Lien vers l'Article";
 
 			$scope.newsTitle17 = 'Article dans le Blog de Kontak.io';
-			$scope.newsContent17 = "Kontakt, référence mondiale dans les technologies connectées (Internet of the Things) et collaborateur de Sismotur, explique l'innovation qui repréente Inventrip pour le secteur touristique.";
+			$scope.newsContent17 = "Kontakt, référence mondiale dans les technologies connectées (Internet of the Things) et collaborateur de Sismotur, explique l'innovation qui représente Inventrip pour le secteur touristique.";
 			$scope.newsDetail17 = 'Lien vers le Blog de Kontakt';
 
 			$scope.newsTitle16 = "Présentation d'Inventrip pour la Route du Vin de Ribera del Duero";
-			$scope.newsContent16 = "Le Directeur Général de Tourisme de Castille et on El Director General de Turismo de Castille et Léon présente Inventrip, le nouveau système de sigalisation touristique intelligente de Sismotur.";
+			$scope.newsContent16 = "Le Directeur Général de Tourisme de Castille et Léon présente Inventrip, le nouveau système de sigalisation touristique intelligente de Sismotur.";
 			$scope.newsDetail16 = "Lien vers l'Article";
 
 			$scope.newsTitle15 = 'Las Palmas de Gran Canaria adoptera Inventrip';
 			$scope.newsContent15 = "La Mairie et le Cabildo sont parvenus à un accord pour implanter la signalétique touristique intelligente de Sismotur dans les zones commerçantes ouvertes d'intérêt touristique et donner de l'information avec Inventrip.";
-			$scope.newsDetail15 = "Lien vers l'Artículo";
-			
+			$scope.newsDetail15 = "Lien vers l'Article";
+
 			$scope.newsTitle14 = 'Salon FITUR 2016';
 			$scope.newsContent14 = "Sismotur a été choisi pour présenter à S.M. la Reine d'Espagne son concept de Destination Touristique Intelligente lors de l'inauguration du salon. Le CEO de Sismotur, Augusto Ramos, y a présenté l'intégration des signaux touristiques avec notre système cloud computing Inventrip (intégration OFF/ON). La destination touristique peut ainsi communiquer directement avec le smartphone du touriste.";
 
