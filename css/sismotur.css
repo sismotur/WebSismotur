@@ -269,7 +269,7 @@ div.seccion#portada {
 	*********************************/
 
 		.seccion#inventrip {
-			min-height:80vh;
+			height:80vh;
 			background-image:url(../img/crossword.png);
 			text-align: center;
 		}

@@ -1,9 +1,45 @@
 @charset "UTF-8";
 
 /******************************
+**** EXTRA WIDE SCREENS *******
+/*****************************/
+@media screen and (min-aspect-ratio: 5/2) {
+
+	/* reduce padding to allow all content to fit on the vertical axis */
+	div#logo-eslogan {
+			padding-top: 1%;
+	}
+
+	/* screen is extra-wide so 100% vertical height enough to fit everything */
+	.seccion#inventrip {
+		height: 100vh;
+	}
+
+	.seccion#signing {
+		height: 100vh;
+	}
+
+	.seccion#noticias {
+		height: 100vh;
+	}
+
+	.seccion#tecnologias {
+		height: 200vh;
+	}
+
+	/* reduce a bit product images */
+	img.product {
+		width: 40%;
+	}
+
+
+
+}
+
+
+/******************************
 ******** MAC 13 INCHES ********
 /*****************************/
-
 @media screen and (max-width:1400px) {
 
 	p.texto {
