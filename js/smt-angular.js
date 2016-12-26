@@ -563,7 +563,7 @@ $scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 // *********************
 // NEWS FR
 // *********************
-$scope.newsTitle19 = 'Sismotur présentera Blockchain y ses applications potentielles pour le Tourisme lors du salon FITUR 2017, dans  SEGITTUR Lab';
+$scope.newsTitle19 = 'Sismotur présentera Blockchain et ses applications potentielles pour le Tourisme lors du salon FITUR 2017, dans SEGITTUR Lab';
 $scope.newsContent19 = "Sismotur sera présent dans FITUR 2017, section Know-How & Export (Stand 10B09, près de SEGITTUR). Le 18 janvier à 17:30, dans l'espace SEGITTUR Lab, nous organiserons une conférence sur la technologie Blockchain et ses aplications dans le domaine du Tourisme.";
 $scope.newsDetail19 = "Analyse de Blockchain et son potentiel dans le domaine du Tourisme";
 
@@ -693,8 +693,8 @@ $scope.beaconText = 'Deploy this new technology in tourist signs or information 
 $scope.beaconTitle1 = 'Beacon in Smart Signs';
 $scope.beaconText1 = "Inventrip connects the smart signs with the tourist using beacons.";
 
-$scope.beaconTitle2 = 'Beacon';
-$scope.beaconText2 = 'Proposal of beacons technology implementation to the province of Palencia, Spain.';
+$scope.beaconTitle2 = 'Smart Signage in Las Palmas de Gran Canaria';
+$scope.beaconText2 = 'Sismotur develops the smart tourist signage plan in Las Palmas de Gran Canaria using the latest Beacon technology managed by Inventrip.';
 
 // e-commerce
 $scope.comercializacionText = 'Make it simple for tourists to access online booking systems for accommodations, restaurants and activities, before or during their trip.';
@@ -722,7 +722,7 @@ $scope.qrText1 = 'Discover a trip to Normandy and Brittany scanning this QR code
 $scope.qrButton1 = 'Discover the trip';
 
 $scope.qrTitle2 = 'Barcelona';
-$scope.qrText2 = 'Sismotur drafted in 2012 the first signage and touristic informatino plan of the city of Barcelona for the district of Horta-Guinardó.';
+$scope.qrText2 = 'Sismotur drafted in 2012 the first signage and touristic information plan of the city of Barcelona for the district of Horta-Guinardó.';
 
 // dronTrip
 $scope.dronText = 'Create tourism videos shot with drones to promote and viralize your destination and touristic services across social networks.';
