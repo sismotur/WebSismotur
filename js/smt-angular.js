@@ -165,7 +165,7 @@ $scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 // NEWS ES
 // *********************
 $scope.newsTitle19 = 'Sismotur presentará Blockchain y sus aplicaciones potenciales para el Turismo durante FITUR 2017 en SEGITTUR Lab';
-$scope.newsContent19 = 'Sismotur estará presente en FITUR 2017, en el área Know-How & Export (Stand 10B09, cerca del stand de SEGITTUR). El día 18 de enero a las 17:30, en el espacio SEGITTUR Lab, organizaremos una conferencia sobre la tecnología Blockchain y sus aplicaciones en el ámbito del Turismo.';
+$scope.newsContent19 = 'Sismotur estará presente en FITUR 2017, en el área Know-How & Export (Stand 10B09, cerca del stand de SEGITTUR). El día 18 de enero a las 16:00, en el espacio SEGITTUR Lab, organizaremos una conferencia sobre la tecnología Blockchain y sus aplicaciones en el ámbito del Turismo.';
 $scope.newsDetail19 = 'Análisis de Blockchain y su potencial para el Turismo';
 
 $scope.newsTitle18 = 'Artículo sobre la Señalización Turística Inteligente en EFE Empresas';
@@ -364,7 +364,7 @@ $scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 // news.html CA
 // *********************
 $scope.newsTitle19 = 'Sismotur presentarà Blockchain i les seves aplicacions potencials per al Turisme durant FITUR 2017 en SEGITTUR Lab';
-$scope.newsContent19 = "Sismotur estarà present en FITUR 2017, a l'área Know How & Export (Stand 10B09, al costat de l'stand de SEGITTUR). El dia 18 de gener a les 17:30, a l'espai SEGITTUR Lab, organitzarem una conferència sobre la tecnologia Blockchain i les seves aplicacions a l'àmbit del Turisme.";
+$scope.newsContent19 = "Sismotur estarà present en FITUR 2017, a l'área Know How & Export (Stand 10B09, al costat de l'stand de SEGITTUR). El dia 18 de gener a les 16:00, a l'espai SEGITTUR Lab, organitzarem una conferència sobre la tecnologia Blockchain i les seves aplicacions a l'àmbit del Turisme.";
 $scope.newsDetail19 = 'Anàlisi de Blockchain i el seu potencial per al Turisme';
 
 $scope.newsTitle18 = 'Article sobre la Senyalització Turística Intel·ligent a EFE Empresas';
@@ -564,7 +564,7 @@ $scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 // NEWS FR
 // *********************
 $scope.newsTitle19 = 'Sismotur présentera Blockchain et ses applications potentielles pour le Tourisme lors du salon FITUR 2017, dans SEGITTUR Lab';
-$scope.newsContent19 = "Sismotur sera présent dans FITUR 2017, section Know-How & Export (Stand 10B09, près de SEGITTUR). Le 18 janvier à 17:30, dans l'espace SEGITTUR Lab, nous organiserons une conférence sur la technologie Blockchain et ses aplications dans le domaine du Tourisme.";
+$scope.newsContent19 = "Sismotur sera présent dans FITUR 2017, section Know-How & Export (Stand 10B09, près de SEGITTUR). Le 18 janvier à 16:00, dans l'espace SEGITTUR Lab, nous organiserons une conférence sur la technologie Blockchain et ses aplications dans le domaine du Tourisme.";
 $scope.newsDetail19 = "Analyse de Blockchain et son potentiel dans le domaine du Tourisme";
 
 $scope.newsTitle18 = "Article sur la Signalisation Touristique Intelligente dans EFE Empresas";
@@ -759,7 +759,7 @@ $scope.cntFrancePhone = '+33 (0)619.20.30.61';
 // *********************
 
 $scope.newsTitle19 = 'Sismotur will present Blockchain and its potential applications for Tourism during FITUR 2017 in SEGITTUR Lab';
-$scope.newsContent19 = 'Sismotur will expose in FITUR 2017, in the area Know-How & Export (Stand 10B09, next to SEGITTUR). On January 18, in the area SEGITTUR Lab, we will organize an event about Blockchain technology and its applications in the domain of Tourism.';
+$scope.newsContent19 = 'Sismotur will expose in FITUR 2017, in the area Know-How & Export (Stand 10B09, next to SEGITTUR). On January 18 at 16:00, in the area SEGITTUR Lab, we will organize an event about Blockchain technology and its applications in the domain of Tourism.';
 $scope.newsDetail19 = 'Analysis of Blockchain and its potential for Tourism';
 
 $scope.newsTitle18 = 'Article by EFE Empresas about Smart Tourism Signage';
