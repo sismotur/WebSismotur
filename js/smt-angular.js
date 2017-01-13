@@ -697,12 +697,14 @@ $scope.beaconTitle2 = 'Smart Signage in Las Palmas de Gran Canaria';
 $scope.beaconText2 = 'Sismotur develops the smart tourist signage plan in Las Palmas de Gran Canaria using the latest Beacon technology managed by Inventrip.';
 
 // e-commerce
+$scope.eCommerce = 'e-Commerce';
 $scope.comercializacionText = 'Make it simple for tourists to access online booking systems for accommodations, restaurants and activities, before or during their trip.';
 
 $scope.eCommerceTitle1 = 'e-Commerce';
 $scope.eCommerceText1 = 'Integration of booking engines in Inventrip that tourists can access before and during the trip.';
 
 // nfc
+$scope.nfc = 'NFC';
 $scope.nfcText = 'Give to your tourists contactless cards in information offices, fairs, or hotels, to personalize their experience in your destination.';
 
 $scope.nfcTitle1 = 'NFC cards for Ibiza';
@@ -725,6 +727,7 @@ $scope.qrTitle2 = 'Barcelona';
 $scope.qrText2 = 'Sismotur drafted in 2012 the first signage and touristic information plan of the city of Barcelona for the district of Horta-Guinardó.';
 
 // dronTrip
+$scope.dronTrip = 'DronTrip';
 $scope.dronText = 'Create tourism videos shot with drones to promote and viralize your destination and touristic services across social networks.';
 
 $scope.drontripText1 = 'We invite you to flight over the county of Sierra de Montánchez and Tamuja, Spain!';
