@@ -12,7 +12,7 @@
 	}
 
 	.news-block {
-		display:inline-block;
+		/* display:inline-block; */
 		min-height:50vh;
 		text-align: center;
 	}

@@ -164,6 +164,18 @@ $scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 // *********************
 // NEWS ES
 // *********************
+$scope.newsTitle22 = 'Sismotur expone en Fitur Know-how & Export 2017';
+$scope.newsContent22 = 'Sismotur presenta con éxito su señalización turística conectada en Fitur 2017. Foto: el CEO de Sismotur (derecha) presentando nuestro concepto al Viceministro de Turismo de Perú (centro) y al Presidente de SEGITTUR (izquierda).';
+$scope.newsDetail22 = 'Enlace a un artículo sobre Sismotur en Fitur Daily';
+
+$scope.newsTitle21 = 'La agencia EFE entrevista a Sismotur sobre Blockchain para el turismo';
+$scope.newsContent21 = 'EFE Futuro se interesa por la tecnología Blockchain y ha entrevistado a nuestros expertos para conocer cómo se puede aplicar al turismo.';
+$scope.newsDetail21 = 'Enlace al artículo';
+
+$scope.newsTitle20 = 'FITUR 2017 - Tecnología Blockchain y aplicaciones para el Turismo';
+$scope.newsContent20 = 'Enrique Melero, experto en Blockchain, y Felipe Santi, CTO de Sismotur, han presentado esta novedosa tecnología en SEGITTUR Lab.';
+$scope.newsDetail20 = 'Presentación (idioma español, formato PDF)';
+
 $scope.newsTitle19 = 'Sismotur presentará Blockchain y sus aplicaciones potenciales para el Turismo durante FITUR 2017 en SEGITTUR Lab';
 $scope.newsContent19 = 'Sismotur estará presente en FITUR 2017, en el área Know-How & Export (Stand 10B09, cerca del stand de SEGITTUR). El día 18 de enero a las 16:00, en el espacio SEGITTUR Lab, organizaremos una conferencia sobre la tecnología Blockchain y sus aplicaciones en el ámbito del Turismo.';
 $scope.newsDetail19 = 'Análisis de Blockchain y su potencial para el Turismo';
@@ -361,8 +373,20 @@ $scope.cntFrancePhone = '+33 (0)619.20.30.61';
 $scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 
 // *********************
-// news.html CA
+// NEWS CA
 // *********************
+$scope.newsTitle22 = 'Sismotur expone en Fitur Know-how & Export 2017';
+$scope.newsContent22 = 'Sismotur presenta con éxito su señalización turística conectada en Fitur 2017. Foto: el CEO de Sismotur (derecha) presentando nuestro concepto al Viceministro de Turismo de Perú (centro) y al Presidente de SEGITTUR (izquierda).';
+$scope.newsDetail22 = 'Enlace a un artículo sobre Sismotur en Fitur Daily';
+
+$scope.newsTitle21 = 'La agencia EFE entrevista a Sismotur sobre Blockchain para el turismo';
+$scope.newsContent21 = 'EFE Futuro se interesa por la tecnología Blockchain y ha entrevistado a nuestros expertos para conocer cómo se puede aplicar al turismo.';
+$scope.newsDetail21 = 'Enlace al artículo';
+
+$scope.newsTitle20 = 'FITUR 2017 - Tecnología Blockchain y aplicaciones para el Turismo';
+$scope.newsContent20 = 'Enrique Melero, experto en Blockchain, y Felipe Santi, CTO de Sismotur, han presentado esta novedosa tecnología en SEGITTUR Lab.';
+$scope.newsDetail20 = 'Presentación (idioma español, formato PDF)';
+
 $scope.newsTitle19 = 'Sismotur presentarà Blockchain i les seves aplicacions potencials per al Turisme durant FITUR 2017 en SEGITTUR Lab';
 $scope.newsContent19 = "Sismotur estarà present en FITUR 2017, a l'área Know How & Export (Stand 10B09, al costat de l'stand de SEGITTUR). El dia 18 de gener a les 16:00, a l'espai SEGITTUR Lab, organitzarem una conferència sobre la tecnologia Blockchain i les seves aplicacions a l'àmbit del Turisme.";
 $scope.newsDetail19 = 'Anàlisi de Blockchain i el seu potencial per al Turisme';
@@ -563,6 +587,18 @@ $scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 // *********************
 // NEWS FR
 // *********************
+$scope.newsTitle22 = 'Sismotur est présent dans Fitur Know-how & Export 2017';
+$scope.newsContent22 = 'Sismotur a présenté avec succès sa signalétique touristique connectée dans le salon Fitur 2017. Photo: le CEO de Sismotur (droite) présente notre concept au Viceministre de Tourisme du Pérou (centre) et au Président de SEGITTUR (gauche).';
+$scope.newsDetail22 = 'Lien à un article sur Sismotur dans le journal Fitur Daily';
+
+$scope.newsTitle21 = "La agence de presse EFE nous interroge sur Blockchain";
+$scope.newsContent21 = "EFE Futur s'intéresse à la technologie Blockchain et a interrogé nos experts sur ses possibilités d'application dans le domaine touristique.";
+$scope.newsDetail21 = "Lien vers l'article";
+
+$scope.newsTitle20 = 'FITUR 2017 - Technologie Blockchain et applications dans le Tourisme';
+$scope.newsContent20 = 'Enrique Melero, expert en Blockchain, et Felipe Santi, CTO de Sismotur, ont présenté cette nouvelle technologie dans SEGITTUR Lab.';
+$scope.newsDetail20 = 'Présentation (en espagnol, format PDF)';
+
 $scope.newsTitle19 = 'Sismotur présentera Blockchain et ses applications potentielles pour le Tourisme lors du salon FITUR 2017, dans SEGITTUR Lab';
 $scope.newsContent19 = "Sismotur sera présent dans FITUR 2017, section Know-How & Export (Stand 10B09, près de SEGITTUR). Le 18 janvier à 16:00, dans l'espace SEGITTUR Lab, nous organiserons une conférence sur la technologie Blockchain et ses aplications dans le domaine du Tourisme.";
 $scope.newsDetail19 = "Analyse de Blockchain et son potentiel dans le domaine du Tourisme";
@@ -758,8 +794,19 @@ $scope.cntFrance2 = 'Annecy';
 $scope.cntFrancePhone = '+33 (0)619.20.30.61';
 
 // *********************
-// news.html
+// NEWS EN
 // *********************
+$scope.newsTitle22 = 'Sismotur exhibits in Fitur Know-how & Export 2017';
+$scope.newsContent22 = 'Sismotur has showcased with success its smart tourism signage in the Fitur 2017 fair. Picture: the CEO de Sismotur (right) presents our concept to the Viceminister of Tourism of Pérou (center) and to the President of SEGITTUR (left).';
+$scope.newsDetail22 = 'Link to an article about Sismotur in the journal Fitur Daily';
+
+$scope.newsTitle21 = 'EFE interviews Sismotur about Blockchain for Tourism';
+$scope.newsContent21 = "EFE Futuro has shown interest about Blockchain technology and has interviewed our experts about its potential applications in the tourism domain.";
+$scope.newsDetail21 = "Link to the article";
+
+$scope.newsTitle20 = 'FITUR 2017 - Blockchain technology and applications for Tourism';
+$scope.newsContent20 = 'Enrique Melero, Blockchain expert, and Felipe Santi, CTO de Sismotur, have introduced this new technology in SEGITTUR Lab.';
+$scope.newsDetail20 = 'Slides (PDF file in spanish)';
 
 $scope.newsTitle19 = 'Sismotur will present Blockchain and its potential applications for Tourism during FITUR 2017 in SEGITTUR Lab';
 $scope.newsContent19 = 'Sismotur will expose in FITUR 2017, in the area Know-How & Export (Stand 10B09, next to SEGITTUR). On January 18 at 16:00, in the area SEGITTUR Lab, we will organize an event about Blockchain technology and its applications in the domain of Tourism.';
