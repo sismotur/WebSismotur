@@ -159,11 +159,23 @@ $scope.cntFrance = 'Francia';
 $scope.cntFrance2 = 'Annecy';
 $scope.cntFrancePhone = '+33 (0)619.20.30.61';
 
-$scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
+$scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 
 // *********************
 // NEWS ES
 // *********************
+$scope.newsTitle25 = 'Inicio del plan de señalización inteligente de Gran Canaria';
+$scope.newsContent25 = 'El Cabildo encarga a Sismotur la redacción del plan de señalización turística inteligente de la isla de Gran Canaria. Foto: el consejero de Obras Públicas e Infraestructuras (izquierda) con el CEO de Sismotur (derecha) en el momento de la firma del contrato.';
+$scope.newsDetail25 = 'Enlace al anuncio del Cabildo de Gran Canaria';
+
+$scope.newsTitle24 = 'Reguengos de Monsaraz, primer destino con señalización turística inteligente de Portugal';
+$scope.newsContent24 = 'Sismotur presenta en XX, siendo con ello Reguengos de Monsaraz el primer destino inteligente conectado de Portugal.';
+$scope.newsDetail24 = 'Enlace a un artículo DETALLE';
+
+$scope.newsTitle23 = 'ICEX entrevista al CMO de Sismotur durante Fitur';
+$scope.newsContent23 = 'Entrevista de la revista El Exportador a Sismotur durante Fitur 2017. Foto: CMO de Sismotur.';
+$scope.newsDetail23 = 'Enlace a la entrevista completa (vídeo)';
+
 $scope.newsTitle22 = 'Sismotur expone en Fitur Know-how & Export 2017';
 $scope.newsContent22 = 'Sismotur presenta con éxito su señalización turística conectada en Fitur 2017. Foto: el CEO de Sismotur (derecha) presentando nuestro concepto al Viceministro de Turismo de Perú (centro) y al Presidente de SEGITTUR (izquierda).';
 $scope.newsDetail22 = 'Enlace a un artículo sobre Sismotur en Fitur Daily';
