@@ -98,6 +98,13 @@ $scope.beaconText1 = 'Inventrip conecta las señales inteligentes con el turista
 $scope.beaconTitle2 = 'Señalización Turística Inteligente en las Palmas de Gran Canaria';
 $scope.beaconText2 = 'Sismotur desarrolla el plan de señalización turística inteligente de las Palmas de Gran Canaria empleando la tecnología Beacons gestionada por Inventrip.';
 
+// API
+$scope.apiInventrip = "API";
+$scope.apiInventripText = "API Inventrip";
+
+// Big Data
+$scope.BigData = "";
+
 // e-commerce
 $scope.eCommerce = 'e-Commerce';
 $scope.comercializacionText = 'Facilita al turista el acceso a motores de reserva de alojamientos, restaurantes y actividades, antes o durante el viaje.';
@@ -169,8 +176,8 @@ $scope.newsContent25 = 'El Cabildo encarga a Sismotur la redacción del plan de 
 $scope.newsDetail25 = 'Enlace al anuncio del Cabildo de Gran Canaria';
 
 $scope.newsTitle24 = 'Reguengos de Monsaraz, primer destino con señalización turística inteligente de Portugal';
-$scope.newsContent24 = 'Sismotur presenta en XX, siendo con ello Reguengos de Monsaraz el primer destino inteligente conectado de Portugal.';
-$scope.newsDetail24 = 'Enlace a un artículo DETALLE';
+$scope.newsContent24 = 'Sismotur presenta a las Rutas del Vino de Portugal el proyecto de destino inteligente conectado realizado en Reguengos de Monsaraz. Foto: alcalde de Reguengos de Monsaraz y presidente de la Red Europea de Ciudades del Vino (izquierda), presidente de la Asociación de Municipios del Vino de Portugal (centro) y CEO de Sismotur (derecha).';
+$scope.newsDetail24 = 'Enlace al artículo de Publituris';
 
 $scope.newsTitle23 = 'ICEX entrevista al CMO de Sismotur durante Fitur';
 $scope.newsContent23 = 'Entrevista de la revista El Exportador a Sismotur durante Fitur 2017. Foto: CMO de Sismotur.';
@@ -387,6 +394,18 @@ $scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 // *********************
 // NEWS CA
 // *********************
+$scope.newsTitle25 = 'Inicio del plan de señalización inteligente de Gran Canaria';
+$scope.newsContent25 = 'El Cabildo encarga a Sismotur la redacción del plan de señalización turística inteligente de la isla de Gran Canaria. Foto: el consejero de Obras Públicas e Infraestructuras (izquierda) con el CEO de Sismotur (derecha) en el momento de la firma del contrato.';
+$scope.newsDetail25 = 'Enlace al anuncio del Cabildo de Gran Canaria';
+
+$scope.newsTitle24 = 'Reguengos de Monsaraz, primer destino con señalización turística inteligente de Portugal';
+$scope.newsContent24 = 'Sismotur presenta a las Rutas del Vino de Portugal el proyecto de destino inteligente conectado realizado en Reguengos de Monsaraz. Foto: alcalde de Reguengos de Monsaraz y presidente de la Red Europea de Ciudades del Vino (izquierda), presidente de la Asociación de Municipios del Vino de Portugal (centro) y CEO de Sismotur (derecha).';
+$scope.newsDetail24 = 'Enlace al artículo de Publituris';
+
+$scope.newsTitle23 = 'ICEX entrevista al CMO de Sismotur durante Fitur';
+$scope.newsContent23 = 'Entrevista de la revista El Exportador a Sismotur durante Fitur 2017. Foto: CMO de Sismotur.';
+$scope.newsDetail23 = 'Enlace a la entrevista completa (vídeo)';
+
 $scope.newsTitle22 = 'Sismotur expone en Fitur Know-how & Export 2017';
 $scope.newsContent22 = 'Sismotur presenta con éxito su señalización turística conectada en Fitur 2017. Foto: el CEO de Sismotur (derecha) presentando nuestro concepto al Viceministro de Turismo de Perú (centro) y al Presidente de SEGITTUR (izquierda).';
 $scope.newsDetail22 = 'Enlace a un artículo sobre Sismotur en Fitur Daily';
@@ -599,6 +618,18 @@ $scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
 // *********************
 // NEWS FR
 // *********************
+$scope.newsTitle25 = 'Démarrage du plan de signalisation intelligente de Gran Canaria';
+$scope.newsContent25 = "Gran Canaria a confié à Sismotur la rédaction du plan de signalisation touristique de l'île. Photo: le directeur de Travaux Publics et Infrastructures (gauche) avec le CEO de Sismotur (droite) lors de la signature du contrat.";
+$scope.newsDetail25 = "Lien vers l'annonce du Cabildo de Gran Canaria";
+
+$scope.newsTitle24 = "Reguengos de Monsaraz, première destination équipée d'une signalétique touristique intelligente au Portugal";
+$scope.newsContent24 = "Sismotur présente aux Routes du Vin de Portugal le projet de destination intelligente connectée réalisé à Reguengos de Monsaraz. Photo: maire de Reguengos de Monsaraz y président du Réseau Européen des Villes du Vin (gauche), président de l'Association de Communes du Vin de Portugal (centre) et CEO de Sismotur (droite).";
+$scope.newsDetail24 = "Lien vers l'article de Publituris";
+
+$scope.newsTitle23 = "Interview de l'ICEX au CMO de Sismotur durant Fitur";
+$scope.newsContent23 = "Interview du magazine El Exportador à Sismotur à l'occasion du salon Fitur 2017. Photo: CMO de Sismotur.";
+$scope.newsDetail23 = "Lien vers l'interview (vidéo en espagnol)";
+
 $scope.newsTitle22 = 'Sismotur est présent dans Fitur Know-how & Export 2017';
 $scope.newsContent22 = 'Sismotur a présenté avec succès sa signalétique touristique connectée dans le salon Fitur 2017. Photo: le CEO de Sismotur (droite) présente notre concept au Viceministre de Tourisme du Pérou (centre) et au Président de SEGITTUR (gauche).';
 $scope.newsDetail22 = 'Lien à un article sur Sismotur dans le journal Fitur Daily';
@@ -808,6 +839,18 @@ $scope.cntFrancePhone = '+33 (0)619.20.30.61';
 // *********************
 // NEWS EN
 // *********************
+$scope.newsTitle25 = 'Start of the smart signage plan of Gran Canaria';
+$scope.newsContent25 = 'The Gran Canaria Cabildo has commissioned Sismotur to produce the smart signage plan of the island of Gran Canaria. Photo: the councilor of Public Works and Infrastructures (left) with the CEO of Sismotur (right) during the signature of the contract.';
+$scope.newsDetail25 = 'Link to the announcement of the Gran Canaria Cabildo';
+
+$scope.newsTitle24 = 'Reguengos de Monsaraz, first Portuguese destination with a smart signage system';
+$scope.newsContent24 = 'Sismotur presents to the Wine Routes of Portugal the project done in Reguengos de Monsaraz. Photo: mayor of Reguengos de Monsaraz and president of the European Network of Wine Cities (left), president of the Association of Wine Cities of Portugal (center) and CEO of Sismotur (right).';
+$scope.newsDetail24 = 'Link to an article in Publituris';
+
+$scope.newsTitle23 = 'ICEX interviews the CMO of Sismotur during Fitur';
+$scope.newsContent23 = 'Interview of the magazine El Exportador to Sismotur during Fitur 2017. Photo: CMO of Sismotur.';
+$scope.newsDetail23 = 'Link to the interview (video in spanish)';
+
 $scope.newsTitle22 = 'Sismotur exhibits in Fitur Know-how & Export 2017';
 $scope.newsContent22 = 'Sismotur has showcased with success its smart tourism signage in the Fitur 2017 fair. Picture: the CEO de Sismotur (right) presents our concept to the Viceminister of Tourism of Pérou (center) and to the President of SEGITTUR (left).';
 $scope.newsDetail22 = 'Link to an article about Sismotur in the journal Fitur Daily';
