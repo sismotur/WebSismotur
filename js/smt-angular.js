@@ -77,7 +77,7 @@ $scope.btnReferences = 'REFERENCIAS';
 
 // Smart Signage
 $scope.senalizacionTitle = 'Señalización Inteligente';
-$scope.senalizacionText = 'Mejora la señalización turística de tu destino integrándola con sistemas avanzados de información turística. Te ofrecemos nuestro servicio cloud Signing para su planificación y gestión';
+$scope.senalizacionText = 'Mejora la señalización turística de tu destino integrándola con sistemas avanzados de información turística. Te ofrecemos nuestro servicio cloud Signing para su planificación y gestión.';
 
 $scope.senalizacionTitle1 = 'Ruta Ribera del Duero Smart';
 $scope.senalizacionText1 = 'Sismotur ha implantado el sistema Inventrip de señalización turística inteligente en la Ruta del Vino Ribera del Duero.';
@@ -100,20 +100,20 @@ $scope.beaconText2 = 'Sismotur desarrolla el plan de señalización turística i
 
 // API
 $scope.apiInventrip = "API";
-$scope.apiInventripText = "API Inventrip";
+$scope.apiInventripText = "Integra Inventrip con tus páginas web de turismo o sistemas de información Smart City para reducir costes y simplificar tus desarrollos informáticos.";
 
-$scope.apiTitle1 = "API 1 title - lorem ipsum";
-$scope.apiText1 = "API 1 text - lorem ipsum";
+$scope.apiTitle1 = "Inventrip API";
+$scope.apiText1 = "Inventrip es un sistema interoperable que permite obtener información e interaccionar con Inventrip usando tecnologías estándar al alcance de cualquier desarrollador.";
 
-$scope.apiTitle2 = "API 2 title - lorem ipsum";
-$scope.apiText2 = "API 2 text - lorem ipsum";
+$scope.apiTitle2 = "Schema.org para Turismo";
+$scope.apiText2 = "Sismotur es cofundador del grupo de Turismo de Schema.org, proyecto amparado por W3C y principal vocabulario mundial de semántica de datos. Millones de páginas web utilizan Schema.org para mejorar su visibilidad e incrementar su número de visitas.";
 
 // Big Data
 $scope.bigData = "Big Data";
-$scope.bigDataText = "Big Data lorem ipsum"
+$scope.bigDataText = "Analiza con sencillez los datos generados por los turistas que visitan tu territorio para mejorar su acogida.";
 
-$scope.bigDataTitle1 = "Big Data 1 title - lorem ipsum";
-$scope.bigDataText1 = "Big Data 1 text - lorem ipsum";
+$scope.bigDataTitle1 = "Uso de la señalización conectada";
+$scope.bigDataText1 = "Inventrip permite generar en tiempo real cuadros de mando y análisis a medida accesibles por navegador sobre el uso que los turistas hacen de las señales conectadas y de cualquier servicio asociado con las mismas.";
 
 // E-Commerce
 $scope.eCommerce = 'e-Commerce';
@@ -124,10 +124,11 @@ $scope.eCommerceText1 = 'Integración de centrales de reservas en Inventrip para
 
 // Blockchain
 $scope.blockchain = "Blockchain";
-$scope.blockchainText = "Blockchain lorem ipsum";
+$scope.blockchainText = "Aprovecha el potencial de esta novedosa tecnología para interaccionar con el turista sin necesidad de depender de intermediarios.";
 
-$scope.blockchainTitle1 = "Innova con nosotros";
-$scope.blockchainText1 = "Sismotur ha presentado en FITUR 2017 algunas de las aplicaciones potenciales para el turismo de esta novedosa tecnología.";
+$scope.blockchainTitle1 = "Blockchain";
+$scope.blockchainText1 = "Sismotur ha presentado en FITUR 2017 algunas de las aplicaciones potenciales para el turismo de esta increíble tecnología, que ha permitido entre otras cosas la existencia de la moneda digital Bitcoin.";
+$scope.blockchainButton1 = 'Descubre las aplicaciones';
 
 // NFC
 $scope.nfc = 'NFC';
