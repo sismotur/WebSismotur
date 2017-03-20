@@ -146,76 +146,11 @@ div#fondo-drontrip{
 }
 
 /*************************************************************************/
-/*	DRONTRIP PAGE */
-/*************************************************************************/
-
-.smt-drontrip-title{
-	padding-top: 52px;
-}
-
-.smt-drontrip-content p{
-	padding-top: 25px;
-}
-
-#smt-dron-img1{
-	background-image:url(../img/drontripEscenario.jpg);
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	-khtml-background-size:cover;
-	background-position: center;
-}
-
-/*************************************************************************/
-/* NFC PAGE */
-/*************************************************************************/
-
-#smt-nfc-ibiza-img{
-	background-image:url(../img/nfc_ibiza.jpg);
-	background-size:cover;
-	/* background-position: 0px -130px; TEST TO FIX RESPONSIVE*/
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	-khtml-background-size:cover;
-	background-position: center;
-}
-
-#smt-nfc-palencia-img{
-	background-image:url(../img/InventripPalencia.jpg);
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	-khtml-background-size:cover;
-	background-position: center;
-}
-
-#smt-nfc-croacia-img{
-	background-image:url(../img/nfc-croacia.jpg);
-	background-size:cover;
-	/* background-position: 0px -130px; TEST TO FIX RESPONSIVE*/
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	-khtml-background-size:cover;
-	background-position: center;
-}
-
-
-
-/*************************************************************************/
 /* SIGNAGE PAGE */
 /*************************************************************************/
 
 #smt-sen-img1{
 	background-image:url(../img/tech/senalizacion1.png);
-	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -226,7 +161,6 @@ div#fondo-drontrip{
 
 #smt-sen-img2{
 	background-image:url(../img/tech/senalizacion2.jpg);
-	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -237,41 +171,12 @@ div#fondo-drontrip{
 
 #smt-sen-img3{
 	background-image:url(../img/tech/senalizacion3.jpg);
-	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
 	-khtml-background-size:cover;
 	background-position: center;
-}
-
-/*************************************************************************/
-/* QR PAGE */
-/*************************************************************************/
-
-#smt-qr-img1{
-	background-image:url(../img/normandia-dos.jpg);
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	-khtml-background-size:cover;
-	background-position: center; /* -320px; */
-	background-repeat:no-repeat;
-}
-
-#smt-qr-img2{
-	background-image:url(../img/qrbarcelona.jpg);
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
-	-khtml-background-size:cover;
-	background-position: center;
-	background-repeat:no-repeat;
 }
 
 /*************************************************************************/
@@ -280,7 +185,6 @@ div#fondo-drontrip{
 
 #smt-banner-img1{
 	background-image:url(../img/tech/beacons1.jpg);
-	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -291,7 +195,44 @@ div#fondo-drontrip{
 
 #smt-banner-img2{
 	background-image:url(../img/tech/beacons2.png);
-	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* API PAGE */
+/*************************************************************************/
+
+#smt-api-img1 {
+	background-image:url(../img/tech/api1.png);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-api-img2 {
+	background-image:url(../img/tech/api2.png);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* BIG DATA PAGE */
+/*************************************************************************/
+
+#smt-big-data-img1 {
+	background-image:url(../img/tech/big_data1.png);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
@@ -305,8 +246,84 @@ div#fondo-drontrip{
 /*************************************************************************/
 
 #smt-ecommerce-img1{
-	background-image:url(../img/e_commerce.png);
-	background-size:cover;
+	background-image:url(../img/tech/e_commerce1.png);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* BLOCKCHAIN PAGE */
+/*************************************************************************/
+
+#smt-blockchain-img1{
+	background-image:url(../img/tech/blockchain1.png);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* NFC PAGE */
+/*************************************************************************/
+
+#smt-nfc-ibiza-img{
+	background-image:url(../img/tech/nfc1.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+#smt-nfc-palencia-img{
+	background-image:url(../img/tech/nfc2.jpg);
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+}
+
+/*************************************************************************/
+/* QR PAGE */
+/*************************************************************************/
+
+#smt-qr-img1{
+	background-image:url(../img/tech/normandia_dos.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center; /* -320px; */
+	background-repeat:no-repeat;
+}
+
+#smt-qr-img2{
+	background-image:url(../img/tech/qr_barcelona.jpg);
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+	-khtml-background-size:cover;
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+/*************************************************************************/
+/*	DRONTRIP PAGE */
+/*************************************************************************/
+
+#smt-dron-img1{
+	background-image:url(../img/tech/drontrip_escenario.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;

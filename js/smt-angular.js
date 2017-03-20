@@ -75,7 +75,7 @@ $scope.dividerTechnologies = 'Inventrip y Signing utilizan las mejores tecnolog�
 
 $scope.btnReferences = 'REFERENCIAS';
 
-// smart signage
+// Smart Signage
 $scope.senalizacionTitle = 'Señalización Inteligente';
 $scope.senalizacionText = 'Mejora la señalización turística de tu destino integrándola con sistemas avanzados de información turística. Te ofrecemos nuestro servicio cloud Signing para su planificación y gestión';
 
@@ -88,7 +88,7 @@ $scope.senalizacionText2 = 'Diseño de la nueva señalización turística peaton
 $scope.senalizacionTitle3 = 'Castilla y León';
 $scope.senalizacionText3 = 'La Consejera y el Director General de Turismo de Castilla y León, conjuntamente con Sismotur, presentaron en INTUR el programa de mejora de la señalización turística de la región.';
 
-// beacons
+// Beacons
 $scope.beacons = 'Beacons';
 $scope.beaconText = 'Incorpora esta nueva tecnología en señales o en oficinas de información para enviar al turista productos y servicios personalizados a su dispositivo móvil.';
 
@@ -102,17 +102,34 @@ $scope.beaconText2 = 'Sismotur desarrolla el plan de señalización turística i
 $scope.apiInventrip = "API";
 $scope.apiInventripText = "API Inventrip";
 
-// Big Data
-$scope.BigData = "";
+$scope.apiTitle1 = "API 1 title - lorem ipsum";
+$scope.apiText1 = "API 1 text - lorem ipsum";
 
-// e-commerce
+$scope.apiTitle2 = "API 2 title - lorem ipsum";
+$scope.apiText2 = "API 2 text - lorem ipsum";
+
+// Big Data
+$scope.bigData = "Big Data";
+$scope.bigDataText = "Big Data lorem ipsum"
+
+$scope.bigDataTitle1 = "Big Data 1 title - lorem ipsum";
+$scope.bigDataText1 = "Big Data 1 text - lorem ipsum";
+
+// E-Commerce
 $scope.eCommerce = 'e-Commerce';
 $scope.comercializacionText = 'Facilita al turista el acceso a motores de reserva de alojamientos, restaurantes y actividades, antes o durante el viaje.';
 
 $scope.eCommerceTitle1 = 'e-Commerce';
 $scope.eCommerceText1 = 'Integración de centrales de reservas en Inventrip para que los turistas puedan reservar servicios antes y durante el viaje.';
 
-// nfc
+// Blockchain
+$scope.blockchain = "Blockchain";
+$scope.blockchainText = "Blockchain lorem ipsum";
+
+$scope.blockchainTitle1 = "Innova con nosotros";
+$scope.blockchainText1 = "Sismotur ha presentado en FITUR 2017 algunas de las aplicaciones potenciales para el turismo de esta novedosa tecnología.";
+
+// NFC
 $scope.nfc = 'NFC';
 $scope.nfcText = 'Entrega al turista tarjetas contactless en oficinas, ferias u hoteles para personalizar su experiencia turística en el destino.';
 
