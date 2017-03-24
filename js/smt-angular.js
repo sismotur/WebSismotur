@@ -324,7 +324,7 @@ $scope.dividerTechnologies = 'Inventrip i Signing utilitzen les millores tecnolo
 
 $scope.btnReferences = 'REFERÈNCIES';
 
-// smart signage
+// Smart Signage
 $scope.senalizacionTitle = 'Senyalització Intel·ligent';
 $scope.senalizacionText = "Millora la senyalització turística de la teva destinació integrant-la amb sistemes avançats d'informació turística. T'oferim	el nostre servei cloud Signing per a la seva planificació i gestió";
 
@@ -337,7 +337,7 @@ $scope.senalizacionText2 = 'Disseny de la nova senyalització turística de vian
 $scope.senalizacionTitle3 = 'Castilla y León';
 $scope.senalizacionText3 = 'La Consellera i el Director General de Turisme de Castilla y León, conjuntament amb Sismotur, van presentar a INTUR el programa de millora de la senyalització turística de la regió.';
 
-// beacons
+// Beacons
 $scope.beacons = 'Beacons';
 $scope.beaconText = "Incorpora aquesta nova tecnologia en senyals i oficines d'informació per enviar al turista productes i serveis personalitzats al seu dispositiu mòbil.";
 
@@ -347,14 +347,40 @@ $scope.beaconText1 = 'Inventrip connecta els senyals intel·ligents amb el turis
 $scope.beaconTitle2 = 'Senyalització Turística Intel·ligent a las Palmas de Gran Canaria';
 $scope.beaconText2 = 'Sismotur desenvolupa el pla de senyalització turística intel·ligent de Las Palmas de Gran Canaria utilitzant la tecnologia Beacons gestionada per Inventrip.';
 
-// e-commerce
+// API
+$scope.apiInventrip = "API";
+$scope.apiInventripText = "Integra Inventrip con tus páginas web de turismo o sistemas de información Smart City para reducir costes y simplificar tus desarrollos informáticos.";
+
+$scope.apiTitle1 = "Inventrip REST API";
+$scope.apiText1 = "Inventrip es un sistema interoperable que permite obtener información e interaccionar con plataformas Smart City usando tecnologías estándar al alcance de cualquier desarrollador.";
+
+$scope.apiTitle2 = "Schema.org para Turismo";
+$scope.apiText2 = "Sismotur es cofundador del grupo de Turismo de Schema.org, proyecto amparado por W3C y principal vocabulario mundial de semántica de datos. Millones de páginas web utilizan Schema.org para mejorar su visibilidad e incrementar su número de visitas.";
+$scope.apiButton2 = 'Súmate a esta iniciativa';
+
+// Big Data
+$scope.bigData = "Big Data";
+$scope.bigDataText = "Analiza con sencillez los datos generados por tus turistas para mejorar la gestión de tu destino.";
+
+$scope.bigDataTitle1 = "La señal inteligente: fuente de datos";
+$scope.bigDataText1 = "Inventrip permite generar en tiempo real cuadros de mando y análisis a medida accesibles por navegador sobre el uso que los turistas hacen de las señales conectadas y de cualquier servicio asociado con las mismas.";
+
+// E-commerce
 $scope.eCommerce = 'e-Commerce';
 $scope.comercializacionText = "Facilita al turista l'accés als motors de reserva d'allotjaments, restaurants i activitats abans i durant el viatge.";
 
 $scope.eCommerceTitle1 = 'e-Commerce';
 $scope.eCommerceText1 = 'Integració de centrals de reserva en Inventrip perquè els turistes puguin reservar serveis abans i durant el viatge.';
 
-// nfc
+// Blockchain
+$scope.blockchain = "Blockchain";
+$scope.blockchainText = "Aprovecha el potencial de esta tecnología disruptiva para interaccionar con el turista sin necesidad de depender de intermediarios.";
+
+$scope.blockchainTitle1 = "Blockchain";
+$scope.blockchainText1 = "Sismotur presentó en FITUR 2017 algunas de las aplicaciones potenciales para el turismo de esta increíble tecnología que ha permitido, entre otras cosas, la existencia de la moneda digital Bitcoin.";
+$scope.blockchainButton1 = 'Descubre las aplicaciones';
+
+// NFC
 $scope.nfc = 'NFC';
 $scope.nfcText = 'Lliura als teus clients targetes contactless per personalitzar la seva experiència turística a la destinació.';
 
@@ -533,7 +559,7 @@ $scope.invTextA = 'Connectez votre Destination';
 $scope.invTextB = "Sismotur implante dans votre destination un service d'information et gestion de la signalisation touristique intelligente, lequel permet la consultation de l'offre touristique, la réservation, ainsi que la construction de voyages sur mesure. Il permet également le partage d'expériences sur les réseaux sociaux ou par l'usage de dispositifs de connexion: Beacons, NFC, codes QR.";
 
 // **********************
-// SIGNING ES
+// SIGNING FR
 // **********************
 $scope.dividerSigning = "Implantez un Service de Signalisation";
 $scope.signingTitle = 'Signing';
@@ -547,7 +573,7 @@ $scope.dividerTechnologies = 'Inventrip et Signing utilisent les meilleures tech
 
 $scope.btnReferences = 'RÉFÉRENCES';
 
-// smart signage
+// Smart Signage
 $scope.senalizacionTitle = 'Signalisation Intelligente';
 $scope.senalizacionText = "Améliorez la signalisation touristique de votre destination en l'intégrant avec des systèmes d'information touristique de pointe. Nous vous offrons notre service cloud Signing pour sa planification et gestion.";
 
@@ -560,7 +586,7 @@ $scope.senalizacionText2 = 'Design de la nouvelle signalisation touristique pié
 $scope.senalizacionTitle3 = 'Castille et Leon';
 $scope.senalizacionText3 = "La Conseillère et le Directeur Général de Tourisme de Castille et Leon, ont présenté avec Sismotur le programme d'amélioration de la signalisation touristique de la région lors du salon de tourisme intérieur INTUR.";
 
-// beacons
+// Beacons
 $scope.beacons = 'Beacons';
 $scope.beaconText = "Adoptez cette nouvelle technologie pour envoyer aux touristes des produits et services personnalisés sur leurs smartphones.";
 
@@ -570,14 +596,40 @@ $scope.beaconText1 = "Inventrip connecte les panneaux intelligents avec le touri
 $scope.beaconTitle2 = 'Signalétique Touristique Intelligente à Las Palmas de Gran Canaria';
 $scope.beaconText2 = 'Sismotur développe le plan de signalisation touristique intelligente de Las Palmas de Gran Canaria en utilisant la technologie Beacons gérée par Inventrip.';
 
-// e-commerce
+// API
+$scope.apiInventrip = "API";
+$scope.apiInventripText = "Intégrez Inventrip avec vos sites Internet de tourisme ou vos systèmes d'information Smart City pour réduire les coûts et simplifier vos développements informatiques.";
+
+$scope.apiTitle1 = "Inventrip REST API";
+$scope.apiText1 = "Inventrip est un système interopérable qui permet d'obtenir de l'information et d'interagir avec des plateformes Smart City en utilisant des technologies standard à la portée de tout développeur.";
+
+$scope.apiTitle2 = "Schema.org pour le Tourisme";
+$scope.apiText2 = "Sismotur est cofondateur du groupe de Tourisme de Schema.org, projet soutenu par W3C et principal vocabulaire mondial de sémantique de données. Des millions de sites web utilisent Schema.org pour améliorer leur visibilité et augmenter le nombre de visites.";
+$scope.apiButton2 = 'Rejoignez cette initiative';
+
+// Big Data
+$scope.bigData = "Big Data";
+$scope.bigDataText = "Analysez simplement les données générées par vos touristes pour améliorer la gestion de votre destination.";
+
+$scope.bigDataTitle1 = "Les signaux intelligents: source de données";
+$scope.bigDataText1 = "Inventrip permet de générer en temps réel des tableaux de bord et des analyses disponibles sur un navigateur concernant l'usage que les touristes font des signaux connectés et des services qui y sont rattachés.";
+
+// E-commerce
 $scope.eCommerce = 'e-Commerce';
 $scope.comercializacionText = "Facilitez au touriste l'accés à la réservation en ligne de logements, restaurants et activités, et ce avant ou durant le voyage.";
 
 $scope.eCommerceTitle1 = 'e-Commerce';
 $scope.eCommerceText1 = 'Intégration de systèmes de réservation dans Inventrip de manière à permettre aux touristes la réservation de services avant et durant leur voyage.';
 
-// nfc
+// Blockchain
+$scope.blockchain = "Blockchain";
+$scope.blockchainText = "Profitez du potentiel de cette technologie disruptive pour interagir avec le touriste sans beson de dépendre d'intermédiaires.";
+
+$scope.blockchainTitle1 = "Blockchain";
+$scope.blockchainText1 = "Sismotur a présenté dans FITUR 2017 quelques usages potentiels pour le tourisme de cette incroyable technologie, laquelle a permis d'ailleurs l'existance de la monnaie numérique Bitcoin.";
+$scope.blockchainButton1 = 'Découvrez les applications';
+
+// NFC
 $scope.nfc = 'NFC';
 $scope.nfcText = 'Donnez à vos touristes de belles cartes équipées de puces sans contact pour personnaliser et enrichir leur expérience touristique dans votre territoire.';
 
@@ -771,7 +823,7 @@ $scope.dividerTechnologies = 'Inventrip and Signing use the best technologies';
 
 $scope.btnReferences = 'REFERENCES';
 
-// smart signage
+// Smart Signage
 $scope.senalizacionTitle = 'Smart Signage';
 $scope.senalizacionText = 'Improve the tourist signage of your destination by integrating it with advanced tourist information systems. We offer our cloud service Signing for its planification and management.';
 
@@ -784,7 +836,7 @@ $scope.senalizacionText2 = 'Design of the new pedestrian touristic signage carri
 $scope.senalizacionTitle3 = 'Castilla y León';
 $scope.senalizacionText3 = 'The Counsellor and the General Director of Tourism of the spanish region of Castilla y León, together with Sismotur, presented during INTUR (Spanish fair of interior tourism) an improvement program for the regional signage.';
 
-// beacons
+// Beacons
 $scope.beacons = 'Beacons';
 $scope.beaconText = 'Deploy this new technology in tourist signs or information offices to provide contextualized information and offer tourists tailored products and services in their smartphone.';
 
@@ -794,14 +846,40 @@ $scope.beaconText1 = "Inventrip connects the smart signs with the tourist using 
 $scope.beaconTitle2 = 'Smart Signage in Las Palmas de Gran Canaria';
 $scope.beaconText2 = 'Sismotur develops the smart tourist signage plan in Las Palmas de Gran Canaria using the latest Beacon technology managed by Inventrip.';
 
-// e-commerce
+// API
+$scope.apiInventrip = "API";
+$scope.apiInventripText = "Link Inventrip with your tourism websites or Smart City platform to reduce costs and simplify your IT developments.";
+
+$scope.apiTitle1 = "Inventrip REST API";
+$scope.apiText1 = "Inventrip is an interoperable system which provides information and interacts with Smart City platforms using standard technologies that any developer can use.";
+
+$scope.apiTitle2 = "Schema.org for Tourism";
+$scope.apiText2 = "Sismotur is co-chair of the Tourism Group in Schema.org, project hosted by W3C and main data vocabulary of the Internet. Millions of websites use Schema.org to improve their visibility and increment the number of visits.";
+$scope.apiButton2 = 'Join the group';
+
+// Big Data
+$scope.bigData = "Big Data";
+$scope.bigDataText = "Analize easily data generated by your tourists to improve the management of your destination.";
+
+$scope.bigDataTitle1 = "The smart signage: data source";
+$scope.bigDataText1 = "Inventrip produces real time dashboards and analysis on your browser with the usage your tourists are doing of the connected signs and the services attached to them.";
+
+// E-commerce
 $scope.eCommerce = 'e-Commerce';
 $scope.comercializacionText = 'Make it simple for tourists to access online booking systems for accommodations, restaurants and activities, before or during their trip.';
 
 $scope.eCommerceTitle1 = 'e-Commerce';
 $scope.eCommerceText1 = 'Integration of booking engines in Inventrip that tourists can access before and during the trip.';
 
-// nfc
+// Blockchain
+$scope.blockchain = "Blockchain";
+$scope.blockchainText = "Benefit of the potential of this disruptive technology to interact with your tourists without the need to depend on costly intermediaries.";
+
+$scope.blockchainTitle1 = "Blockchain";
+$scope.blockchainText1 = "Sismotur presented in FITUR 2017 some of the potential applications for turism of this incredible technology, which has spawned among other things the digital currency Bitcoin.";
+$scope.blockchainButton1 = 'Discover the applications';
+
+// NFC
 $scope.nfc = 'NFC';
 $scope.nfcText = 'Give to your tourists contactless cards in information offices, fairs, or hotels, to personalize their experience in your destination.';
 
