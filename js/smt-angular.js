@@ -102,17 +102,18 @@ $scope.beaconText2 = 'Sismotur desarrolla el plan de señalización turística i
 $scope.apiInventrip = "API";
 $scope.apiInventripText = "Integra Inventrip con tus páginas web de turismo o sistemas de información Smart City para reducir costes y simplificar tus desarrollos informáticos.";
 
-$scope.apiTitle1 = "Inventrip API";
-$scope.apiText1 = "Inventrip es un sistema interoperable que permite obtener información e interaccionar con Inventrip usando tecnologías estándar al alcance de cualquier desarrollador.";
+$scope.apiTitle1 = "Inventrip REST API";
+$scope.apiText1 = "Inventrip es un sistema interoperable que permite obtener información e interaccionar con plataformas Smart City usando tecnologías estándar al alcance de cualquier desarrollador.";
 
 $scope.apiTitle2 = "Schema.org para Turismo";
 $scope.apiText2 = "Sismotur es cofundador del grupo de Turismo de Schema.org, proyecto amparado por W3C y principal vocabulario mundial de semántica de datos. Millones de páginas web utilizan Schema.org para mejorar su visibilidad e incrementar su número de visitas.";
+$scope.apiButton2 = 'Súmate a esta iniciativa';
 
 // Big Data
 $scope.bigData = "Big Data";
-$scope.bigDataText = "Analiza con sencillez los datos generados por los turistas que visitan tu territorio para mejorar su acogida.";
+$scope.bigDataText = "Analiza con sencillez los datos generados por tus turistas para mejorar la gestión de tu destino.";
 
-$scope.bigDataTitle1 = "Uso de la señalización conectada";
+$scope.bigDataTitle1 = "La señal inteligente: fuente de datos";
 $scope.bigDataText1 = "Inventrip permite generar en tiempo real cuadros de mando y análisis a medida accesibles por navegador sobre el uso que los turistas hacen de las señales conectadas y de cualquier servicio asociado con las mismas.";
 
 // E-Commerce
@@ -124,10 +125,10 @@ $scope.eCommerceText1 = 'Integración de centrales de reservas en Inventrip para
 
 // Blockchain
 $scope.blockchain = "Blockchain";
-$scope.blockchainText = "Aprovecha el potencial de esta novedosa tecnología para interaccionar con el turista sin necesidad de depender de intermediarios.";
+$scope.blockchainText = "Aprovecha el potencial de esta tecnología disruptiva para interaccionar con el turista sin necesidad de depender de intermediarios.";
 
 $scope.blockchainTitle1 = "Blockchain";
-$scope.blockchainText1 = "Sismotur ha presentado en FITUR 2017 algunas de las aplicaciones potenciales para el turismo de esta increíble tecnología, que ha permitido entre otras cosas la existencia de la moneda digital Bitcoin.";
+$scope.blockchainText1 = "Sismotur presentó en FITUR 2017 algunas de las aplicaciones potenciales para el turismo de esta increíble tecnología que ha permitido, entre otras cosas, la existencia de la moneda digital Bitcoin.";
 $scope.blockchainButton1 = 'Descubre las aplicaciones';
 
 // NFC
