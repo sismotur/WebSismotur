@@ -349,21 +349,21 @@ $scope.beaconText2 = 'Sismotur desenvolupa el pla de senyalització turística i
 
 // API
 $scope.apiInventrip = "API";
-$scope.apiInventripText = "Integra Inventrip con tus páginas web de turismo o sistemas de información Smart City para reducir costes y simplificar tus desarrollos informáticos.";
+$scope.apiInventripText = "Integra Inventrip amb les teves pàgines web de turisme o sistemes d'informació Smart City per reduir costos i simplificar els teus desenvolupaments informàtics.";
 
 $scope.apiTitle1 = "Inventrip REST API";
-$scope.apiText1 = "Inventrip es un sistema interoperable que permite obtener información e interaccionar con plataformas Smart City usando tecnologías estándar al alcance de cualquier desarrollador.";
+$scope.apiText1 = "Inventrip és un sistema interoperable que permet obtenir informació i interaccionar amb plataformes Smart City utilitzant tecnologies estàndard a l'abast de qualsevol desenvolupador.";
 
 $scope.apiTitle2 = "Schema.org para Turismo";
-$scope.apiText2 = "Sismotur es cofundador del grupo de Turismo de Schema.org, proyecto amparado por W3C y principal vocabulario mundial de semántica de datos. Millones de páginas web utilizan Schema.org para mejorar su visibilidad e incrementar su número de visitas.";
-$scope.apiButton2 = 'Súmate a esta iniciativa';
+$scope.apiText2 = "Sismotur és cofundador del Grup de Turisme de Schema.org, projecte de la W3C i principal vocabulari mundial de semàntica de dades. Milions de pàgines web utilitzant Schema.org per millorar la seva visibilitat i incrementar el seu nombre de visites.";
+$scope.apiButton2 = "Suma't a aquesta iniciativa";
 
 // Big Data
 $scope.bigData = "Big Data";
-$scope.bigDataText = "Analiza con sencillez los datos generados por tus turistas para mejorar la gestión de tu destino.";
+$scope.bigDataText = "Analitza amb senzillesa les dades generades pels teus turistes per millorar la gestió de la teva destinació.";
 
-$scope.bigDataTitle1 = "La señal inteligente: fuente de datos";
-$scope.bigDataText1 = "Inventrip permite generar en tiempo real cuadros de mando y análisis a medida accesibles por navegador sobre el uso que los turistas hacen de las señales conectadas y de cualquier servicio asociado con las mismas.";
+$scope.bigDataTitle1 = "El senyal intel·ligent: font de dades";
+$scope.bigDataText1 = "Inventrip permet generar en temps real quadres de comandament i anàlisi personalitzat accessibles amb el navegador sobre l'ús que els turistes fan dels senyals connectats i de qualsevol servei associat";
 
 // E-commerce
 $scope.eCommerce = 'e-Commerce';
@@ -374,11 +374,11 @@ $scope.eCommerceText1 = 'Integració de centrals de reserva en Inventrip perquè
 
 // Blockchain
 $scope.blockchain = "Blockchain";
-$scope.blockchainText = "Aprovecha el potencial de esta tecnología disruptiva para interaccionar con el turista sin necesidad de depender de intermediarios.";
+$scope.blockchainText = "Aprofita el potencial d'aquesta tecnologia disruptiva per interaccionar amb el turista sense necessitat de dependre d'intermediaris.";
 
 $scope.blockchainTitle1 = "Blockchain";
-$scope.blockchainText1 = "Sismotur presentó en FITUR 2017 algunas de las aplicaciones potenciales para el turismo de esta increíble tecnología que ha permitido, entre otras cosas, la existencia de la moneda digital Bitcoin.";
-$scope.blockchainButton1 = 'Descubre las aplicaciones';
+$scope.blockchainText1 = "Sismotur va presentar a FITUR 2017 algunes de les aplicacions potencials per al turisme d'aquesta increïble tecnologia que ha permès, per exemple l'existència de la moneda digital Bitcoin.";
+$scope.blockchainButton1 = 'Descobreix les aplicacions';
 
 // NFC
 $scope.nfc = 'NFC';
