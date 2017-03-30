@@ -407,7 +407,7 @@ div.seccion#portada {
 /*********************/
 
 	.seccion#noticias {
-		min-height: 75vh;
+		min-height: 100vh;
 		background-image:url(../img/crossword.png);
 	}
 
