@@ -439,17 +439,17 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS CA
 // *********************
-$scope.newsTitle25 = 'Inicio del plan de señalización inteligente de Gran Canaria';
-$scope.newsContent25 = 'El Cabildo encarga a Sismotur la redacción del plan de señalización turística inteligente de la isla de Gran Canaria. Foto: el consejero de Obras Públicas e Infraestructuras (izquierda) con el CEO de Sismotur (derecha) en el momento de la firma del contrato.';
-$scope.newsDetail25 = 'Enlace al anuncio del Cabildo de Gran Canaria';
+$scope.newsTitle25 = 'Inicio del pla de senyalització intel·ligent de Gran Canaria';
+$scope.newsContent25 = "El Cabildo encarrega a Sismotur la redacció del pla de senyalització turística intel·ligent de l'illa de Gran Canaria. Foto: El conseller d'Obres Públiques i Infraestructures (esquerra) amb el CEO de Sismotur (dreta) al moment de la signatura del contracte.";
+$scope.newsDetail25 = "Link a l'anunci del Cabildo de Gran Canaria";
 
-$scope.newsTitle24 = 'Reguengos de Monsaraz, primer destino con señalización turística inteligente de Portugal';
-$scope.newsContent24 = 'Sismotur presenta a las Rutas del Vino de Portugal el proyecto de destino inteligente conectado realizado en Reguengos de Monsaraz. Foto: alcalde de Reguengos de Monsaraz y presidente de la Red Europea de Ciudades del Vino (izquierda), presidente de la Asociación de Municipios del Vino de Portugal (centro) y CEO de Sismotur (derecha).';
-$scope.newsDetail24 = 'Enlace al artículo de Publituris';
+$scope.newsTitle24 = "Reguengos de Monsaraz, primera destinació amb senyalització turística intel·ligent a Portugal";
+$scope.newsContent24 = "Sismotur presenta a les Rutes del Vi de Portugal el projecte de destinació intel·ligent connectada amb inventrip de Reguengos de Monsaraz. Foto: alcalde de Reguengos de Monsaraz i president de la Xarxa Europea de Ciutats del Vi (esquerra), president de l'Associació de Municipis del Vi de Portugal (centre) i CEO de Sismotur (dreta).";
+$scope.newsDetail24 = "Link a l'article de Publituris";
 
-$scope.newsTitle23 = 'ICEX entrevista al CMO de Sismotur durante Fitur';
-$scope.newsContent23 = 'Entrevista de la revista El Exportador a Sismotur durante Fitur 2017. Foto: CMO de Sismotur.';
-$scope.newsDetail23 = 'Enlace a la entrevista completa (vídeo)';
+$scope.newsTitle23 = 'ICEX entrevista al CMO de Sismotur durant Fitur';
+$scope.newsContent23 = "Entrevista de la revista El Exportador a Sismotur durant Fitur 2017. Foto: CMO de Sismotur.";
+$scope.newsDetail23 = "Link a l'entrevista completa (vídeo)";
 
 $scope.newsTitle22 = 'Sismotur expone en Fitur Know-how & Export 2017';
 $scope.newsContent22 = 'Sismotur presenta con éxito su señalización turística conectada en Fitur 2017. Foto: el CEO de Sismotur (derecha) presentando nuestro concepto al Viceministro de Turismo de Perú (centro) y al Presidente de SEGITTUR (izquierda).';
