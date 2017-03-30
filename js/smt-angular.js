@@ -434,7 +434,7 @@ $scope.cntFrance = 'França';
 $scope.cntFrance2 = 'Annecy';
 $scope.cntFrancePhone = '+33 (0)619.20.30.61';
 
-$scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
+$scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 
 // *********************
 // NEWS CA
@@ -684,7 +684,7 @@ $scope.cntFrance = 'France';
 $scope.cntFrance2 = 'Annecy';
 $scope.cntFrancePhone = '+33 (0)619.20.30.61';
 
-$scope.copyright = 'Copyright © 2016 SISMOTUR SL.';
+$scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 
 // *********************
 // NEWS FR
@@ -932,6 +932,8 @@ $scope.cntSpainPhone = '+34 913.238.208';
 $scope.cntFrance = 'France';
 $scope.cntFrance2 = 'Annecy';
 $scope.cntFrancePhone = '+33 (0)619.20.30.61';
+
+$scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 
 // *********************
 // NEWS EN
