@@ -392,23 +392,23 @@ $scope.nfcTitle2 = 'Targetes NFC Palència Turisme'
 $scope.nfcText2 = 'Palència Turisme va presentar Inventrip als mitjans durant la Fira de Turisme Interior (INTUR-2015) i va entregar targetes NFC amb un viatge per la Província de Palència.';
 $scope.nfcButton2 = 'Descobreix el viatge';
 
-// qr
+// QR
 $scope.qr = 'QR';
 $scope.qrText = 'Gestiona fàcilment la informació turística on-line de recursos i mapes en multidioma.';
 
-$scope.QRtitle1 = 'Normandia i Bretanya'
-$scope.QRtext1 = 'Descobreix un viatge per Normandia i Bretanya escanejant aquest codi QR!';
-$scope.QRbutton1 = 'Descobreix el viatge';
+$scope.qrTitle1 = 'Normandia i Bretanya'
+$scope.qrText1 = 'Descobreix un viatge per Normandia i Bretanya escanejant aquest codi QR!';
+$scope.qrButton1 = 'Descobreix el viatge';
 
-$scope.QRtitle2 = 'Barcelona';
-$scope.QRtext2 = 'Sismotur va redactar en 2012 el primer pla de senyalització i informació turística de la ciutat de Barcelona per al districte d\'Horta-Guinardó.';
+$scope.qrTitle2 = 'Barcelona';
+$scope.qrText2 = 'Sismotur va redactar en 2012 el primer pla de senyalització i informació turística de la ciutat de Barcelona per al districte d\'Horta-Guinardó.';
 
 // drontrip
 $scope.dronTrip = 'DronTrip';
 $scope.dronText = 'Utilitza vols turístics amb Drons per viralitzar per les xarxes socials la promoció de destinacions i serveis turístics.';
 
-$scope.DronTriptext1 = 'Et convidem a volar per la comarca Sierra de Montánchez y Tamuja!';
-$scope.DronTripbutton1 = 'Veure Video';
+$scope.drontripText1 = 'Et convidem a volar per la comarca Sierra de Montánchez y Tamuja!';
+$scope.drontripButton1 = 'Veure Video';
 
 // ******************
 // NOTICIAS CA
