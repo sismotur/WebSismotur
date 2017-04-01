@@ -439,7 +439,7 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS CA
 // *********************
-$scope.newsTitle25 = 'Inicio del pla de senyalització intel·ligent de Gran Canaria';
+$scope.newsTitle25 = 'Inici del pla de senyalització intel·ligent de Gran Canaria';
 $scope.newsContent25 = "El Cabildo encarrega a Sismotur la redacció del pla de senyalització turística intel·ligent de l'illa de Gran Canaria. Foto: El conseller d'Obres Públiques i Infraestructures (esquerra) amb el CEO de Sismotur (dreta) al moment de la signatura del contracte.";
 $scope.newsDetail25 = "Link a l'anunci del Cabildo de Gran Canaria";
 
