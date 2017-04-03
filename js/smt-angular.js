@@ -154,7 +154,7 @@ $scope.qrButton1 = 'Descubre el viaje';
 $scope.qrTitle2 = 'Barcelona';
 $scope.qrText2 = 'Sismotur redactó en 2012 el primer plan de señalización e información turística de la ciudad de Barcelona para el distrito de Horta-Guinardó.';
 
-// drontrip
+// Drontrip
 $scope.dronTrip = 'DronTrip';
 $scope.dronText = 'Utiliza vuelos turísticos con Drones para viralizar por las redes sociales la promoción de destinos y servicios turísticos.';
 
@@ -525,6 +525,256 @@ $scope.newsContent2 = "Reportatge de TVE sobre el Cluster de Turisme d'Extremadu
 
 $scope.newsTitle1 = 'Inventrip rep el premi a la millor idea de màrqueting de destinacions de Territorio & Màrqueting';
 $scope.newsContent1 = "Sismotur ha rebut el premi finalista per l'aportació de la plataforma Inventrip a la difusió i promoció d'una destinació turística. El jurat reconeix com Inventrip és capaç d'unir la part emotiva de l'experiència d'un turista a l'hora de preparar un viatge amb la realitat de desplaçar-se dins del territori durant el viatge i la prescripció en positiu que posteriorment fa d'aquesta destinació.";
+
+break;
+
+// ***********************************
+// *********** PORTUGUESE ************
+// ***********************************
+
+case "pt":
+
+// ******************
+// CLAIM PT
+// ******************
+
+$scope.claim1 = 'Conecte o seu destino com o turista digital';
+$scope.claim2 = 'Descubra a sinalização turística inteligente';
+$scope.btnMuestra = 'Solicite-nos uma amostra gratuita';
+
+// ******************
+// MENU PT
+// ******************
+$scope.inventrip = 'Inventrip';
+$scope.mnTecno = 'Tecnologias';
+$scope.mnNoticias = 'Notícias';
+$scope.mnTeam = 'Sócios';
+$scope.mnCont = 'Contacto';
+$scope.mnIdioma = 'PT';
+
+// ******************
+// INVENTRIP PT
+// ******************
+$scope.dividerInventrip = 'Implemente um Serviço de Informação Personalizado';
+$scope.invTextA = 'Conecte o seu destino';
+$scope.invTextB = 'A Sismotur implementa um serviço de informação e gestão da sinalização turística inteligente para o seu destino, que permite consultar a oferta turística, reservar, construir viagens à medida e partilhar tudo isto nas redes sociais ou através da utilização das mais recentes tecnologias: Beacons, NFC, códigos QR.';
+
+// **********************
+// SIGNING PT
+// **********************
+$scope.dividerSigning = "Implemente um serviço de Sinalização";
+$scope.signingTitle = 'Signing';
+$scope.signingTextA = 'Faça a gestão da sua sinalização';
+$scope.signingTextB = 'A Sismotur é líder na elaboração de planos de sinalização e implementa o Signing, um serviço web especializado para a planificação e gestão da sinalização territorial e urbana, utilizado por mais de 30 administrações públicas.';
+
+// ******************
+// TECNOLOGIAS PT
+// ******************
+$scope.dividerTechnologies = 'O Inventrip e o Signing utilizam as melhores tecnologias';
+
+$scope.btnReferences = 'REFERÊNCIAS';
+
+// Smart Signage
+$scope.senalizacionTitle = 'Sinalização Inteligente';
+$scope.senalizacionText = 'Melhora a sinalização turística do seu destino integrando-a com sistemas avançados de informação turística. Oferecemos-lhe o nosso serviço de cloud Signing para a sua planificação e gestão.';
+
+$scope.senalizacionTitle1 = 'Rota Ribera del Duero Smart';
+$scope.senalizacionText1 = 'A Sismotur implementou o sistema Inventrip de sinalização turística inteligente na Rota do Vinho da Ribera del Duero.';
+
+$scope.senalizacionTitle2 = 'Barcelona';
+$scope.senalizacionText2 = 'Design da nova sinalização turística pedonal levado a cabo pela Sismotur para a cidade de Barcelona.';
+
+$scope.senalizacionTitle3 = 'Castela e Leão';
+$scope.senalizacionText3 = 'A Conselheira e o Diretor Geral do Turismo de Castela e Leão, conjuntamente com a Sismotur, apresentaram na INTUR o programa de melhoria da sinalização turística da região.';
+
+// Beacons
+$scope.beacons = 'Beacons';
+$scope.beaconText = 'Incorpora esta nova tecnologia em sinais ou em postos de informação para enviar ao turista produtos e serviços personalizados para o seu dispositivo móvel.';
+
+$scope.beaconTitle1 = 'Beacons nos Sinais Inteligentes';
+$scope.beaconText1 = 'O Inventrip conecta os sinais inteligentes com o turista utilizando Beacons.';
+
+$scope.beaconTitle2 = 'Sinalização Turística Inteligente em Las Palmas de Gran Canaria';
+$scope.beaconText2 = 'A Sismotur desenvolve o plano de sinalização turística inteligente de Las Palmas de Gran Canaria utilizando a tecnologia Beacons gerida pelo Inventrip.';
+
+// API
+$scope.apiInventrip = "API";
+$scope.apiInventripText = "Integra o Inventrip com as suas páginas web de turismo ou sistemas de informação Smart City, para reduzir custos e simplificar os seus desenvolvimentos informáticos.";
+
+$scope.apiTitle1 = "Inventrip REST API";
+$scope.apiText1 = "O Inventrip é um sistema interoperativo que permite obter informações e interagir com plataformas Smart City utilizando tecnologias padrão ao alcance de qualquer programador.";
+
+$scope.apiTitle2 = "Schema.org para Turismo";
+$scope.apiText2 = "A Sismotur é cofundadora do grupo de Turismo do Schema.org, projeto suportado pela W3C e principal vocabulário mundial de semântica de dados. Milhões de páginas web utilizam o Schema.org para melhorar a sua visibilidade e aumentar o número de visitas.";
+$scope.apiButton2 = 'Junte-se a esta iniciativa';
+
+// Big Data
+$scope.bigData = "Big Data";
+$scope.bigDataText = "Analisa, de forma simples, os dados gerados pelos seus turistas para melhorar a gestão do seu destino.";
+
+$scope.bigDataTitle1 = "O sinal inteligente: fonte de dados";
+$scope.bigDataText1 = "O Inventrip permite gerar, em tempo real, quadros de comando e análise, à medida, acessíveis via navegador, sobre a utilização que os turistas fazem dos sinais conectados e de qualquer serviço associado aos mesmos.";
+
+// E-Commerce
+$scope.eCommerce = 'e-Commerce';
+$scope.comercializacionText = 'Facilita ao turista o acesso a motores de reserva de alojamentos, restaurantes e atividades, antes ou durante a viagem.';
+
+$scope.eCommerceTitle1 = 'e-Commerce';
+$scope.eCommerceText1 = 'Integração de centrais de reservas no Inventrip, para que os turistas possam reservar serviços antes e durante a viagem.';
+
+// Blockchain
+$scope.blockchain = "Blockchain";
+$scope.blockchainText = "Aproveite o potencial desta tecnologia disruptiva para interagir com o turista, sem necessidade de depender de intermediários.";
+
+$scope.blockchainTitle1 = "Blockchain";
+$scope.blockchainText1 = "A Sismotur apresenta na FITUR 2017 algumas das aplicações potenciais para o turismo desta incrível tecnologia, que permitiu, entre outras coisas, a existência da moeda digital Bitcoin.";
+$scope.blockchainButton1 = 'Descubra as aplicações';
+
+// NFC
+$scope.nfc = 'NFC';
+$scope.nfcText = 'Entrega ao turista de cartões contactless em postos de turismo, feiras ou hotéis, para personalizar a sua experiência turística no destino.';
+
+$scope.nfcTitle1 = 'Cartões NFC Ibiza';
+$scope.nfcText1 = 'A Câmara Municipal de Ibiza apresenta aos meios de comunicação o projeto de Destino Turístico Inteligente com sinalização inteligente, beacons e estes cartões NFC com uma viagem pré-definida por Dalt Vila.';
+$scope.nfcButton1 = 'Descubra a viagem';
+
+$scope.nfcTitle2 = 'Cartões NFC Palencia Turismo'
+$scope.nfcText2 = 'A Palencia Turismo apresenta o Inventrip aos meios de comunicação durante a Feira de Turismo Interior (INTUR-2015) e entrega cartões NFC com uma viagem pela Província de Palencia.';
+$scope.nfcButton2 = 'Descubra a viagem';
+
+// qr
+$scope.qr = 'QR';
+$scope.qrText = 'Gere facilmente as informações turísticas online de recursos e mapas, em vários idiomas.';
+
+$scope.qrTitle1 = 'Normandia e Bretanha';
+$scope.qrText1 = 'Descubra uma viagem pela Normandia e Bretanha lendo este código QR.!';
+$scope.qrButton1 = 'Descubra a viagem';
+
+$scope.qrTitle2 = 'Barcelona';
+$scope.qrText2 = 'A Sismotur cria em 2012 o primeiro plano de sinalização e informação turística da cidade de Barcelona para o distrito de Horta-Guinardó.';
+
+// Drontrip
+$scope.dronTrip = 'DronTrip';
+$scope.dronText = 'Utiliza voos turísticos com drones para espalhar pelas redes sociais a promoção de destinos e serviços turísticos.';
+
+$scope.drontripText1 = 'Convidamo-lo a voar pela comarca de Sierra Montánchez e Tamuja!';
+$scope.drontripButton1 = 'Ver Vídeo';
+
+// ******************
+// NOTICIAS PT
+// ******************
+$scope.dividerNews = 'Últimas notícias';
+$scope.moreNews = 'Mais notícias';
+
+// *********************
+// PARTNERS PT
+// *********************
+$scope.titlePartners = 'Sócios';
+
+// ******************
+// CONTACTO PT
+// ******************
+$scope.btnContact = 'CONTACTE-NOS';
+
+$scope.cntSpain = 'Espanha';
+$scope.cntSpain2 = 'Madrid & Barcelona';
+$scope.cntSpainPhone = '+34 913.238.208';
+
+$scope.cntFrance = 'França';
+$scope.cntFrance2 = 'Annecy';
+$scope.cntFrancePhone = '+33 (0)619.20.30.61';
+
+$scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
+
+// *********************
+// NEWS PT
+// *********************
+$scope.newsTitle25 = 'Início do plano de sinalização inteligente de Gran Canaria.';
+$scope.newsContent25 = 'O Cabildo encarrega a Sismotur da redação do plano de sinalização turística inteligente da ilha de Gran Canaria.’ Foto: o Conselheiro de Obras Públicas e Infraestruturas(à esquerda) com o CEO da Sismotur (à direita) no momento da assinatura do contrato.';
+$scope.newsDetail25 = 'Link para o anúncio do Cabildo de Gran Canaria';
+
+$scope.newsTitle24 = 'Reguengos de Monsaraz, primeiro destino com sinalização turística inteligente de Portugal.';
+$scope.newsContent24 = 'A Sismotur apresenta às Rotas do Vinho de Portugal o projeto de destino inteligente conectado realizado em Reguengos de Monsaraz. Foto: O Presidente da Câmara de Reguengos de Monsaraz e Presidente da Rede Europeia de Cidades do Vinho (à esquerda), o Presidente da Associação de Municípios do Vinho de Portugal (ao centro) e o CEO da Sismotur (à direita).';
+$scope.newsDetail24 = 'Link para o artigo da Publituris';
+
+$scope.newsTitle23 = 'ICEX entrevista ao CMO da Sismotur durante a Fitur';
+$scope.newsContent23 = 'Entrevista da revista El Exportador à Sismotur durante a Fitur 2017. Foto: CMO da Sismotur.';
+$scope.newsDetail23 = 'Link para a entrevista completa (vídeo)';
+
+$scope.newsTitle22 = 'A Sismotur expõe na Fitur Know-how & Export 2017';
+$scope.newsContent22 = 'A Sismotur apresenta com êxito a sua sinalização turística conectada na Fitur 2017. Foto: O CEO da Sismotur (à direita) apresentando o nosso conceito ao vice-ministro do Turismo do Peru (ao centro) e ao Presidente da SEGITTUR (à esquerda).';
+$scope.newsDetail22 = 'Link para um artigo sobre a Sismotur na Fitur Daily';
+
+$scope.newsTitle21 = 'A agência EFE entrevista a Sismotur sobre a Blockchain para o turismo';
+$scope.newsContent21 = 'A EFE Futuro interessa-se pela tecnologia Blockchain e já entrevistou os nossos especialistas para saber como se pode aplicar ao turismo.';
+$scope.newsDetail21 = 'Link para o artigo';
+
+$scope.newsTitle20 = 'FITUR 2017 - Tecnologia Blockchain e aplicações para o Turismo';
+$scope.newsContent20 = 'Enrique Melero, especialista em Blockchain e Felipe Santi, CTO da Sismotur, apresentaram a novíssima tecnologia no SEGITTUR Lab.';
+$scope.newsDetail20 = 'Apresentação (idioma Espanhol, formato PDF)';
+
+$scope.newsTitle19 = 'A Sismotur apresentará a Blockchain e as suas aplicações potenciais para o Turismo durante a FITUR 2017 no SEGITTUR Lab.';
+$scope.newsContent19 = 'A Sismotur estará presente na FITUR 2017, na área Know-How e Export (Stand 10B09, próximo do stand da SEGITTUR). A 18 de janeiro às 16h, no espaço SEGITTUR Lab, organizaremos uma conferência sobre a tecnologia Blockchain e suas aplicações no Âmbito do Turismo.';
+$scope.newsDetail19 = 'Análise do Blockchain e do seu potencial para o Turismo';
+
+$scope.newsTitle18 = 'Artigo sobre Sinalização Turística Inteligente na EFE Empresas';
+$scope.newsContent18 = 'Artigo da EFE Empresas sobre a inovação que representa conectar o Destino Turístico com o novo turista digital e o seu smartphone, através da sinalização turística inteligente e do Inventrip.';
+$scope.newsDetail18 = 'Link para o artigo';
+
+$scope.newsTitle17 = 'Artigo no blog do Kontakt.io';
+$scope.newsContent17 = 'Kontakt, referência mundial em tecnologias conectadas (Internet of the Things) e colaborador da Sismotur, explica a inovação que o Inventrip representa para o setor turístico.';
+$scope.newsDetail17 = 'Link para o blog Kontakt';
+
+$scope.newsTitle16 = 'Apresentação do Inventrip para a Rota do Vinho da Ribera del Duero';
+$scope.newsContent16 = 'O Diretor Geral de Turismo de Castela e Leão apresenta o Inventrip, o novo sistema de sinalização turística inteligente da Sismotur.';
+$scope.newsDetail16 = 'Link para o artigo';
+
+$scope.newsTitle15 = 'Las Palmas de Gran Canaria irá implementar o Inventrip';
+$scope.newsContent15 = 'A Câmara Municipal e o Cabildo chegaram a acordo para implementar a sinalização turística inteligente da Sismotur nas zonas comerciais abertas de interesse turístico e dar informações com a plataforma Inventrip.';
+$scope.newsDetail15 = 'Link para o artigo';
+
+$scope.newsTitle14 = 'FITUR 2016';
+$scope.newsContent14 = 'A Sismotur foi eleita para apresentar, na inauguração, o seu conceito de Destino Turístico Inteligente através da integração de meios físicos e digitais OFF/ON conectando a sinalização à plataforma Inventrip. Desta forma, os sinais e o território falam com o telemóvel do turista.';
+
+$scope.newsTitle13 = 'Contribuição da Sismotur para o Livro Branco de Destinos Turísticos Inteligentes';
+$scope.newsContent13 = 'No passado mês de outubro foi apresentado, na sede do Ministério da Indústria, Energia e Turismo, o livro branco de Destinos Turísticos Inteligentes promovido pela SEGITTUR no âmbito do Plano Nacional de Cidades Inteligentes. A Sismotur participou na redação deste livro branco com o seu modelo de integração OFF/ON de meios físicos e digitais num destino para melhorar o acolhimento e a experiência do turista.';
+$scope.newsDetail13 = 'Link para o Livro Branco';
+
+$scope.newsTitle12 = 'A Sismotur redige o Plano de Sinalização Turística do País Basco.';
+$scope.newsContent12 = 'A Sismotur redigiu o plano de sinalização turística para o País Basco, trabalhando lado a lado com o Governo Basco e a sua Diretora Geral de Turismo e ainda com as três administrações forais, unificando critérios, analisando necessidades e especificidades com vista a uma concertação.';
+
+$scope.newsTitle11 = 'A Sismotur na INTUR 2015';
+$scope.newsContent11 = 'Na edição passada da INTUR em Valladolid, a Sismotur apresentou os avanços da plataforma Inventrip como ferramenta de promoção de um destino, planificador de viagens para o turista e serviços de informação digital no território vinculado à sinalização física e aos recursos e serviços do destino.';
+
+$scope.newsTitle10 = 'A Sismotur participa na Jornada de Redes Sociais e Turismo da Administração de Barcelona.';
+$scope.newsContent10 = 'Augusto Ramos, CEO da Sismotur, apresentou uma comunicação sobre a capacidade das redes sociais e do turista como prescritores de um destino, a necessidade de os territórios se unirem aos novos meios de difusão e promoção e como o Inventrip implementa e explora estes meios para a difusão do destino por parte de turistas e promotores do mesmo.';
+
+$scope.newsTitle9 = 'A Sismotur com o Principado das Astúrias na apresentação do Inventrip para Piloña.';
+$scope.newsContent9 = 'A Sismotur acompanhou o Diretor Geral do Turismo do Principado das Astúrias na apresentação do Inventrip como plataforma de promoção do destino e gestão da informação turística para Piloña, zona muito turística das Astúrias e que aposta nas novas tecnologias para o seu desenvolvimento turístico.';
+
+$scope.newsTitle8 = 'A Sismotur com o Turismo da Estremadura na apresentação do Inventrip para a Serra de Montánchez.';
+$scope.newsContent8 = 'Felipe Santi, CTO da Sismotur, acompanha o Turismo da Estremadura na apresentação do serviço Inventrip para a melhoria da promoção da Serra de Montánchez e Tamuja no seu caminho para um destino turístico inteligente.’ Também foi apresentado um vídeo promocional com drones associado ao Inventrip para difundir esse destino nas redes sociais.';
+
+$scope.newsTitle7 = 'A Sismotur apresentando o projeto de Ibiza Destino Turístico Inteligente com beacons e o Inventrip.';
+$scope.newsContent7 = 'A Sismotur acompanhou a Câmara Municipal de Ibiza na apresentação do projeto que converte o município num destino turístico inteligente com a implementação da plataforma Inventrip como sistema de gestão da informação turística e da promoção do destino, associado com um plano de sinalização inteligente pedonal e interpretativo e uma rede de beacons.';
+
+$scope.newsTitle6 = 'Apresentação do Inventrip na Sierra Norte de Madrid';
+$scope.newsContent6 = 'Julio José Julián, CMO da Sismotur, apresenta a implementação da plataforma Inventrip como sistema de gestão da informação turística, planificador de viagens e meio de promoção do destino turístico nas redes sociais.’ Enquadra-se dentro de um ambicioso plano para promover a Sierra Norte e que se apoia, de forma contundente, nas novas tecnologias e nas redes sociais como veículo de difusão.';
+
+$scope.newsTitle5 = 'A Sismotur nas Jornadas Técnicas de Turismo no Peru.';
+$scope.newsContent5 = 'Pela mão da SEGITTUR e do ICEX, a Sismotur esteve presente nas Jornadas Técnicas de Turismo que se celebraram na capital do Peru. Foi apresentada a visão do destino turístico inteligente e a capacidade do Inventrip como gestor da informação e ferramenta de promoção para um território turístico a nível global.';
+
+$scope.newsTitle4 = 'A Sismotur nas Jornadas Técnicas de Turismo Espanha-Chile, em Santiago do Chile.';
+$scope.newsContent4 = 'A Sismotur acompanha a SEGITTUR e o ICEX nas Jornadas Técnicas de Turismo, que se celebraram em Santiago do Chile, e está presente como testemunho de exceção da assinatura do convénio bilateral entre o Chile e a Espanha, apresentando o Inventrip e a potência da visão OFF/ON de integração de elementos físicos e digitais para desenvolver um destino turístico inteligente.';
+
+$scope.newsTitle3 = 'A Sismotur apresenta o Projeto de Sinalização Turística do Caminho de Santiago por Castela e Leão.';
+$scope.newsContent3 = 'A Sismotur apresentou o plano de sinalização turística do Caminho de Santiago pelas estradas de Castela e Leão, juntamente com a Conselheira e o Diretor Geral de Turismo. Representa uma melhoria na perceção da qualidade do destino e no processo de acolhimento do turista no território.';
+
+$scope.newsTitle2 = 'A Sismotur no Cluster de Turismo da Estremadura';
+$scope.newsContent2 = 'Reportagem da TVE sobre o Cluster de Turismo da Estremadura, onde Augusto Ramos, CEO da Sismotur, expõe a capacidade do Inventrip como plataforma de promoção de um destino turístico e o seu potencial como ferramenta para planear viagens para o turista e como gestor da informação turística de um território.';
+
+$scope.newsTitle1 = 'O Inventrip recebe o prémio para a melhor ideia de marketing de destinos de Território & Marketing.';
+$scope.newsContent1 = 'A Sismotur recebeu o prémio de finalista pela contribuição da plataforma Inventrip para a difusão e promoção de um destino turístico.’ O júri reconhece como o Inventrip é capaz de unir a parte emotiva da experiência de um turista, na hora de preparar uma viagem, com a realidade de se deslocar dentro do território durante a viagem e a recomendação positiva que faz posteriormente do dito destino.';
 
 break;
 
