@@ -690,7 +690,7 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // NEWS PT
 // *********************
 $scope.newsTitle25 = 'Início do plano de sinalização inteligente de Gran Canaria.';
-$scope.newsContent25 = 'O Cabildo encarrega a Sismotur da redação do plano de sinalização turística inteligente da ilha de Gran Canaria.’ Foto: o Conselheiro de Obras Públicas e Infraestruturas(à esquerda) com o CEO da Sismotur (à direita) no momento da assinatura do contrato.';
+$scope.newsContent25 = 'O Cabildo encarrega a Sismotur da redação do plano de sinalização turística inteligente da ilha de Gran Canaria.’ Foto: o Conselheiro de Obras Públicas e Infraestruturas (à esquerda) com o CEO da Sismotur (à direita) no momento da assinatura do contrato.';
 $scope.newsDetail25 = 'Link para o anúncio do Cabildo de Gran Canaria';
 
 $scope.newsTitle24 = 'Reguengos de Monsaraz, primeiro destino com sinalização turística inteligente de Portugal.';
@@ -759,7 +759,7 @@ $scope.newsTitle7 = 'A Sismotur apresentando o projeto de Ibiza Destino Turísti
 $scope.newsContent7 = 'A Sismotur acompanhou a Câmara Municipal de Ibiza na apresentação do projeto que converte o município num destino turístico inteligente com a implementação da plataforma Inventrip como sistema de gestão da informação turística e da promoção do destino, associado com um plano de sinalização inteligente pedonal e interpretativo e uma rede de beacons.';
 
 $scope.newsTitle6 = 'Apresentação do Inventrip na Sierra Norte de Madrid';
-$scope.newsContent6 = 'Julio José Julián, CMO da Sismotur, apresenta a implementação da plataforma Inventrip como sistema de gestão da informação turística, planificador de viagens e meio de promoção do destino turístico nas redes sociais.’ Enquadra-se dentro de um ambicioso plano para promover a Sierra Norte e que se apoia, de forma contundente, nas novas tecnologias e nas redes sociais como veículo de difusão.';
+$scope.newsContent6 = 'Julio José Julián, CMO da Sismotur, apresenta a implementação da plataforma Inventrip como sistema de gestão da informação turística, planificador de viagens e meio de promoção do destino turístico nas redes sociais. Enquadra-se dentro de um ambicioso plano para promover a Sierra Norte e que se apoia, de forma contundente, nas novas tecnologias e nas redes sociais como veículo de difusão.';
 
 $scope.newsTitle5 = 'A Sismotur nas Jornadas Técnicas de Turismo no Peru.';
 $scope.newsContent5 = 'Pela mão da SEGITTUR e do ICEX, a Sismotur esteve presente nas Jornadas Técnicas de Turismo que se celebraram na capital do Peru. Foi apresentada a visão do destino turístico inteligente e a capacidade do Inventrip como gestor da informação e ferramenta de promoção para um território turístico a nível global.';
@@ -774,7 +774,7 @@ $scope.newsTitle2 = 'A Sismotur no Cluster de Turismo da Estremadura';
 $scope.newsContent2 = 'Reportagem da TVE sobre o Cluster de Turismo da Estremadura, onde Augusto Ramos, CEO da Sismotur, expõe a capacidade do Inventrip como plataforma de promoção de um destino turístico e o seu potencial como ferramenta para planear viagens para o turista e como gestor da informação turística de um território.';
 
 $scope.newsTitle1 = 'O Inventrip recebe o prémio para a melhor ideia de marketing de destinos de Território & Marketing.';
-$scope.newsContent1 = 'A Sismotur recebeu o prémio de finalista pela contribuição da plataforma Inventrip para a difusão e promoção de um destino turístico.’ O júri reconhece como o Inventrip é capaz de unir a parte emotiva da experiência de um turista, na hora de preparar uma viagem, com a realidade de se deslocar dentro do território durante a viagem e a recomendação positiva que faz posteriormente do dito destino.';
+$scope.newsContent1 = 'A Sismotur recebeu o prémio de finalista pela contribuição da plataforma Inventrip para a difusão e promoção de um destino turístico. O júri reconhece como o Inventrip é capaz de unir a parte emotiva da experiência de um turista, na hora de preparar uma viagem, com a realidade de se deslocar dentro do território durante a viagem e a recomendação positiva que faz posteriormente do dito destino.';
 
 break;
 
