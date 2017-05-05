@@ -190,6 +190,10 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS ES
 // *********************
+$scope.newsTitle26 = 'III Congreso de Ciudades Inteligentes de Madrid';
+$scope.newsContent26 = 'La Junta de Castilla y León y Sismotur han presentado en Abril de 2017 el proyecto "Ruta Smart Ribera del Duero: Señalización Turística Inteligente Conectada con Inventrip" en la tercera edición del Congreso Ciudades Inteligentes de Madrid. Foto: presentación del CEO de Sismotur; la Ruta Ribera del Duero dispone ahora de 103 Oficinas de Información Turística digitales.';
+$scope.newsDetail26 = 'Muy pronto - enlace a la presentación';
+
 $scope.newsTitle25 = 'Inicio del plan de señalización inteligente de Gran Canaria';
 $scope.newsContent25 = 'El Cabildo encarga a Sismotur la redacción del plan de señalización turística inteligente de la isla de Gran Canaria. Foto: el consejero de Obras Públicas e Infraestructuras (izquierda) con el CEO de Sismotur (derecha) en el momento de la firma del contrato.';
 $scope.newsDetail25 = 'Enlace al anuncio del Cabildo de Gran Canaria';
@@ -439,6 +443,10 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS CA
 // *********************
+$scope.newsTitle26 = 'III Congreso de Ciudades Inteligentes de Madrid';
+$scope.newsContent26 = '(Translation in progress) La Junta de Castilla y León y Sismotur han presentado en Abril de 2017 el proyecto "Ruta Smart Ribera del Duero: Señalización Turística Inteligente Conectada con Inventrip" en la tercera edición del Congreso Ciudades Inteligentes de Madrid. Foto: presentación del CEO de Sismotur; la Ruta Ribera del Duero dispone ahora de 103 Oficinas de Información Turística digitales.';
+$scope.newsDetail26 = 'Muy pronto - enlace a la presentación';
+
 $scope.newsTitle25 = 'Inici del pla de senyalització intel·ligent de Gran Canaria';
 $scope.newsContent25 = "El Cabildo encarrega a Sismotur la redacció del pla de senyalització turística intel·ligent de l'illa de Gran Canaria. Foto: El conseller d'Obres Públiques i Infraestructures (esquerra) amb el CEO de Sismotur (dreta) al moment de la signatura del contracte.";
 $scope.newsDetail25 = "Link a l'anunci del Cabildo de Gran Canaria";
@@ -689,6 +697,10 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS PT
 // *********************
+$scope.newsTitle26 = 'III Congreso de Ciudades Inteligentes de Madrid';
+$scope.newsContent26 = '(Translation in progress) La Junta de Castilla y León y Sismotur han presentado en Abril de 2017 el proyecto "Ruta Smart Ribera del Duero: Señalización Turística Inteligente Conectada con Inventrip" en la tercera edición del Congreso Ciudades Inteligentes de Madrid. Foto: presentación del CEO de Sismotur; la Ruta Ribera del Duero dispone ahora de 103 Oficinas de Información Turística digitales.';
+$scope.newsDetail26 = 'Muy pronto - enlace a la presentación';
+
 $scope.newsTitle25 = 'Início do plano de sinalização inteligente de Gran Canaria.';
 $scope.newsContent25 = 'O Cabildo encarrega a Sismotur da redação do plano de sinalização turística inteligente da ilha de Gran Canaria.’ Foto: o Conselheiro de Obras Públicas e Infraestruturas (à esquerda) com o CEO da Sismotur (à direita) no momento da assinatura do contrato.';
 $scope.newsDetail25 = 'Link para o anúncio do Cabildo de Gran Canaria';
@@ -939,6 +951,10 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS FR
 // *********************
+$scope.newsTitle26 = 'III Congreso de Ciudades Inteligentes de Madrid';
+$scope.newsContent26 = '(Traduction en cours) La Junta de Castilla y León y Sismotur han presentado en Abril de 2017 el proyecto "Ruta Smart Ribera del Duero: Señalización Turística Inteligente Conectada con Inventrip" en la tercera edición del Congreso Ciudades Inteligentes de Madrid. Foto: presentación del CEO de Sismotur; la Ruta Ribera del Duero dispone ahora de 103 Oficinas de Información Turística digitales.';
+$scope.newsDetail26 = 'Muy pronto - enlace a la presentación';
+
 $scope.newsTitle25 = 'Démarrage du plan de signalisation intelligente de Gran Canaria';
 $scope.newsContent25 = "Gran Canaria a confié à Sismotur la rédaction du plan de signalisation touristique de l'île. Photo: le directeur de Travaux Publics et Infrastructures (gauche) avec le CEO de Sismotur (droite) lors de la signature du contrat.";
 $scope.newsDetail25 = "Lien vers l'annonce du Cabildo de Gran Canaria";
@@ -1188,6 +1204,10 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS EN
 // *********************
+$scope.newsTitle26 = 'III Congreso de Ciudades Inteligentes de Madrid';
+$scope.newsContent26 = '(Translation in progress) La Junta de Castilla y León y Sismotur han presentado en Abril de 2017 el proyecto "Ruta Smart Ribera del Duero: Señalización Turística Inteligente Conectada con Inventrip" en la tercera edición del Congreso Ciudades Inteligentes de Madrid. Foto: presentación del CEO de Sismotur; la Ruta Ribera del Duero dispone ahora de 103 Oficinas de Información Turística digitales.';
+$scope.newsDetail26 = 'Muy pronto - enlace a la presentación';
+
 $scope.newsTitle25 = 'Start of the smart signage plan of Gran Canaria';
 $scope.newsContent25 = 'The Gran Canaria Cabildo has commissioned Sismotur to produce the smart signage plan of the island of Gran Canaria. Photo: the councilor of Public Works and Infrastructures (left) with the CEO of Sismotur (right) during the signature of the contract.';
 $scope.newsDetail25 = 'Link to the announcement of the Gran Canaria Cabildo';
