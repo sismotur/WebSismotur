@@ -1205,10 +1205,10 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // NEWS EN
 // *********************
 $scope.newsTitle26 = 'III Madrid Smart Cities Congress';
-$scope.newsContent26 = 'The Region of Castilla y León and Sismotur have presented in April 2017 the project "Smart Route Ribera del Duero: Smart Tourism Signage Connected with Inventrip" in the third edition of the Madrid Smart Cities Congress. Photo: project presentation by the CEO de Sismotur; now the Route Ribera del Duero has 103 digital Tourist Information Offices.';
+$scope.newsContent26 = 'The Region of Castilla y León and Sismotur have presented in April 2017 the project "Smart Route Ribera del Duero: Smart Tourism Signage Connected with Inventrip" in the third edition of the Madrid Smart Cities Congress. Photo: project presentation by the CEO of Sismotur; now the Route Ribera del Duero has 103 digital Tourist Information Offices.';
 $scope.newsDetail26 = 'Very soon - link to the presentation';
 
-$scope.newsTitle25 = 'Start of the smart signage plan of Gran Canaria';
+$scope.newsTitle25 = 'Beginning of the smart signage plan of Gran Canaria';
 $scope.newsContent25 = 'The Gran Canaria Cabildo has commissioned Sismotur to produce the smart signage plan of the island of Gran Canaria. Photo: the councilor of Public Works and Infrastructures (left) with the CEO of Sismotur (right) during the signature of the contract.';
 $scope.newsDetail25 = 'Link to the announcement of the Gran Canaria Cabildo';
 
@@ -1221,7 +1221,7 @@ $scope.newsContent23 = 'Interview of the magazine El Exportador to Sismotur duri
 $scope.newsDetail23 = 'Link to the interview (video in spanish)';
 
 $scope.newsTitle22 = 'Sismotur exhibits in Fitur Know-how & Export 2017';
-$scope.newsContent22 = 'Sismotur has showcased with success its smart tourism signage in the Fitur 2017 fair. Picture: the CEO de Sismotur (right) presents our concept to the Viceminister of Tourism of Pérou (center) and to the President of SEGITTUR (left).';
+$scope.newsContent22 = 'Sismotur has showcased with success its smart tourism signage in the Fitur 2017 fair. Picture: the CEO of Sismotur (right) presents our concept to the Viceminister of Tourism of Pérou (center) and to the President of SEGITTUR (left).';
 $scope.newsDetail22 = 'Link to an article about Sismotur in the journal Fitur Daily';
 
 $scope.newsTitle21 = 'EFE interviews Sismotur about Blockchain for Tourism';
