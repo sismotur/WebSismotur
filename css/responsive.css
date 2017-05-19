@@ -317,4 +317,9 @@
 			display:block;
 			float:none;
 		}
+
+		/* Override cookie banner JS default */
+		div.cookiebanner {
+			height: 100px !important;
+		}
 }
