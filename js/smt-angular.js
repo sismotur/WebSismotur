@@ -885,7 +885,7 @@ $scope.eCommerceText1 = 'Intégration de systèmes de réservation dans Inventri
 
 // Blockchain
 $scope.blockchain = "Blockchain";
-$scope.blockchainText = "Profitez du potentiel de cette technologie disruptive pour interagir avec le touriste sans beson de dépendre d'intermédiaires.";
+$scope.blockchainText = "Profitez du potentiel de cette technologie disruptive pour interagir avec le touriste sans besoin de dépendre d'intermédiaires.";
 
 $scope.blockchainTitle1 = "Blockchain";
 $scope.blockchainText1 = "Sismotur a présenté dans FITUR 2017 quelques usages potentiels pour le tourisme de cette incroyable technologie, laquelle a permis d'ailleurs l'existance de la monnaie numérique Bitcoin.";
