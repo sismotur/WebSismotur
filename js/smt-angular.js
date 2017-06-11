@@ -190,7 +190,10 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS ES
 // *********************
-$scope.newsTitle26 = 'III Congreso de Ciudades Inteligentes de Madrid';
+$scope.newsTitle27 = 'Congreso Green Cities, Málaga';
+$scope.newsContent27 = 'Sismotur ha participado, en Junio de 2017, en la maqueta de ciudad inteligente preparada por el Ministerio de Energía, Turismo y Agenda Digital. El turista a su llegada a la estación del AVE recibe información con señalización inteligente conectada con Inventrip. Foto: CEO de Sismotur con el secretario de Estado para la Sociedad de la Información y la Agenda Digital y el coordinador del Plan Nacional de Ciudades Inteligentes.';
+
+$scope.newsTitle26 = 'III Congreso de Ciudades Inteligentes, Madrid';
 $scope.newsContent26 = 'La Junta de Castilla y León y Sismotur han presentado en Abril de 2017 el proyecto "Ruta Smart Ribera del Duero: Señalización Turística Inteligente Conectada con Inventrip" en la tercera edición del Congreso Ciudades Inteligentes de Madrid. Foto: presentación del CEO de Sismotur; la Ruta Ribera del Duero dispone ahora de 103 Oficinas de Información Turística digitales.';
 $scope.newsDetail26 = 'Enlace a la presentación';
 $scope.newsDetail26_b = 'Vídeo de la presentación';
@@ -444,6 +447,9 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS CA
 // *********************
+$scope.newsTitle27 = 'Congreso Green Cities';
+$scope.newsContent27 = 'Sismotur ha participado, en Junio de 2017, en la maqueta de ciudad inteligente preparada por el Ministerio de Energía, Turismo y Agenda Digital. El turista a su llegada a la estación del AVE recibe información con señalización inteligente conectada con Inventrip. Foto: CEO de Sismotur con el secretario de Estado para la Sociedad de la Información y la Agenda Digital y el coordinador del Plan Nacional de Ciudades Inteligentes.';
+
 $scope.newsTitle26 = 'III Congrés de Ciutats Intel·ligents';
 $scope.newsContent26 = 'La Junta de Castella i Lleó i Sismotur van presentar en abril de 2017 el projecte “Ruta Smart Ribera del Duero: Senyalització Turística Intel·ligent Connectada amb Inventrip” a la tercera edició del Congrés de Ciutats Intel·ligents de Madrid. Foto: presentació del CEO de Sismotur; La Ruta Ribera del Duero disposa ara de 103 oficines d’informació turística digitals.';
 $scope.newsDetail26 = 'Link a la presentació';
@@ -699,6 +705,9 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS PT
 // *********************
+$scope.newsTitle27 = 'Congreso Green Cities';
+$scope.newsContent27 = 'Sismotur ha participado, en Junio de 2017, en la maqueta de ciudad inteligente preparada por el Ministerio de Energía, Turismo y Agenda Digital. El turista a su llegada a la estación del AVE recibe información con señalización inteligente conectada con Inventrip. Foto: CEO de Sismotur con el secretario de Estado para la Sociedad de la Información y la Agenda Digital y el coordinador del Plan Nacional de Ciudades Inteligentes.';
+
 $scope.newsTitle26 = 'III Congresso Cidades Inteligentes';
 $scope.newsContent26 = 'O governo da região de “Castilla y León” e Sismotur têm apresentado em abril de 2017 o projeto "Rota Smart Ribera do Duero: Sinalização Turística Inteligente Conectada com Inventrip" na terceira edição do Congresso Cidades Inteligentes de Madrid. Foto: apresentação do CEO de Sismotur; a Rota Ribera do Duero dispõe agora de 103 postos de informação turística digitais';
 $scope.newsDetail26 = 'Link para a apresentação';
@@ -954,6 +963,9 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS FR
 // *********************
+$scope.newsTitle27 = 'Congrès Green Cities, Málaga';
+$scope.newsContent27 = "Sismotur a participé, en juin 2017, à l'élaboration de la maquette de ville intelligente préparée par le ministère de l'Energie, du Tourisme et du Numérique. Le touriste, lors de son arrivée à la gare TGV, reçoit de l'information avec la signalétique intelligente connectée avec Inventrip. Photo: CEO de Sismotur avec le secrétaire d'Etat pour la Société de l'Information et l'Agenda Numérique et le coordonnateur du Plan National de Smart Cities.";
+
 $scope.newsTitle26 = 'III Congrès Smart Cities de Madrid';
 $scope.newsContent26 = 'La Région de Castille et Leon et Sismotur ont présenté en avril 2017 le projet "Route Smart Ribera del Duero: Signalisation Touristique Intelligente Connectée avec Inventrip" lors de la troisième édition du Congrès Smart Cities de Madrid. Photo: présentation du CEO de Sismotur; la Route Ribera del Duero dispose désormais de 103 Offices de Tourisme Numériques.';
 $scope.newsDetail26 = 'Lien vers la présentation';
@@ -1208,6 +1220,9 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS EN
 // *********************
+$scope.newsTitle27 = 'Green Cities Congres';
+$scope.newsContent27 = 'In June 2017, Sismotur has been involved in the preparation of a smart city model built by the Ministry of Energy, Tourism and Digital Agenda. Tourists arriving by high-speed train to the railway station get information from a smart sign connected with Inventrip. Photo: CEO of Sismotur with the secretary of State for the Information Society and Digital Agenda and the coordinador of the National Plan of Smart Cities.';
+
 $scope.newsTitle26 = 'III Madrid Smart Cities Congress';
 $scope.newsContent26 = 'The Region of Castilla y León and Sismotur have presented in April 2017 the project "Smart Route Ribera del Duero: Smart Tourism Signage Connected with Inventrip" in the third edition of the Madrid Smart Cities Congress. Photo: project presentation by the CEO of Sismotur; now the Route Ribera del Duero has 103 digital Tourist Information Offices.';
 $scope.newsDetail26 = 'Link to the presentation';
