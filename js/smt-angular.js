@@ -15,7 +15,7 @@ myApp.controller('languagesController', ['$scope', function($scope){
     	var expires = "expires="+d.toUTCString();
 		document.cookie = "lang="+lang + ";" + expires;
 		loadLanguage($scope);
-	}
+	};
 }]);
 
 function loadLanguage($scope) {
@@ -139,7 +139,7 @@ $scope.nfcTitle1 = 'Tarjetas NFC Ibiza';
 $scope.nfcText1 = 'El Ayuntamiento de Ibiza presentó a los medios el proyecto de Destino Turístico Inteligente con señalización inteligente, beacons y estas tarjetas NFC con un viaje predefinido por Dalt Vila.';
 $scope.nfcButton1 = 'Descubre el viaje';
 
-$scope.nfcTitle2 = 'Tarjetas NFC Palencia Turismo'
+$scope.nfcTitle2 = 'Tarjetas NFC Palencia Turismo';
 $scope.nfcText2 = 'Palencia Turismo presentó Inventrip a los medios durante la Feria de Turismo Interior (INTUR-2015) y entregó tarjetas NFC con un viaje por la Provincia de Palencia.';
 $scope.nfcButton2 = 'Descubre el viaje';
 
@@ -396,7 +396,7 @@ $scope.nfcTitle1 = 'Targetes NFC Eivissa';
 $scope.nfcText1 = "L'Ajuntament d'Eivissa va presentar als mitjans el projecte de Destinació Turística Intel·ligent amb Senyalització Intel·ligent, Beacons i aquestes targetes NFC amb un viatge predefinit per Dalt Vila";
 $scope.nfcButton1 = 'Descobreix el viatge';
 
-$scope.nfcTitle2 = 'Targetes NFC Palència Turisme'
+$scope.nfcTitle2 = 'Targetes NFC Palència Turisme';
 $scope.nfcText2 = 'Palència Turisme va presentar Inventrip als mitjans durant la Fira de Turisme Interior (INTUR-2015) i va entregar targetes NFC amb un viatge per la Província de Palència.';
 $scope.nfcButton2 = 'Descobreix el viatge';
 
@@ -404,7 +404,7 @@ $scope.nfcButton2 = 'Descobreix el viatge';
 $scope.qr = 'QR';
 $scope.qrText = 'Gestiona fàcilment la informació turística on-line de recursos i mapes en multidioma.';
 
-$scope.qrTitle1 = 'Normandia i Bretanya'
+$scope.qrTitle1 = 'Normandia i Bretanya';
 $scope.qrText1 = 'Descobreix un viatge per Normandia i Bretanya escanejant aquest codi QR!';
 $scope.qrButton1 = 'Descobreix el viatge';
 
@@ -525,7 +525,7 @@ $scope.newsTitle7 = "Sismotur presentant el projecte d'Eivissa Destino Turístic
 $scope.newsContent7 = "Sismotur ha acompanyat a l'Ajuntament d'Eivissa en la presentació del projecte que converteix al municipi en una destinació turística intel·ligent amb la implantació de la plataforma Inventrip com a sistema de gestió de la informació turística i de la promoció de la destinació, integrat amb un pla de senyalització intel·ligent per als vianants i interpretativa i una xarxa de Beacons.";
 
 $scope.newsTitle6 = 'Presentació de Inventrip en la Serra Nord de Madrid';
-$scope.newsContent6 = "Julio José Julián, CMO de Sismotur, presenta la implantació de la plataforma Inventrip com a sistema de gestió de la informació turística, planificador de viatges i mitjà de promoció a les xarxes socials de la destinació turística. S'emmarca dins d'un ambiciós pla per promocionar la Serra Nord i que es recolza decididament a les noves tecnologies i les xarxes socials com a vehicle de difusió.";;
+$scope.newsContent6 = "Julio José Julián, CMO de Sismotur, presenta la implantació de la plataforma Inventrip com a sistema de gestió de la informació turística, planificador de viatges i mitjà de promoció a les xarxes socials de la destinació turística. S'emmarca dins d'un ambiciós pla per promocionar la Serra Nord i que es recolza decididament a les noves tecnologies i les xarxes socials com a vehicle de difusió.";
 
 $scope.newsTitle5 = 'Sismotur en les Jornades Tècniques de Turisme a Perú';
 $scope.newsContent5 = "De la mà de SEGITTUR i del ICEX, Sismotur ha estat present en les Jornades Tècniques de Turisme que s'han celebrat a la capital de Perú. S'ha presentat la visió de la destinació turística intel·ligent i la capacitat de Inventrip com a gestor de la informació i eina de promoció per a un territori turístic a nivell global.";
@@ -654,7 +654,7 @@ $scope.nfcTitle1 = 'Cartões NFC Ibiza';
 $scope.nfcText1 = 'A Câmara Municipal de Ibiza apresenta aos meios de comunicação o projeto de Destino Turístico Inteligente com sinalização inteligente, beacons e estes cartões NFC com uma viagem pré-definida por Dalt Vila.';
 $scope.nfcButton1 = 'Descubra a viagem';
 
-$scope.nfcTitle2 = 'Cartões NFC Palencia Turismo'
+$scope.nfcTitle2 = 'Cartões NFC Palencia Turismo';
 $scope.nfcText2 = 'A Palencia Turismo apresenta o Inventrip aos meios de comunicação durante a Feira de Turismo Interior (INTUR-2015) e entrega cartões NFC com uma viagem pela Província de Palencia.';
 $scope.nfcButton2 = 'Descubra a viagem';
 
@@ -919,7 +919,7 @@ $scope.nfcButton2 = 'Découvrez le voyage';
 $scope.qr = 'QR';
 $scope.qrText = "Gérez facilement l'information touristique en ligne des ressources et cartes, et ce quelle que soit la langue du touriste.";
 
-$scope.qrTitle1 = 'Normandie et Bretagne'
+$scope.qrTitle1 = 'Normandie et Bretagne';
 $scope.qrText1 = 'Découvrez un voyage en Normandie et Bretagne avec ce code QR !';
 $scope.qrButton1 = 'Découvrez le voyage';
 
@@ -1046,8 +1046,8 @@ $scope.newsContent6 = "Julio José Julián, CMO de Sismotur, présente l'implant
 $scope.newsTitle5 = "Sismotur dans les Journées de Tourisme Espagne-Pérou";
 $scope.newsContent5 = "Sismotur a été présent dans ces journées de tourisme bilatérales à Lima. Cet évènement, organisé par Segittur et l'ICEX, a compté notamment avec la présence de la vice-ministre du Tourisme du Pérou, de l'ambassadeur d'Espagne au Pérou, ainsi que de nombreuses entreprises touristiques travaillant dans le pays.";
 
-$scope.newsTitle4 = "Sismotur dans les Journées de Tourisme Espagne-Chili"
-$scope.newsContent4 = "Sismotur a accompagné à nouveau Segittur et l'ICEX, cette fois-ci dans les journées bilatérales de tourisme Espagne-Chili qui ont eu lieu dans la capitale Santiago. Nous avons assisté à la signature d'un accord bilatéral entre les deux États, et nous avons eu l'occasion de présenter notre vision OFF/ON d'intégration de la signalisation physique avec nos systèmes numériques pour développer une destination touristique intelligente."
+$scope.newsTitle4 = "Sismotur dans les Journées de Tourisme Espagne-Chili";
+$scope.newsContent4 = "Sismotur a accompagné à nouveau Segittur et l'ICEX, cette fois-ci dans les journées bilatérales de tourisme Espagne-Chili qui ont eu lieu dans la capitale Santiago. Nous avons assisté à la signature d'un accord bilatéral entre les deux États, et nous avons eu l'occasion de présenter notre vision OFF/ON d'intégration de la signalisation physique avec nos systèmes numériques pour développer une destination touristique intelligente.";
 
 $scope.newsTitle3 = "Sismotur présente le projet de signalisation touristique du chemin de Saint-Jacques à Castille et Léon";
 $scope.newsContent3 = "Sismotur a présenté le Plan de Signalisation Touristique du chemin de Saint-Jacques de Castille et Léon avec la directrice du Tourisme de la région. Ce plan améliore nettement l'accueil des touristes dans le territoire et la qualité perçue de la destination dans son ensemble.";
@@ -1169,15 +1169,15 @@ $scope.nfcTitle1 = 'NFC cards for Ibiza';
 $scope.nftText1 = "The city of Ibiza presented to the press the Smart Tourist Destination project: smart signage, beacons, and these NFC cards containing a trip to the city.";
 $scope.nfcButton1 = 'Discover the trip';
 
-$scope.nfcTitle2 = 'NFC cards for Palencia'
+$scope.nfcTitle2 = 'NFC cards for Palencia';
 $scope.nfcText2 = 'Palencia Tourism presented Inventrip to the press during the last spanish fair of interior tourism (INTUR).';
 $scope.nfcButton2 = 'Discover the trip';
 
 // qr
-$scope.qr = 'QR'
+$scope.qr = 'QR';
 $scope.qrText = 'Manage with ease the online touristic information of your maps and points of interest, in multiple languages.';
 
-$scope.qrTitle1 = 'Normandy and Brittany'
+$scope.qrTitle1 = 'Normandy and Brittany';
 $scope.qrText1 = 'Discover a trip to Normandy and Brittany scanning this QR code!';
 $scope.qrButton1 = 'Discover the trip';
 
