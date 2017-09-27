@@ -1,42 +1,38 @@
 <!DOCTYPE html>
 <html lang="es" ng-app="smtApp" ng-controller="languagesController">
 	<head>
-		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
-		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
-		Remove this if you use the .htaccess -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-NC6H7TL');</script>
+		<!-- End Google Tag Manager -->
 
 		<title>Sismotur - Beacons</title>
 		<link rel="shortcut icon" href="img/favicon.png">
 
 		<!-- Important Owl stylesheet -->
-    	<link rel="stylesheet" href="./css/owl.carousel.css">
-    	<!-- Default Theme -->
-    	<link rel="stylesheet" href="./css/owl.theme.css">
-        <!-- Stylesheets -->
-        <link href="./css/bootstrap.css" rel="stylesheet">
-        <link href="./css/tecnologias.css" rel="stylesheet">
+		<link rel="stylesheet" href="./css/owl.carousel.css">
 
-        <script src="js/jquery-1.11.1.js"></script>
-    	<script src="js/angular.js"></script>
+		<!-- Default Theme -->
+		<link rel="stylesheet" href="./css/owl.theme.css">
 
-    	<script src="js/jquery.browser.js"></script>
-    	<script src="js/lib/greensock/TweenMax.min.js"></script>
-    	<script src="js/lib/greensock/TimelineMax.min.js"></script>
-    	<script src="js/bootstrap.min.js"></script>
-    	<script src="js/jquery.scrollmagic.js"></script>
-    	<script src="js/jquery.scrollmagic.debug.js"></script>
-    	<script src="js/owl.carousel.js"></script>
+    <!-- Stylesheets -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/tecnologias.css" rel="stylesheet">
 
-    	<script src="js/sismotur.js"></script>
-    	<script src="js/smt-angular.js"></script>
-
+		<!-- javascript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" defer></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" defer></script>
+		<script src="js/smt-angular.js" defer></script>
+		<script src="js/owl.carousel.js"></script>
 		<script type="text/javascript">
-
     		$(document).ready(function() {
-
     			$("#owl-demo").owlCarousel({
     				navigation : true, // Show next and prev buttons
 					navigationText: [
@@ -47,32 +43,23 @@
     				paginationSpeed : 400,
     				singleItem:true,
     			});
-
     		});
-
 		</script>
-
-    <!-- GOOGLE ANALYTICS -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-65795037-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
 	</head>
 	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC6H7TL"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
 		<div class="container-fluid smt-tecno-content">
 
 			<nav class="navbar smt-menu" role="navigation">
 				<a id="smt-logo-menu" class="navbar-brand smt-logo-nav">
-                	<img class="smt-logo-menu" title="Sismotur" src="img/logomenu.png" />
+                	<img class="smt-logo-menu" title="Sismotur" src="img/logomenu.png" alt="logo menu"/>
             	</a>
             	<a class="navbar-brand smt-return-nav" onclick="window.close()">
-                	<img class="smt-logo-return" title="Sismotur" src="img/boton-volver.png" />
+                	<img class="smt-logo-return" title="Sismotur" src="img/boton-volver.png" alt="return button"/>
             	</a>
 			</nav>
 
@@ -81,7 +68,7 @@
       		<div id="owl-demo" class="owl-carousel smt-carousel">
 
           <!-- CAROUSEL 1 -->
-    			<div id="dronTrip1" class="item smt-item">
+    			<div id="beacon1" class="item active smt-item">
     				<div class="smt-item-content">
     					<div id="smt-banner-img1" class="row smt-content-item-img">
     					</div>
@@ -98,7 +85,7 @@
     			</div>
 
           <!-- CAROUSEL 2 -->
-          <div id="dronTrip1" class="item smt-item">
+          <div id="beacon2" class="item active smt-item">
               <div class="smt-item-content">
                   <div id="smt-banner-img2" class="row smt-content-item-img">
                   </div>
@@ -113,8 +100,8 @@
                   </div>
               </div>
           </div>
-
     		</div>
 		</div>
+	</div>
 	</body>
 </html>
