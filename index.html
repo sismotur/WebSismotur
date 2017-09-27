@@ -25,29 +25,29 @@
 
   <!-- SCRIPTS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" defer></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" defer></script>
   <!-- DEV <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script> -->
   <!-- PROD -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-  <script src="js/smt-angular.js"></script>
-	<script src="js/sismotur.js"></script>
-
-  <script type="text/javascript">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js" defer></script>
+  <!-- BANNER MANAGEMENT -->
+  <script type="text/javascript" defer>
       $(document).ready(function($) {
-  				if(!isMobile()) {
-  	        parallaxBanner();
-  	        opaqueMenu();
+          if(!isMobile()) {
+            parallaxBanner();
+            opaqueMenu();
             $(".navbar-nav li a").click(function(event) {
                 $(".navbar-collapse").collapse('hide');
             });
           }
         });
   </script>
+  <script src="js/smt-angular.js" defer></script>
+	<script src="js/sismotur.js" defer></script>
 
 <!-- GOOGLE ANALYTICS -->
 <script>
@@ -350,6 +350,5 @@
   src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js" data-position="bottom" data-height="50px" data-bg="#0024A8"
 	data-message="Esta web utiliza cookies propias y de terceros para analizar su navegación y ofrecerle un servicio más personalizado.<br>Continuar navegando implica la aceptación de nuestra" data-linkmsg="Política de Cookies"
 	data-moreinfo="./info/politica-cookies.html"></script>
-
 </body>
 </html>
