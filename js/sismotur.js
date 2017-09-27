@@ -2,48 +2,48 @@
  * @author Sismotur
  */
 
- function isMobile() {
- 	var device = navigator.userAgent;
+function isMobile() {
+  var device = navigator.userAgent;
 
- 	return device.match(/Iphone/i) ||
- 			device.match(/Ipod/i)||
- 			device.match(/Android/i)||
- 			device.match(/J2ME/i)||
- 			device.match(/BlackBerry/i)||
- 			device.match(/iPhone|iPad|iPod/i)||
- 			device.match(/Opera Mini/i)||
- 			device.match(/IEMobile/i)||
- 			device.match(/Mobile/i)||
- 			device.match(/Windows Phone/i)||
- 			device.match(/windows mobile/i)||
- 			device.match(/windows ce/i)||
- 			device.match(/webOS/i)||
- 			device.match(/palm/i)||
- 			device.match(/bada/i)||
- 			device.match(/series60/i)||
- 			device.match(/nokia/i)||
- 			device.match(/symbian/i)||
- 			device.match(/HTC/i);
+  return device.match(/Iphone/i) ||
+    device.match(/Ipod/i)||
+    device.match(/Android/i)||
+    device.match(/J2ME/i)||
+    device.match(/BlackBerry/i)||
+    device.match(/iPhone|iPad|iPod/i)||
+    device.match(/Opera Mini/i)||
+    device.match(/IEMobile/i)||
+    device.match(/Mobile/i)||
+    device.match(/Windows Phone/i)||
+    device.match(/windows mobile/i)||
+    device.match(/windows ce/i)||
+    device.match(/webOS/i)||
+    device.match(/palm/i)||
+    device.match(/bada/i)||
+    device.match(/series60/i)||
+    device.match(/nokia/i)||
+    device.match(/symbian/i)||
+    device.match(/HTC/i);
  }
 
 function parallaxBanner() {
 
-	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: "onLeave", duration: $('#parallaxTrigger').height()}});
+	var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onLeave", duration: $('#parallaxTrigger').height()}});
 
-	var scene2 = new ScrollScene({triggerElement: "#parallaxTrigger"})
+	var scene2 = new ScrollMagic.Scene({triggerElement: "#parallaxTrigger"})
 			.setTween(TweenMax.fromTo("#fondo-azul", 1, {autoAlpha: 0.1}, {autoAlpha: 1}))
 			.addTo(controller);
 	//scene2.addIndicators();
 }
 
 function opaqueMenu() {
-	var controller = new ScrollMagic({globalSceneOptions: {triggerHook: 0.1, duration: 0}});
+	var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: 0.1, duration: 0}});
 
-	var scene = new ScrollScene({triggerElement: "#menuTrigger"})
+	var scene = new ScrollMagic.Scene({triggerElement: "#menuTrigger"})
 			.setTween(TweenMax.fromTo("#smt-menu", 0, {visibility: 'hidden'},{visibility: 'visible'}))
 			.addTo(controller);
 
-	var scene2 = new ScrollScene({triggerElement: "#menuTrigger"})
+	var scene2 = new ScrollMagic.Scene({triggerElement: "#menuTrigger"})
 			.setTween(TweenMax.fromTo("header", 0, {visibility: 'hidden'},{visibility: 'visible'}))
 			.addTo(controller);
 

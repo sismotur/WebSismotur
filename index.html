@@ -2,56 +2,52 @@
 <html lang="es" ng-app="smtApp" ng-controller="languagesController">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html ; charset=UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+  <meta http-equiv="Content-Type" content="text/html ; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
 
-<!-- SEO -->
-<title>Sismotur</title>
-<meta name="description" content="Connect your destination with digital tourists." />
+  <!-- SEO -->
+  <title>Sismotur</title>
+  <meta name="description" content="Connect your destination with digital tourists." />
 
-<!-- Twitter Card data -->
-<meta name="twitter:card" value="Connect your destination with digital tourists.">
-<meta name="keywords" content="Tourism signage, Beacons, Eddystone, Inventrip">
+  <!-- Twitter Card data -->
+  <meta name="twitter:card" value="Connect your destination with digital tourists.">
+  <meta name="keywords" content="Tourism signage, Beacons, Eddystone, Inventrip">
 
-<!-- Open Graph data -->
-<meta property="og:title" content="Sismotur S.L." />
-<meta property="og:url" content="http://www.sismotur.com" />
-<meta property="og:image" content="http://www.sismotur.com/img/sismotur-logo-portada.png" />
-<meta property="og:description" content="Connect your destination with digital tourists." />
+  <!-- Open Graph data -->
+  <meta property="og:title" content="Sismotur S.L." />
+  <meta property="og:url" content="http://www.sismotur.com" />
+  <meta property="og:image" content="http://www.sismotur.com/img/sismotur-logo-portada.png" />
+  <meta property="og:description" content="Connect your destination with digital tourists." />
 
-<link rel="shortcut icon" href="img/favicon.png"/>
-<link rel="stylesheet" href="css/sismotur.css" />
-<link rel="stylesheet" href="css/responsive.css" />
+  <link rel="shortcut icon" href="img/favicon.png"/>
+  <link rel="stylesheet" href="css/sismotur.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
 
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- SCRIPTS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+  <!-- DEV <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script> -->
+  <!-- PROD -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+  <script src="js/smt-angular.js"></script>
+	<script src="js/sismotur.js"></script>
 
-      <script src="js/jquery-1.11.1.js"></script>
-    	<script src="js/jquery.browser.js"></script>
-    	<script src="js/jquery.iframe-auto-height.js"></script>
-    	<script src="js/lib/greensock/TweenMax.min.js"></script>
-    	<script src="js/bootstrap.js"></script>
-    	<script src="js/jquery.scrollmagic.js"></script>
-    	<script src="js/jquery.scrollmagic.debug.js"></script>
-    	<script src="js/sismotur.js"></script>
-    	<script src="js/lib/greensock/TimelineMax.min.js"></script>
-    	<script src="js/angular.js"></script>
-    	<script src="js/smt-angular.js"></script>
-
-      <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
-
-        <script type="text/javascript">
-        $(document).ready(function($){
-				if(!isMobile()){
-					parallaxBanner();
-					opaqueMenu();
-					// parallaxSection();
-
-					$(".navbar-nav li a").click(function(event) {
-						$(".navbar-collapse").collapse('hide');
-					});
-				}
-			});
-      </script>
+  <script type="text/javascript">
+      $(document).ready(function($) {
+  				if(!isMobile()) {
+  	        parallaxBanner();
+  	        opaqueMenu();
+            $(".navbar-nav li a").click(function(event) {
+                $(".navbar-collapse").collapse('hide');
+            });
+          }
+        });
+  </script>
 
 <!-- GOOGLE ANALYTICS -->
 <script>
@@ -89,11 +85,7 @@
 </head>
 
 <body>
-
-<!-- ********************
-********* MENU **********
-********************* -->
-
+<!-- MENU -->
 <header>
 	<!-- LOGO SISMOTUR -->
   <img id="logo" src="img/logomenu.png" title="Sismotur" alt="Sismotur"/>
