@@ -41,7 +41,7 @@ function loadLanguage($scope) {
 // ******************
 $scope.claim1 = 'Conecta tu destino con el turista digital';
 $scope.claim2 = 'Descubre la señalización turística inteligente';
-$scope.btnMuestra = 'Solicítanos una muestra gratuita';
+$scope.btnMuestra = 'Únete a la Red de Destinos Inventrip';
 
 // ******************
 // MENU ES
@@ -556,7 +556,7 @@ case "pt":
 
 $scope.claim1 = 'Conecte o seu destino com o turista digital';
 $scope.claim2 = 'Descubra a sinalização turística inteligente';
-$scope.btnMuestra = 'Solicite-nos uma amostra gratuita';
+$scope.btnMuestra = 'Una-se à Rede de Destinos Inventrip';
 
 // ******************
 // MENU PT

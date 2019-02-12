@@ -246,9 +246,9 @@ div.seccion#portada {
 
   #logo-call-to-action {
     position:relative;
-    padding-top:17px;
+    padding-top:0px;
     margin-top: 35px;
-    height:33px;
+    height:50px;
     border-style:solid;
     border-color:#ffffff;
     border-width:1px;
@@ -257,7 +257,7 @@ div.seccion#portada {
     text-decoration:none;
     font-family:'Exo';
     background-color:#ffffff;
-    width:60%;
+    width:80%;
     text-align:center;
     color:rgb(100,100,100);
   }
