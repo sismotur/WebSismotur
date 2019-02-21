@@ -187,6 +187,9 @@ function doOpenPassportInventrip() {
 		case "pt":
 			url = "https://www.flipsnack.com/inventrip/passaporte_inventrip-fuil4pm3z.html";
 			break;
+    case "fr":
+			url = "https://www.flipsnack.com/inventrip/passeport_inventrip_fr.html";
+			break;
 		default: // no other languages are available yet, so open email
 			url = "mailto:contacto@sismotur.com";
 			break;

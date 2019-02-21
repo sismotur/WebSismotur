@@ -813,7 +813,7 @@ case "fr":
 // ******************
 $scope.claim1 = 'Connectez votre destination avec le touriste numérique';
 $scope.claim2 = 'Découvrez la signalétique touristique intelligente';
-$scope.btnMuestra = 'Demandez un échantillon gratuit';
+$scope.btnMuestra = 'Rejoignez le Réseau de Destinations Inventrip';
 
 // ******************
 // MENU FR
