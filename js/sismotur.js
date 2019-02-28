@@ -190,8 +190,8 @@ function doOpenPassportInventrip() {
     case "fr":
 			url = "https://www.flipsnack.com/inventrip/passeport_inventrip_fr.html";
 			break;
-		default: // no other languages are available yet, so open email
-			url = "mailto:contacto@sismotur.com";
+		default: // english
+			url = "https://www.flipsnack.com/sismotur/passport_en.html";
 			break;
 	}
 

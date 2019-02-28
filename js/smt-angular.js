@@ -1071,7 +1071,7 @@ default:
 // ******************
 $scope.claim1 = 'Connect your destination with the digital tourist';
 $scope.claim2 = 'Discover the smart tourism signage';
-$scope.btnMuestra = 'Request a free sample';
+$scope.btnMuestra = 'Join the Inventrip Destinations Network';
 
 // ******************
 // MENU DEFAULT (EN)
