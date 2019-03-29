@@ -190,6 +190,9 @@ function doOpenPassportInventrip() {
     case "fr":
 			url = "https://www.flipsnack.com/inventrip/passeport_inventrip_fr.html";
 			break;
+    case "ca":
+      url = "https://www.flipsnack.com/sismotur/passaport_inventrip_catala.html";
+      break;
 		default: // english
 			url = "https://www.flipsnack.com/sismotur/passport_en.html";
 			break;
