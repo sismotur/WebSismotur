@@ -524,51 +524,49 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 $scope.newsTitle48 = 'Jornada de lliurament de Kit Digitals Inventrip. Província de Salamanca, juny 2019';
 $scope.newsContent48 = "La Diputació de Salamanca i Sismotur van lliurar als empresaris de les Rutes del Vi, ramaderies, albergs i oficines de turisme 110 Kit Digitals connectats amb la plataforma Inventrip de la província. Durant l'acte es van presentar les tecnologies QR, NFC i Beacons incuidas en l'oferta de digitalització de cada establecimeinto i oficines de turisme.";
-$scope.newsDetail48 = '';
+$scope.newsDetail48 = 'Link Twitter';
 
 $scope.newsTitle47 = 'Nova Norma UNE: Semàntica de dades de turisme. Maig 2019';
 $scope.newsContent47 = "En el marc del Comitè de CTN178 (normalització de ciutats intel·ligents), Sismotur ha co-redactat juntament amb Globaldit la futura norma UNE PNE 178503 “Destinacions Turístiques Intel·ligents. Semàntica aplicada a turisme”, aportant el expertise de 20 anys modelant més de 20.000 recursos turístics i l'experiència adquirida en la gestió del grup mundial de turisme de schema.org. Aquesta norma ha estat publicada al BOE i es troba en procés d'informació pública, esperant-se la seva aprovació en la segona meitat de 2019.";
-$scope.newsDetail47 = '';
+$scope.newsDetail47 = 'Link norma';
 
 $scope.newsTitle46 = 'II Trobada Xarxa DTI - Bones Pràctiques. Abril 2019';
 $scope.newsContent46 = "Conil de la Frontera, integrant de la Xarxa de Destinacions Inventrip, va presentar com a exemple de bones pràctiques, a la Xarxa de Destinacions Turístiques Intel·ligents creada per la Secretaria d'Estat de Turisme, la senyalització intel·ligent implantada al seu municipi, així com la utilització de targetes NFC connectades amb Inventrip per a la promoció i informació turística de Conil.";
-$scope.newsDetail46 = '';
+$scope.newsDetail46 = 'Bones pràctiques';
 
 $scope.newsTitle45 = 'Presentació de inventrip als hotelers de Sanxenxo. Març 2019';
 $scope.newsContent45 = 'El regidor de turisme de Sanxenxo i el CEO de Sismotur van presentar als hotelers de Sanxenxo les possibilitats per a connectar els establiments turístics amb el turista digital a través de la plataforma Inventrip ja implantada al municipi.';
-$scope.newsDetail45 = '';
+$scope.newsDetail45 = 'Link presentació';
 
 $scope.newsTitle44 = 'Senyalització Intel·ligent del Lago Alqueva. Portugal, febrer de 2019';
 $scope.newsContent44 = "El CEO de Sismotur, Augusto Ramos, va presentar al conseller de Turisme de Portugal, al president de la regió Alentejo-Ribatejo, al president de l'Associació transfronterera del Lago Alqueva (ATLA) i als 9 municipis portuguesos que la constitueixen el projecte per a la transformació de Lago Alqueva en una Destinació Turística intel·ligent connectada amb Inventrip";
-$scope.newsDetail44 = '';
 
 $scope.newsTitle43 = 'Spain Convention Bureau. Benidorm, fevrer de 2019';
 $scope.newsContent43 = 'Augusto Ramos, CEO de Sismotur, va ser convidat a presentar la utilització de la senyalització turística intel·ligent en el turisme de reunions.';
 
 $scope.newsTitle42 = 'Fitur Know How & Export. Madrid, gener de 2019';
 $scope.newsContent42 = "Sismotur va estar novamente present a la zona d'innovació i tecnologia de FITUR presentant la Xarxa de Destinacions Inventrip que compte al dia d'avui amb 40 destinacions a la península (10 d'elles a Portugal).";
-$scope.newsDetail42 = '';
+$scope.newsDetail42 = 'Xarxa de Destinacions Inventrip';
 
 $scope.newsTitle41 = 'Smart Rural - Asturias. FITUR 2019';
 $scope.newsContent41 = "El president de l'associació de cases rurals de asturias ARCA, Jaime García, va presentar el projecte Smart Rural Astúries per a la digitalització dels allotjaments rurals amb la plataforma Inventrip";
 
 $scope.newsTitle40 = 'INTUR, Fira internacional de turisme interior. Valladolid, novembre de 2018';
 $scope.newsContent40 = 'El diputat de turisme de la Diputació de Salamanca va presentar la implantació de la plataforma Inventrip per a la província. Es van lliurar durant la fira targetes NFC promocionals.';
-$scope.newsDetail40 = '';
+$scope.newsDetail40 = 'Targetes NFC';
 
 $scope.newsTitle39 = 'Congrés Turkey Blockchain Summit 2018';
 $scope.newsContent39 = "Sismotur ha estat convidada al primer congrés nacional de blockchain de Turquia, organitzat pel govern turc al novembre de 2018 a Ankara. El CTO de Sismotur, Felipe Santi, ha realitzat una presentació sobre el potencial de Blockchain i de les tecnologies connectades al sector del Turisme, i ha organitzat juntament amb el col·laborador Enrique Melero un taller pràctic per a 40 enginyers sobre un cas d'aplicació concret: un pany electrònic que rep pagaments en Bitcoin a través d'un telèfon mòbil";
 
 $scope.newsTitle38 = 'Jornada Xarxa Destinacions Inventrip. Madrid, octubre de 2018';
 $scope.newsContent38 = 'Sismotur va organitzar, per a la jornada de la Xarxa de Destinacions Inventrip, un programa de presentacions i convidats on es van debatre estratègies per millorar els proceos de digitalització de Destinacions Turístiques Intel·ligents amb la plataforma Inventrip.';
-$scope.newsDetail38 = '';
+$scope.newsDetail38 = 'Programa';
 
 $scope.newsTitle37 = 'Sismotur va redactar el pla de senyalització turística intel·ligent de Santander';
 $scope.newsContent37 = "Els socis de Sismotur, Manuel Mariscal i Augusto Ramos, van presentar a l'alcaldessa, Gema Igual i al sector turístic de la ciutat les bases del nou pla de senyalització turística de la ciutat amb la incorporació de la tecnologia Beacons per connectar Santander amb el turista digital.";
 
 $scope.newsTitle36 = 'IV Jornades Internacionals de Turisme. Águeda, Juliol de 2018';
 $scope.newsContent36 = "Sismotur va ser convidat a presentar l'experiència de Reguengos de Monsaraz en la seva transformació en una Destinació Turística Intel·ligent. Augusto Ramos, CEO de Sismotur, va presentar la plataforma global Inventrip per a connectar la destinació amb el turista digital";
-$scope.newsDetail36 = '';
 
 $scope.newsTitle35 = 'Sismotur guanya el hackaton IoT + Blockchain 2018';
 $scope.newsContent35 = "El cas d'ús presentat per Sismotur “Proof of Visit”, basat en Inventrip, ha guanyat el hackaton internacional IoT Blockchain Camp 2018. En aquest, han participat enginyers i responsables de negoci d'empreses de múltiples sectors, algunes molt conegudes a l'àmbit de blockchain (Ambrosus, Climate Coin), que han validat la rellevància de l'ús de Beacons com a notaris digitals per registrar el pas de turistes per un territori i permetre així la creació de mecanismes de recompensa en funció del seu comportament.";
@@ -577,24 +575,24 @@ $scope.newsDetail35 = 'IoT Blockchain Camp 2018';
 $scope.newsTitle34 = 'BTL, Fira Internacional de Turisme. Lisboa, març de 2018';
 $scope.newsContent34 = "Augusto Ramos, CEO de Sismotur, va ser convidat a presentar als responsables municipals i regionals de turisme de Açores l'experiència de Sismotur en la implantació de Destinacions Turístiques Intel·ligents connectades amb Inventrip";
 
-$scope.newsTitle33 = 'Projecte Innovatour. Puerto de la Cruz i Arona, gener de 2018';
+$scope.newsTitle33 = 'Projecte Innovatur. Puerto de la Cruz i Arona, gener de 2018';
 $scope.newsContent33 = "En el marc del projecte europeu Innovatur, per a la reactivació i modernització de les destinacions turístiques de Canàries, Madeira i Açores, Augusto Ramos, CEO de Sismotur, va presentar l'aplicació de la senyalització intel·ligent per a la dinamització de les zones comercials a Destinacions Turístiques Intel·ligents.";
-$scope.newsDetail33 = '';
+$scope.newsDetail33 = 'Innovatur';
 
 $scope.newsTitle32 = 'Fitur Know How & Export. Madrid, gener de 2018';
 $scope.newsContent32 = "Nova presentació de blockchain en SEGITTUR Lab organitzada pels CEO i CTO de Sismotur, en la qual s'han aprofundit els conceptes exposats en 2017 i s'ha presentat l'ús d'Inventrip com a eina per contribuir a la sostenibilitat de les destinacions turístiques utilitzant tecnologies existents de cadena de blocs.";
-$scope.newsDetail32 = '';
+$scope.newsDetail32 = 'Presentació';
 
 $scope.newsTitle31 = 'Fòrum Berenars Verds - Agència EFE. Madrid, novembre de 2017';
 $scope.newsContent31 = "En el marc del debat sobre tecnologies per impulsar un medi ambient rendible organitzat per EFE Verd, el CEO de Sismotur presenta les possibilitats d'equipar els parcs naturals amb senyals intel·ligents que incorporin Beacons per donar informació conextualizada als turistes durant la seva visita, fins i tot sense necessitat de cobertura d'internet.";
-$scope.newsDetail31 = '';
+$scope.newsDetail31 = 'Debat';
 
 $scope.newsTitle30 = 'Comunitat Rural digital: Construint el territori intel·ligent. Valladolid, novembre de 2017';
 $scope.newsContent30 = 'Sara García, gerent del Consorci Ruta del Vi Ribera del Duero i Augusto Ramos, CEO de Sismotur, van presentar la Ruta Smart Ribera del Duero. Van destacar la importància de la utilització als seus senyals intel·ligents de la tecnologia Beacon a zones sense connexió a dades per donar informació als turistes.';
 
 $scope.newsTitle29 = 'Expo World Congress de Barcelona, novembre de 2017';
 $scope.newsContent29 = "Manuel Mariscal, COO de Sismotur, presenta a l'estand 'Barcelona Smart Region' els casos d'èxit de la implantació de senyalització turística intel·ligent connectada amb Inventrip a Vilafranca del Penedès i Santa Susanna.";
-$scope.newsDetail29 = '';
+$scope.newsDetail29 = 'Barcelona Smart Region';
 
 $scope.newsTitle28 = 'Jornada DTI - UOC Catalunya. Barcelona, octubre de 2017';
 $scope.newsContent28 = "Augusto Ramos, CEO de Sismotur, va ser convidat a parctipar a la jornada de Destinacions Turístiques Intel·ligents organitzada per la Universitat Oberta de Catalunya a l'octubre de 2017, per presentar dues de les destinacions intel·ligents de Catalunya que estan actualment connectades amb la plataforma Inventrip: Santa Susanna i Vilafranca del Penedès.";
@@ -859,51 +857,49 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 $scope.newsTitle48 = 'Jornada de entrega de Kit Digitais Inventrip.  Província de Salamanca, junho de 2019';
 $scope.newsContent48 = 'O governo da "Diputación de Salamanca" e Sismotur entregaram aos empresários das Rotas do Vinho, ganadarias, albergues e postos de turismo 110 Kit Digitais ligados com a plataforma inventrip de la província de Salamanca. Durante o evento presentaram-se as tecnologias QR, NFC e Beacons incluidas na oferta de digitalização de cada estabelecimento e posto de turismo.';
-$scope.newsDetail48 = '';
+$scope.newsDetail48 = 'Link Twitter';
 
 $scope.newsTitle47 = 'Nova norma UNE: Semántica de dados de turismo. Maio de 2019';
 $scope.newsContent47 = 'No âmbito do comité de CTN 178 (normalização de cidades inteligentes) Sismotur redatou de forma conjunta com a empresa Globaldit, a futura norma UNE PNE 178503 “Destinos Turísticos Inteligentes. Semántica aplicada a turismo”, contribuindo com a sua experiência de 20 anos modelando mais de 20.000 recursos turísticos e a experiência adquirida na gestão mundial do turismo de schema.org. Esta norma foi publicada no "BOE" e encontra-se em processo de consulta pública. Espera-se a sua aprovação na segunda metade de 2019.';
-$scope.newsDetail47 = '';
+$scope.newsDetail47 = 'Link norma';
 
 $scope.newsTitle46 = 'II Emcontro Red DTI - Boas Práticas. Aranjuez, abril de 2019';
 $scope.newsContent46 = 'Conil de la Frontera, integrante da Rede de Destinos Inventrip, apresentou com exemplo de boas práticas, na Rede de Destinos Turísticos Inteligentes criada pe la Secretaria de Estado de Turismo do governo espanhol, a sinalização inteligente do seu município, bem como  a utilização de cartões NFC ligados com Inventrip para la promoção e informação turística de Conil.';
-$scope.newsDetail46 = '';
+$scope.newsDetail46 = 'Boas práticas';
 
 $scope.newsTitle45 = 'Apresentação de Inventrip aos hoteleiros de Sanxenxo. Març de 2019';
 $scope.newsContent45 = 'O vereador de turismo de Sanxenxo e o CEO de Sismotur apresentaram aos hoteleiros de Sanxenxo as possibilidades para ligar os estabelecimentos turísticos com o turista digital através da plataforma inventrip já implantada no município.';
-$scope.newsDetail45 = '';
+$scope.newsDetail45 = 'Link apresentação';
 
 $scope.newsTitle44 = 'Sinalética inteligente do Lago Alqueva. Portugal, fevreiro 2019';
 $scope.newsContent44 = 'O CEO de Sismotur, Augusto Ramos, apresentou ao conselleiro de Turismo de Portugal, ao presidente da região Alentejo-Ribatejo, ao presidente da Associação Transfronteiriça do Lago Alqueva (ATLA) e aos 9 municípios portugueses que a constituem, o projeto para a transformação do Lago Alqueva num Destino Turístico Inteligente ligado através da plataforma Inventrip.';
-$scope.newsDetail44 = '';
 
 $scope.newsTitle43 = 'Spain Convention Bureau. Benidorm, fevreiro de 2019';
 $scope.newsContent43 = 'Augusto Ramos, CEO de Sismotur, foi invitado a apresentar la utilização da sinalização turística inteligent no turimo de reuniões.';
 
 $scope.newsTitle42 = 'Fitur Know How & Export. Madrid, janeiro de 2019';
 $scope.newsContent42 = 'Sismotur voltou a ter um stand na zona de inovação e tecnologia de FITUR apresentando a Rede de Destinos Inventrip que conta já com 40 destinos na península (10 deles em Portugal).';
-$scope.newsDetail42 = '';
+$scope.newsDetail42 = 'Rede de Destinos Inventrip';
 
 $scope.newsTitle41 = 'Smart Rural - Asturias. FITUR 2019';
 $scope.newsContent41 = 'O presidente da associação de caisas rurais ARCA, Jaime García, apresentou o projeto Smart Rural Asturias para a digitalização dos alojamentos rurais com a plataforma inventrip';
 
 $scope.newsTitle40 = 'INTUR, Feira internacional de turismo interior. Valladolid, novembro de 2018';
 $scope.newsContent40 = 'O responsável de turismo do governo da "Diputación de Salamanca" apresentou a implantação da plataforma Inventrip para a província. Foram entregues durante a Feira cartões NFC promocionais.';
-$scope.newsDetail40 = '';
+$scope.newsDetail40 = 'Cartões NFC';
 
 $scope.newsTitle39 = 'Congresso Turkey Blockchain Summit 2018';
 $scope.newsContent39 = 'Sismotur foi convidada a participar no primeiro congresso nacional de blockchain de Turquia, organizado pelo governo turco em novembro de 2018 em Ankara. O CTO de Sismotur, Felipe Santi, realizou uma apresantação sobre o pontencial de Blockchain e das tecnologias ligadas com o setor do turismo, e organizou com o colaborador Enrique Melero um talher prático para 40 engenheiros sobre um caso de aplicação concreto: uma fechadura eletrónica que recebe pagamentos em Bitcoin através de um telemóvel.';
 
 $scope.newsTitle38 = 'Jornada Rede Destinos Inventrip. Madrid, outubro de 2018';
 $scope.newsContent38 = 'Sismotur organizou, no âmbito da primeira jornada da Rede de Destinos Inventrip, um programa muito completo de apresentações com convidados, que debateram sobre as estratégias para otimizar os procesos de digitalização do Destinos Turísticos Inteligentes com a plataforma Inventrip.';
-$scope.newsDetail38 = '';
+$scope.newsDetail38 = 'Programa';
 
 $scope.newsTitle37 = 'Sismotur elaborou o plano de sinalização turística inteligente de Santander';
 $scope.newsContent37 = 'Os sócios de Sismotur, AR MM, apresentaram à Autarca, Gema Igual, e o sector turístico da cidade as bases do novo plano de sinalização turística de la cidade com a incorporação da tecnologia Beacons para establecer a ligação entre Santader e o turista digital.';
 
 $scope.newsTitle36 = 'IV Jornadas Internacionais de Turismo. Águeda, julho de 2018';
 $scope.newsContent36 = 'Sismotur foi convidada a apresentar a experiência de Reguengos de Monsaraz na sua transformação num Destino Turístico Inteligente. AR CEO deu a conhecer a plataforma global Inventrip para establecer a ligação do destino com o turista digital.';
-$scope.newsDetail36 = '';
 
 $scope.newsTitle35 = 'Sismotur vence o Hackaton IoT + Blockchain 2018';
 $scope.newsContent35 = 'O caso de utilização apresentado por Sismotur "Proof of Visit", baseado em Inventrip, venceu o hackaton internacional IoT Blockchain Camp 2018. Neste evento participaram os engenheiros e responsáveis de negócio de empresas de multiplos setores, algumas delas sobejamente conhecidas no âmbito de blockchain (Ambrosus, Climate Coin). Este facto destaca a importância da utilização de Beacons como notarios digitais para o registo da passagem de turistas por um território permitindo, desse modo, a criação de mecanismos de recompensa em função do seu comportamento.';
@@ -911,26 +907,25 @@ $scope.newsDetail35 = 'IoT Blockchain Camp 2018';
 
 $scope.newsTitle34 = 'BTL, Feira Internacional de Turismo. Lisboa, março de 2018';
 $scope.newsContent34 = 'Augusto Ramos, CEO de Sismotur, foi convidado a apresentar aos responsáveis municipais e regionais de turismo dos Açores, a experiência de Sismotur na implantação de Destinos Turísticos Inteligentes ligados através de Inventrip.';
-$scope.newsDetail34 = '';
 
 $scope.newsTitle33 = 'Projeto Innovatur. Puerto de la Cruz e Arona, janeiro de 2018';
 $scope.newsContent33 = 'No âmbito do projeto interreg, Innovatur, para a reativação e modernização dos destinos turísticos de Canárias, Madeira e Açores, AR CEO, apresentou a aplicação de sinalização inteligente para a dinamização das zonas comerciais em Destinos Turísticos Inteligentes.';
-$scope.newsDetail33 = '';
+$scope.newsDetail33 = 'Innovatur';
 
 $scope.newsTitle32 = 'Fitur Know How & Export. Madrid, janeiro de 2018';
 $scope.newsContent32 = 'Nova apresentação de blockchain no espaço "SEGITTUR Lab" organizada pelos CEO e CTO de Sismotur, na qual foram aprofundados os conceitos expostos em 2017 e tendo sido apresentada a utilização da plataforma Inventrip como ferramenta para contribuir à sustentabilidade dos destinos turísticos, utilizando tecnologias existentes de cadeias de blocos.';
-$scope.newsDetail32 = '';
+$scope.newsDetail32 = 'Apresentação';
 
 $scope.newsTitle31 = 'Foro Merendas Verdes - Agência EFE. Madrid, novembro de 2017';
 $scope.newsContent31 = 'No âmbito do debate promovido pela agência EFE sobre tecnologias para impulsar uma rentabilização do meio ambiente, Augusto Ramos, CEO de Sismotur, deu a conhecer a solução para equipar os parques naturais com sinais inteligentes que incorporam a tecnologia Beacons para fornecer informação contextualizada aos visitantes durante a sua estadia, até mesmo sem necessidade de cobertura de internet.';
-$scope.newsDetail31 = '';
+$scope.newsDetail31 = 'Debate';
 
 $scope.newsTitle30 = 'Comunidade Rural digital: Construindo o território inteligente. Valladolid, novembro de 2017';
 $scope.newsContent30 = 'Sara García, gerente do "Consorcio Ruta del Vino Ribera del Duero", e Augusto Ramos, CEO de Sismotur, apresentaram a Rota "Smart" Ribera del Duero. Destacaram a importância da utilização na sua sinalização turística inteligente da tecnologia Beacon nas zonas rurais sem ligação de dados para dar informaçã aos turistas.';
 
 $scope.newsTitle29 = 'Expo World Congress. Barcelona, novembro de 2017';
 $scope.newsContent29 = 'Manuel Mariscal, COO de Sismotur, apresentou no stand "Barcelona Smart Region" os casos de sucesso da implantação da sinalização turística ligada através de Inventrip em Vilafranca del Penedès e Santa Susanna.';
-$scope.newsDetail29 = '';
+$scope.newsDetail29 = 'Barcelona Smart Region';
 
 $scope.newsTitle28 = 'Jornada DTI - "UOC Catalunya". Barcelona, otubro de 2017';
 $scope.newsContent28 = 'Augusto Ramos, CEO de Sismotur, foi convidado a participar na jornada de Destinos Turísticos Inteligentes organizada per la "Univeristat Oberta de Catalunya", para apresentar dois dos destinos inteligentes de Catalunha atualmente ligados através da plataforma Inventrip: Santa Susanna e Vilafranca de Penedès.';
@@ -1195,19 +1190,19 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 $scope.newsTitle48 = 'Journée de remise des Kits Numériques Inventrip. Département de Salamanca, juin 2019';
 $scope.newsContent48 = "Le Conseil Départemental de Salamanca et Sismotur ont remis aux entrepreneurs des Routes du Vin, éleveurs, auberges et offices de tourisme, 110 kits numériques connectés avec la plateforme Inventrip du département. A cette occasion, ont été présentés les technologies QR, NFC et Beacons inclues dans l'offre de digitalisation de chaque établissement.";
-$scope.newsDetail48 = '';
+$scope.newsDetail48 = 'Lien Twitter';
 
 $scope.newsTitle47 = 'Nouvelle Norme UNE: Sémantique de données de tourisme. Mai 2019';
 $scope.newsContent47 = "Dans le cadre du Comité CTN178 (normalisation de smart cities), Sismotur a co-redigé avec Globaldit la future norme UNE PNE 178503 'Destinations Touristiques Intelligentes. Semantique appliquée au tourisme', apportant l'expertise de 20 années de modélisation de plus de 20.000 ressources touristiques et l'expérience acquise dans la gestion du groupe mondiel de tourisme de schema.org. Cette norme a été publiée dans le bulletin officiel d'Espagne et se trouve en phase d'enquête publique. On attend sa validation définitive avant la fin 2019.";
-$scope.newsDetail47 = '';
+$scope.newsDetail47 = 'Lien norme';
 
 $scope.newsTitle46 = 'II Rencontre DTI - Bonnes Pratiques. Avril 2019';
 $scope.newsContent46 = "Conil de la Frontera, faisant partie du Réseau de Destinations Inventrip, a présenté comme exemple de bonnes pratiques la signalisation intelligente de sa commune et l'utilisation des cartes NFC pour la promotion et information touristique de Conil au Réseau de Destinations Touristiques Intelligentes, crée par le Secrétariat d'Etat de Tourisme.";
-$scope.newsDetail46 = '';
+$scope.newsDetail46 = 'Bonnes pratiques';
 
 $scope.newsTitle45 = 'Présentation au secteur hôtelier de Sanxexo. Mars 2019';
 $scope.newsContent45 = "L'adjoint au Tourisme de Sanxenxo et le CEO de Sismotur ont présenté aux hôteliers de Sanxenxo les possibilités pour connecter leurs établissements touristiques avec le touriste numérique à travers la plateforme Inventrip, déjà implantée dans la commune.";
-$scope.newsDetail45 = '';
+$scope.newsDetail45 = 'Présentation';
 
 $scope.newsTitle44 = 'Signalétique Intelligente du Lac Alqueva. Portugal, février 2019';
 $scope.newsContent44 = "Le CEO de Sismotur, Augusto Ramos, a présenté au conseiller de Tourisme du Portugal, au président de la région Alentejo-Ribatejo, au président de l'Association tranfrontalière du Lac Alqueva (ATLA) et aux 9 communes portugaises qui la composent, le projet de transformation du lac Alqueva en une Destination Touristique Intelligente connectée avec Inventrip.";
@@ -1217,28 +1212,27 @@ $scope.newsContent43 = "Augusto Ramos, CEO de Sismotur, a été invité à prés
 
 $scope.newsTitle42 = 'Fitur Know How & Export. Madrid, janvier 2019';
 $scope.newsContent42 = "Sismotur a été de nouveau présent dans la zone de technologies et d'innovation de FITUR en présentant le Réseau des Destination Inventrip, qui compte à ce jour 40 destination dans la péninsule Ibérique (dont 10 au Portugal).";
-$scope.newsDetail42 = '';
+$scope.newsDetail42 = 'Réseau des Destinations Inventrip';
 
 $scope.newsTitle41 = 'Smart Rural - Asturias. FITUR 2019';
 $scope.newsContent41 = "Le président de l'association ARCA de maisons rurales d'Asturies, Jaime García, a présenté le projet Smart Rural Asturies pour la numérisation des logements ruraux avec Inventrip.";
 
 $scope.newsTitle40 = 'INTUR, Salon international de tourisme intérieur. Valladolid, novembre 2018';
 $scope.newsContent40 = "Le député de tourisme du Conseil Départemental de Salamanca a présenté l'implantation d'Inventrip pour l'ensemble du département. Des cartes NFC ont été distribuées aux participants durant le salon.";
-$scope.newsDetail40 = '';
+$scope.newsDetail40 = 'Cartes NFC';
 
 $scope.newsTitle39 = 'Congrès Turkey Blockchain Summit 2018';
 $scope.newsContent39 = "Sismotur a été invité au premier congrès national turque de blockchain, organisé par le gouvernement du pays en novembre 2018 à Ankara. Le CTO de Sismotur, Felipe Santi, a présenté le potentiel de blochchain et des technologies connectées dans le secteur du Tourisme, et a organisé avec notre collaborateur Enrique Melero un atelier pratique pour 40 ingénieurs sur un cas pratique concret : une serrure électronique qui reçoit des paiements en Bitcoin d'un smartphone.";
 
 $scope.newsTitle38 = 'Journée Réseau des Destinations Inventrip. Madrid, octobre 2018';
 $scope.newsContent38 = 'Sismotur a organisé, pour la journée du Réseau des Destinations Inventrip, un programme de présentations avec des invités, au cours duquel ont été débattues des stratégies pour améliorer les processus de numérisation des Destinations Touristiques Intelligentes avec la plateforme Inventrip.';
-$scope.newsDetail38 = '';
+$scope.newsDetail38 = 'Programme';
 
 $scope.newsTitle37 = 'Sismotur a élaboré le plan de signalisation touristique intelligent de la ville de Santander';
 $scope.newsContent37 = "Les partenaires de Sismotur, Augusto Ramos et Manuel Mariscal, ont présenté à la mairesse Gema Igual et au secteur touristique de la ville les bases du nouveau plan de signalisation touristique de la ville avec l'incorporation de la technologie Beacon pour connecter Santander avec le touriste numérique.";
 
 $scope.newsTitle36 = 'IV Journées Internationales de Tourisme. Agueda, juillet 2018';
 $scope.newsContent36 = "Sismotur a été invité à présenter le retour d'expérience de Reguengos de Monsaraz dans sa transformation en Destination Touristique Intelligente. Augusto Ramos, CEO de Sismotur, a présenté Inventrip pour connecter la destination avec le touriste numérique.";
-$scope.newsDetail36 = '';
 
 $scope.newsTitle35 = 'Sismotur gagne le hackaton IoT + Blockchain 2018';
 $scope.newsContent35 = "Le cas d'usage présenté par Sismotur 'Proof of Visit', basé sur Inventrip, a gagné le hackaton international IoT Blockchain Camp 2018. Lors de cette édition, étaient présents des ingénieurs et des responsables d'affaires d'entreprises dans plusieurs secteurs, dont certaines d'entre elles très connues dans le domaine de blockchain (Ambrosus, Climate Coin). Ceux-ci ont validé la pertinence de l'usage de Beacons comme 'notaires numériques' pour enregistrer le passage de touristes sur un territoire et permettre ainsi la création de mécanismes de récompense en fonction de leur comportément.";
@@ -1246,26 +1240,25 @@ $scope.newsDetail35 = 'IoT Blockchain Camp 2018';
 
 $scope.newsTitle34 = 'BTL, Salon International de Tourisme. Lisbonne, mars 2018';
 $scope.newsContent34 = "Augusto Ramos, CEO de Sismotur, a été invité à présenter aux responsables municipaux et régionaux de tourisme des Açores l'expérience de Sismotur lors de l'implantation des des Destinations Touristiques Intelligentes connectées avec Inventrip.";
-$scope.newsDetail34 = '';
 
-$scope.newsTitle33 = 'Projet Innovatour. Puerto de la Cruz et Arona, janvier 2018';
+$scope.newsTitle33 = 'Projet Innovatur. Puerto de la Cruz et Arona, janvier 2018';
 $scope.newsContent33 = "Dans le cadre du projet européen Innovatour pour la réactivation et la modernisation des destinations touristiques des Canaries, de Madère et des Açores, Augusto Ramos, CEO de Sismotur, a présenté l'usage de la signalisation intelligente pour la dynamisation des zones commerçantes en Destinations Touristiques Intelligentes.";
-$scope.newsDetail33 = '';
+$scope.newsDetail33 = 'Innovatur';
 
 $scope.newsTitle32 = 'Fitur Know How & Export. Madrid, janvier 2018';
 $scope.newsContent32 = "Nouvelle présentation de blockchain dans SEGITTUR Lab organisée par les CEO et CTO de Sismotur, dans laquelle ont été approfondis les concepts exposés en 2017 et a été présenté le fonctionnement d'Inventrip comme outil pour contribuer à la durabilité des destinations touristiques utilisant des technologies existantes de blockchain.";
-$scope.newsDetail32 = '';
+$scope.newsDetail32 = 'Présentation';
 
 $scope.newsTitle31 = 'Forum Goûters Verts - Agence EFE. Madrid, novembre 2017';
 $scope.newsContent31 = "Dans le cadre du débat sur les technologies pour promouvoir un environnement durable organisé par EFE Verde, le CEO de Sismotur a présenté les possibilités d'équiper les parcs naturels avec des panneaux intelligents qui intégrent des Beacons pour donner de l'information contextualisée aux touristes durant leur visite, y compris sans réseau.";
-$scope.newsDetail31 = '';
+$scope.newsDetail31 = 'Débat';
 
 $scope.newsTitle30 = 'Communauté Rurale digitale: En construisant le territoire intelligent. Valladolid, novembre 2017.';
 $scope.newsContent30 = "Sara García, gérant du Consortium Route du Vin Ribéra del Duero, et Augusto Ramos, CEO de Sismotur, ont présenté la Route Smart Ribéra del Duero. Ils ont souligné l'importante de l'utilisation de la technologie Beacon dans leurs panneaux intelligents, et ce dans des zones sans réseau pour donner de l'information aux touristes.";
 
 $scope.newsTitle29 = 'Expo World Congress de Barcelone, novembre 2017';
 $scope.newsContent29 = "Manuel Mariscal, COO de Sismotur, présente dans le stand Barcelona Smart Region les cas de réussite de l'implantation de la signalisation touristique intelligente connectée avec Inventrip dans Vilafranca del Penedés et Santa Susanna.";
-$scope.newsDetail29 = '';
+$scope.newsDetail29 = 'Barcelona Smart Region';
 
 $scope.newsTitle28 = 'Journée DTI - UOC Catalogne. Barcelone, octobre 2017';
 $scope.newsContent28 = "Augusto Ramos, CEO de Sismotur, a été invité à participer à la journée de Destinations Touristiques Intelligentes organisée par l'Université Oberta de Catalogne, pour présenter deux des destinations intelligentes de Catalogne qui sont actuellement connectées avec la plateforme Inventrip : Santa Susanna et Vilafranca del Penedés.";
