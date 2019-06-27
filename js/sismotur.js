@@ -227,5 +227,5 @@ function getCookie(input) {
 * Returns the default navigator language
 */
 function getDefaultNavigatorLanguage() {
-  return navigator.language.substr(0,2);
+  return navigator.language.toLowerCase().split('-')[0]
 }
