@@ -56,12 +56,9 @@ function resizeIframe(obj) {
 
 // Vídeo Montánchez, only in Spanish, but this can be called to make link dependent on language
 function videoYotube(){
-	var lang;
-	if(document.cookie=="")
-		lang = navigator.language.substr(0,2);
-	else{
-		lang = document.cookie.substr(5,6);
-	}
+  // get the cookie value or the navigator by default
+	var lang = getCookie('lang');
+	if (lang == "") { getDefaultNavigatorLanguage(); }
 
 	var video = "";
 	switch(lang){
@@ -86,12 +83,9 @@ function videoYotube(){
 }
 
 function casoExito(){
-	var lang;
-	if(document.cookie=="")
-		lang = navigator.language.substr(0,2);
-	else{
-		lang = document.cookie.substr(5,6);
-	}
+  // get the cookie value or the navigator by default
+	var lang = getCookie('lang');
+	if (lang == "") { getDefaultNavigatorLanguage(); }
 
 	var video = "";
 	switch(lang){
@@ -116,12 +110,9 @@ function casoExito(){
 }
 
 function inventrip(){
-	var lang;
-	if(document.cookie=="")
-		lang = navigator.language.substr(0,2);
-	else{
-		lang = document.cookie.substr(5,6);
-	}
+  // get the cookie value or the navigator by default
+	var lang = getCookie('lang');
+	if (lang == "") { getDefaultNavigatorLanguage(); }
 
 	var url = "";
 	switch(lang) {
@@ -150,12 +141,9 @@ function inventrip(){
 
 // Opens a window with Inventrip Palencia in the right language
 function nfcPalencia(){
-	var lang;
-	if(document.cookie=="")
-		lang = navigator.language.substr(0,2);
-	else {
-		lang = document.cookie.substr(5,6);
-	}
+  // get the cookie value or the navigator by default
+	var lang = getCookie('lang');
+	if (lang == "") { getDefaultNavigatorLanguage(); }
 
 	var url = "";
 	switch(lang){
@@ -180,4 +168,64 @@ function nfcPalencia(){
 	}
 
 	window.open(url);
+}
+
+/**
+* Will open the inventrip passport in a new window based upon the user language
+*/
+function doOpenPassportInventrip() {
+  // get the cookie value or the navigator by default
+	var lang = getCookie('lang');
+	if (lang == "") { getDefaultNavigatorLanguage(); }
+  // console.log(lang);
+
+	var url = "";
+	switch(lang){
+		case "es":
+			url = "https://www.flipsnack.com/inventrip/pasaporte_inventrip_es.html";
+			break;
+		case "pt":
+			url = "https://www.flipsnack.com/inventrip/passaporte_inventrip-fuil4pm3z.html";
+			break;
+    case "fr":
+			url = "https://www.flipsnack.com/inventrip/passeport_inventrip_fr.html";
+			break;
+    case "ca":
+      url = "https://www.flipsnack.com/sismotur/passaport_inventrip_catala.html";
+      break;
+		default: // english
+			url = "https://www.flipsnack.com/sismotur/passport_en.html";
+			break;
+	}
+
+	window.open(url);
+}
+
+/**
+* Returns the value of a cookie based on its input
+* @param input the cookie key (e.g. lang)
+* @return the value associated with the key
+*/
+function getCookie(input) {
+  var cookies = document.cookie.split(';');
+  // console.log('getCookie - cookies:' + cookies)
+  for (var i = 0; i < cookies.length; i++) {
+    var name = cookies[i].split('=')[0].toLowerCase().trim();
+    var value = cookies[i].split('=')[1].toLowerCase().trim();
+    // console.log('getCookie - name:' + name);
+    // console.log('getCookie - value:' + value);
+    if (name === input) {
+      return value;
+    } else if (value === input) {
+      return name;
+    }
+  }
+  return "";
+};
+
+/**
+* Returns the default navigator language
+*/
+function getDefaultNavigatorLanguage() {
+  return navigator.language.toLowerCase().split('-')[0]
 }

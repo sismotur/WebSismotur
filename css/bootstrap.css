@@ -39,7 +39,7 @@ body {
 
 
 .navbar {
-  position: relative;
+  position: fixed;
   height: 50px;
   background-color:rgb(0,36,168);
   top:0px;
