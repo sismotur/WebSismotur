@@ -190,6 +190,12 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS ES
 // *********************
+$scope.newsTitle50 = 'Consultoría al Ministerio de Comercio y Turismo de Perú. Ollantaytambo, Julio 2019';
+$scope.newsContent50 = 'Los expertos y socios de Sismotur, Augusto Ramos y Manuel Mariscal, asesoran a MINCETUR para la implantación de un Destino Turístico Inteligente conectado con inventrip en Ollantaytambo, en el Valle Sagrado y puerta de entrada de Machu Picchu.';
+
+$scope.newsTitle49 = 'Consultoría a la Asociación Transfronteriza del Lago Alqueva (ATLA). Julio de 2019';
+$scope.newsContent49 = 'Sismotur ha sido adjudicataria para la elaboración del plan de información y señalización turística inteligente de los 9 municipios portugueses de ATLA que incluye  la implantación de sus plataformas Signing e Inventrip.';
+
 $scope.newsTitle48 = 'Jornada de entrega de Kit Digitales Inventrip. Provincia de Salamanca. Junio 2019';
 $scope.newsContent48 = 'La Diputación de Salamanca y Sismotur entregaron a los empresarios de las Rutas del Vino, ganaderías, albergues y oficinas de turismo 110 Kit Digitales conectados con la plataforma Inventrip de la provincia. Durante el acto se presentaron las tecnologías QR, NFC y Beacons incuidas en la oferta de digitalización de cada establecimiento y oficinas de turismo.';
 $scope.newsDetail48 = 'Enlace Twitter';
@@ -522,6 +528,13 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS CA
 // *********************
+
+$scope.newsTitle50 = 'Consultoria al Ministeri de Comerç i Turisme del Perú. Ollantaytambo, Juliol 2019';
+$scope.newsContent50 = "Els experts i socis de Sismotur, Augusto Ramos i Manuel Mariscal, assessoren a MINCETUR per a la implantació d'una Destinació Turística Intel·ligent connectada amb inventrip en Ollantaytambo, a la Vall Sagrada i porta d'entrada de Machu Picchu.";
+
+$scope.newsTitle49 = "Consultoria a l'Associació Transfronterera del Llac Alqueva (ATLA). Juliol de 2019";
+$scope.newsContent49 = "Sismotur ha estat adjudicatària per a l'elaboració del pla d'informació i senyalització turística intel·ligent dels 9 municipis portuguesos de ATLA que inclou la implantació de les seves plataformes Signing i Inventrip.";
+
 $scope.newsTitle48 = 'Jornada de lliurament de Kit Digitals Inventrip. Província de Salamanca, juny 2019';
 $scope.newsContent48 = "La Diputació de Salamanca i Sismotur van lliurar als empresaris de les Rutes del Vi, ramaderies, albergs i oficines de turisme 110 Kit Digitals connectats amb la plataforma Inventrip de la província. Durant l'acte es van presentar les tecnologies QR, NFC i Beacons incuidas en l'oferta de digitalització de cada establecimeinto i oficines de turisme.";
 $scope.newsDetail48 = 'Link Twitter';
@@ -855,6 +868,13 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS PT
 // *********************
+
+$scope.newsTitle50 = 'Consultoria ao Ministério de Comércio e Turismo de Perú. Ollantaytambo, julho 2019';
+$scope.newsContent50 = 'Os expertos e sócios de Sismotur, Augusto Ramos e Manuel Mariscal, aconselham a MINCETUR para a implantação dum Destino Turístico Inteligente ligado com inventrip em Ollantaytambo, no Vale Sagrado e porta de entrada de Machu Picchu.';
+
+$scope.newsTitle49 = 'Consultoria à Associação Transfronteiriça do Lago Alqueva (ATLA). julho 2019';
+$scope.newsContent49 = 'Sismotur foi adjudicatária para a elaboração do plano de informação e sinalização turística inteligente dos 9 municípios portugueses de ATLA que inclue a implantação das suas plataformas Signing e Inventrip.';
+
 $scope.newsTitle48 = 'Jornada de entrega de Kit Digitais Inventrip.  Província de Salamanca, junho de 2019';
 $scope.newsContent48 = 'O governo da "Diputación de Salamanca" e Sismotur entregaram aos empresários das Rotas do Vinho, ganadarias, albergues e postos de turismo 110 Kit Digitais ligados com a plataforma inventrip de la província de Salamanca. Durante o evento presentaram-se as tecnologias QR, NFC e Beacons incluidas na oferta de digitalização de cada estabelecimento e posto de turismo.';
 $scope.newsDetail48 = 'Link Twitter';
@@ -1188,6 +1208,13 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS FR
 // *********************
+
+$scope.newsTitle50 = 'Mission de conseil pour le Ministère du Commerce et du Tourisme du Pérou. Ollantaytambo, juillet 2019';
+$scope.newsContent50 = "Les experts et partenaires de Sismotur, Augusto Ramos et Manuel Mariscal, conseillent MINCETUR pour l'implantation d'une Destination Touristique Intelligente connectée avec Inventrip dans Ollantaytambo, dans la Vallée Sacrée et porte d'entrée du Machu Picchu";
+
+$scope.newsTitle49 = "Mission de conseil pour l'Association Transfrontalière du Lac d'Alqueva (ATLA). julho 2019";
+$scope.newsContent49 = "Sismotur a remporté le contrat pour l'élaboration du plan d'information et signalisation touristique intelligente des 9 communes portugaises d'ATLA, lequel inclut l'implantation des plateformes Signing et Inventrip";
+
 $scope.newsTitle48 = 'Journée de remise des Kits Numériques Inventrip. Département de Salamanca, juin 2019';
 $scope.newsContent48 = "Le Conseil Départemental de Salamanca et Sismotur ont remis aux entrepreneurs des Routes du Vin, éleveurs, auberges et offices de tourisme, 110 kits numériques connectés avec la plateforme Inventrip du département. A cette occasion, ont été présentés les technologies QR, NFC et Beacons inclues dans l'offre de digitalisation de chaque établissement.";
 $scope.newsDetail48 = 'Lien Twitter';
@@ -1520,6 +1547,13 @@ $scope.copyright = 'Copyright © 2017 SISMOTUR SL.';
 // *********************
 // NEWS EN
 // *********************
+
+$scope.newsTitle50 = 'Consulting assignment for the Ministry of Commerce and Tourism of Peru. Ollantaytambo, July 2019';
+$scope.newsContent50 = "The experts and partners of Sismotur, Augusto Ramos et Manuel Mariscal, counsel MINCETUR in the implementation of a Smart Tourist Destination connected with Inventrip in Ollantaytambo, in the Sacred Valley and access door to Machu Picchu.";
+
+$scope.newsTitle49 = "Consulting assignment for the cross-border association of the Alqueva Lake (ATLA, Portugal). July 2019";
+$scope.newsContent49 = "Sismotur has won the contract to elaborate an information and smart signage plan of the 9 Portuguese  municipalities portugaises in ATLA, including the implementation of our platforms Signing and Inventrip.";
+
 $scope.newsTitle48 = 'Delivering the first Inventrip Digital Kits. Province of Salamanca, June 2019';
 $scope.newsContent48 = 'The Province of Salamanca and Sismotur gave 110 digital kits connected with their local Inventrip platform to local businesses and tourism offices. During the event were presented the QR codes, NFC, and Beacon technologies included in the kit.';
 $scope.newsDetail48 = 'Link to Twitter';
