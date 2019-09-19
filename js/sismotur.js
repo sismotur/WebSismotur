@@ -176,7 +176,7 @@ function nfcPalencia(){
 function doOpenPassportInventrip() {
   // get the cookie value or the navigator by default
 	var lang = getCookie('lang');
-	if (lang == "") { getDefaultNavigatorLanguage(); }
+	if (lang == "") { lang = getDefaultNavigatorLanguage(); }
   // console.log(lang);
 
 	var url = "";
@@ -220,6 +220,7 @@ function getCookie(input) {
       return name;
     }
   }
+
   return "";
 };
 
