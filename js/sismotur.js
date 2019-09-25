@@ -177,7 +177,7 @@ function doOpenPassportInventrip() {
   // get the cookie value or the navigator by default
 	var lang = getCookie('lang');
 	if (lang == "") { lang = getDefaultNavigatorLanguage(); }
-  // console.log(lang);
+    console.log(lang);
 
 	var url = "";
 	switch(lang){
