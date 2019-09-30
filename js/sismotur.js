@@ -182,19 +182,19 @@ function doOpenPassportInventrip() {
 	var url = "";
 	switch(lang){
 		case "es":
-			url = "https://www.flipsnack.com/inventrip/pasaporte_inventrip_es.html";
+			url = "https://www.flipsnack.com/inventrip/pasaporte_inventrip_es-fcpiwkkzy.html";
 			break;
 		case "pt":
-			url = "https://www.flipsnack.com/inventrip/passaporte_inventrip-fuil4pm3z.html";
+			url = "https://www.flipsnack.com/inventrip/passaporte_inventrip_pt.html";
 			break;
     case "fr":
-			url = "https://www.flipsnack.com/inventrip/passeport_inventrip_fr.html";
+			url = "https://www.flipsnack.com/inventrip/passeport_inventrip_fr-fd1jlhhv0.html";
 			break;
     case "ca":
-      url = "https://www.flipsnack.com/sismotur/passaport_inventrip_catala.html";
+      url = "https://www.flipsnack.com/sismotur/passaport_ca.html";
       break;
 		default: // english
-			url = "https://www.flipsnack.com/sismotur/passport_en.html";
+      url = "https://www.flipsnack.com/sismotur/passport_en-fxk5enn1w.html";
 			break;
 	}
 
