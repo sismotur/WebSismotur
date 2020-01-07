@@ -54,6 +54,12 @@
           }
         });
   </script>
+  <script type="text/javascript">
+      function doScroll(e) {
+        // event.preventDefault();
+        $("html, body").scrollTo(e,1000)
+      }
+  </script>
   <script src="js/smt-angular.js" defer></script>
 	<script src="js/sismotur.js" defer></script>
 
@@ -95,12 +101,12 @@
   	<!-- MENU DE NAVEGACION -->
   	<nav id="menu">
     	<ul id="lista-menu">
-  			<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#inventrip',1000)">{{inventrip}}</a></li>
-  			<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#signing',1000)">{{signingTitle}}</a></li>
-  			<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#tecnologias',1000)">{{mnTecno}}</a></li>
-  			<li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#noticias',1000)">{{mnNoticias}}</a></li>
-        <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#staff',1000)">{{mnTeam}}</a></li>
-        <li><a class="menuRef" href="javascript:$.scrollTo('div.seccion#contacto',1000)">{{mnCont}}</a></li>
+        <li><a class="menuRef" href="javascript:doScroll('div.seccion#inventrip')">{{inventrip}}</a></li>
+  			<li><a class="menuRef" href="javascript:doScroll('div.seccion#signing')">{{signingTitle}}</a></li>
+  			<li><a class="menuRef" href="javascript:doScroll('div.seccion#tecnologias')">{{mnTecno}}</a></li>
+  			<li><a class="menuRef" href="javascript:doScroll('div.seccion#noticias')">{{mnNoticias}}</a></li>
+        <li><a class="menuRef" href="javascript:doScroll('div.seccion#staff')">{{mnTeam}}</a></li>
+        <li><a class="menuRef" href="javascript:doScroll('div.seccion#contacto')">{{mnCont}}</a></li>
 
   			<!-- LISTA DE IDIOMAS -->
         <li id="lista-idiomas"> {{mnIdioma}} <img id="flechita" src="img/flechita.png" alt="menu languages" />
