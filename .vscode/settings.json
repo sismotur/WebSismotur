@@ -1,5 +1,5 @@
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "html.suggest.html5": true,
   "html.autoClosingTags": false,
   "[html]": {

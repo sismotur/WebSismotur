@@ -123,9 +123,6 @@ function casoExito() {
     case "fr":
       video = "http://www.youtube.com/watch?v=QLQwePHyc08";
       break;
-    /*case "hr":
-			video = "http://www.youtube.com/watch?v=-PzUrNnvaFw";
-			break;*/
     case "de":
       video = "http://www.youtube.com/watch?v=Y7eKWSXKJcY";
       break;
@@ -158,9 +155,6 @@ function inventrip() {
     case "ca":
       url = "http://www.inventrip.com?lang=ca";
       break;
-    /*case "de":
-			video = "http://www.inventrip.com?lang=de";
-			break;*/
     default:
       url = "http://www.inventrip.com?lang=en";
       break;
@@ -191,9 +185,6 @@ function nfcPalencia() {
     case "ca":
       url = "http://www.inventrip.com/diputaciondepalencia?lang=ca";
       break;
-    /*case "de":
-			video = "http://www.inventrip.com/diputaciondepalencia?lang=de";
-			break;*/
     default:
       url = "http://www.inventrip.com/diputaciondepalencia?lang=en";
       break;

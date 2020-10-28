@@ -2,138 +2,149 @@
 <html lang="es" ng-app="smtApp" ng-controller="languagesController">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-NC6H7TL');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- SEO -->
-  <title>Sismotur</title>
-  <meta name="description" content="Connect your destination with digital tourists." />
-
-  <!-- Twitter Card data -->
-  <meta name="twitter:card" value="Connect your destination with digital tourists.">
-  <meta name="keywords" content="Tourism signage, Beacons, Eddystone, Inventrip">
-
-  <!-- Open Graph data -->
-  <meta property="og:title" content="Sismotur S.L." />
-  <meta property="og:url" content="http://www.sismotur.com" />
-  <meta property="og:image" content="http://www.sismotur.com/img/sismotur-logo-portada.png" />
-  <meta property="og:description" content="Connect your destination with digital tourists." />
-
-  <link rel="shortcut icon" href="img/favicon.png"/>
-  <link rel="stylesheet" href="css/sismotur.css" />
-  <link rel="stylesheet" href="css/responsive.css" />
-
-  <!-- SCRIPTS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" defer></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" defer></script>
-  <!-- DEV <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script> -->
-  <!-- PROD -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js" defer></script>
-  <!-- BANNER MANAGEMENT -->
-  <script type="text/javascript">
-      $(document).ready(function($) {
-          if(!isMobile()) {
-            parallaxBanner();
-            opaqueMenu();
-            $(".navbar-nav li a").click(function(event) {
-                $(".navbar-collapse").collapse('hide');
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
             });
-          }
-        });
-  </script>
-  <script type="text/javascript">
-      function doScroll(e) {
-        // event.preventDefault();
-        $("html, body").scrollTo(e,1000)
-      }
-  </script>
-  <script src="js/smt-angular.js" defer></script>
-	<script src="js/sismotur.js" defer></script>
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NC6H7TL');
+    </script>
+    <!-- End Google Tag Manager -->
 
-<!-- SCHEMA.ORG JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "http://schema.org",
-  "@type": "Corporation",
-  "url":"https://sismotur.com",
-  "name": "Sismotur",
-	"legalName":"Sismotur S.L.",
-  "description": "We develop and implement smart tourism signage systems to connect your destination with the digital turist.",
-	"foundingDate":"2000-06-30",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Madrid",
-		"addressCountry": "Spain",
-    "postalCode": "28033",
-    "streetAddress": "Calle Arturo Soria 327"
-  },
-  "email": "contacto@sismotur.com",
-  "telephone": "+34913238208",
-  "logo":"http://www.sismotur.com/img/logoAPP_playstore.png"
-}
-</script>
+    <!-- SEO -->
+    <title>Sismotur</title>
+    <meta name="description" content="Connect your destination with digital tourists." />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="Connect your destination with digital tourists.">
+    <meta name="keywords" content="Tourism signage, Beacons, Eddystone, Inventrip">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Sismotur S.L." />
+    <meta property="og:url" content="http://www.sismotur.com" />
+    <meta property="og:image" content="http://www.sismotur.com/img/sismotur-logo-portada.png" />
+    <meta property="og:description" content="Connect your destination with digital tourists." />
+
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="css/sismotur.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js" defer></script>
+    <!-- DEV <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script> -->
+    <!-- PROD -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js" defer></script>
+    <!-- BANNER MANAGEMENT -->
+    <script type="text/javascript">
+        $(document).ready(function($) {
+            if (!isMobile()) {
+                parallaxBanner();
+                opaqueMenu();
+                $(".navbar-nav li a").click(function(event) {
+                    $(".navbar-collapse").collapse('hide');
+                });
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        function doScroll(e) {
+            // event.preventDefault();
+            $("html, body").scrollTo(e, 1000)
+        }
+    </script>
+    <script src="js/smt-angular.js" defer></script>
+    <script src="js/sismotur.js" defer></script>
+
+    <!-- SCHEMA.ORG JSON-LD -->
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Corporation",
+            "url": "https://sismotur.com",
+            "name": "Sismotur",
+            "legalName": "Sismotur S.L.",
+            "description": "We develop and implement smart tourism signage systems to connect your destination with the digital turist.",
+            "foundingDate": "2000-06-30",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Madrid",
+                "addressCountry": "Spain",
+                "postalCode": "28033",
+                "streetAddress": "Calle Arturo Soria 327"
+            },
+            "email": "contacto@sismotur.com",
+            "telephone": "+34913238208",
+            "logo": "http://www.sismotur.com/img/logoAPP_playstore.png"
+        }
+    </script>
 </head>
 
 <body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC6H7TL"
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC6H7TL"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
 
-  <!-- MENU -->
-  <header>
-  	<!-- LOGO SISMOTUR -->
-    <img id="logo" src="img/logomenu.png" title="Sismotur" alt="Sismotur"/>
+    <!-- MENU -->
+    <header>
+        <!-- LOGO SISMOTUR -->
+        <img id="logo" src="img/logomenu.png" title="Sismotur" alt="Sismotur" />
 
-  	<!-- MENU DE NAVEGACION -->
-  	<nav id="menu">
-    	<ul id="lista-menu">
-        <li><a class="menuRef" href="javascript:doScroll('div.seccion#inventrip')">{{inventrip}}</a></li>
-  			<li><a class="menuRef" href="javascript:doScroll('div.seccion#signing')">{{signingTitle}}</a></li>
-  			<li><a class="menuRef" href="javascript:doScroll('div.seccion#tecnologias')">{{mnTecno}}</a></li>
-  			<li><a class="menuRef" href="javascript:doScroll('div.seccion#noticias')">{{mnNoticias}}</a></li>
-        <li><a class="menuRef" href="javascript:doScroll('div.seccion#staff')">{{mnTeam}}</a></li>
-        <li><a class="menuRef" href="javascript:doScroll('div.seccion#contacto')">{{mnCont}}</a></li>
+        <!-- MENU DE NAVEGACION -->
+        <nav id="menu">
+            <ul id="lista-menu">
+                <li><a class="menuRef" href="javascript:doScroll('div.seccion#inventrip')">{{inventrip}}</a></li>
+                <li><a class="menuRef" href="javascript:doScroll('div.seccion#signing')">{{signingTitle}}</a></li>
+                <li><a class="menuRef" href="javascript:doScroll('div.seccion#tecnologias')">{{mnTecno}}</a></li>
+                <li><a class="menuRef" href="javascript:doScroll('div.seccion#noticias')">{{mnNoticias}}</a></li>
+                <li><a class="menuRef" href="javascript:doScroll('div.seccion#staff')">{{mnTeam}}</a></li>
+                <li><a class="menuRef" href="javascript:doScroll('div.seccion#contacto')">{{mnCont}}</a></li>
 
-  			<!-- LISTA DE IDIOMAS -->
-        <li id="lista-idiomas"> {{mnIdioma}} <img id="flechita" src="img/flechita.png" alt="menu languages" />
-          <ul id="menu-idiomas">
-            <li><a class="cambio-idioma" ng-click="changeLang('ca')">Catalá</a></li>
-            <li><a class="cambio-idioma" ng-click="changeLang('en')">English</a></li>
-            <li><a class="cambio-idioma" ng-click="changeLang('es')">Español</a></li>
-            <li><a class="cambio-idioma" ng-click="changeLang('fr')">Français</a></li>
-  					<li><a class="cambio-idioma" ng-click="changeLang('pt')">Português</a></li>
-        	</ul>
-        </li>
-      </ul>
-    </nav>
-  </header>
+                <!-- LISTA DE IDIOMAS -->
+                <li id="lista-idiomas"> {{mnIdioma}} <img id="flechita" src="img/flechita.png" alt="menu languages" />
+                    <ul id="menu-idiomas">
+                        <li><a class="cambio-idioma" ng-click="changeLang('ca')">Catalá</a></li>
+                        <li><a class="cambio-idioma" ng-click="changeLang('en')">English</a></li>
+                        <li><a class="cambio-idioma" ng-click="changeLang('es')">Español</a></li>
+                        <li><a class="cambio-idioma" ng-click="changeLang('fr')">Français</a></li>
+                        <li><a class="cambio-idioma" ng-click="changeLang('pt')">Português</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-  <!-- ************************
+    <!-- ************************
   ********* PORTADA **********
   ************************* -->
 
-  <div id="parallaxTrigger">
-  <div class="seccion" id="portada">
-  <div id="fondo-azul"></div>
-  	<div id="logo-eslogan">
-  		<img id="logo-portada" src="img/logo-sismotur-fit.png" title="Sismotur S.L." alt="Sismotur S.L." />
-      <p id="logo-eslogan-1">{{claim1}}</p>
-  		<p id="logo-eslogan-2">{{claim2}}</p>
-  		<button class="action-button" id="logo-call-to-action" onclick="doOpenPassportInventrip()" title="contacto">{{btnMuestra}}</a>
+    <div id="parallaxTrigger">
+        <div class="seccion" id="portada">
+            <div id="fondo-azul"></div>
+            <div id="logo-eslogan">
+                <img id="logo-portada" src="img/logo-sismotur-fit.png" title="Sismotur S.L." alt="Sismotur S.L." />
+                <p id="logo-eslogan-1">{{claim1}}</p>
+                <p id="logo-eslogan-2">{{claim2}}</p>
+                <button class="action-button" id="logo-call-to-action" onclick="doOpenPassportInventrip()" title="contacto">{{btnMuestra}}</a>
   	</div>
   </div>
 
@@ -206,156 +217,155 @@
           <p class="titulo-tecnol">{{senalizacionTitle}}</p>
           <p class="texto t-tecno">{{senalizacionText}}</p>
           <button class="mas-info" onclick="window.open('senalizacion.html')">{{btnReferences}}</button>
-      </div>
+            </div>
 
-      <div class="tecnol" id="beacons">
-          <img class="img-tecnol" src="img/logo_beacon.png" alt="Beacon logo" />
-          <p class="titulo-tecnol">{{beacons}}</p>
-          <p class="texto t-tecno">{{beaconText}}</p>
-          <button class="mas-info" onclick="window.open('beacon.html')">{{btnReferences}}</button>
-      </div>
+            <div class="tecnol" id="beacons">
+                <img class="img-tecnol" src="img/logo_beacon.png" alt="Beacon logo" />
+                <p class="titulo-tecnol">{{beacons}}</p>
+                <p class="texto t-tecno">{{beaconText}}</p>
+                <button class="mas-info" onclick="window.open('beacon.html')">{{btnReferences}}</button>
+            </div>
 
-  		<div class="tecnol" id="api">
-          <img class="img-tecnol" src="img/logo_api.png" alt="API logo" />
-          <p class="titulo-tecnol">{{apiInventrip}}</p>
-          <p class="texto t-tecno">{{apiInventripText}}</p>
-          <button class="mas-info" onclick="window.open('api.html')">{{btnReferences}}</button>
-      </div>
+            <div class="tecnol" id="api">
+                <img class="img-tecnol" src="img/logo_api.png" alt="API logo" />
+                <p class="titulo-tecnol">{{apiInventrip}}</p>
+                <p class="texto t-tecno">{{apiInventripText}}</p>
+                <button class="mas-info" onclick="window.open('api.html')">{{btnReferences}}</button>
+            </div>
 
-  		<div class="tecnol" id="big_data">
-          <img class="img-tecnol" src="img/logo_big_data.png" alt="Big Data logo" />
-          <p class="titulo-tecnol">{{bigData}}</p>
-          <p class="texto t-tecno">{{bigDataText}}</p>
-          <button class="mas-info" onclick="window.open('big_data.html')">{{btnReferences}}</button>
-      </div>
+            <div class="tecnol" id="big_data">
+                <img class="img-tecnol" src="img/logo_big_data.png" alt="Big Data logo" />
+                <p class="titulo-tecnol">{{bigData}}</p>
+                <p class="texto t-tecno">{{bigDataText}}</p>
+                <button class="mas-info" onclick="window.open('big_data.html')">{{btnReferences}}</button>
+            </div>
 
-      <div class="tecnol" id="comercializacion">
-          <img class="img-tecnol" src="img/logo_ecommerce.png" alt="e-Commerce logo" />
-          <p class="titulo-tecnol">{{eCommerce}}</p>
-          <p class="texto t-tecno">{{comercializacionText}}</p>
-          <button class="mas-info" onclick="window.open('e_commerce.html')">{{btnReferences}}</button>
-      </div>
+            <div class="tecnol" id="comercializacion">
+                <img class="img-tecnol" src="img/logo_ecommerce.png" alt="e-Commerce logo" />
+                <p class="titulo-tecnol">{{eCommerce}}</p>
+                <p class="texto t-tecno">{{comercializacionText}}</p>
+                <button class="mas-info" onclick="window.open('e_commerce.html')">{{btnReferences}}</button>
+            </div>
 
-  		<div class="tecnol" id="blockchain">
-          <img class="img-tecnol" src="img/logo_blockchain.png" alt="Blockchain logo" />
-          <p class="titulo-tecnol">{{blockchain}}</p>
-          <p class="texto t-tecno">{{blockchainText}}</p>
-          <button class="mas-info" onclick="window.open('blockchain.html')">{{btnReferences}}</button>
-      </div>
+            <div class="tecnol" id="blockchain">
+                <img class="img-tecnol" src="img/logo_blockchain.png" alt="Blockchain logo" />
+                <p class="titulo-tecnol">{{blockchain}}</p>
+                <p class="texto t-tecno">{{blockchainText}}</p>
+                <button class="mas-info" onclick="window.open('blockchain.html')">{{btnReferences}}</button>
+            </div>
 
-      <div class="tecnol" id="nfc">
-      	<img class="img-tecnol"  src="img/logo_nfc.png" alt="NFC logo" />
-      	<p class="titulo-tecnol">{{nfc}}</p>
-          <p class="texto t-tecno">{{nfcText}}</p>
-          <button class="mas-info" onclick="window.open('nfc.html')">{{btnReferences}}</button>
-      </div>
+            <div class="tecnol" id="nfc">
+                <img class="img-tecnol" src="img/logo_nfc.png" alt="NFC logo" />
+                <p class="titulo-tecnol">{{nfc}}</p>
+                <p class="texto t-tecno">{{nfcText}}</p>
+                <button class="mas-info" onclick="window.open('nfc.html')">{{btnReferences}}</button>
+            </div>
 
-      <div class="tecnol" id="qr">
-      	<img class="img-tecnol" src="img/logo_qr.png" alt="QR logo" />
-      	<p class="titulo-tecnol">{{qr}}</p>
-          <p class="texto t-tecno">{{qrText}}</p>
-          <button class="mas-info" onclick="window.open('qr.html')">{{btnReferences}}</button>
-      </div>
+            <div class="tecnol" id="qr">
+                <img class="img-tecnol" src="img/logo_qr.png" alt="QR logo" />
+                <p class="titulo-tecnol">{{qr}}</p>
+                <p class="texto t-tecno">{{qrText}}</p>
+                <button class="mas-info" onclick="window.open('qr.html')">{{btnReferences}}</button>
+            </div>
 
-      <div class="tecnol" id="drontrip">
-          <img class="img-tecnol" src="img/logo_dron.png" alt="DronTrip" />
-          <p class="titulo-tecnol">{{dronTrip}}</p>
-          <p class="texto t-tecno">{{dronText}}</p>
-          <button class="mas-info" onclick="window.open('drontrip.html')">{{btnReferences}}</button>
-      </div>
+            <div class="tecnol" id="drontrip">
+                <img class="img-tecnol" src="img/logo_dron.png" alt="DronTrip" />
+                <p class="titulo-tecnol">{{dronTrip}}</p>
+                <p class="texto t-tecno">{{dronText}}</p>
+                <button class="mas-info" onclick="window.open('drontrip.html')">{{btnReferences}}</button>
+            </div>
 
-  </div>
+        </div>
 
-  <!-- ************************
+        <!-- ************************
   ********* NOTICIAS **********
   ************************* -->
-  <div class="separador">
-  	<p>{{dividerNews}}</p>
-  </div>
+        <div class="separador">
+            <p>{{dividerNews}}</p>
+        </div>
 
-  <div class="seccion" id="noticias">
+        <div class="seccion" id="noticias">
 
-  	<img id="img-noticias" src="img/news/news50.jpg" alt="Consulting to the Ministry of Tourism and Commerce of Peru" />
+            <img id="img-noticias" src="img/news/news53.jpg" alt="Inventrip and Signing are part of the Ministry of Tourism's official solutions catalog" />
 
-    <div id="cont-noticias">
-    	<p class="title" id="title-noticias">{{newsTitle50}}</p>
-      <p class = "texto" id="text-noticias">{{newsContent50}}
-      <br/><br/>
-      </p>
-  		<button class="action-button" id="ver-mas-noticias" onclick="window.open('./news.html')" >{{moreNews}}</button>
-    </div>
-  	<!-- <button class="ver-mas" onclick="alert('Work in progress: please come back in a few hours!')" >{{btnNewsClick}}</button> -->
-  </div>
+            <div id="cont-noticias">
+                <p class="title" id="title-noticias">{{newsTitle53}}</p>
+                <p class="texto" id="text-noticias">{{newsContent53}}
+                    <br/><br/>
+                </p>
+                <button class="action-button" id="ver-mas-noticias" onclick="window.open('./news.html')">{{moreNews}}</button>
+            </div>
+            <!-- <button class="ver-mas" onclick="alert('Work in progress: please come back in a few hours!')" >{{btnNewsClick}}</button> -->
+        </div>
 
-  <!-- ***************************
+        <!-- ***************************
   ************ PARTNERS **********
   ************************* -->
 
-  <div class="seccion" id="staff">
+        <div class="seccion" id="staff">
 
-  <p class="title" id="title-staff">{{titlePartners}}</p>
-  	<div id="contenedor-staff">
-    	<div class="content-staff" id="c-augusto"></div>
-    	<div class="content-staff" id="c-manolo"></div>
-      <a href="https://fr.linkedin.com/in/felipesanti" target="_blank">
-  		<div class="content-staff" id="c-felipe"></div></a>
-    </div>
-  </div>
+            <p class="title" id="title-staff">{{titlePartners}}</p>
+            <div id="contenedor-staff">
+                <div class="content-staff" id="c-augusto"></div>
+                <div class="content-staff" id="c-manolo"></div>
+                <a href="https://fr.linkedin.com/in/felipesanti" target="_blank">
+                    <div class="content-staff" id="c-felipe"></div>
+                </a>
+            </div>
+        </div>
 
-  <!-- ***********************
+        <!-- ***********************
   ********* CONTACTO *********
   ************************ -->
 
-  <div class="seccion" id="contacto">
+        <div class="seccion" id="contacto">
 
-      	<a id="contactanos" href="mailto:contacto@sismotur.com" title="contacto">{{btnContact}}</a>
+            <a id="contactanos" href="mailto:contacto@sismotur.com" title="contacto">{{btnContact}}</a>
 
-          <div id="rrss">
+            <div id="rrss">
 
-          	<a id="linkedin" href="https://www.linkedin.com/company/sismotur" title="Linkedin" target="_blank" ></a>
-          	<a id="twitter" href="https://twitter.com/sismotur" title="Twitter" target="_blank"></a>
-          	<a id="youtube" href="https://www.youtube.com/user/Inventrip" title="Youtube" target="_blank"></a>
-         	 	<a id="github" href="https://github.com/sismotur" title="Github" target="_blank"></a>
+                <a id="linkedin" href="https://www.linkedin.com/company/sismotur" title="Linkedin" target="_blank"></a>
+                <a id="twitter" href="https://twitter.com/sismotur" title="Twitter" target="_blank"></a>
+                <a id="youtube" href="https://www.youtube.com/user/Inventrip" title="Youtube" target="_blank"></a>
+                <a id="github" href="https://github.com/sismotur" title="Github" target="_blank"></a>
 
-          </div>
+            </div>
 
 
 
-  	<table id="lista-contacto">
+            <table id="lista-contacto">
 
-   		<tr>
-          	<td class="lista-pais">
-          	   <p class="pais">{{cntSpain}}</p>
-                  <hr class="barra-pais" />
-              	<p class="telefono">{{cntSpain2}}<br/>+34 913 238 208</p>
-                  <a class="email" href="mailto:aramos@sismotur.com">aramos@sismotur.com</a>
-  			</td>
+                <tr>
+                    <td class="lista-pais">
+                        <p class="pais">{{cntSpain}}</p>
+                        <hr class="barra-pais" />
+                        <p class="telefono">{{cntSpain2}}<br/>+34 913 238 208</p>
+                        <a class="email" href="mailto:aramos@sismotur.com">aramos@sismotur.com</a>
+                    </td>
 
-    			<td class="lista-pais">
-              	<p class="pais">{{cntFrance}}</p>
-                  <hr class="barra-pais" />
-              	<p class="telefono">{{cntFrance2}}<br/>+33 (0) 619 203 061</p>
-                  <a class="email"
-  								href="mailto:fsanti@sismotur.com">fsanti@sismotur.com</a>
-  			</td>
-          </tr>
+                    <td class="lista-pais">
+                        <p class="pais">{{cntFrance}}</p>
+                        <hr class="barra-pais" />
+                        <p class="telefono">{{cntFrance2}}<br/>+33 (0) 619 203 061</p>
+                        <a class="email" href="mailto:fsanti@sismotur.com">fsanti@sismotur.com</a>
+                    </td>
+                </tr>
 
-      </table>
+            </table>
 
-    <!-- LEGAL TERMS -->
-    <footer>
-    	<!-- <span><a href="./info/aviso-legal.html" target="_blank">Aviso Legal</a></span> -->
-    	<span><a href="./info/politica-privacidad.html" target="_blank">Política de Privacidad</a></span>
-    	<span><a href="./info/politica-cookies.html" target="_blank">Política de Cookies</a></span>
-    	<p>{{copyright}}</p>
-    </footer>
+            <!-- LEGAL TERMS -->
+            <footer>
+                <!-- <span><a href="./info/aviso-legal.html" target="_blank">Aviso Legal</a></span> -->
+                <span><a href="./info/politica-privacidad.html" target="_blank">Política de Privacidad</a></span>
+                <span><a href="./info/politica-cookies.html" target="_blank">Política de Cookies</a></span>
+                <p>{{copyright}}</p>
+            </footer>
 
-  </div>
+        </div>
 
-  <!-- COOKIE BANNER - Aviso y Política de Cookies - https://github.com/dobarkod/cookie-banner/ -->
-  <script type="text/javascript" id="cookiebanner"
-    src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js" data-position="bottom" data-height="50px" data-bg="#0024A8"
-  	data-message="Esta web utiliza cookies propias y de terceros para analizar su navegación y ofrecerle un servicio más personalizado.<br>Continuar navegando implica la aceptación de nuestra" data-linkmsg="Política de Cookies"
-  	data-moreinfo="./info/politica-cookies.html"></script>
+        <!-- COOKIE BANNER - Aviso y Política de Cookies - https://github.com/dobarkod/cookie-banner/ -->
+        <script type="text/javascript" id="cookiebanner" src="https://cdnjs.cloudflare.com/ajax/libs/cookie-banner/1.0.0/cookiebanner.min.js" data-position="bottom" data-height="50px" data-bg="#0024A8" data-message="Esta web utiliza cookies propias y de terceros para analizar su navegación y ofrecerle un servicio más personalizado.<br>Continuar navegando implica la aceptación de nuestra"
+            data-linkmsg="Política de Cookies" data-moreinfo="./info/politica-cookies.html"></script>
 </body>
+
 </html>
