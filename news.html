@@ -1,895 +1,971 @@
 <!DOCTYPE html>
 <html lang="es" ng-app="smtApp" ng-controller="languagesController">
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-NC6H7TL');</script>
-	<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NC6H7TL');
+    </script>
+    <!-- End Google Tag Manager -->
 
-	<title>Sismotur - News</title>
-	<link rel="shortcut icon" href="img/favicon.png">
+    <title>Sismotur - News</title>
+    <link rel="shortcut icon" href="img/favicon.png">
 
-  <!-- Stylesheets -->
-  <link href="./css/bootstrap.css" rel="stylesheet">
-  <link href="./css/tecnologias.css" rel="stylesheet">
-  <link href="./css/sismotur.css" rel="stylesheet">
-  <link href="./css/news.css" rel="stylesheet">
-	<!-- Javascript -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-	 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" defer></script>
-	<script src="js/smt-angular.js" defer></script>
-	<script src="js/sismotur.js" defer></script>
+    <!-- Stylesheets -->
+    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/tecnologias.css" rel="stylesheet">
+    <link href="./css/sismotur.css" rel="stylesheet">
+    <link href="./css/news.css" rel="stylesheet">
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" defer></script>
+    <script src="js/smt-angular.js" defer></script>
+    <script src="js/sismotur.js" defer></script>
 </head>
+
 <body>
-	<!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC6H7TL"
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NC6H7TL"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <!-- End Google Tag Manager (noscript) -->
 
     <!-- NAVIGATION BAR -->
-	<div class="container-fluid smt-tecno-content">
-		<nav class="navbar smt-menu">
-			<a id="smt-logo-menu" class="navbar-brand smt-logo-nav">
-                <img class="smt-logo-menu" title="Sismotur" src="img/logomenu.png" alt="Sismotur logo"/>
+    <div class="container-fluid smt-tecno-content">
+        <nav class="navbar smt-menu">
+            <a id="smt-logo-menu" class="navbar-brand smt-logo-nav">
+                <img class="smt-logo-menu" title="Sismotur" src="img/logomenu.png" alt="Sismotur logo" />
             </a>
             <a class="navbar-brand smt-return-nav" onclick="window.close()">
-                <img class="smt-logo-return" title="Sismotur" src="img/boton-volver.png" alt="return"/>
+                <img class="smt-logo-return" title="Sismotur" src="img/boton-volver.png" alt="return" />
             </a>
-		</nav>
+        </nav>
 
 
-    <div class="news">
+        <div class="news">
+            <!-- NEWS 55 -->
+            <div class="news-block" id="news55">
+                <p class="news-title">{{newsTitle55}}</p>
+                <img class="news-image" src="img/news/news55.jpg" alt="Sierra de Francia Wine Route - Inventrip" />
+                <div class="content">
+                    <p class="news-content">{{newsContent55}}
+                        <br/><br/>
+                        <a target="_blank" href="https://www.tribunasalamanca.com/noticias/la-ruta-del-vino-sierra-de-francia-premiada-como-mejor-destino-enoturistico-sostenible-y-responsable/1603211340">{{newsDetail55}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 50 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news50">
-					<p class="news-title">{{newsTitle50}}</p>
-					<img class="news-image" src="img/news/news50.jpg" alt="Consulting to the Ministry of Tourism and Commerce of Peru" />
-					<div class="content">
-							<p class="news-content">{{newsContent50}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 54 -->
+            <div class="news-block" id="news54">
+                <p class="news-title">{{newsTitle54}}</p>
+                <img class="news-image" src="img/news/news54.jpg" alt="Sismotur receives a digital tourism award" />
+                <div class="content">
+                    <p class="news-content">{{newsContent54}}
+                        <br/><br/>
+                        <a target="_blank" href="https://www.hosteltur.com/139960_ametic-entrega-la-segunda-edicion-de-los-premios-digital-tourist.html">{{newsDetail54}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 49 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news49">
-					<p class="news-title">{{newsTitle49}}</p>
-					<img class="news-image" src="img/news/news49.jpg" alt="Consulting to Portugal's ATLA association" />
-					<div class="content">
-							<p class="news-content">{{newsContent49}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 53 -->
+            <div class="news-block" id="news53">
+                <p class="news-title">{{newsTitle53}}</p>
+                <img class="news-image" src="img/news/news53.jpg" alt="Inventrip and Signing are part of the Ministry of Tourism's official solutions catalog" />
+                <div class="content">
+                    <p class="news-content">{{newsContent53}}
+                        <br/><br/>
+                        <a target="_blank" href="https://www.destinosinteligentes.es/directorio_DTI/directorio.php?q=inventrip&ord=pro">{{newsDetail53}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 48 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news48">
-					<p class="news-title">{{newsTitle48}}</p>
-					<img class="news-image" src="img/news/news48.jpg" alt="Presentation to tourism entrepreneurs of the Province of Salamanca" />
-					<div class="content">
-							<p class="news-content">{{newsContent48}}
-									<br/><br/>
-									<a target="_blank" href="https://twitter.com/Sismotur/status/1136511205785460737">{{newsDetail48}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 52 -->
+            <div class="news-block" id="news51">
+                <p class="news-title">{{newsTitle52}}</p>
+                <img class="news-image" src="img/news/news52.jpg" alt="Sismotur enters the Spanish Smart Destination Network" />
+                <div class="content">
+                    <p class="news-content">{{newsContent52}}
+                        <br/><br/>
+                        <a target="_blank" href="https://www.destinosinteligentes.es/la-comision-plenaria-de-la-red-dti-aprueba-la-incorporacion-de-19-nuevos-miembros/">{{newsDetail52}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 47 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news47">
-					<p class="news-title">{{newsTitle47}}</p>
-					<img class="news-image" src="img/news/news47.jpg" alt="CTN178 meeting" />
-					<div class="content">
-							<p class="news-content">{{newsContent47}}
-									<br/><br/>
-									<a target="_blank" href="https://srp.une.org/Home/Details/9270">{{newsDetail47}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 51 -->
+            <div class="news-block" id="news51">
+                <p class="news-title">{{newsTitle51}}</p>
+                <img class="news-image" src="img/news/news51.jpg" alt="Updating the best practices manual for tourism semantic data" />
+                <div class="content">
+                    <p class="news-content">{{newsContent51}}
+                        <br/><br/>
+                        <a target="_blank" href="https://www.segittur.es/sala-de-prensa/notas-de-prensa/segittur-actualiza-el-manual-de-semantica-para-lograr-una-comunicacion-homogenea-en-los-destinos-que-de-confianza-al-turista-ante-el-covid-19/">{{newsDetail51}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 46 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news46">
-					<p class="news-title">{{newsTitle46}}</p>
-					<img class="news-image" src="img/news/news46.jpg" alt="Best practices for Smart Tourist Destinations" />
-					<div class="content">
-							<p class="news-content">{{newsContent46}}
-									<br/><br/>
-									<a target="_blank" href="https://www.esmartcity.es/2019/04/12/red-destinos-turisticos-inteligentes-comparte-buenas-practicas-segundo-encuentro#.XLCy3J6GJok.twitter">{{newsDetail46}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 45 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news45">
-					<p class="news-title">{{newsTitle45}}</p>
-					<img class="news-image" src="img/news/news45.jpg" alt="Presentation to the Sanxenxo hotels" />
-					<div class="content">
-							<p class="news-content">{{newsContent45}}
-									<br/><br/>
-									<a target="_blank" href="https://www.diariodepontevedra.es/articulo/o-salnes/sanxenxo-apuesta-aplicacion-inventrip-informar-oferta-turistica/201903271906191028633.html">{{newsDetail45}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 50 -->
+            <div class="news-block" id="news50">
+                <p class="news-title">{{newsTitle50}}</p>
+                <img class="news-image" src="img/news/news50.jpg" alt="Consulting to the Ministry of Tourism and Commerce of Peru" />
+                <div class="content">
+                    <p class="news-content">{{newsContent50}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 44 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news44">
-					<p class="news-title">{{newsTitle44}}</p>
-					<img class="news-image" src="img/news/news44.jpg" alt="Presentation of the Alqueva Lake project" />
-					<div class="content">
-							<p class="news-content">{{newsContent44}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 43 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news43">
-					<p class="news-title">{{newsTitle43}}</p>
-					<img class="news-image" src="img/news/news43.jpg" alt="List of participants at the 2019 Spain Convention Bureau day" />
-					<div class="content">
-							<p class="news-content">{{newsContent43}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 49 -->
 
-			<!-- ************************************************* -->
-			<!-- NEWS 42 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news42">
-					<p class="news-title">{{newsTitle42}}</p>
-					<img class="news-image" src="img/news/news42.jpg" alt="Sismoturs' booth at FITUR 2019" />
-					<div class="content">
-							<p class="news-content">{{newsContent42}}
-									<br/><br/>
-									<a onclick="doOpenPassportInventrip()">{{newsDetail42}}</a>
-									<!-- <a target="_blank" href="https://www.flipsnack.com/inventrip/pasaporte_inventrip_es.html">{{newsDetail42}}</a> -->
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <div class="news-block" id="news49">
+                <p class="news-title">{{newsTitle49}}</p>
+                <img class="news-image" src="img/news/news49.jpg" alt="Consulting to Portugal's ATLA association" />
+                <div class="content">
+                    <p class="news-content">{{newsContent49}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 41 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news41">
-					<p class="news-title">{{newsTitle41}}</p>
-					<img class="news-image" src="img/news/news41.jpg" alt="Presentation of the Head of ARCA entrepreneurs association" />
-					<div class="content">
-							<p class="news-content">{{newsContent41}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 40 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news40">
-					<p class="news-title">{{newsTitle40}}</p>
-					<img class="news-image" src="img/news/news40.jpg" alt="Presentation of the Head of Tourism of the Salamanca province" />
-					<div class="content">
-							<p class="news-content">{{newsContent40}}
-									<br/><br/>
-									<a target="_blank" href="https://www.lagacetadesalamanca.es/hemeroteca/2018-11-23-158307-funciona-inventrip-turismo-alcance-telefono-movil-MBGSV158307">{{newsDetail40}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 48 -->
 
-			<!-- ************************************************* -->
-			<!-- NEWS 39 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news39">
-					<p class="news-title">{{newsTitle39}}</p>
-					<img class="news-image" src="img/news/news39.jpg" alt="Sismotur CTO presentation" />
-					<div class="content">
-							<p class="news-content">{{newsContent39}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <div class="news-block" id="news48">
+                <p class="news-title">{{newsTitle48}}</p>
+                <img class="news-image" src="img/news/news48.jpg" alt="Presentation to tourism entrepreneurs of the Province of Salamanca" />
+                <div class="content">
+                    <p class="news-content">{{newsContent48}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/Sismotur/status/1136511205785460737">{{newsDetail48}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 38 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news38">
-					<p class="news-title">{{newsTitle38}}</p>
-					<img class="news-image" src="img/news/news38.jpg" alt="Presenting at the Inventrip Network day" />
-					<div class="content">
-							<p class="news-content">{{newsContent38}}
-									<br/><br/>
-									<a target="_blank" href="http://www.sismotur.com/media/Programa_Jornada_Red_Destinos_Inventrip_2018.pdf">{{newsDetail38}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 37 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news37">
-					<p class="news-title">{{newsTitle37}}</p>
-					<img class="news-image" src="img/news/news37.jpg" alt="Presentation at the city council" />
-					<div class="content">
-							<p class="news-content">{{newsContent37}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 47 -->
 
-			<!-- ************************************************* -->
-			<!-- NEWS 36 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news36">
-					<p class="news-title">{{newsTitle36}}</p>
-					<img class="news-image" src="img/news/news36.jpg" alt="Sismotur CEO presentation" />
-					<div class="content">
-							<p class="news-content">{{newsContent36}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <div class="news-block" id="news47">
+                <p class="news-title">{{newsTitle47}}</p>
+                <img class="news-image" src="img/news/news47.jpg" alt="CTN178 meeting" />
+                <div class="content">
+                    <p class="news-content">{{newsContent47}}
+                        <br/><br/>
+                        <a target="_blank" href="https://srp.une.org/Home/Details/9270">{{newsDetail47}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 35 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news35">
-					<p class="news-title">{{newsTitle35}}</p>
-					<img class="news-image" src="img/news/news35.jpg" alt="IoT Blockchain website" />
-					<div class="content">
-							<p class="news-content">{{newsContent35}}
-								  <br/><br/>
-									<a target="_blank" href="https://iotcamp.io/">{{newsDetail35}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 34 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news34">
-					<p class="news-title">{{newsTitle34}}</p>
-					<img class="news-image" src="img/news/news34.jpg" alt="Presentation at the BTL Fair" />
-					<div class="content">
-							<p class="news-content">{{newsContent34}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 46 -->
 
-			<!-- ************************************************* -->
-			<!-- NEWS 33 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news33">
-					<p class="news-title">{{newsTitle33}}</p>
-					<img class="news-image" src="img/news/news33.jpg" alt="Presenting the Innovatur Project" />
-					<div class="content">
-							<p class="news-content">{{newsContent33}}
-									<br/><br/>
-									<a target="_blank" href="http://innovatur.eu/">{{newsDetail33}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <div class="news-block" id="news46">
+                <p class="news-title">{{newsTitle46}}</p>
+                <img class="news-image" src="img/news/news46.jpg" alt="Best practices for Smart Tourist Destinations" />
+                <div class="content">
+                    <p class="news-content">{{newsContent46}}
+                        <br/><br/>
+                        <a target="_blank" href="https://www.esmartcity.es/2019/04/12/red-destinos-turisticos-inteligentes-comparte-buenas-practicas-segundo-encuentro#.XLCy3J6GJok.twitter">{{newsDetail46}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 32 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news32">
-					<p class="news-title">{{newsTitle32}}</p>
-					<img class="news-image" src="img/news/news32.jpg" alt="Presenting at SEGITTUR Lab" />
-					<div class="content">
-							<p class="news-content">{{newsContent32}}
-									<br/><br/>
-									<a target="_blank" href="http://www.sismotur.com/media/blockchain_turismo_2018_sismotur.pdf">{{newsDetail32}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 31 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news31">
-					<p class="news-title">{{newsTitle31}}</p>
-					<img class="news-image" src="img/news/news31.jpg" alt="Foro Meriendas Verdes" />
-					<div class="content">
-							<p class="news-content">{{newsContent31}}
-									<br/><br/>
-									<a target="_blank" href="https://www.efeverde.com/noticias/tecnologias-medioambiente/">{{newsDetail31}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 45 -->
 
-			<!-- ************************************************* -->
-			<!-- NEWS 30 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news30">
-					<p class="news-title">{{newsTitle30}}</p>
-					<img class="news-image" src="img/news/news30.jpg" alt="Presentación en Comunidad Rural Digital" />
-					<div class="content">
-							<p class="news-content">{{newsContent30}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <div class="news-block" id="news45">
+                <p class="news-title">{{newsTitle45}}</p>
+                <img class="news-image" src="img/news/news45.jpg" alt="Presentation to the Sanxenxo hotels" />
+                <div class="content">
+                    <p class="news-content">{{newsContent45}}
+                        <br/><br/>
+                        <a target="_blank" href="https://www.diariodepontevedra.es/articulo/o-salnes/sanxenxo-apuesta-aplicacion-inventrip-informar-oferta-turistica/201903271906191028633.html">{{newsDetail45}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 29 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news29">
-					<p class="news-title">{{newsTitle29}}</p>
-					<img class="news-image" src="img/news/news29.jpg" alt="Barcelona Smart Region project" />
-					<div class="content">
-							<p class="news-content">{{newsContent29}}
-									<br/><br/>
-									<a target="_blank" href="https://youtu.be/MU9owcuDRYw">{{newsDetail29}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 28 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news28">
-					<p class="news-title">{{newsTitle28}}</p>
-					<img class="news-image" src="img/news/news28.jpg" alt="Smart Tourist Destination day - UOC Catalonia" />
-					<div class="content">
-							<p class="news-content">{{newsContent28}}</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <!-- NEWS 44 -->
 
-			<!-- ************************************************* -->
-			<!-- NEWS 27 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news27">
-					<p class="news-title">{{newsTitle27}}</p>
-					<img class="news-image" src="img/news/news27.jpg" alt="Sismotur Smart Green Cities Congress in Malaga." />
-					<div class="content">
-							<p class="news-content">{{newsContent27}}
-									<br/><br/>
-									<a target="_blank" href="./media/ponencia_ruta_ribera_del_duero_inventrip.pdf">{{newsDetail27}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
+            <div class="news-block" id="news44">
+                <p class="news-title">{{newsTitle44}}</p>
+                <img class="news-image" src="img/news/news44.jpg" alt="Presentation of the Alqueva Lake project" />
+                <div class="content">
+                    <p class="news-content">{{newsContent44}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<!-- ************************************************* -->
-			<!-- NEWS 26 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news26">
-					<p class="news-title">{{newsTitle26}}</p>
-					<img class="news-image" src="img/news/news26.jpg" alt="Junta de Castilla y León and Sismotur presented the Ribera del Duero Smart Signage project in the III Smart Cities Madrid Congress." />
-					<div class="content">
-							<p class="news-content">{{newsContent26}}
-									<br/><br/>
-									<a target="_blank" href="./media/ponencia_ruta_ribera_del_duero_inventrip.pdf">{{newsDetail26}}</a>
-									<br/><br/>
-									<a target="_blank" href="https://www.esmartcity.es/videoteca/ponencia-ruta-smart-ribera-duero-senalizacion-turistica-inteligente-conectada-inventrip">{{newsDetail26_b}}</a>
-							</p>
-					</div>
-			</div>
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 25 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news25">
-					<p class="news-title">{{newsTitle25}}</p>
-					<img class="news-image" src="img/news/news25.jpg" alt="Signature of the contract between Gran Canaria and Sismotur." />
+            <!-- NEWS 43 -->
 
-					<div class="content">
-							<p class="news-content">{{newsContent25}}
-									<br/><br/>
-									<a target="_blank" href="http://cabildo.grancanaria.com/-/noticia-el-cabildo-inicia-la-redaccion-del-plan-de-senalizacion-tematica-y-territorial-en-las-vias-insulares-de-gran-canaria">{{newsDetail25}}</a>
-							</p>
-					</div>
-			</div>
+            <div class="news-block" id="news43">
+                <p class="news-title">{{newsTitle43}}</p>
+                <img class="news-image" src="img/news/news43.jpg" alt="List of participants at the 2019 Spain Convention Bureau day" />
+                <div class="content">
+                    <p class="news-content">{{newsContent43}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 24 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news24">
-					<p class="news-title">{{newsTitle24}}</p>
-					<img class="news-image" src="img/news/news24.jpg" alt="Reguengos de Monsaraz presenting the smart signage project done with Sismotur"/>
+            <!-- NEWS 42 -->
 
-					<div class="content">
-							<p class="news-content">{{newsContent24}}
-									<br/><br/>
-									<a target="_blank" href="http://www.publituris.pt/2017/03/10/primeiro-destino-turistico-inteligente-vai-reguengos-monsaraz/">{{newsDetail24}}</a>
-							</p>
-					</div>
-			</div>
+            <div class="news-block" id="news42">
+                <p class="news-title">{{newsTitle42}}</p>
+                <img class="news-image" src="img/news/news42.jpg" alt="Sismoturs' booth at FITUR 2019" />
+                <div class="content">
+                    <p class="news-content">{{newsContent42}}
+                        <br/><br/>
+                        <a onclick="doOpenPassportInventrip()">{{newsDetail42}}</a>
+                        <!-- <a target="_blank" href="https://www.flipsnack.com/inventrip/pasaporte_inventrip_es.html">{{newsDetail42}}</a> -->
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 23 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news23">
-					<p class="news-title">{{newsTitle23}}</p>
-					<img class="news-image" src="img/news/news23.jpg" alt="ICEX interviews the CMO of Sismotur" />
+            <!-- NEWS 41 -->
 
-					<div class="content">
-							<p class="news-content">{{newsContent23}}
-									<br/><br/>
-									<a target="_blank" href="http://www.icex.tv/embed/index.php?video=9775">{{newsDetail23}}</a>
-							</p>
-					</div>
-			</div>
+            <div class="news-block" id="news41">
+                <p class="news-title">{{newsTitle41}}</p>
+                <img class="news-image" src="img/news/news41.jpg" alt="Presentation of the Head of ARCA entrepreneurs association" />
+                <div class="content">
+                    <p class="news-content">{{newsContent41}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 22 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news22">
-					<p class="news-title">{{newsTitle22}}</p>
-					<img class="news-image" src="img/news/news22.jpg" alt="Presenting Inventrip to the Minister of Tourism of Peru" />
+            <!-- NEWS 40 -->
 
-					<div class="content">
-							<p class="news-content">{{newsContent22}}
-									<br/><br/>
-									<a target="_blank" href="./media/fitur2017_daily_sismotur.pdf">{{newsDetail22}}</a>
-							</p>
-					</div>
-			</div>
+            <div class="news-block" id="news40">
+                <p class="news-title">{{newsTitle40}}</p>
+                <img class="news-image" src="img/news/news40.jpg" alt="Presentation of the Head of Tourism of the Salamanca province" />
+                <div class="content">
+                    <p class="news-content">{{newsContent40}}
+                        <br/><br/>
+                        <a target="_blank" href="https://www.lagacetadesalamanca.es/hemeroteca/2018-11-23-158307-funciona-inventrip-turismo-alcance-telefono-movil-MBGSV158307">{{newsDetail40}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 21 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news21">
-					<p class="news-title">{{newsTitle21}}</p>
-					<img class="news-image" src="img/news/news21.jpg" alt="Blockchain article - EFE Futuro"/>
+            <!-- NEWS 39 -->
 
-					<div class="content">
-							<p class="news-content">{{newsContent21}}
-									<br/><br/>
-									<a target="_blank" href="http://www.efefuturo.com/noticia/potencial-blockchain-turismo/">{{newsDetail21}}</a>
-							</p>
-					</div>
-			</div>
+            <div class="news-block" id="news39">
+                <p class="news-title">{{newsTitle39}}</p>
+                <img class="news-image" src="img/news/news39.jpg" alt="Sismotur CTO presentation" />
+                <div class="content">
+                    <p class="news-content">{{newsContent39}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
 
-			<hr class="news-divider"/>
 
-			<!-- ************************************************* -->
-			<!-- NEWS 20 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news20">
-					<p class="news-title">{{newsTitle20}}</p>
+            <!-- NEWS 38 -->
 
-					<!--
+            <div class="news-block" id="news38">
+                <p class="news-title">{{newsTitle38}}</p>
+                <img class="news-image" src="img/news/news38.jpg" alt="Presenting at the Inventrip Network day" />
+                <div class="content">
+                    <p class="news-content">{{newsContent38}}
+                        <br/><br/>
+                        <a target="_blank" href="http://www.sismotur.com/media/Programa_Jornada_Red_Destinos_Inventrip_2018.pdf">{{newsDetail38}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 37 -->
+
+            <div class="news-block" id="news37">
+                <p class="news-title">{{newsTitle37}}</p>
+                <img class="news-image" src="img/news/news37.jpg" alt="Presentation at the city council" />
+                <div class="content">
+                    <p class="news-content">{{newsContent37}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 36 -->
+
+            <div class="news-block" id="news36">
+                <p class="news-title">{{newsTitle36}}</p>
+                <img class="news-image" src="img/news/news36.jpg" alt="Sismotur CEO presentation" />
+                <div class="content">
+                    <p class="news-content">{{newsContent36}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 35 -->
+
+            <div class="news-block" id="news35">
+                <p class="news-title">{{newsTitle35}}</p>
+                <img class="news-image" src="img/news/news35.jpg" alt="IoT Blockchain website" />
+                <div class="content">
+                    <p class="news-content">{{newsContent35}}
+                        <br/><br/>
+                        <a target="_blank" href="https://iotcamp.io/">{{newsDetail35}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 34 -->
+
+            <div class="news-block" id="news34">
+                <p class="news-title">{{newsTitle34}}</p>
+                <img class="news-image" src="img/news/news34.jpg" alt="Presentation at the BTL Fair" />
+                <div class="content">
+                    <p class="news-content">{{newsContent34}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 33 -->
+
+            <div class="news-block" id="news33">
+                <p class="news-title">{{newsTitle33}}</p>
+                <img class="news-image" src="img/news/news33.jpg" alt="Presenting the Innovatur Project" />
+                <div class="content">
+                    <p class="news-content">{{newsContent33}}
+                        <br/><br/>
+                        <a target="_blank" href="http://innovatur.eu/">{{newsDetail33}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 32 -->
+
+            <div class="news-block" id="news32">
+                <p class="news-title">{{newsTitle32}}</p>
+                <img class="news-image" src="img/news/news32.jpg" alt="Presenting at SEGITTUR Lab" />
+                <div class="content">
+                    <p class="news-content">{{newsContent32}}
+                        <br/><br/>
+                        <a target="_blank" href="http://www.sismotur.com/media/blockchain_turismo_2018_sismotur.pdf">{{newsDetail32}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 31 -->
+
+            <div class="news-block" id="news31">
+                <p class="news-title">{{newsTitle31}}</p>
+                <img class="news-image" src="img/news/news31.jpg" alt="Foro Meriendas Verdes" />
+                <div class="content">
+                    <p class="news-content">{{newsContent31}}
+                        <br/><br/>
+                        <a target="_blank" href="https://www.efeverde.com/noticias/tecnologias-medioambiente/">{{newsDetail31}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 30 -->
+
+            <div class="news-block" id="news30">
+                <p class="news-title">{{newsTitle30}}</p>
+                <img class="news-image" src="img/news/news30.jpg" alt="Presentación en Comunidad Rural Digital" />
+                <div class="content">
+                    <p class="news-content">{{newsContent30}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 29 -->
+
+            <div class="news-block" id="news29">
+                <p class="news-title">{{newsTitle29}}</p>
+                <img class="news-image" src="img/news/news29.jpg" alt="Barcelona Smart Region project" />
+                <div class="content">
+                    <p class="news-content">{{newsContent29}}
+                        <br/><br/>
+                        <a target="_blank" href="https://youtu.be/MU9owcuDRYw">{{newsDetail29}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 28 -->
+
+            <div class="news-block" id="news28">
+                <p class="news-title">{{newsTitle28}}</p>
+                <img class="news-image" src="img/news/news28.jpg" alt="Smart Tourist Destination day - UOC Catalonia" />
+                <div class="content">
+                    <p class="news-content">{{newsContent28}}</p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 27 -->
+
+            <div class="news-block" id="news27">
+                <p class="news-title">{{newsTitle27}}</p>
+                <img class="news-image" src="img/news/news27.jpg" alt="Sismotur Smart Green Cities Congress in Malaga." />
+                <div class="content">
+                    <p class="news-content">{{newsContent27}}
+                        <br/><br/>
+                        <a target="_blank" href="./media/ponencia_ruta_ribera_del_duero_inventrip.pdf">{{newsDetail27}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 26 -->
+
+            <div class="news-block" id="news26">
+                <p class="news-title">{{newsTitle26}}</p>
+                <img class="news-image" src="img/news/news26.jpg" alt="Junta de Castilla y León and Sismotur presented the Ribera del Duero Smart Signage project in the III Smart Cities Madrid Congress." />
+                <div class="content">
+                    <p class="news-content">{{newsContent26}}
+                        <br/><br/>
+                        <a target="_blank" href="./media/ponencia_ruta_ribera_del_duero_inventrip.pdf">{{newsDetail26}}</a>
+                        <br/><br/>
+                        <a target="_blank" href="https://www.esmartcity.es/videoteca/ponencia-ruta-smart-ribera-duero-senalizacion-turistica-inteligente-conectada-inventrip">{{newsDetail26_b}}</a>
+                    </p>
+                </div>
+            </div>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 25 -->
+
+            <div class="news-block" id="news25">
+                <p class="news-title">{{newsTitle25}}</p>
+                <img class="news-image" src="img/news/news25.jpg" alt="Signature of the contract between Gran Canaria and Sismotur." />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent25}}
+                        <br/><br/>
+                        <a target="_blank" href="http://cabildo.grancanaria.com/-/noticia-el-cabildo-inicia-la-redaccion-del-plan-de-senalizacion-tematica-y-territorial-en-las-vias-insulares-de-gran-canaria">{{newsDetail25}}</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 24 -->
+
+            <div class="news-block" id="news24">
+                <p class="news-title">{{newsTitle24}}</p>
+                <img class="news-image" src="img/news/news24.jpg" alt="Reguengos de Monsaraz presenting the smart signage project done with Sismotur" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent24}}
+                        <br/><br/>
+                        <a target="_blank" href="http://www.publituris.pt/2017/03/10/primeiro-destino-turistico-inteligente-vai-reguengos-monsaraz/">{{newsDetail24}}</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 23 -->
+
+            <div class="news-block" id="news23">
+                <p class="news-title">{{newsTitle23}}</p>
+                <img class="news-image" src="img/news/news23.jpg" alt="ICEX interviews the CMO of Sismotur" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent23}}
+                        <br/><br/>
+                        <a target="_blank" href="http://www.icex.tv/embed/index.php?video=9775">{{newsDetail23}}</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 22 -->
+
+            <div class="news-block" id="news22">
+                <p class="news-title">{{newsTitle22}}</p>
+                <img class="news-image" src="img/news/news22.jpg" alt="Presenting Inventrip to the Minister of Tourism of Peru" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent22}}
+                        <br/><br/>
+                        <a target="_blank" href="./media/fitur2017_daily_sismotur.pdf">{{newsDetail22}}</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 21 -->
+
+            <div class="news-block" id="news21">
+                <p class="news-title">{{newsTitle21}}</p>
+                <img class="news-image" src="img/news/news21.jpg" alt="Blockchain article - EFE Futuro" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent21}}
+                        <br/><br/>
+                        <a target="_blank" href="http://www.efefuturo.com/noticia/potencial-blockchain-turismo/">{{newsDetail21}}</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 20 -->
+
+            <div class="news-block" id="news20">
+                <p class="news-title">{{newsTitle20}}</p>
+
+                <!--
 					<img class="news-image" src="img/news/news20.png" title="Blockchain for Tourism - FITUR Lab 2017" href="www.inventrip.com" />
 					-->
-					<div onclick="play20()" id="vidwrap20" class="video-wrapper" style="background:black url('img/news/news20.png') no-repeat center; background-size:cover; overflow:hidden; cursor:pointer; border:1px solid gray" title="Blockchain technology and its applications for Tourism">
+                <div onclick="play20()" id="vidwrap20" class="video-wrapper" style="background:black url('img/news/news20.png') no-repeat center; background-size:cover; overflow:hidden; cursor:pointer; border:1px solid gray" title="Blockchain technology and its applications for Tourism">
 
-							<script type="text/javascript">
-									function play20() {
-											document.getElementById('vidwrap20').innerHTML = '<iframe src="https://www.youtube.com/v/wHEer7a9MgY&t" frameborder="0" allowfullscreen></iframe>';
-									}
-							</script>
-					</div>
+                    <script type="text/javascript">
+                        function play20() {
+                            document.getElementById('vidwrap20').innerHTML = '<iframe src="https://www.youtube.com/v/wHEer7a9MgY&t" frameborder="0" allowfullscreen></iframe>';
+                        }
+                    </script>
+                </div>
 
-					<div class="content">
-							<p class="news-content">{{newsContent20}}
-									<br/><br/>
-									<a target="_blank" href="./media/pres_tecnologia_cadena_bloques.pdf">{{newsDetail20}}</a>
-							</p>
-					</div>
-			</div>
-
-			<hr class="news-divider"/>
-
-			<!-- ************************************************* -->
-			<!-- NEWS 19 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news19">
-					<p class="news-title">{{newsTitle19}}</p>
-					<img class="news-image" src="img/news/news19.png" alt="Blockchain for Tourism Round Table- FITUR Lab 2017" />
-
-					<div class="content">
-							<p class="news-content">{{newsContent19}}
-									<br/><br/>
-									<a target="_blank" href="./media/resumen_ejecutivo_blockchain_sismotur.pdf">{{newsDetail19}}</a>
-							</p>
-					</div>
-			</div>
-
-			<hr class="news-divider"/>
-
-			<!-- ************************************************* -->
-			<!-- NEWS 18 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news18">
-					<p class="news-title">{{newsTitle18}}</p>
-					<img class="news-image" src="img/news/news18.jpg" alt="EFE Article about Inventrip and Sismotur" />
-
-					<div class="content">
-							<p class="news-content">{{newsContent18}}
-									<br/><br/>
-									<a target="_blank" href="http://www.efeempresas.com/noticia/sismotur-redefine-el-concepto-de-guia-turistico-digital-con-la-senalizacion-turistica-inteligente/">{{newsDetail18}}</a>
-							</p>
-					</div>
-			</div>
-
-			<hr class="news-divider"/>
-
-			<!-- ************************************************* -->
-			<!-- NEWS 17 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news17">
-					<p class="news-title">{{newsTitle17}}</p>
-					<img class="news-image" style="width:30%;" src="img/news/news17.jpg" alt="Article on Kontakt blog about Inventrip - Tourism IoT"/>
-
-					<div class="content">
-							<p class="news-content">{{newsContent17}}
-									<br/><br/>
-									<a target="_blank" href="https://kontakt.io/blog/spanish-tourism-joins-the-iot/">{{newsDetail17}}</a>
-							</p>
-					</div>
-			</div>
-
-			<hr class="news-divider"/>
-
-			<!-- ************************************************* -->
-			<!-- NEWS 16 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news16">
-					<p class="news-title">{{newsTitle16}}</p>
-					<img class="news-image" src="img/news/news16.jpg" alt="Route Ribera del Duero presents Inventrip" />
-
-					<div class="content">
-							<p class="news-content">{{newsContent16}}
-									<br/><br/>
-									<a target="_blank" href="http://www.efefuturo.com/noticia/ruta-vino-ribera-duero-movil/">{{newsDetail16}}</a>
-							</p>
-					</div>
-			</div>
-
-			<hr class="news-divider"/>
-
-			<!-- ************************************************* -->
-			<!-- NEWS 15 -->
-			<!-- ************************************************* -->
-			<div class="news-block" id="news15">
-					<p class="news-title">{{newsTitle15}}</p>
-					<img class="news-image" src="img/news/news15.jpg" alt="Las Palmas de Gran Canaria chooses Inventrip smart signage system"/>
-
-					<div class="content">
-							<p class="news-content">{{newsContent15}}
-									<br/><br/>
-									<a target="_blank" href="http://www.laspalmasgc.es/es/ayuntamiento/prensa-y-comunicacion/notas-de-prensa/nota-de-prensa/Ayuntamiento-y-Cabildo-impulsan-un-nuevo-sistema-de-senalizacion-inteligente-en-las-zonas-comerciales-de-interes-turistico/">{{newsDetail15}}</a>
-							</p>
-					</div>
-			</div>
-
-			<hr class="news-divider"/>
-
-        <!-- ************************************************* -->
-        <!-- NEWS 14 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news14">
-            <p class="news-title">{{newsTitle14}}</p>
-
-            <div onclick="play()" id="vidwrap14" class="video-wrapper" style="background:black url('img/news/news14.jpg') no-repeat center; background-size:cover; overflow:hidden; cursor:pointer; border:1px solid gray" title="Presenting Inventrip to HM the Queen of Spain">
-
-                <script type="text/javascript">
-                    function play() {
-                        document.getElementById('vidwrap14').innerHTML = '<iframe src="https://www.youtube.com/embed/SlUz6yyXcZA?autoplay=1&color=white&autohide=0&start=75&end=105" frameborder="0" allowfullscreen></iframe>';
-                    }
-                </script>
+                <div class="content">
+                    <p class="news-content">{{newsContent20}}
+                        <br/><br/>
+                        <a target="_blank" href="./media/pres_tecnologia_cadena_bloques.pdf">{{newsDetail20}}</a>
+                    </p>
+                </div>
             </div>
 
+            <hr class="news-divider" />
 
-            <div class="content">
-                <p class="news-content">{{newsContent14}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/segittur">@Seggitur</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/Fitur16">#Fitur16</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
-                </p>
+
+            <!-- NEWS 19 -->
+
+            <div class="news-block" id="news19">
+                <p class="news-title">{{newsTitle19}}</p>
+                <img class="news-image" src="img/news/news19.png" alt="Blockchain for Tourism Round Table- FITUR Lab 2017" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent19}}
+                        <br/><br/>
+                        <a target="_blank" href="./media/resumen_ejecutivo_blockchain_sismotur.pdf">{{newsDetail19}}</a>
+                    </p>
+                </div>
             </div>
 
-				</div>
+            <hr class="news-divider" />
 
-        <hr class="news-divider"/>
 
-        <!-- ************************************************* -->
-        <!-- NEWS 13 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news13">
-            <p class="news-title">{{newsTitle13}}</p>
-            <img class="news-image" src="img/news/news13.jpg" alt="Sismotur contributes to the Smart Destinations report of SEGITTUR"/>
+            <!-- NEWS 18 -->
 
-            <div class="content">
-                <p class="news-content">{{newsContent13}}
-                    <br/><br/>
-                    <a target="_blank" href="http://www.segittur.es/opencms/export/sites/segitur/.content/galerias/descargas/proyectos/Libro-Blanco-Destinos-Tursticos-Inteligentes-ok_es.pdf">{{newsDetail13}}</a>
-                </p>
+            <div class="news-block" id="news18">
+                <p class="news-title">{{newsTitle18}}</p>
+                <img class="news-image" src="img/news/news18.jpg" alt="EFE Article about Inventrip and Sismotur" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent18}}
+                        <br/><br/>
+                        <a target="_blank" href="http://www.efeempresas.com/noticia/sismotur-redefine-el-concepto-de-guia-turistico-digital-con-la-senalizacion-turistica-inteligente/">{{newsDetail18}}</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 12 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news12">
-            <p class="news-title">{{newsTitle12}}</p>
-            <img class="news-image" src="img/news/news12.jpg" title="Sismotur produces the master tourism signage plan of the Basque Country" alt="Presenting Inventrip to HM the Queen of Spain" />
 
-            <div class="content">
-                <p class="news-content">{{newsContent12}}
-                    <br/><br/>
-                    <a target="_blank"  href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank"  href="https://twitter.com/hashtag/turismoeuskadi">#turismoeuskadi</a>
-                </p>
+            <!-- NEWS 17 -->
+
+            <div class="news-block" id="news17">
+                <p class="news-title">{{newsTitle17}}</p>
+                <img class="news-image" style="width:30%;" src="img/news/news17.jpg" alt="Article on Kontakt blog about Inventrip - Tourism IoT" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent17}}
+                        <br/><br/>
+                        <a target="_blank" href="https://kontakt.io/blog/spanish-tourism-joins-the-iot/">{{newsDetail17}}</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
 
-        <!-- ************************************************* -->
-        <!-- NEWS 11 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news11">
-            <p class="news-title">{{newsTitle11}}</p>
-            <img class="news-image" src="img/news/news11.jpg" alt="Sismotur exposes in the 2015 INTUR fair" />
+            <!-- NEWS 16 -->
 
-            <div class="content">
-                <p class="news-content">{{newsContent11}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/segittur">@Seggitur</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/INTUR2015">#INTUR2015</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
-                </p>
+            <div class="news-block" id="news16">
+                <p class="news-title">{{newsTitle16}}</p>
+                <img class="news-image" src="img/news/news16.jpg" alt="Route Ribera del Duero presents Inventrip" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent16}}
+                        <br/><br/>
+                        <a target="_blank" href="http://www.efefuturo.com/noticia/ruta-vino-ribera-duero-movil/">{{newsDetail16}}</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 10 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news10">
-            <p class="news-title">{{newsTitle10}}</p>
-            <img class="news-image" src="img/news/news10.jpg" title="Sismotur participates in a marketing event organized by Diputacion de Barcelona" alt="Sismotur participates in a marketing event organized by Diputacion de Barcelona"/>
 
-            <div class="content">
-                <p class="news-content">{{newsContent10}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/socialbcnmoltmes">#socialbcnmoltmes</a>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                </p>
+            <!-- NEWS 15 -->
+
+            <div class="news-block" id="news15">
+                <p class="news-title">{{newsTitle15}}</p>
+                <img class="news-image" src="img/news/news15.jpg" alt="Las Palmas de Gran Canaria chooses Inventrip smart signage system" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent15}}
+                        <br/><br/>
+                        <a target="_blank" href="http://www.laspalmasgc.es/es/ayuntamiento/prensa-y-comunicacion/notas-de-prensa/nota-de-prensa/Ayuntamiento-y-Cabildo-impulsan-un-nuevo-sistema-de-senalizacion-inteligente-en-las-zonas-comerciales-de-interes-turistico/">{{newsDetail15}}</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 9 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news9">
-            <p class="news-title">{{newsTitle9}}</p>
-            <img class="news-image" src="img/news/news9.jpg" title="Sismotur with the Principality of Asturias during the presentation of Inventrip" alt="Sismotur with the Principality of Asturias during the presentation of Inventrip" />
 
-            <div class="content">
-                <p class="news-content">{{newsContent9}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/coserviinfiesto">@CoserviInfiesto</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/piloña">#Piloña</a>
-                </p>
+            <!-- NEWS 14 -->
+
+            <div class="news-block" id="news14">
+                <p class="news-title">{{newsTitle14}}</p>
+
+                <div onclick="play()" id="vidwrap14" class="video-wrapper" style="background:black url('img/news/news14.jpg') no-repeat center; background-size:cover; overflow:hidden; cursor:pointer; border:1px solid gray" title="Presenting Inventrip to HM the Queen of Spain">
+
+                    <script type="text/javascript">
+                        function play() {
+                            document.getElementById('vidwrap14').innerHTML = '<iframe src="https://www.youtube.com/embed/SlUz6yyXcZA?autoplay=1&color=white&autohide=0&start=75&end=105" frameborder="0" allowfullscreen></iframe>';
+                        }
+                    </script>
+                </div>
+
+
+                <div class="content">
+                    <p class="news-content">{{newsContent14}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/segittur">@Seggitur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/Fitur16">#Fitur16</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
+                    </p>
+                </div>
+
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 8 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news8">
-            <p class="news-title">{{newsTitle8}}</p>
-            <img class="news-image" src="img/news/news8.jpg" title="Sismotur with the Province of Extremadura during the presentation of Inventrip for Sierra de Montanchez" alt="Sismotur with the Province of Extremadura during the presentation of Inventrip for Sierra de Montanchez" />
 
-            <div class="content">
-                <p class="news-content">{{newsContent8}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                    <a target="_blank" href="https://twitter.com/extremadura_tur">@Extremadura_tur</a>
-                </p>
+            <!-- NEWS 13 -->
+
+            <div class="news-block" id="news13">
+                <p class="news-title">{{newsTitle13}}</p>
+                <img class="news-image" src="img/news/news13.jpg" alt="Sismotur contributes to the Smart Destinations report of SEGITTUR" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent13}}
+                        <br/><br/>
+                        <a target="_blank" href="http://www.segittur.es/opencms/export/sites/segitur/.content/galerias/descargas/proyectos/Libro-Blanco-Destinos-Tursticos-Inteligentes-ok_es.pdf">{{newsDetail13}}</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 7 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news7">
-            <p class="news-title">{{newsTitle7}}</p>
-            <img class="news-image" src="img/news/news7.jpg" title="Sismotur presenting the Ibiza Smart Tourism Destination project: Beacons + Inventrip" alt="Sismotur presenting the Ibiza Smart Tourism Destination project: Beacons + Inventrip" style="width:50%;"/>
 
-            <div class="content">
-                <p class="news-content">{{newsContent7}}
-                <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
-                </p>
+            <!-- NEWS 12 -->
+
+            <div class="news-block" id="news12">
+                <p class="news-title">{{newsTitle12}}</p>
+                <img class="news-image" src="img/news/news12.jpg" title="Sismotur produces the master tourism signage plan of the Basque Country" alt="Presenting Inventrip to HM the Queen of Spain" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent12}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/turismoeuskadi">#turismoeuskadi</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 6 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news6">
-            <p class="news-title">{{newsTitle6}}</p>
-            <img class="news-image" src="img/news/news6.jpg" title="Sismotur presenting Inventrip for Sierra Norte of Madrid" alt="Sismotur presenting Inventrip for Sierra Norte of Madrid" />
 
-            <div class="content">
-                <p class="news-content">{{newsContent6}}
-                <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/sierranortemadrid">#sierranortemadrid</a>
-                </p>
+
+            <!-- NEWS 11 -->
+
+            <div class="news-block" id="news11">
+                <p class="news-title">{{newsTitle11}}</p>
+                <img class="news-image" src="img/news/news11.jpg" alt="Sismotur exposes in the 2015 INTUR fair" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent11}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/segittur">@Seggitur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/INTUR2015">#INTUR2015</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 5 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news5">
-            <p class="news-title">{{newsTitle5}}</p>
-            <img class="news-image" src="img/news/news5.jpg" title="Sismotur in Peru on a tourism conference organized by SEGITTUR and ICEX" alt="Sismotur in Peru on a tourism conference organized by SEGITTUR and ICEX" />
 
-            <div class="content">
-                <p class="news-content">{{newsContent5}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/icex_">@ICEX_</a>
-                    <a target="_blank" href="https://twitter.com/segittur">@Seggitur</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
-                </p>
+            <!-- NEWS 10 -->
+
+            <div class="news-block" id="news10">
+                <p class="news-title">{{newsTitle10}}</p>
+                <img class="news-image" src="img/news/news10.jpg" title="Sismotur participates in a marketing event organized by Diputacion de Barcelona" alt="Sismotur participates in a marketing event organized by Diputacion de Barcelona" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent10}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/socialbcnmoltmes">#socialbcnmoltmes</a>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 4 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news4">
-            <p class="news-title">{{newsTitle4}}</p>
-            <img class="news-image" src="img/news/news4.jpg" title="Sismotur in Chili on a tourism conference organized by SEGITTUR and ICEX" alt="Sismotur in Chili on a tourism conference organized by SEGITTUR and ICEX" />
 
-            <div class="content">
-                <p class="news-content">{{newsContent4}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/icex_">@ICEX_</a>
-                    <a target="_blank" href="https://twitter.com/segittur">@Seggitur</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
-                </p>
+            <!-- NEWS 9 -->
+
+            <div class="news-block" id="news9">
+                <p class="news-title">{{newsTitle9}}</p>
+                <img class="news-image" src="img/news/news9.jpg" title="Sismotur with the Principality of Asturias during the presentation of Inventrip" alt="Sismotur with the Principality of Asturias during the presentation of Inventrip" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent9}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/coserviinfiesto">@CoserviInfiesto</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/piloña">#Piloña</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 3 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news3">
-            <p class="news-title">{{newsTitle3}}</p>
-            <img class="news-image" src="img/news/news3.jpg" title="Presenting the tourism signage project for the Way of St. James in Castile and Leon" alt="Presenting the tourism signage project for the Way of St. James in Castile and Leon" />
 
-            <div class="content">
-                <p class="news-content">{{newsContent3}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/CyLesVida">@CyLesVida</a>
-                </p>
+            <!-- NEWS 8 -->
+
+            <div class="news-block" id="news8">
+                <p class="news-title">{{newsTitle8}}</p>
+                <img class="news-image" src="img/news/news8.jpg" title="Sismotur with the Province of Extremadura during the presentation of Inventrip for Sierra de Montanchez" alt="Sismotur with the Province of Extremadura during the presentation of Inventrip for Sierra de Montanchez"
+                />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent8}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                        <a target="_blank" href="https://twitter.com/extremadura_tur">@Extremadura_tur</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
-        <hr class="news-divider"/>
+            <hr class="news-divider" />
 
-        <!-- ************************************************* -->
-        <!-- NEWS 2 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news2">
-            <p class="news-title">{{newsTitle2}}</p>
-            <!-- <img class="news-image" src="img/news/news2.jpg" title="Sismotur with the Tourism Cluster of Extremadura" alt="Sismotur with the Tourism Cluster of Extremadura" />
+
+            <!-- NEWS 7 -->
+
+            <div class="news-block" id="news7">
+                <p class="news-title">{{newsTitle7}}</p>
+                <img class="news-image" src="img/news/news7.jpg" title="Sismotur presenting the Ibiza Smart Tourism Destination project: Beacons + Inventrip" alt="Sismotur presenting the Ibiza Smart Tourism Destination project: Beacons + Inventrip" style="width:50%;"
+                />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent7}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 6 -->
+
+            <div class="news-block" id="news6">
+                <p class="news-title">{{newsTitle6}}</p>
+                <img class="news-image" src="img/news/news6.jpg" title="Sismotur presenting Inventrip for Sierra Norte of Madrid" alt="Sismotur presenting Inventrip for Sierra Norte of Madrid" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent6}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/sierranortemadrid">#sierranortemadrid</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 5 -->
+
+            <div class="news-block" id="news5">
+                <p class="news-title">{{newsTitle5}}</p>
+                <img class="news-image" src="img/news/news5.jpg" title="Sismotur in Peru on a tourism conference organized by SEGITTUR and ICEX" alt="Sismotur in Peru on a tourism conference organized by SEGITTUR and ICEX" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent5}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/icex_">@ICEX_</a>
+                        <a target="_blank" href="https://twitter.com/segittur">@Seggitur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 4 -->
+
+            <div class="news-block" id="news4">
+                <p class="news-title">{{newsTitle4}}</p>
+                <img class="news-image" src="img/news/news4.jpg" title="Sismotur in Chili on a tourism conference organized by SEGITTUR and ICEX" alt="Sismotur in Chili on a tourism conference organized by SEGITTUR and ICEX" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent4}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/icex_">@ICEX_</a>
+                        <a target="_blank" href="https://twitter.com/segittur">@Seggitur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/beacons">#beacons</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 3 -->
+
+            <div class="news-block" id="news3">
+                <p class="news-title">{{newsTitle3}}</p>
+                <img class="news-image" src="img/news/news3.jpg" title="Presenting the tourism signage project for the Way of St. James in Castile and Leon" alt="Presenting the tourism signage project for the Way of St. James in Castile and Leon" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent3}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/CyLesVida">@CyLesVida</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 2 -->
+
+            <div class="news-block" id="news2">
+                <p class="news-title">{{newsTitle2}}</p>
+                <!-- <img class="news-image" src="img/news/news2.jpg" title="Sismotur with the Tourism Cluster of Extremadura" alt="Sismotur with the Tourism Cluster of Extremadura" />
             640/360-->
-            <div class="video-wrapper">
-                <iframe
-                    src="https://www.youtube.com/embed/CGnK95DJuzU?start=66"
-                    frameborder="0"
-                    allowfullscreen>
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/CGnK95DJuzU?start=66" frameborder="0" allowfullscreen>
                 </iframe>
+                </div>
+
+                <div class="content">
+                    <p class="news-content">{{newsContent2}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                    </p>
+                </div>
             </div>
 
-            <div class="content">
-                <p class="news-content">{{newsContent2}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                </p>
+            <hr class="news-divider" />
+
+
+            <!-- NEWS 1 -->
+
+            <div class="news-block" id="news1">
+                <p class="news-title">{{newsTitle1}}</p>
+                <img class="news-image" src="img/news/news1.jpg" title="Sismotur is awarded a marketing prize" alt="Sismotur is awarded a marketing prize" />
+
+                <div class="content">
+                    <p class="news-content">{{newsContent1}}
+                        <br/><br/>
+                        <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
+                        <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
+                    </p>
+                </div>
             </div>
+
+
+
+            <div class="blank_wide"></div>
+            <div class="blank_wide"></div>
+
+
+            <!-- FOOTER -->
+
+
+            <footer class="news">
+                <!-- CONTACT BUTTON -->
+                <a class="contact-us" href="mailto:contacto@sismotur.com">{{btnContact}}</a>
+            </footer>
         </div>
-
-        <hr class="news-divider"/>
-
-        <!-- ************************************************* -->
-        <!-- NEWS 1 -->
-        <!-- ************************************************* -->
-        <div class="news-block" id="news1">
-            <p class="news-title">{{newsTitle1}}</p>
-            <img class="news-image" src="img/news/news1.jpg" title="Sismotur is awarded a marketing prize" alt="Sismotur is awarded a marketing prize" />
-
-            <div class="content">
-                <p class="news-content">{{newsContent1}}
-                    <br/><br/>
-                    <a target="_blank" href="https://twitter.com/sismotur">@Sismotur</a>
-                    <a target="_blank" href="https://twitter.com/hashtag/smartdestination">#smartdestination</a>
-                </p>
-            </div>
-        </div>
-
-
-
-    <div class="blank_wide"></div>
-    <div class="blank_wide"></div>
-
-	    <!-- ************************************************* -->
-	    <!-- FOOTER -->
-	    <!-- ************************************************* -->
-
-	    <footer class="news">
-	    <!-- CONTACT BUTTON -->
-	        <a class="contact-us" href="mailto:contacto@sismotur.com" >{{btnContact}}</a>
-	    </footer>
-		</div>
-	</div>
+    </div>
 </body>
+
 </html>

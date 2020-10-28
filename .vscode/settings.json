@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "html.suggest.html5": true,
+  "html.autoClosingTags": false,
+  "[html]": {
+    "editor.foldingStrategy": "indentation"
+  }
+}

@@ -10,3 +10,5 @@ content
 .server.py
 .Thumbs.db
 node_modules
+*.code-workspace
+Thumbs.db
