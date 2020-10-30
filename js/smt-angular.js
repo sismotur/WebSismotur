@@ -1664,7 +1664,7 @@ function loadLanguage($scope) {
             // *********************
 
             $scope.newsTitle55 =
-                "La Route du Vin de la Sierra de Francia récompensée aux prix d'Oenotourisme - Octobre 2020";
+                "La Route du Vin de la Sierra de Francia récompensée aux prix d'Oenotourisme. Octobre 2020";
             $scope.newsContent55 =
                 "Récompensée comme la meilleure destination œnotouristique durable et responsable, en grande partie grâce à sa digitalisation et celle de ses partenaires avec Inventrip.";
             $scope.newsDetail55 = "Lien info";
@@ -1680,7 +1680,7 @@ function loadLanguage($scope) {
                 "Nos plateformes d'information touristique et de signalétique intelligente, Inventrip et Signing, font partie des solutions technologiques du Réseau de Destinations Touristiques Intelligentes que la ministre Reyes Maroto a présentées à l'ouverture du Tourisme numérique 2020.";
             $scope.newsDetail53 = "Lien catalogue";
 
-            $scope.newsTitle52 = "Sismotur fait partie du Réseau DTI - Octobre 2020";
+            $scope.newsTitle52 = "Sismotur fait partie du Réseau DTI. Octobre 2020";
             $scope.newsContent52 =
                 "La III commission plénière du Réseau des Destinations Touristiques Intelligentes, présidée par la Ministre Reyes Maroto, approuve l'incorporation de 19 nouveaux membres, dont notre société Sismotur.";
             $scope.newsDetail52 = "Lien info";
@@ -1697,7 +1697,7 @@ function loadLanguage($scope) {
                 "Les experts et partenaires de Sismotur, Augusto Ramos et Manuel Mariscal, conseillent MINCETUR pour l'implantation d'une Destination Touristique Intelligente connectée avec Inventrip dans Ollantaytambo, dans la Vallée Sacrée et porte d'entrée du Machu Picchu";
 
             $scope.newsTitle49 =
-                "Mission de conseil pour l'Association Transfrontalière du Lac d'Alqueva (ATLA). julho 2019";
+                "Mission de conseil pour l'Association Transfrontalière du Lac d'Alqueva (ATLA). Juillet 2019";
             $scope.newsContent49 =
                 "Sismotur a remporté le contrat pour l'élaboration du plan d'information et signalisation touristique intelligente des 9 communes portugaises d'ATLA, lequel inclut l'implantation des plateformes Signing et Inventrip";
 
@@ -2143,32 +2143,33 @@ function loadLanguage($scope) {
             // *********************
 
             $scope.newsTitle55 =
-                "La Ruta del Vino Sierra de Francia galardonada en los premios de Enoturismo - Octubre 2020";
+                "The Sierra de Francia Wine Route awarded at the Wine Tourism Awards. October 2020";
             $scope.newsContent55 =
-                "Premiada como mejor destino enoturístico sostenible y responsable, gracias en gran medida a la digitalización de la ruta y sus asociados con Inventrip.";
-            $scope.newsDetail55 = "Enlace noticia";
+                "Awarded as the best sustainable wine tourism destination, thanks in large part to the digitization of the route and its partners with Inventrip.";
+            $scope.newsDetail55 = "Link to news";
 
-            $scope.newsTitle54 = "Sismotur premiada en Digital Tourism. Octubre 2020";
+            $scope.newsTitle54 = "Sismotur awarded at the Digital Tourism congress. October 2020";
             $scope.newsContent54 =
-                "Por la actuación más relevante en el ámbito de la normalización, con la implantación de Inventrip en la comarca La Canal de Navarrés y su interoperabilidad con la web del destino y los terminales táctiles (desarrollados por Sien Consulting e Insyde respectivamente y también partícipes de este premio).";
-            $scope.newsDetail54 = "Enlace noticia";
+                "For the most relevant action in the field of standardization, with the implementation of Inventrip in the La Canal de Navarrés county and its interoperability with the destination website and touch terminals (developed by Sien Consulting and Insyde respectively, also participants in this award).";
+            $scope.newsDetail54 = "Link to news";
 
             $scope.newsTitle53 =
-                "Inventrip y Signing soluciones del catálogo oficial de la Red DTI. Octubre 2020";
+                "Inventrip and Signing enter the official catalog of the DTI Network. October 2020";
             $scope.newsContent53 =
-                "Nuestras plataformas, Inventrip y Signing, de información turística y señalización inteligente forman parte de las soluciones tecnológicas de la Red de Destinos Turísticos Inteligentes que presentó la Ministra Reyes Maroto en la apertura de Digital Tourism 2020.";
-            $scope.newsDetail53 = "Enlace catálogo";
+                "Our tourist information and smart signage platforms, Inventrip and Signing, are part of the technological solutions of the Smart Tourist Destinations Network that Minister Reyes Maroto presented during the opening of Digital Tourism 2020.";
+            $scope.newsDetail53 = "Link to catalog";
 
-            $scope.newsTitle52 = "Sismotur entra en la Red DTI - Octubre 2020";
+            $scope.newsTitle52 = "Sismotur enters the DTI Network - October 2020";
             $scope.newsContent52 =
-                "La III Comisión Plenaria de la Red de Destinos Turísticos Inteligentes, que ha sido presidida por la Ministra Reyes Maroto, aprueba la incorporación de 19 nuevos miembros, entre ellos nuestra empresa Sismotur.";
-            $scope.newsDetail52 = "Enlace noticia";
+                "The III plenary commission of the Network of Smart Tourist Destinations, which has been chaired by Minister Reyes Maroto, approves the incorporation of 19 new members, including our company Sismotur.";
+            $scope.newsDetail52 = "Link to news";
 
             $scope.newsTitle51 =
-                "Actualización del manual de semántica para el Covid-19. Julio 2020";
+                "Update of the semantics manual for Covid-19. July 2020";
             $scope.newsContent51 =
-                "Sismotur colabora con Segittur en un proyecto piloto con con tres destinos inventrip: Conil, Santa Susanna y Sanxenxo para la actualización del manual de semántica de destinos turísticos inteligentes e implementa en inventrip funcionalidades para informar sobre el Covid.";
-            $scope.newsDetail51 = "Enlace noticia";
+                "Sismotur collaborates with SEGITTUR in a pilot project with Conil, Santa Susanna and Sanxenxo (Inventrip destinations) to update the semantics manual of smart tourist destinations and implements functionalities in Inventrip to inform about Covid.";
+            $scope.newsDetail51 = "Link to news";
+
             $scope.newsTitle50 =
                 "Consulting assignment for the Ministry of Commerce and Tourism of Peru. Ollantaytambo, July 2019";
             $scope.newsContent50 =
