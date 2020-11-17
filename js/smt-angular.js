@@ -999,7 +999,7 @@ function loadLanguage($scope) {
             // CLAIM PT
             // ******************
 
-            $scope.claim1 = "Conecte o seu destino com o turista digital";
+            $scope.claim1 = "Ligue o seu destino com o turista digital";
             $scope.claim2 = "Descubra a sinalização turística inteligente";
             $scope.btnMuestra = "Una-se à Rede de Destinos Inventrip";
 
