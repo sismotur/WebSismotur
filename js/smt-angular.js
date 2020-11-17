@@ -219,6 +219,12 @@ function loadLanguage($scope) {
             // *********************
             // NEWS ES
             // *********************
+            $scope.newsTitle56 =
+                "Jornada de la Red de Destinos Inventrip 2020";
+            $scope.newsContent56 =
+                "El 13 de noviembre tuvo lugar la Jornada Inventrip 2020, donde participaron 65 destinos usuarios e interesados en esta plataforma global de turismo digital, para compartir casos de éxito y contribuir en su desarrollo.";
+            $scope.newsDetail56 = "Enlace programa";
+
             $scope.newsTitle55 =
                 "La Ruta del Vino Sierra de Francia galardonada en los premios de Enoturismo - Octubre 2020";
             $scope.newsContent55 =
@@ -699,6 +705,11 @@ function loadLanguage($scope) {
             // *********************
             // NEWS CA
             // *********************
+            $scope.newsTitle56 =
+                "Jornada Xarxa de Destinacions Inventrip 2020";
+            $scope.newsContent56 =
+                "El 13 de novembre va tindre lloc la Jornada Inventrip 20202 on van participar 65 destinacions turístiques usuàries i interessades en aquesta plataforma global de turisme digital per compartir casos d’èxit i contribuir al seu desenvolupament.";
+            $scope.newsDetail56 = "Link programa";
 
             $scope.newsTitle55 =
                 "La Ruta del vi Sierra de França guardonada als premis de Enoturismo. Octubre 2020";
@@ -1179,7 +1190,12 @@ function loadLanguage($scope) {
             // *********************
             // NEWS PT
             // *********************
-
+            $scope.newsTitle56 =
+                "Jornada da Rede de Destinos Inventrip 2020";
+            $scope.newsContent56 =
+                "O dia 13 de novembro teve lugar a Jornada Inventrip 2020, onde participaram 65 destinos turísticos utilizadores e interessados nesta plataforma global de turismo digital para partilhar cassos de sucesso é contribuir no seu desenvolvimento.";
+            $scope.newsDetail56 = "Enlace programa";
+            
             $scope.newsTitle55 =
                 "A Rota do Vinho da Sierra de Francia galardoada nos prêmios de Enoturismo – Outubro 2020";
             $scope.newsContent55 =
@@ -1662,6 +1678,11 @@ function loadLanguage($scope) {
             // *********************
             // NEWS FR
             // *********************
+            $scope.newsTitle56 =
+                "Journée du réseau de destinations Inventrip 2020";
+            $scope.newsContent56 =
+                "Le 13 novembre a eu lieu la conférence Inventrip 2020. 65 destinations touristiques y ont participé, partageant des histoires de réussite et contribuaint ainsi au  développement du réseau.";
+            $scope.newsDetail56 = "Lien programme (es)";
 
             $scope.newsTitle55 =
                 "La Route du Vin de la Sierra de Francia récompensée aux prix d'Oenotourisme. Octobre 2020";
@@ -2141,6 +2162,11 @@ function loadLanguage($scope) {
             // *********************
             // NEWS EN
             // *********************
+            $scope.newsTitle56 =
+                 "Inventrip Destinations Network Day 2020";
+            $scope.newsContent56 =
+                "The Inventrip 2020 Day took place on November 13th. 65 tourist destinations participated, sharing success stories and contributing to the development of the network.";
+            $scope.newsDetail56 = "Link to the program (es)";
 
             $scope.newsTitle55 =
                 "The Sierra de Francia Wine Route awarded at the Wine Tourism Awards. October 2020";
