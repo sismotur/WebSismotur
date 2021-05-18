@@ -92,9 +92,9 @@ function loadLanguage($scope) {
             $scope.senalizacionText2 =
                 "Diseño de la nueva señalización turística peatonal llevado a cabo por Sismotur para la ciudad de Barcelona.";
 
-            $scope.senalizacionTitle3 = "Castilla y León";
+            $scope.senalizacionTitle3 = "Más de 50 referencias en señalización inteligente";
             $scope.senalizacionText3 =
-                "La Consejera y el Director General de Turismo de Castilla y León, conjuntamente con Sismotur, presentaron en INTUR el programa de mejora de la señalización turística de la región.";
+                "Sismotur creó en 2015 el concepto de señalización turística inteligente y desde esta fecha ha acompañado a más de 50 destinos turísticos en la implantación de señalización turística inteligente con la utilización de sus plataforma Signing e Inventrip (ambas soluciones pertenecientes al catálogo de la Red DTI).";
 
             // Beacons
             $scope.beacons = "Beacons";
@@ -578,9 +578,9 @@ function loadLanguage($scope) {
             $scope.senalizacionText2 =
                 "Disseny de la nova senyalització turística de vianants portada a terme per Sismotur per a la ciutat de Barcelona.";
 
-            $scope.senalizacionTitle3 = "Castilla y León";
+            $scope.senalizacionTitle3 = "Més de 50 referències en senyalització intel·ligent";
             $scope.senalizacionText3 =
-                "La Consellera i el Director General de Turisme de Castilla y León, conjuntament amb Sismotur, van presentar a INTUR el programa de millora de la senyalització turística de la regió.";
+                "Sismotur va crear en 2015 el concepte de senyalització turística intel·ligent i des d’aquesta data ha acompanyat més de 50 destinacions turístiques en la implantació de senyalització intel·ligent amb la utilització de les seves plataformes Signing i Inventrip (totes dues solucions pertanyents al catàleg de la Xarxa DTI).";
 
             // Beacons
             $scope.beacons = "Beacons";
@@ -1063,9 +1063,9 @@ function loadLanguage($scope) {
             $scope.senalizacionText2 =
                 "Design da nova sinalização turística pedonal levado a cabo pela Sismotur para a cidade de Barcelona.";
 
-            $scope.senalizacionTitle3 = "Castela e Leão";
+            $scope.senalizacionTitle3 = "Mais de 50 referências em sinalização inteligente";
             $scope.senalizacionText3 =
-                "A Conselheira e o Diretor Geral do Turismo de Castela e Leão, conjuntamente com a Sismotur, apresentaram na INTUR o programa de melhoria da sinalização turística da região.";
+                "Sismotur criou em 2015 o conceito de sinalização turística inteligente e desde essa data acompanhou mais de 50 destinos turísticos na implantação de sinais inteligentes com a utilização das suas plataformas Signing e Inventrip (plataformas tecnológicas adotadas no projeto de Lago Alqueva e na digitalização turística dos municípios do vinho da AMPV em Portugal).";
 
             // Beacons
             $scope.beacons = "Beacons";
@@ -1550,9 +1550,9 @@ function loadLanguage($scope) {
             $scope.senalizacionText2 =
                 "Design de la nouvelle signalisation touristique piétonne menée par Sismotur pour la ville de Barcelone.";
 
-            $scope.senalizacionTitle3 = "Castille et Leon";
+            $scope.senalizacionTitle3 = "Plus de 50 références en signalétique intelligente";
             $scope.senalizacionText3 =
-                "La Conseillère et le Directeur Général de Tourisme de Castille et Leon, ont présenté avec Sismotur le programme d'amélioration de la signalisation touristique de la région lors du salon de tourisme intérieur INTUR.";
+                "Sismotur a créé en 2015 le concept de signalétique touristique intelligente. Depuis, nous avons accompagné plus de 50 destinations touristiques dans la mise en œuvre de leur signalétique touristique intelligente avec l'utilisation de ses plateformes Signing et Inventrip (toutes deux des solutions appartenant au catalogue Réseau DTI d'Espagne).";
 
             // Beacons
             $scope.beacons = "Beacons";
@@ -2036,9 +2036,9 @@ function loadLanguage($scope) {
             $scope.senalizacionText2 =
                 "Design of the new pedestrian touristic signage carried out by Sismotur for the city of Barcelona";
 
-            $scope.senalizacionTitle3 = "Castilla y León";
+            $scope.senalizacionTitle3 = "More than 50 references in smart signange";
             $scope.senalizacionText3 =
-                "The Counsellor and the General Director of Tourism of the spanish region of Castilla y León, together with Sismotur, presented during INTUR (Spanish fair of interior tourism) an improvement program for the regional signage.";
+                "Sismotur created in 2015 the concept of smart signage, and since then we have helped more than 50 tourist destinations in the implementation of their smart tourist signs with our platforms Signing and Inventrip (both of them official solutions of the Spanish Smart Destinations Network).";
 
             // Beacons
             $scope.beacons = "Beacons";

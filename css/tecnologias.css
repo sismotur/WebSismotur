@@ -152,7 +152,7 @@ div#fondo-drontrip{
 /* SIGNAGE PAGE */
 /*************************************************************************/
 
-#smt-sen-img1{
+#smt-sen-img1 {
 	background-image:url(../img/tech/senalizacion1.png);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -162,7 +162,7 @@ div#fondo-drontrip{
 	background-position: center;
 }
 
-#smt-sen-img2{
+#smt-sen-img2 {
 	background-image:url(../img/tech/senalizacion2.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -172,7 +172,7 @@ div#fondo-drontrip{
 	background-position: center;
 }
 
-#smt-sen-img3{
+#smt-sen-img3 {
 	background-image:url(../img/tech/senalizacion3.jpg);
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
