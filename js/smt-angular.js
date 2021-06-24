@@ -700,7 +700,7 @@ function loadLanguage($scope) {
             $scope.cntFrance2 = "Annecy";
             $scope.cntFrancePhone = "+33 (0)619.20.30.61";
 
-            $scope.copyright = "Copyright © 2017 SISMOTUR SL.";
+            $scope.copyright = "Copyright © 2021 SISMOTUR SL.";
 
             // *********************
             // NEWS CA
@@ -1185,7 +1185,7 @@ function loadLanguage($scope) {
             $scope.cntFrance2 = "Annecy";
             $scope.cntFrancePhone = "+33 (0)619.20.30.61";
 
-            $scope.copyright = "Copyright © 2017 SISMOTUR SL.";
+            $scope.copyright = "Copyright © 2021 SISMOTUR SL.";
 
             // *********************
             // NEWS PT
@@ -1673,7 +1673,7 @@ function loadLanguage($scope) {
             $scope.cntFrance2 = "Annecy";
             $scope.cntFrancePhone = "+33 (0)619.20.30.61";
 
-            $scope.copyright = "Copyright © 2017 SISMOTUR SL.";
+            $scope.copyright = "Copyright © 2021 SISMOTUR SL.";
 
             // *********************
             // NEWS FR
@@ -2157,7 +2157,7 @@ function loadLanguage($scope) {
             $scope.cntFrance2 = "Annecy";
             $scope.cntFrancePhone = "+33 (0)619.20.30.61";
 
-            $scope.copyright = "Copyright © 2017 SISMOTUR SL.";
+            $scope.copyright = "Copyright © 2021 SISMOTUR SL.";
 
             // *********************
             // NEWS EN
